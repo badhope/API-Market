@@ -21,6 +21,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -108,6 +111,7 @@ jobs:
             *此PR由GitHub Actions自动生成*
           commit-message: '🤖 auto: update API database ${{ github.run_id }}'
           branch: auto-update-apis-${{ github.run_id }}
+          base: main
           delete-branch: true
           labels: |
             automated
