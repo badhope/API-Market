@@ -1,0 +1,1202 @@
+{
+  "id": "jobs",
+  "name": "Jobs",
+  "display_name": "Jobs",
+  "api_count": 46,
+  "apis": [
+    {
+      "name": "deutschebahn.com:fahrplan",
+      "url": "https://api.apis.guru/v2/specs/deutschebahn.com/fahrplan/v1/swagger.json",
+      "description": "deutschebahn.com:fahrplan - API service at api.apis.guru",
+      "category": "jobs",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_deutschebahn_com_fahrplan",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "drchrono.com",
+      "url": "https://api.apis.guru/v2/specs/drchrono.com/v4 (Hunt Valley)/openapi.json",
+      "description": "drchrono.com - API service at api.apis.guru",
+      "category": "jobs",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_drchrono_com",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "visiblethread.com",
+      "url": "https://api.apis.guru/v2/specs/visiblethread.com/1.0/swagger.json",
+      "description": "visiblethread.com - API service at api.apis.guru",
+      "category": "jobs",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_visiblethread_com",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "wealthreader.com",
+      "url": "https://api.apis.guru/v2/specs/wealthreader.com/1.0.0/openapi.json",
+      "description": "wealthreader.com - API service at api.apis.guru",
+      "category": "jobs",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_wealthreader_com",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "CV / Resume Parsing API",
+      "url": "https://dev.publicapis.dev/resource/cv---resume-parsing-api/48a1c86d-09ca-4a0b-ac55-c83c9c719509",
+      "description": "The Resume Parser API parses a resume (CV) file from multiple formats (PDF/DOC/DOCX/TXT/RTF)",
+      "category": "jobs",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "jobs",
+        "development"
+      ],
+      "status": "active",
+      "id": "jobs_cv_resume_parsing_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "TheirStack's Job Postings",
+      "url": "https://dev.publicapis.dev/resource/theirstack-s-job-postings/85814d39-e6ea-4596-99ea-a500b80962a4",
+      "description": "Access simultaneously to jobs from Linkedin, Glassdoor, Indeed and 16+ other job sites",
+      "category": "jobs",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "jobs",
+        "payment"
+      ],
+      "status": "active",
+      "id": "jobs_theirstack_s_job_postings",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CV / Resume Parsing API",
+      "url": "https://apyhub.com/utility/sharpapi-ai-resume-parser",
+      "description": "The Resume Parser API parses a resume (CV) file from multiple formats (PDF/DOC/DOCX/TXT/RTF) and returns an extensive object of data points",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "jobs",
+        "documents"
+      ],
+      "status": "active",
+      "id": "jobs_cv_resume_parsing_api_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Freelancer",
+      "url": "https://developers.freelancer.com",
+      "description": "Hire freelancers to get work done",
+      "category": "jobs",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs",
+        "business"
+      ],
+      "status": "active",
+      "id": "jobs_freelancer",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Upwork",
+      "url": "https://dev.publicapis.dev/resource/upwork/c7b2f075-3bf8-4d74-ba42-63770b23df86",
+      "description": "Freelance job board and management system",
+      "category": "jobs",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_upwork",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "Adzuna",
+      "url": "https://developer.adzuna.com/overview",
+      "description": "Job board aggregator",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_adzuna",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Careerjet",
+      "url": "https://www.careerjet.com/partners/api/",
+      "description": "Job search engine",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_careerjet",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Findwork",
+      "url": "https://findwork.dev/developers/",
+      "description": "Job board",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_findwork",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Jobs2Careers",
+      "url": "http://api.jobs2careers.com/api/spec.pdf",
+      "description": "Job aggregator",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_jobs2careers",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Jooble",
+      "url": "https://jooble.org/api/about",
+      "description": "Job search engine",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_jooble",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Juju",
+      "url": "http://www.juju.com/publisher/spec/",
+      "description": "Job search engine",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_juju",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Open Skills",
+      "url": "https://github.com/workforce-data-initiative/skills-api/wiki/API-Overview",
+      "description": "Job titles, skills and related jobs data",
+      "category": "jobs",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_open_skills",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Reed",
+      "url": "https://www.reed.co.uk/developers",
+      "description": "Job board aggregator",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_reed",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Upwork",
+      "url": "https://developers.upwork.com/",
+      "description": "Freelance job board and management system",
+      "category": "jobs",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_upwork_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "marcelscruz/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "WhatJobs",
+      "url": "https://www.whatjobs.com/affiliates",
+      "description": "Job search engine",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_whatjobs",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ZipRecruiter",
+      "url": "https://www.ziprecruiter.com/publishers",
+      "description": "Job search app and website",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_ziprecruiter",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Adzuna",
+      "url": "https://developer.adzuna.com/",
+      "description": "<details><summary>Job search data and salary information</summary>Get job listings, salary data, and employment statistics for building career platforms.</details>",
+      "category": "jobs",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_adzuna_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "DevITjobs",
+      "url": "https://devitjobs.us/api/jobsLight",
+      "description": "Jobs for software developers",
+      "category": "jobs",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_devitjobs",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Himalayas",
+      "url": "https://himalayas.app/api",
+      "description": "Remote job board and search engine",
+      "category": "jobs",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_himalayas",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Indeed",
+      "url": "https://www.indeed.com/publisher",
+      "description": "Job board aggregator",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_indeed",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "OkJob",
+      "url": "https://okjob.io/api",
+      "description": "4 day week job board",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_okjob",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CV - Job match score API",
+      "url": "https://apyhub.com/utility/sharpapi-resume-job-match-score",
+      "description": "This API use multiple criteria to evaluate how well a candidate fits a job position",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_cv_job_match_score_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "TheirStack's Job Postings",
+      "url": "https://theirstack.com/en/job-posting-api",
+      "description": "Access simultaneously to jobs from Linkedin, Glassdoor, Indeed and 16+ other job sites",
+      "category": "jobs",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_theirstack_s_job_postings_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "How many gigatons of CO2...?",
+      "url": "https://informationisbeautiful.net/visualizations/how-many-gigatons-of-co2/ \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "CO2 emissions",
+      "https": "Data on CO2 remaining budget - Information Is Beautiful data vis with references to underlying data sources",
+      "cors": "",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "jobs_how_many_gigatons_of_co2"
+    },
+    {
+      "name": "Freelancer",
+      "url": "https://developers.freelancer.com/docs",
+      "description": "Hire freelancers to get work done",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "quality_score": 93,
+      "quality_grade": "A",
+      "quality": {
+        "score": 93,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "jobs_freelancer_2"
+    },
+    {
+      "name": "Indeed",
+      "url": "https://developer.indeed.com/",
+      "description": "Jobs search engine",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "quality_score": 84,
+      "quality_grade": "B",
+      "quality": {
+        "score": 84,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "jobs_indeed_2"
+    },
+    {
+      "name": "Jooble",
+      "url": "https://us.jooble.org/api/about",
+      "description": "Job search engine",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "quality_score": 89,
+      "quality_grade": "A",
+      "quality": {
+        "score": 89,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "jobs_jooble_2"
+    },
+    {
+      "name": "TheirStack Job Postings",
+      "url": "https://dev.publicapis.dev/resource/theirstack-s-job-postings/85814d39-e6ea-4596-99ea-a500b80962a4",
+      "description": "Jobs from Linkedin, Glassdoor, Indeed and 16+ sites",
+      "source": "dev.publicapis.dev",
+      "status": "active",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "jobs_theirstack_job_postings"
+    },
+    {
+      "name": "CV Resume Parsing API",
+      "url": "https://dev.publicapis.dev/resource/cv---resume-parsing-api/48a1c86d-09ca-4a0b-ac55-c83c9c719509",
+      "description": "Parse resume files and return extensive data points",
+      "source": "dev.publicapis.dev",
+      "status": "active",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "jobs_cv_resume_parsing_api_3"
+    },
+    {
+      "name": "Freelancer Api",
+      "url": "https://tools-collection.net/apis-list/freelancer-api",
+      "description": "It can be used to set up a food delivery network, crowdsource the price for a local repair job, plug into a large pool of translators and more",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "jobs_freelancer_api"
+    },
+    {
+      "name": "Careerjet",
+      "url": "https://tools-collection.net/apis-list/careerjet",
+      "description": "Careerjet public search API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "jobs_careerjet_2"
+    },
+    {
+      "name": "Indeed",
+      "url": "https://tools-collection.net/apis-list/indeed",
+      "description": "Post your jobs on Indeed, the #1 job site worldwide",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 77,
+      "quality_grade": "B",
+      "quality": {
+        "score": 77,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "jobs_indeed_3"
+    },
+    {
+      "name": "Jobs2Careers",
+      "url": "https://tools-collection.net/apis-list/jobs2careers",
+      "description": "%PDF-1",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 66,
+      "quality_grade": "C",
+      "quality": {
+        "score": 66,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "jobs_jobs2careers_2"
+    },
+    {
+      "name": "Reed",
+      "url": "https://tools-collection.net/apis-list/reed",
+      "description": "Official API for reed.co.uk jobs website",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "jobs_reed_2"
+    },
+    {
+      "name": "ZipRecruiter",
+      "url": "https://tools-collection.net/apis-list/ziprecruiter",
+      "description": "Jobs API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 67,
+      "quality_grade": "C",
+      "quality": {
+        "score": 67,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "jobs_ziprecruiter_2"
+    },
+    {
+      "name": "tailored-resume-generator/",
+      "url": "https://./tailored-resume-generator/",
+      "description": "Tailor resumes to job descriptions with quantified impact.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "jobs",
+      "tags": [
+        "jobs"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "jobs_tailored_resume_generator"
+    },
+    {
+      "name": "Remote OK",
+      "url": "https://remoteok.com/api",
+      "description": "Remote job listings",
+      "category": "jobs",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_remote_ok",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Affinda",
+      "url": "https://www.affinda.com/",
+      "description": "250M+ docs — 100+ fields from CVs, ~95% accuracy",
+      "category": "jobs",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_affinda",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "RChilli",
+      "url": "https://www.rchilli.com/",
+      "description": "AI resume parsing — job matching, 56+ languages",
+      "category": "jobs",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_rchilli",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "HireAbility",
+      "url": "https://www.hireability.com/",
+      "description": "Resume parsing — zero data retention, privacy-first",
+      "category": "jobs",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_hireability",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "JazzHR",
+      "url": "https://apidoc.jazzhrapis.com/",
+      "description": "SMB recruiting software with API for applicants, jobs, and hiring workflows",
+      "category": "jobs",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_jazzhr",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "HauntWorld Directory",
+      "url": "https://www.hauntworld.com/",
+      "description": "World's biggest haunted attraction directory with 7,500+ listings including haunted houses",
+      "category": "jobs",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "jobs"
+      ],
+      "status": "active",
+      "id": "jobs_hauntworld_directory",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    }
+  ]
+}

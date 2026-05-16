@@ -1,0 +1,5362 @@
+{
+  "id": "music",
+  "name": "Music",
+  "display_name": "Music",
+  "api_count": 197,
+  "apis": [
+    {
+      "name": "CountAPI",
+      "url": "https://countapi.xyz",
+      "description": "Free and simple counting service. You can use it to track page hits and specific events",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "music",
+        "development"
+      ],
+      "status": "active",
+      "id": "music_countapi",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Abacus",
+      "url": "https://abacus.jasoncameron.dev",
+      "description": "Free and simple counting service. You can use it to track page hits and specific events",
+      "category": "music",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "music",
+        "development"
+      ],
+      "status": "active",
+      "id": "music_abacus",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "marcelscruz/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "musixmatch.com",
+      "url": "https://api.apis.guru/v2/specs/musixmatch.com/1.1.0/swagger.json",
+      "description": "musixmatch.com - API service at api.apis.guru",
+      "category": "music",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_musixmatch_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Izi",
+      "url": "http://api-docs.izi.travel/",
+      "description": "Audio guide for travellers",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "music_izi",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**HyperTrack**",
+      "url": "https://docs.hypertrack.com",
+      "description": "Build applications that track the movement of your business.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "music_hypertrack",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Spotify Web API",
+      "url": "https://developer.spotify.com/documentation/web-api/",
+      "description": "<details><summary>Access Spotify's music catalog, user playlists, and playback features</summary>Create music recommendation engines, playlist managers, music discovery apps, and audio analysis tools.",
+      "category": "music",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "music_spotify_web_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Podcast Index",
+      "url": "https://podcastindex-org.github.io/docs-api/",
+      "description": "<details><summary>An open, developer-friendly podcast database. Focused on preserving podcasting as a platform for free speech.</summary>Provides a free and open alternative for accessing podcast meta",
+      "category": "music",
+      "auth": "API Key",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "music_podcast_index",
+      "https_inferred": true,
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "GamerPower",
+      "url": "https://www.gamerpower.com/api-read",
+      "description": "Game Giveaways Tracker",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "music",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "music_gamerpower",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PodcastIndex",
+      "url": "https://podcastindex-org.github.io/docs-api/",
+      "description": "Get details on podcasts & episodes, Podcast Search",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "music",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "music_podcastindex",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Podcast Index",
+      "url": "https://podcastindex.org/",
+      "description": "Metadata and transcripts that unlock ideas",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "mergesociety.com",
+      "tags": [
+        "music",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "music_podcast_index_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**DeviantArt**",
+      "url": "https://www.deviantart.com/developers/",
+      "description": "The largest social networking website for artists and art enthusiasts.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music",
+        "social"
+      ],
+      "status": "active",
+      "id": "music_deviantart",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "freesound.org",
+      "url": "https://api.apis.guru/v2/specs/freesound.org/2.0.0/swagger.json",
+      "description": "With the Freesound APIv2 you can browse, search, and retrieve information about Freesound users, packs, and the sounds themselves of course. You can find similar sounds to a given target (based on con",
+      "category": "music",
+      "auth": "apiKey",
+      "https": true,
+      "cors": true,
+      "source": "apis.guru",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_freesound_org",
+      "quality": {
+        "score": 78,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 78,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "soundcloud.com",
+      "url": "https://api.apis.guru/v2/specs/soundcloud.com/1.0.0/openapi.json",
+      "description": "soundcloud.com - API service at api.apis.guru",
+      "category": "music",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_soundcloud_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "spotify.com",
+      "url": "https://api.apis.guru/v2/specs/spotify.com/1.0.0/openapi.json",
+      "description": "spotify.com - API service at api.apis.guru",
+      "category": "music",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_spotify_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "spotify.com:sonallux",
+      "url": "https://api.apis.guru/v2/specs/spotify.com/sonallux/2023.2.27/openapi.json",
+      "description": "spotify.com:sonallux - API service at api.apis.guru",
+      "category": "music",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_spotify_com_sonallux",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Listen Notes",
+      "url": "https://www.listennotes.com/api/docs/",
+      "description": "<details><summary>The most comprehensive podcast database. Search for podcasts, episodes, and even listen to audio clips.</summary>This API is often called the \"Google of podcasts.\" It allows you to b",
+      "category": "music",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_listen_notes",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Podbean",
+      "url": "https://developers.podbean.com/",
+      "description": "<details><summary>Podcast hosting and management platform with a free plan and a 14-day free trial for premium features.</summary>Allows programmatic management of podcasts, episodes, stats, and publi",
+      "category": "music",
+      "auth": "API Key",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_podbean",
+      "https_inferred": true,
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Anchor (Spotify for Podcasters)",
+      "url": "https://podcasters.spotify.com/",
+      "description": "<details><summary>Free podcast hosting and distribution platform by Spotify.</summary>Allows unlimited uploads, analytics, and one-step distribution to Spotify and other platforms. API access for epis",
+      "category": "music",
+      "auth": "Account",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_anchor_spotify_for_podcasters",
+      "https_inferred": true,
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "**Music Machinery**",
+      "url": "https://musicmachinery.com/music-apis/",
+      "description": "**Music Machinery** - API service at musicmachinery.com",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_music_machinery",
+      "https_inferred": true,
+      "quality": {
+        "score": 50,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 50,
+      "quality_grade": "D"
+    },
+    {
+      "name": "iTunes",
+      "url": "https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html#//apple_ref/doc/uid/TP40017632-CH3-SW1",
+      "description": "Apple Podcasts Directory",
+      "category": "music",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_itunes",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Spotify",
+      "url": "https://developer.spotify.com/documentation/web-api/",
+      "description": "Get details on podcasts & episodes",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_spotify",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Taddy Podcasts",
+      "url": "https://taddy.org/developers/podcast-api",
+      "description": "Get details on podcasts & episodes, Podcast & Episode Search, Webhook notifications",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_taddy_podcasts",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "LRCLIB",
+      "url": "https://dev.publicapis.dev/resource/lrclib/ffebba50-ace8-4be8-8a8e-aec135391246",
+      "description": "Crowdsourced lyrics",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_lrclib",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "WhoIsTheOldest",
+      "url": "https://dev.publicapis.dev/resource/whoistheoldest/4fc163ae-1c76-42f5-98a2-2473584d374f",
+      "description": "This application tracks and displays data about the oldest person currently alive and the oldest person ever recorded.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_whoistheoldest",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Abacus",
+      "url": "https://dev.publicapis.dev/resource/abacus/3952f5d0-bf63-4b1e-a319-50e97f8632ba",
+      "description": "Free and simple counting service. You can use it to track page hits and specific events",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_abacus_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "kimiquotes",
+      "url": "https://dev.publicapis.dev/resource/kimiquotes/d1ea3a78-2e80-475d-a033-9573bb99198c",
+      "description": "Team radio and interview quotes by Finnish F1 legend Kimi Raikkonen",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_kimiquotes",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Spotify API",
+      "url": "https://developer.spotify.com/",
+      "description": "Your music history as a feature",
+      "category": "music",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "mergesociety.com",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_spotify_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B",
+      "auth_inferred": true
+    },
+    {
+      "name": "7digital",
+      "url": "https://docs.7digital.com/reference",
+      "description": "Api of Music store 7digital",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_7digital",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "AI Mastering",
+      "url": "https://aimastering.com/api_docs/",
+      "description": "Automated Music Mastering",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_ai_mastering",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Audiomack",
+      "url": "https://www.audiomack.com/data-api/docs",
+      "description": "Api of the streaming music hub Audiomack",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_audiomack",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bandcamp",
+      "url": "https://bandcamp.com/developer",
+      "description": "API of Music store Bandcamp",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_bandcamp",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bandsintown",
+      "url": "https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.0",
+      "description": "Music Events",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_bandsintown",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Deezer",
+      "url": "https://developers.deezer.com/api",
+      "description": "Music",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_deezer",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Discogs",
+      "url": "https://www.discogs.com/developers/",
+      "description": "Music",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_discogs",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "marcelscruz/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Freesound",
+      "url": "https://freesound.org/docs/api/",
+      "description": "Music Samples",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_freesound",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Genius",
+      "url": "https://docs.genius.com/",
+      "description": "Crowdsourced lyrics and music knowledge",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_genius",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "marcelscruz/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Genrenator",
+      "url": "https://binaryjazz.us/genrenator-api/",
+      "description": "Music genre generator",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_genrenator",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Jamendo",
+      "url": "https://developer.jamendo.com/v3.0/docs",
+      "description": "Music",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_jamendo",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "JioSaavn",
+      "url": "https://github.com/cyberboysumanjay/JioSaavnAPI",
+      "description": "API to retrieve song information, album meta data and many more from JioSaavn",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_jiosaavn",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "KKBOX",
+      "url": "https://developer.kkbox.com",
+      "description": "Get music libraries, playlists, charts, and perform out of KKBOX's platform",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_kkbox",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "KSoft.Si Lyrics",
+      "url": "https://docs.ksoft.si/api/lyrics-api",
+      "description": "API to get lyrics for songs",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_ksoft_si_lyrics",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "LastFm",
+      "url": "https://www.last.fm/api",
+      "description": "Music",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_lastfm",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Lyrics.ovh",
+      "url": "https://lyricsovh.docs.apiary.io",
+      "description": "Simple API to retrieve the lyrics of a song",
+      "category": "music",
+      "auth": "None",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_lyrics_ovh",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Mixcloud",
+      "url": "https://www.mixcloud.com/developers/",
+      "description": "Music",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_mixcloud",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MusicBrainz",
+      "url": "https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2",
+      "description": "Music",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_musicbrainz",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Musixmatch",
+      "url": "https://developer.musixmatch.com/",
+      "description": "Music",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_musixmatch",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Napster",
+      "url": "https://developer.napster.com/api/v2.2",
+      "description": "Music",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_napster",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Openwhyd",
+      "url": "https://openwhyd.github.io/openwhyd/API",
+      "description": "Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...)",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_openwhyd",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Phishin",
+      "url": "https://phish.in/api-docs",
+      "description": "A web-based archive of legal live audio recordings of the improvisational rock band Phish",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_phishin",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Radio Browser",
+      "url": "https://api.radio-browser.info/",
+      "description": "List of internet radio stations",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_radio_browser",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Songkick",
+      "url": "https://www.songkick.com/developer/",
+      "description": "Music Events",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music",
+        "events"
+      ],
+      "status": "active",
+      "id": "music_songkick",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Songlink / Odesli",
+      "url": "https://www.notion.so/API-d0ebe08a5e304a55928405eb682f6741",
+      "description": "Get all the services on which a song is available",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_songlink_odesli",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Songsterr",
+      "url": "https://www.songsterr.com/a/wa/api/",
+      "description": "Provides guitar, bass and drums tabs and chords",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_songsterr",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SoundCloud",
+      "url": "https://developers.soundcloud.com/docs/api/guide",
+      "description": "With SoundCloud API you can build applications that will give more power to control your content",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_soundcloud",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "TheAudioDB",
+      "url": "https://www.theaudiodb.com/api_guide.php",
+      "description": "Music",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_theaudiodb",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Vagalume",
+      "url": "https://api.vagalume.com.br/docs/",
+      "description": "Crowdsourced lyrics and music knowledge",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_vagalume",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Napster API",
+      "url": "https://developer.prod.napster.com/",
+      "description": "<details><summary>Comprehensive music catalog & playback API</summary>Access millions of tracks, artist metadata, user playlists, favorites, play counts, and more for building streaming apps.</details",
+      "category": "music",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_napster_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "TheAudioDB API",
+      "url": "https://www.theaudiodb.com/free_music_api",
+      "description": "<details><summary>Community-driven music metadata</summary>Retrieve artist info, albums, tracks, images, and music videos; free tier with test key (“2”).</details>",
+      "category": "music",
+      "auth": "API Key (test-level free)",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_theaudiodb_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Shazam (via ShazamKit / third-party)",
+      "url": "https://developer.apple.com/shazamkit/",
+      "description": "<details><summary>Music recognition & discovery</summary>Use Shazam’s audio recognition in apps to identify songs, access metadata, lyrics, artist info, and match audio from mic or file.</details>",
+      "category": "music",
+      "auth": "SDK Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_shazam_via_shazamkit_third_party",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "AudioDB",
+      "url": "https://www.theaudiodb.com/api_guide.php",
+      "description": "<details><summary>Music artist and album data</summary>Search for artists, albums, tracks, and music videos — includes artwork and biography details.</details>",
+      "category": "music",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_audiodb",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**SearchLy**",
+      "url": "https://github.com/AlbertSuarez/searchly",
+      "description": "Song similarity search API based on lyrics.",
+      "category": "music",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_searchly",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B",
+      "auth_inferred": true
+    },
+    {
+      "name": "**SoundCloud**",
+      "url": "https://developers.soundcloud.com",
+      "description": "Using the SoundCloud API, you can build applications that take sound on the web to the next level.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_soundcloud_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Spotify**",
+      "url": "https://beta.developer.spotify.com/documentation/web-api",
+      "description": "Spotify’s Web API lets your applications fetch data from the Spotify music catalog, manage users' playlists and saved music, get recommendations, control Spotify Connect, and more.",
+      "category": "music",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_spotify_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A",
+      "auth_inferred": true
+    },
+    {
+      "name": "**TheAudioDB**",
+      "url": "http://www.theaudiodb.com",
+      "description": "JSON",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_theaudiodb_2",
+      "quality": {
+        "score": 55,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 55,
+      "quality_grade": "C",
+      "https_inferred": true
+    },
+    {
+      "name": "**Genius**",
+      "url": "https://docs.genius.com/#/getting-started-h1",
+      "description": "Allows users to find details about Genius artists and songs.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_genius_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Acoustid**",
+      "url": "https://acoustid.org/webservice",
+      "description": "Supports searching through their fingerprint database.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_acoustid",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**AudD**",
+      "url": "https://docs.audd.io/",
+      "description": "Recognize music in microphone recordings, audio files and UGC.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_audd",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Gracenote**",
+      "url": "https://developer.gracenote.com/",
+      "description": "Largest source of music and video metadata on the planet.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_gracenote",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**ChartLyrics Lyrics API**",
+      "url": "http://www.chartlyrics.com/api.aspx",
+      "description": "Allows users to search for lyrics using the artist name, song title, or lyric text.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_chartlyrics_lyrics_api",
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B",
+      "https_inferred": true
+    },
+    {
+      "name": "**Lololyrics API**",
+      "url": "http://api.lololyrics.com/",
+      "description": "Given an artist and track name, obtains its lyrics and metadata such as the year released and album art. Specializes more in electronic dance music genres such as hardstyle.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_lololyrics_api",
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B",
+      "https_inferred": true
+    },
+    {
+      "name": "**Musixmatch**",
+      "url": "https://developer.musixmatch.com/",
+      "description": "Power your music project by licensing access to the world’s most authoritative lyrics DB.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_musixmatch_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**iTunes Search**",
+      "url": "https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1",
+      "description": "The Search API allows you to place search fields in your website to search for content within the iTunes Store, App Store, iBooks Store and Mac App Store.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_itunes_search",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Reverb**",
+      "url": "https://dev.reverb.com/",
+      "description": "Sell and buy music related merchandise.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_reverb",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Bandsintown",
+      "url": "https://app.swaggerhub.com/apis/Bandsintown/PublicAPI/3.0.1",
+      "description": "Music Events",
+      "category": "music",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_bandsintown_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Lyrics.ovh",
+      "url": "http://docs.lyricsovh.apiary.io/",
+      "description": "Simple API to retrieve the lyrics of a song",
+      "category": "music",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_lyrics_ovh_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SearchLy",
+      "url": "https://www.github.com/AlbertSuarez/searchly",
+      "description": "Similarities search based on song lyrics",
+      "category": "music",
+      "auth": "`No`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_searchly_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SoundCloud",
+      "url": "https://developers.soundcloud.com/",
+      "description": "Allow users to upload and share sounds",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_soundcloud_3",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "LRCLIB",
+      "url": "https://lrclib.net/docs",
+      "description": "Crowdsourced lyrics",
+      "category": "music",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_lrclib_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Mubert AI Music API",
+      "url": "https://landing.mubert.com",
+      "description": "Integrate AI music into your app, game or service",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_mubert_ai_music_api",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Musixmatch",
+      "url": "https://www.musixmatch.com/pro/api/",
+      "description": "Access lyrics, subtitles and music data",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_musixmatch_3",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "COVID-19 Tracker Canada",
+      "url": "https://api.covid19tracker.ca/docs/1.0/overview",
+      "description": "Details on Covid-19 cases across Canada",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music",
+        "health"
+      ],
+      "status": "active",
+      "id": "music_covid_19_tracker_canada",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Withings**",
+      "url": "http://oauth.withings.com/api",
+      "description": "Access to data from Withings activity trackers and body measures.",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "music",
+        "health"
+      ],
+      "status": "active",
+      "id": "music_withings",
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B",
+      "https_inferred": true
+    },
+    {
+      "name": "Deepgram Text-to-Speech API",
+      "url": "https://play.ht/blog/deepgram-text-to-speech-python/",
+      "description": "<details><summary>Realistic Text-to-Speech</summary>Converts text into high-quality, natural-sounding audio using Deepgram’s TTS models.</details>",
+      "category": "music",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "music_deepgram_text_to_speech_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Techy",
+      "url": "https://techy-api.vercel.app/",
+      "description": "JSON and Plaintext API for tech-savvy sounding phrases",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music",
+        "entertainment"
+      ],
+      "status": "active",
+      "id": "music_techy",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Podcast Index API",
+      "url": "https://podcastindex.org/api/docs",
+      "description": "<details><summary>Podcast Metadata & Directory</summary>Access podcast episodes, transcripts, feeds, and directories using open podcasting standards.</details>",
+      "category": "music",
+      "auth": "API Key",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music",
+        "entertainment"
+      ],
+      "status": "active",
+      "id": "music_podcast_index_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Ganjoor",
+      "url": "https://api.ganjoor.net",
+      "description": "Classic Persian poetry works including access to related manuscripts, recitations and music tracks",
+      "category": "music",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "music",
+        "books"
+      ],
+      "status": "active",
+      "id": "music_ganjoor",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bird API",
+      "url": "https://xeno-canto.org/api",
+      "description": "<details><summary>Bird sounds and taxonomy data</summary>Search and retrieve bird song recordings, metadata, and taxonomy from a global collection.</details>",
+      "category": "music",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "music",
+        "animals"
+      ],
+      "status": "active",
+      "id": "music_bird_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Callook.info",
+      "url": "https://callook.info",
+      "description": "United States ham radio callsigns",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "music",
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "music_callook_info",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "kimiquotes",
+      "url": "https://kimiquotes.herokuapp.com/doc",
+      "description": "Team radio and interview quotes by Finnish F1 legend Kimi Räikkönen",
+      "category": "music",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "music",
+        "personality"
+      ],
+      "status": "active",
+      "id": "music_kimiquotes_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "kimiquotes",
+      "url": "https://kimiquotes.pages.dev/docs",
+      "description": "Team radio and interview quotes by Finnish F1 legend Kimi Räikkönen",
+      "category": "music",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "music",
+        "personality"
+      ],
+      "status": "active",
+      "id": "music_kimiquotes_3",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Danbooru Anime",
+      "url": "https://danbooru.donmai.us/wiki_pages/help:api",
+      "description": "Thousands of anime artist database to find good anime art",
+      "category": "music",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "music",
+        "anime"
+      ],
+      "status": "active",
+      "id": "music_danbooru_anime",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "FlightAware",
+      "url": "https://www.flightaware.com/commercial/flightxml/",
+      "description": "Flight tracking",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_flightaware",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Podcast API",
+      "url": "https://www.podcastapi.com/",
+      "description": "Podcast data",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_podcast_api",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "SearXNG",
+      "url": "https://docs.searxng.org/dev/search_api.html",
+      "description": "Self-hosted meta-search engine with JSON API — no tracking",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_searxng",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Midjourney",
+      "url": "https://docs.midjourney.com/",
+      "description": "High-quality artistic image generation",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_midjourney",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Suno",
+      "url": "https://docs.suno.com/",
+      "description": "AI music and song generation from text prompts",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_suno",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Udio",
+      "url": "https://docs.udio.com/",
+      "description": "AI music generation with high-fidelity audio",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_udio",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "LiveKit",
+      "url": "https://docs.livekit.io/",
+      "description": "Open-source real-time audio/video/data infrastructure",
+      "category": "music",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_livekit",
+      "quality": {
+        "score": 79,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 79,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Fish Audio",
+      "url": "https://docs.fish.audio/",
+      "description": "Multilingual voice cloning and text-to-speech",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_fish_audio",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Tracker Network",
+      "url": "https://tracker.gg/developers/docs/getting-started",
+      "description": "Stats for Fortnite, Apex, Valorant, and more",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_tracker_network",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Factorial API",
+      "url": "https://apidoc.factorialhr.com/",
+      "description": "Talent management, recruitment, time tracking, payroll",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_factorial_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ShipEngine",
+      "url": "https://www.shipengine.com/",
+      "description": "200+ global carriers — labels, tracking, SDKs in 8 languages",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_shipengine",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "AfterShip Tracking",
+      "url": "https://www.aftership.com/docs/tracking",
+      "description": "1,100+ carriers — tracking webhooks, ETA, branded pages",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_aftership_tracking",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Datalastic API",
+      "url": "https://datalastic.com/api-reference/",
+      "description": "Vessel tracking, port info, MMSI/IMO lookup — trial available",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_datalastic_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MyShipTracking",
+      "url": "https://api.myshiptracking.com/",
+      "description": "Vessel tracking services with AIS data",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_myshiptracking",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Flyway Hub",
+      "url": "https://www.red-gate.com/products/flyway/",
+      "description": "SQL migrations — 20+ databases, version tracking",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_flyway_hub",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Harvest API",
+      "url": "https://help.getharvest.com/api-v2/",
+      "description": "Time tracking and invoicing API for project-based businesses",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_harvest_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Flightradar24 API",
+      "url": "https://fr24api.flightradar24.com/",
+      "description": "Real-time flight tracking data from the world's largest flight tracker",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_flightradar24_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Upfluence",
+      "url": "https://www.upfluence.com/",
+      "description": "12M+ creator database API with e-commerce and affiliate tracking",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_upfluence",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Weights & Biases",
+      "url": "https://docs.wandb.ai/",
+      "description": "Experiment tracking, model registry, and inference APIs for ML teams",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_weights_biases",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Neptune.ai",
+      "url": "https://docs.neptune.ai/api/",
+      "description": "Experiment tracker with Query API for logging and fetching ML metadata",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_neptune_ai",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Dolby.io Media APIs",
+      "url": "https://docs.dolby.io/media-apis/docs",
+      "description": "Cloud APIs for audio analysis, enhancement, transcoding, and loudness correction",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_dolby_io_media_apis",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "AudioStack",
+      "url": "https://docs.audiostack.ai/",
+      "description": "AI audio production API with 1750+ voices, mixing, mastering, and TTS",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_audiostack",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "AppFollow",
+      "url": "https://appfollow.io/appfollow-api",
+      "description": "Review management, keyword tracking, and ranking analysis API",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_appfollow",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Deezer API",
+      "url": "https://developers.deezer.com/",
+      "description": "Search tracks, artists, albums; access playlists and user data",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_deezer_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Jamendo API",
+      "url": "https://developer.jamendo.com/v3.0",
+      "description": "Half-million royalty-free tracks; music discovery and radios",
+      "category": "music",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_jamendo_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Songlink/Odesli API",
+      "url": "https://odesli.co/",
+      "description": "Generate universal smart links across all major streaming platforms",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_songlink_odesli_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Global Fishing Watch API",
+      "url": "https://globalfishingwatch.org/our-apis/documentation",
+      "description": "Vessel tracking, fishing activity, port visits, and marine infrastructure data",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_global_fishing_watch_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Intellizence Relocation API",
+      "url": "https://docs.intellizence.com/dataset-api-v1.0/relocation-dataset-api",
+      "description": "Company relocation tracking dataset",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_intellizence_relocation_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Trailforks API",
+      "url": "https://www.trailforks.com/about/api/",
+      "description": "Trail database with GPS tracks and conditions",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_trailforks_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Seismic API",
+      "url": "https://apitracker.io/a/seismic",
+      "description": "Sales enablement content delivery",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_seismic_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "DataForSEO Brand Mentions",
+      "url": "https://dataforseo.com/help-center/automated-mention-tracking-with-api-in-make",
+      "description": "Automated brand mention tracking",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_dataforseo_brand_mentions",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Twilio Segment Public API",
+      "url": "https://docs.segmentapis.com/",
+      "description": "Sources, destinations, warehouses and tracking",
+      "category": "music",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_twilio_segment_public_api",
+      "quality": {
+        "score": 79,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 79,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Google Cloud Speech-to-Text",
+      "url": "https://cloud.google.com/speech-to-text/docs",
+      "description": "Audio to text conversion in 125+ languages",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_google_cloud_speech_to_text",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Strackr API",
+      "url": "https://strackr.com/affiliate-api",
+      "description": "Unified affiliate API for 190+ networks",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_strackr_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "iDeals",
+      "url": "https://www.idealsvdr.com/",
+      "description": "Virtual data room for M&A with granular permissions and activity tracking",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_ideals",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Debitura",
+      "url": "https://www.debitura.com/integration/debt-collection-api",
+      "description": "Worldwide debt recovery API for managing, tracking, and automating collections",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_debitura",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Simplecast API",
+      "url": "https://apidocs.simplecast.com/",
+      "description": "Podcast management with analytics, distribution, and monetization",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_simplecast_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Libsyn API",
+      "url": "https://status.libsyn.com/api",
+      "description": "Veteran podcast hosting with distribution and statistics",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_libsyn_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Listen Notes API",
+      "url": "https://www.listennotes.com/api/",
+      "description": "Podcast search engine with full-text search across episodes",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_listen_notes_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Audioboom API",
+      "url": "https://api.audioboom.com/",
+      "description": "Podcast hosting and distribution with monetization features",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_audioboom_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MusicBrainz API",
+      "url": "https://musicbrainz.org/doc/MusicBrainz_API",
+      "description": "Open music encyclopedia with recordings, releases, and artist data",
+      "category": "music",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_musicbrainz_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Audius API",
+      "url": "https://docs.audius.org/api/",
+      "description": "Decentralized music streaming with tracks, playlists, and tips",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_audius_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Epidemic Sound API",
+      "url": "https://developers.epidemicsound.com/",
+      "description": "Licensed music catalog for content creators with track search",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_epidemic_sound_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ASCAP ACE Repertory",
+      "url": "https://www.ascap.com/repertory",
+      "description": "Search ASCAP's catalog of registered musical works and rights holders",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_ascap_ace_repertory",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "BMI Repertoire Search",
+      "url": "https://repertoire.bmi.com/",
+      "description": "Search BMI's database of musical work registrations and publishers",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_bmi_repertoire_search",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SOTI MobiControl API",
+      "url": "https://www.soti.net/products/soti-mobicontrol/",
+      "description": "Enterprise mobility management with device tracking and control",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_soti_mobicontrol_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Toggl Track",
+      "url": "https://engineering.toggl.com/docs/",
+      "description": "Time tracking API with workspace, project, and time entry management",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_toggl_track",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Google Video Intelligence",
+      "url": "https://cloud.google.com/video-intelligence/docs",
+      "description": "ML-powered video content analysis with object tracking and scene detection",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_google_video_intelligence",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "DocSend",
+      "url": "https://www.docsend.com/integrations/",
+      "description": "Track document engagement, manage links, and monitor visitor analytics",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_docsend",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Space-Track",
+      "url": "https://www.space-track.org/documentation",
+      "description": "US Space Command satellite catalog with TLE and orbital element data",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_space_track",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Cronometer",
+      "url": "https://cronometer.com/",
+      "description": "Detailed micronutrient tracking with verified nutrition data via partner APIs",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_cronometer",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Dolby.io Media",
+      "url": "https://docs.dolby.io/media-apis/docs",
+      "description": "Audio enhancement, analysis, transcoding, and loudness normalization APIs",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_dolby_io_media",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "AIVA",
+      "url": "https://www.aiva.ai/",
+      "description": "AI composer for emotional soundtrack music across multiple genres and styles",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_aiva",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Epidemic Sound",
+      "url": "https://developers.epidemicsound.com/docs/",
+      "description": "Partner API for royalty-free music licensing with track search and download",
+      "category": "music",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_epidemic_sound",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "AudioJungle (Envato)",
+      "url": "https://build.envato.com/",
+      "description": "Envato Market API for searching and licensing royalty-free audio tracks",
+      "category": "music",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_audiojungle_envato",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Descript",
+      "url": "https://www.descript.com/",
+      "description": "Transcript-first audio/video editing platform with Overdub AI voice cloning",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_descript",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Fictiv",
+      "url": "https://www.fictiv.com/api",
+      "description": "On-demand manufacturing platform API for quoting, ordering, and tracking parts",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_fictiv",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Swept",
+      "url": "https://www.sweptworks.com/",
+      "description": "Janitorial management platform with inspections, time tracking, and communication",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_swept",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "UpKeep",
+      "url": "https://developer.onupkeep.com/",
+      "description": "Mobile-first CMMS for maintenance management with asset tracking and work orders",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_upkeep",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Limble CMMS",
+      "url": "https://limblecmms.com/",
+      "description": "Computerized maintenance management with preventive maintenance and asset tracking",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_limble_cmms",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "TuneIn",
+      "url": "https://tunein.com/broadcasters/",
+      "description": "Access live radio streams, podcasts, and station metadata from 100,000+ stations",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_tunein",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Radio Garden",
+      "url": "http://radio.garden/",
+      "description": "Explore live radio stations globally on an interactive globe interface",
+      "category": "music",
+      "auth": null,
+      "https": false,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_radio_garden",
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 0
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "SHOUTcast",
+      "url": "https://www.shoutcast.com/",
+      "description": "Internet radio streaming platform with station directory and stream management",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_shoutcast",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "BBC Sounds",
+      "url": "https://www.bbc.co.uk/sounds",
+      "description": "BBC radio programs, podcasts, and music mixes with scheduling data",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_bbc_sounds",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Radioline",
+      "url": "https://www.radioline.co/",
+      "description": "Multi-platform radio and podcast aggregator with worldwide station discovery",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_radioline",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "StreamGuys",
+      "url": "https://www.streamguys.com/",
+      "description": "Enterprise audio streaming with CDN, monetization, and analytics APIs",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_streamguys",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Tive",
+      "url": "https://www.tive.com/",
+      "description": "Real-time supply chain and cold chain tracking with multi-sensor trackers",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_tive",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CellarTracker",
+      "url": "https://www.cellartracker.com/",
+      "description": "Community wine database with 10M+ tasting notes and cellar management",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_cellartracker",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Service Fusion",
+      "url": "https://www.servicefusion.com/",
+      "description": "Field service management with GPS tracking, estimates, and customer management",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_service_fusion",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Brewer's Friend API",
+      "url": "https://docs.brewersfriend.com/api",
+      "description": "Homebrew recipes, brew sessions, and fermentation data tracking",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_brewer_s_friend_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "QuranFoundation API",
+      "url": "https://api-docs.quran.foundation/",
+      "description": "Comprehensive Quran API with translations, tafsir, and audio",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_quranfoundation_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "JamBase Data API",
+      "url": "https://data.jambase.com/data-api/",
+      "description": "25+ years of live music data with millions of events and venues",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_jambase_data_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Setlist.fm API",
+      "url": "https://api.setlist.fm/docs/1.0/ui/index.html",
+      "description": "Setlist and concert data with artists, cities, and song lists",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_setlist_fm_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PredictHQ Concerts API",
+      "url": "https://www.predicthq.com/events/concerts",
+      "description": "Concert tracking with impact rankings and attendance predictions",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_predicthq_concerts_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Shortboxed API",
+      "url": "https://api.shortboxed.com/",
+      "description": "New comic book release day data for tracking weekly releases",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_shortboxed_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Datalastic Maritime API",
+      "url": "https://datalastic.com/api-reference/",
+      "description": "Ship tracking with real-time and historical AIS data and vessel details",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_datalastic_maritime_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Spotify Audio Features",
+      "url": "https://developer.spotify.com/documentation/web-api/reference/get-audio-features",
+      "description": "Detailed analysis with danceability scores, BPM, and rhythm stability",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_spotify_audio_features",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Spotify Audio Analysis",
+      "url": "https://developer.spotify.com/documentation/web-api/reference/get-audio-analysis",
+      "description": "Low-level audio with tempo, beats, bars, and musical structure",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_spotify_audio_analysis",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "TrackoBit Mining Fleet API",
+      "url": "https://trackobit.com/industries/construction-mining-fleet-tracking",
+      "description": "Construction and mining fleet tracking software with API access for equipment data",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_trackobit_mining_fleet_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Groundhog Apps API",
+      "url": "https://groundhogapps.com/open-pit-mining-fleet-management-system/",
+      "description": "Open pit mining fleet management system with API for equipment dispatch and tracking",
+      "category": "music",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_groundhog_apps_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Twilio Bandwidth Profile API",
+      "url": "https://www.twilio.com/docs/video/tutorials/using-bandwidth-profile-api",
+      "description": "Fine-grained control over bandwidth allocation for video track subscriptions",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_twilio_bandwidth_profile_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Pokemon TCG API",
+      "url": "https://pokemonpricetracker.com/api-docs",
+      "description": "Free Pokemon card price data with 23,000+ cards, PSA data, and bulk fetching",
+      "category": "music",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_pokemon_tcg_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "FWsim Pro",
+      "url": "https://www.fwsim.com/",
+      "description": "Fireworks show scripting and realistic 3D visualization for pyromusicals",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_fwsim_pro",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "COBRA Show Creator",
+      "url": "https://www.cobrafiringsystems.com/show_software.html",
+      "description": "Web-based scripting software for musical and non-musical fireworks shows",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_cobra_show_creator",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Lightjams DMX Controller",
+      "url": "https://www.lightjams.com/",
+      "description": "DMX lighting controller software with audio reactive and programmable effects",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_lightjams_dmx_controller",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Global Energy Monitor API",
+      "url": "https://globalenergymonitor.org/projects/global-integrated-power-tracker/",
+      "description": "Global Integrated Power Tracker with geothermal plant data including capacity and status",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_global_energy_monitor_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Whitney Museum API",
+      "url": "https://whitney.org/about/website/api",
+      "description": "API access to artists and works from the Whitney collection including American street art",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_whitney_museum_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "FindMASA Street Art App",
+      "url": "https://findmasa.com/app",
+      "description": "Database of nearly 500 street artists with works viewable in public spaces worldwide",
+      "category": "music",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_findmasa_street_art_app",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Songsterr API",
+      "url": "https://publicapis.io/songsterr-music-api",
+      "description": "Search and access guitar, bass, and drums tabs and chords from the Songsterr database",
+      "category": "music",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_songsterr_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Scales-Chords API",
+      "url": "https://www.scales-chords.com/api/",
+      "description": "Returns guitar chord charts and chord sounds from 500,000+ chord images and audio files",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_scales_chords_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Hooktheory API",
+      "url": "https://www.hooktheory.com/api/trends/docs",
+      "description": "Music theory API with chord probability data and song chord progression analysis",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_hooktheory_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "The Chords API",
+      "url": "https://chords.alday.dev/",
+      "description": "Structured musical data API for chords, notes, and chord types for educational use",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_the_chords_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Klangio Music Analysis API",
+      "url": "https://klang.io/api/",
+      "description": "AI music analysis API with chord recognition, beat tracking, and music transcription",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_klangio_music_analysis_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Reverb Marketplace API",
+      "url": "https://reverb.com/",
+      "description": "Musical instrument marketplace API for buying and selling new, used, and vintage gear",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_reverb_marketplace_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Keytone Music Analyzer",
+      "url": "https://www.keytone.org/",
+      "description": "AI-powered music analysis for notes, scales, key signatures, and chord detection in songs",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_keytone_music_analyzer",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MarineTraffic API",
+      "url": "https://www.marinetraffic.com/en/ais-api-services",
+      "description": "Global AIS ship tracking API with port calls, vessel data, and real-time maritime intelligence",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_marinetraffic_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "WhoSampled",
+      "url": "https://www.whosampled.com/",
+      "description": "Music sampling discovery with connections among 1M+ songs covering hip-hop, rap, R&B samples and remixes",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_whosampled",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ListenBrainz API",
+      "url": "https://listenbrainz.readthedocs.io/",
+      "description": "Open-source music listening data platform compatible with Last.fm API for scrobbling and statistics",
+      "category": "music",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_listenbrainz_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "AllBreedPedigree",
+      "url": "https://www.allbreedpedigree.com/",
+      "description": "Comprehensive multi-breed horse pedigree query system with ancestry and lineage tracking",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_allbreedpedigree",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MarineTraffic AIS API",
+      "url": "https://servicedocs.marinetraffic.com/",
+      "description": "Real-time vessel tracking with AIS data, port calls, ship particulars, and maritime intelligence",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_marinetraffic_ais_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SmartWaste API",
+      "url": "https://bregroup.com/products/smartwaste/solutions/integration-with-smartwaste-api",
+      "description": "BRE Group waste management portal integration for tracking construction and demolition waste",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_smartwaste_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Jobber API",
+      "url": "https://apitracker.io/a/jobber",
+      "description": "Field service management API for scheduling, dispatching, and invoicing laundry services",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_jobber_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "RTRT.me",
+      "url": "https://rtrt.me/",
+      "description": "Real-time race tracking platform with live push notifications, scoring, results hosting, and interactive course maps",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_rtrt_me",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "网易云音乐API",
+      "url": "https://neteasecloudmusicapi.vercel.app/",
+      "description": "网易云音乐非官方API",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "TideTree/public-apis-cn",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_api",
+      "quality": {
+        "score": 57,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 57,
+      "quality_grade": "C"
+    },
+    {
+      "name": "MailTrack",
+      "url": "https://apihunt.io/apis/mailtrack",
+      "description": "",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "apihunt/awesome-api-list",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_mailtrack",
+      "quality": {
+        "score": 52,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 52,
+      "quality_grade": "D"
+    },
+    {
+      "name": "Pivotal Tacker",
+      "url": "https://apihunt.io/apis/pivotal-tracker",
+      "description": "",
+      "category": "music",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "apihunt/awesome-api-list",
+      "tags": [
+        "music"
+      ],
+      "status": "active",
+      "id": "music_pivotal_tacker",
+      "quality": {
+        "score": 52,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 52,
+      "quality_grade": "D"
+    }
+  ]
+}

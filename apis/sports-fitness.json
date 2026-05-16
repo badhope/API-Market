@@ -1,0 +1,2206 @@
+{
+  "id": "sports-fitness",
+  "name": "Sports & Fitness",
+  "display_name": "Sports & Fitness",
+  "api_count": 80,
+  "apis": [
+    {
+      "name": "whapi.com:sportsdata",
+      "url": "https://api.apis.guru/v2/specs/whapi.com/sportsdata/2/swagger.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness",
+        "development"
+      ],
+      "status": "active",
+      "id": "sports_fitness_whapi_com_sportsdata",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "API League",
+      "url": "https://apileague.com",
+      "description": "World-class APIs in a single hub",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "sports-fitness",
+        "development"
+      ],
+      "status": "active",
+      "id": "sports_fitness_api_league",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "sportsdata.io:nascar-v2",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nascar-v2/1.0/openapi.json",
+      "description": "sportsdata.io:nascar-v2 - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nascar_v2",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "rapidapi.com:football-prediction",
+      "url": "https://api.apis.guru/v2/specs/rapidapi.com/football-prediction/2/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "sports_fitness_rapidapi_com_football_prediction",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "FIFA Ultimate Team",
+      "url": "https://www.easports.com/fifa/ultimate-team/api/fut/item",
+      "description": "FIFA Ultimate Team items API",
+      "category": "sports-fitness",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "sports_fitness_fifa_ultimate_team",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PandaScore",
+      "url": "https://developers.pandascore.co/",
+      "description": "E-sports games and results",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "sports_fitness_pandascore",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PandaScore",
+      "url": "https://api.pandascore.co",
+      "description": "E-sports games and results",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "sports-fitness",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "sports_fitness_pandascore_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Scoresaber",
+      "url": "https://scoresaber.com/api/documentation",
+      "description": "Scoresaber Stats",
+      "category": "sports-fitness",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "sports-fitness",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "sports_fitness_scoresaber",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "sportsdata.io:mlb-v3-rotoballer-premium-news",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/mlb-v3-rotoballer-premium-news/1.0/openapi.json",
+      "description": "sportsdata.io:mlb-v3-rotoballer-premium-news - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness",
+        "news"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_mlb_v3_rotoballer_premium_news",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nba-v3-rotoballer-articles",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-rotoballer-articles/1.0/openapi.json",
+      "description": "sportsdata.io:nba-v3-rotoballer-articles - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness",
+        "news"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nba_v3_rotoballer_articles",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nba-v3-rotoballer-premium-news",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-rotoballer-premium-news/1.0/openapi.json",
+      "description": "sportsdata.io:nba-v3-rotoballer-premium-news - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness",
+        "news"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nba_v3_rotoballer_premium_news",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nfl-v3-rotoballer-articles",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-rotoballer-articles/1.0/openapi.json",
+      "description": "sportsdata.io:nfl-v3-rotoballer-articles - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness",
+        "news"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nfl_v3_rotoballer_articles",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nfl-v3-rotoballer-premium-news",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-rotoballer-premium-news/1.0/openapi.json",
+      "description": "sportsdata.io:nfl-v3-rotoballer-premium-news - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness",
+        "news"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nfl_v3_rotoballer_premium_news",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "ESPN",
+      "url": "http://www.espn.com/apis/devcenter/",
+      "description": "<details><summary>Sports scores, statistics, and news</summary>Get live sports data, player statistics, and sports news for building sports applications.</details>",
+      "category": "sports-fitness",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_espn",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A",
+      "https_inferred": true
+    },
+    {
+      "name": "CricData",
+      "url": "https://cricketdata.org/",
+      "description": "Ultimate Cricket data API - Score, Scorecard, Players data, Fantasy API",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_cricdata",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Football Prediction",
+      "url": "https://boggio-analytics.com/fp-api/",
+      "description": "Predictions for upcoming football matches, odds, results and stats",
+      "category": "sports-fitness",
+      "auth": "`X-Mashape-Key`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_football_prediction",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Football-Data.org",
+      "url": "http://api.football-data.org/index",
+      "description": "Football Data",
+      "category": "sports-fitness",
+      "auth": "No",
+      "https": "No",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_football_data_org",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SharpAPI",
+      "url": "https://docs.sharpapi.io",
+      "description": "Real-time sports betting odds from 20+ sportsbooks with +EV detection",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sharpapi",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "American Football Highlights API",
+      "url": "https://highlightly.net/documentation/american-football/",
+      "description": "Real time American Football (NFL/NCAA) highlights",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_american_football_highlights_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Basketball Highlights API",
+      "url": "https://highlightly.net/documentation/basketball/",
+      "description": "Real time basketball video highlights",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_basketball_highlights_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Fantasy Premier League",
+      "url": "https://github.com/flavnat/fpl-api",
+      "description": "Fantasy Premier League data, including fixtures, teams, and player stats",
+      "category": "sports-fitness",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_fantasy_premier_league",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Football Highlights",
+      "url": "https://highlightly.net/documentation/football/",
+      "description": "Real time football (soccer) highlights from over +950 leagues",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_football_highlights",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "iSports API",
+      "url": "https://isportsapi.com/",
+      "description": "Provide live and historical sports data of global competitions, like live score, fixtures, player & match stats, database etc.",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": "No",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_isports_api",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Sport Highlights",
+      "url": "https://highlightly.net/documentation/sports/",
+      "description": "Real time Sport Highlights",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sport_highlights",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "influxdata.com",
+      "url": "https://api.apis.guru/v2/specs/influxdata.com/2.0.0/openapi.json",
+      "description": "influxdata.com - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "sports_fitness_influxdata_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "collegefootballdata.com",
+      "url": "https://api.apis.guru/v2/specs/collegefootballdata.com/4.4.12/openapi.json",
+      "description": "collegefootballdata.com - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_collegefootballdata_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "dracoon.team",
+      "url": "https://api.apis.guru/v2/specs/dracoon.team/4.42.2/openapi.json",
+      "description": "dracoon.team - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_dracoon_team",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "ipqualityscore.com",
+      "url": "https://api.apis.guru/v2/specs/ipqualityscore.com/1.0.0/openapi.json",
+      "description": "ipqualityscore.com - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_ipqualityscore_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "nba.com",
+      "url": "https://api.apis.guru/v2/specs/nba.com/version/swagger.json",
+      "description": "nba.com - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_nba_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "pandascore.co",
+      "url": "https://api.apis.guru/v2/specs/pandascore.co/2.23.1/openapi.json",
+      "description": "pandascore.co - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_pandascore_co",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:cbb-v3-scores",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/cbb-v3-scores/1.0/openapi.json",
+      "description": "sportsdata.io:cbb-v3-scores - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_cbb_v3_scores",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:cbb-v3-stats",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/cbb-v3-stats/1.0/openapi.json",
+      "description": "API that provides statistical data about Players and Matches.",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_cbb_v3_stats",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:cfb-v3-scores",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/cfb-v3-scores/1.0/openapi.json",
+      "description": "sportsdata.io:cfb-v3-scores - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_cfb_v3_scores",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:csgo-v3-scores",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/csgo-v3-scores/1.0/openapi.json",
+      "description": "sportsdata.io:csgo-v3-scores - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_csgo_v3_scores",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:csgo-v3-stats",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/csgo-v3-stats/1.0/openapi.json",
+      "description": "API that provides statistical data about Players and Matches.",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_csgo_v3_stats",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:golf-v2",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/golf-v2/1.0/openapi.json",
+      "description": "sportsdata.io:golf-v2 - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_golf_v2",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:lol-v3-projections",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/lol-v3-projections/1.0/openapi.json",
+      "description": "sportsdata.io:lol-v3-projections - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_lol_v3_projections",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:lol-v3-scores",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/lol-v3-scores/1.0/openapi.json",
+      "description": "sportsdata.io:lol-v3-scores - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_lol_v3_scores",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:lol-v3-stats",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/lol-v3-stats/1.0/openapi.json",
+      "description": "API that provides statistical data about Players and Matches.",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_lol_v3_stats",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:mlb-v3-play-by-play",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/mlb-v3-play-by-play/1.0/openapi.json",
+      "description": "sportsdata.io:mlb-v3-play-by-play - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_mlb_v3_play_by_play",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:mlb-v3-projections",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/mlb-v3-projections/1.0/openapi.json",
+      "description": "sportsdata.io:mlb-v3-projections - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_mlb_v3_projections",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:mlb-v3-scores",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/mlb-v3-scores/1.0/openapi.json",
+      "description": "sportsdata.io:mlb-v3-scores - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_mlb_v3_scores",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:mlb-v3-stats",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/mlb-v3-stats/1.0/openapi.json",
+      "description": "API that provides statistical data about Players and Matches.",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_mlb_v3_stats",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nba-v3-play-by-play",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-play-by-play/1.0/openapi.json",
+      "description": "sportsdata.io:nba-v3-play-by-play - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nba_v3_play_by_play",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nba-v3-projections",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-projections/1.0/openapi.json",
+      "description": "sportsdata.io:nba-v3-projections - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nba_v3_projections",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nba-v3-scores",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-scores/1.0/openapi.json",
+      "description": "sportsdata.io:nba-v3-scores - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nba_v3_scores",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nba-v3-stats",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nba-v3-stats/1.0/openapi.json",
+      "description": "API that provides statistical data about Players and Matches.",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nba_v3_stats",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nfl-v3-play-by-play",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-play-by-play/1.0/openapi.json",
+      "description": "sportsdata.io:nfl-v3-play-by-play - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nfl_v3_play_by_play",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nfl-v3-projections",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-projections/1.0/openapi.json",
+      "description": "sportsdata.io:nfl-v3-projections - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nfl_v3_projections",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nfl-v3-scores",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-scores/1.0/openapi.json",
+      "description": "sportsdata.io:nfl-v3-scores - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nfl_v3_scores",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nfl-v3-stats",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nfl-v3-stats/1.0/openapi.json",
+      "description": "API that provides statistical data about Players and Matches.",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nfl_v3_stats",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nhl-v3-play-by-play",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nhl-v3-play-by-play/1.0/openapi.json",
+      "description": "sportsdata.io:nhl-v3-play-by-play - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nhl_v3_play_by_play",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nhl-v3-projections",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nhl-v3-projections/1.0/openapi.json",
+      "description": "sportsdata.io:nhl-v3-projections - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nhl_v3_projections",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nhl-v3-scores",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nhl-v3-scores/1.0/openapi.json",
+      "description": "sportsdata.io:nhl-v3-scores - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nhl_v3_scores",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:nhl-v3-stats",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/nhl-v3-stats/1.0/openapi.json",
+      "description": "API that provides statistical data about Players and Matches.",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_nhl_v3_stats",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:soccer-v3-projections",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/soccer-v3-projections/1.0/openapi.json",
+      "description": "sportsdata.io:soccer-v3-projections - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_soccer_v3_projections",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:soccer-v3-scores",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/soccer-v3-scores/1.0/openapi.json",
+      "description": "sportsdata.io:soccer-v3-scores - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_soccer_v3_scores",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sportsdata.io:soccer-v3-stats",
+      "url": "https://api.apis.guru/v2/specs/sportsdata.io/soccer-v3-stats/1.0/openapi.json",
+      "description": "API that provides statistical data about Players and Matches.",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportsdata_io_soccer_v3_stats",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "API-FOOTBALL",
+      "url": "https://www.api-football.com/documentation-v3",
+      "description": "Get information about Football Leagues & Cups",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_api_football",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Canadian Football League (CFL)",
+      "url": "http://api.cfl.ca/",
+      "description": "Official JSON API providing real-time league, team and player statistics about the CFL",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_canadian_football_league_cfl",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Football",
+      "url": "https://rapidapi.com/GiulianoCrescimbeni/api/football98/",
+      "description": "A simple Open Source Football API to get squads’ stats, best scorers and more",
+      "category": "sports-fitness",
+      "auth": "`X-Mashape-Key`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_football",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Football (Soccer) Videos",
+      "url": "https://www.scorebat.com/video-api/",
+      "description": "Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more",
+      "category": "sports-fitness",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_football_soccer_videos",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Football Standings",
+      "url": "https://github.com/azharimm/football-standings-api",
+      "description": "Display football standings e.g epl, la liga, serie a etc. The data is based on espn site",
+      "category": "sports-fitness",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_football_standings",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Football-Data",
+      "url": "https://www.football-data.org",
+      "description": "Football data with matches info, players, teams, and competitions",
+      "category": "sports-fitness",
+      "auth": "`X-Mashape-Key`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_football_data",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "OpenLigaDB",
+      "url": "https://www.openligadb.de",
+      "description": "Crowd sourced sports league results",
+      "category": "sports-fitness",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_openligadb",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Sport Data",
+      "url": "https://sportdataapi.com",
+      "description": "Get sports data from all over the world",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sport_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Sport List & Data",
+      "url": "https://developers.decathlon.com/products/sports",
+      "description": "List of and resources related to sports",
+      "category": "sports-fitness",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sport_list_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Sportmonks Cricket",
+      "url": "https://docs.sportmonks.com/cricket/",
+      "description": "Live cricket score, player statistics and fantasy API",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportmonks_cricket",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Sportmonks Football",
+      "url": "https://docs.sportmonks.com/football/",
+      "description": "Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_sportmonks_football",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Squiggle",
+      "url": "https://api.squiggle.com.au",
+      "description": "Fixtures, results and predictions for Australian Football League matches",
+      "category": "sports-fitness",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_squiggle",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Strava",
+      "url": "https://strava.github.io/api/",
+      "description": "Connect with athletes, activities and more",
+      "category": "sports-fitness",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_strava",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SuredBits",
+      "url": "https://suredbits.com/api/",
+      "description": "Query sports data, including teams, players, games, scores and statistics",
+      "category": "sports-fitness",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_suredbits",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "TheSportsDB",
+      "url": "https://www.thesportsdb.com/api.php",
+      "description": "Crowd-Sourced Sports Data and Artwork",
+      "category": "sports-fitness",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "sports_fitness_thesportsdb",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**FIFA women's world cup 2019**",
+      "url": "https://worldcup.sfg.io/",
+      "description": "FIFA women's world cup 2019 matches and group stage results.",
+      "category": "sports-fitness",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_fifa_women_s_world_cup_2019",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Football Prediction**",
+      "url": "https://boggio-analytics.com/fp-api/",
+      "description": "Predictions for upcoming football matches, odds, results and stats.",
+      "category": "sports-fitness",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_football_prediction_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**LIVE-SCORE API**",
+      "url": "https://live-score-api.com/documentation/reference/",
+      "description": "Football API for live-scores, fixtures, group standings, history data and match events.",
+      "category": "sports-fitness",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_live_score_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**OpenLigaDB API**",
+      "url": "https://www.openligadb.de/",
+      "description": "Provides sports data, especially football (soccer) league information.",
+      "category": "sports-fitness",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_openligadb_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "**Roanuz Cricket API**",
+      "url": "https://www.cricketapi.com/v5/docs/",
+      "description": "Provides cricket-related data, including scores and player information.",
+      "category": "sports-fitness",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_roanuz_cricket_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**TheSportsDB**",
+      "url": "http://www.thesportsdb.com/",
+      "description": "Various sports events, results, players, teams and high quality artwork.",
+      "category": "sports-fitness",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "sports-fitness"
+      ],
+      "status": "active",
+      "id": "sports_fitness_thesportsdb_2",
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C",
+      "https_inferred": true
+    },
+    {
+      "name": "globalwinescore.com",
+      "url": "https://api.apis.guru/v2/specs/globalwinescore.com/8234aab51481d37a30757d925b7f4221a659427e/openapi.json",
+      "description": "globalwinescore.com - API service at api.apis.guru",
+      "category": "sports-fitness",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "sports-fitness",
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "sports_fitness_globalwinescore_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    }
+  ]
+}

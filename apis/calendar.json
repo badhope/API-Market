@@ -1,0 +1,3579 @@
+{
+  "id": "calendar",
+  "name": "Calendar",
+  "display_name": "Calendar",
+  "api_count": 129,
+  "apis": [
+    {
+      "name": "onsched.com:consumer",
+      "url": "https://api.apis.guru/v2/specs/onsched.com/consumer/v1/openapi.json",
+      "description": "onsched.com:consumer - API service at api.apis.guru",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_onsched_com_consumer",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "onsched.com:setup",
+      "url": "https://api.apis.guru/v2/specs/onsched.com/setup/v1/openapi.json",
+      "description": "onsched.com:setup - API service at api.apis.guru",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_onsched_com_setup",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "hubapi.com:events",
+      "url": "https://api.apis.guru/v2/specs/hubapi.com/events/v3/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_hubapi_com_events",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "worldtimeapi.org",
+      "url": "https://api.apis.guru/v2/specs/worldtimeapi.org/20210108/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_worldtimeapi_org",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Today in History**",
+      "url": "https://history.muffinlabs.com/",
+      "description": "Daily historical events, births and deaths API.",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_today_in_history",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Google Calendar API**",
+      "url": "https://developers.google.com/google-apps/calendar/?hl=en",
+      "description": "Lets you manipulate events and other calendar data. _v3_",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_google_calendar_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**SearchApi**",
+      "url": "https://www.searchapi.io/",
+      "description": "Real-time API for scraping structured data from search engines.",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_searchapi",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "F1 API",
+      "url": "https://dev.publicapis.dev/resource/f1-api/ffb22b27-4682-490d-9f67-e75a4f4628d4",
+      "description": "Open F1 API with realtime data",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_f1_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "Timezones Dictionary API",
+      "url": "https://dev.publicapis.dev/resource/timezones-dictionary-api/5d4e9578-8360-4dde-bafd-e9f0d3c3f017",
+      "description": "This API returns a list of all available timezones for your application",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_timezones_dictionary_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "World Time API",
+      "url": "https://www.freepublicapis.com/world-time-api",
+      "description": "Simple JSON/plain-text API to obtain the current time in a timezone",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "freepublicapis.com",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_world_time_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Ticketmaster API",
+      "url": "https://developer.ticketmaster.com/",
+      "description": "Event discovery from the source",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "mergesociety.com",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_ticketmaster_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Icanhazepoch",
+      "url": "https://icanhazepoch.com",
+      "description": "Get Epoch time",
+      "category": "calendar",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_icanhazepoch",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "serpstack",
+      "url": "https://serpstack.com/",
+      "description": "Real-Time & Accurate Google Search Results API",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_serpstack",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Olostep",
+      "url": "https://www.olostep.com",
+      "description": "AI-native web search, scraping, and crawling API that delivers clean, structured, real-time web data. Used by top AI companies",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_olostep",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SearchApi",
+      "url": "https://www.searchapi.io/",
+      "description": "Real-Time Google SERP API",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "calendar",
+        "development"
+      ],
+      "status": "active",
+      "id": "calendar_searchapi_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CPFHub",
+      "url": "https://cpfhub.io",
+      "description": "Brazilian CPF lookup — returns full name, birth date, and gender for any CPF",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "government"
+      ],
+      "status": "active",
+      "id": "calendar_cpfhub",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Gun Policy",
+      "url": "https://www.gunpolicy.org/api",
+      "description": "International firearm injury prevention and policy",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "government"
+      ],
+      "status": "active",
+      "id": "calendar_gun_policy",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "OpenRegistry",
+      "url": "https://openregistry.sophymarine.com",
+      "description": "Real-time queries to 27 national company registries (UK, FR, DE, IT, ES, KR + 21 more)",
+      "category": "calendar",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "government"
+      ],
+      "status": "active",
+      "id": "calendar_openregistry",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ISO 3166 Updates API",
+      "url": "https://iso3166-updates.vercel.app/api",
+      "description": "Access all of the current and historical ISO 3166 changes data",
+      "category": "calendar",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "calendar",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "calendar_iso_3166_updates_api",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Timezones Dictionary API",
+      "url": "https://apyhub.com/utility/data-lists-timezone",
+      "description": "This API returns a list of all available timezones for your application",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "calendar",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "calendar_timezones_dictionary_api_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "RentCast",
+      "url": "https://developers.rentcast.io",
+      "description": "Retrieve real-time property and rental data for real estate in the United States",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "calendar",
+        "finance"
+      ],
+      "status": "active",
+      "id": "calendar_rentcast",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "wmata.com:bus-realtime",
+      "url": "https://api.apis.guru/v2/specs/wmata.com/bus-realtime/1.0/swagger.json",
+      "description": "wmata.com:bus-realtime - API service at api.apis.guru",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "calendar_wmata_com_bus_realtime",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "ADS-B Exchange",
+      "url": "https://www.adsbexchange.com/data/",
+      "description": "Access real-time and historical data of any and all airborne aircraft",
+      "category": "calendar",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "calendar_ads_b_exchange",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BC Ferries",
+      "url": "https://www.bcferriesapi.ca",
+      "description": "Sailing times and capacities for BC Ferries",
+      "category": "calendar",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "calendar_bc_ferries",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CTS",
+      "url": "https://api.cts-strasbourg.eu/",
+      "description": "CTS Realtime API",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "calendar_cts",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**ADS-B Exchange**",
+      "url": "https://www.adsbexchange.com/data/",
+      "description": "Access real-time and historical data of any and all airborne aircraft.",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "calendar",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "calendar_ads_b_exchange_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Time Door",
+      "url": "https://timedoor.io",
+      "description": "A time series analysis API",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "calendar_time_door",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Meetup.com",
+      "url": "https://www.meetup.com/api/guide",
+      "description": "Data about Meetups from Meetup.com",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "social"
+      ],
+      "status": "active",
+      "id": "calendar_meetup_com",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**EventBrite**",
+      "url": "https://github.com/eventbrite/eventbrite-sdk-python",
+      "description": "The Eventbrite Python SDK makes it trivial to interact with the Eventbrite API.",
+      "category": "calendar",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "calendar",
+        "social"
+      ],
+      "status": "active",
+      "id": "calendar_eventbrite",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "auth_inferred": true
+    },
+    {
+      "name": "Buffer",
+      "url": "https://buffer.com/developers/api",
+      "description": "Access to pending and sent updates in Buffer",
+      "category": "calendar",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "calendar",
+        "social"
+      ],
+      "status": "active",
+      "id": "calendar_buffer",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Meetup",
+      "url": "https://www.meetup.com/api/guide",
+      "description": "Data about Meetups from Meetup.com",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "calendar",
+        "social"
+      ],
+      "status": "active",
+      "id": "calendar_meetup",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PusherKit",
+      "url": "https://pusher.com",
+      "description": "<details><summary>Real-time messaging and live updates for web and mobile applications</summary>Add real-time chat, live notifications, activity feeds, and collaborative features to your apps. Great f",
+      "category": "calendar",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "calendar",
+        "news"
+      ],
+      "status": "active",
+      "id": "calendar_pusherkit",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "New York Times",
+      "url": "https://developer.nytimes.com/",
+      "description": "The New York Times Developer Network",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "news"
+      ],
+      "status": "active",
+      "id": "calendar_new_york_times",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "NASA EONET API",
+      "url": "https://eonet.gsfc.nasa.gov/docs/v3",
+      "description": "<details><summary>Earth Observatory Natural Event Tracker</summary>Real-time global natural events like wildfires, storms, and volcanic activity curated by NASA.</details>",
+      "category": "calendar",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "calendar",
+        "music"
+      ],
+      "status": "active",
+      "id": "calendar_nasa_eonet_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Hockey Highlights",
+      "url": "https://highlightly.net/documentation/hockey/",
+      "description": "Real time hockey highlights",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "calendar",
+        "health"
+      ],
+      "status": "active",
+      "id": "calendar_hockey_highlights",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ticketmaster.com:publish",
+      "url": "https://api.apis.guru/v2/specs/ticketmaster.com/publish/v2/openapi.json",
+      "description": "ticketmaster.com:publish - API service at api.apis.guru",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar",
+        "books"
+      ],
+      "status": "active",
+      "id": "calendar_ticketmaster_com_publish",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "AI Meeting Minutes Suite",
+      "url": "https://rapidapi.com/vintarok-vintarok-default/api/ai-meeting-minutes-suite-summaries-templates-redaction",
+      "description": "Generate summaries, templates, and redact sensitive data from meeting notes",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "calendar",
+        "documents"
+      ],
+      "status": "active",
+      "id": "calendar_ai_meeting_minutes_suite",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Google Meet (via Calendar API)",
+      "url": "https://console.cloud.google.com/",
+      "description": "<details><summary>Create Meet links by scheduling calendar events</summary>Use the Google Calendar API to schedule events with embedded Google Meet links. Requires OAuth token and calendar scope.</det",
+      "category": "calendar",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "calendar",
+        "email"
+      ],
+      "status": "active",
+      "id": "calendar_google_meet_via_calendar_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Urban Observatory",
+      "url": "https://urbanobservatory.ac.uk",
+      "description": "The largest set of publicly available real time urban data in the UK",
+      "category": "calendar",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "calendar_urban_observatory",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Woopra**",
+      "url": "https://www.woopra.com/docs/developer/analytics-api/",
+      "description": "Real-time website analysis tool that targets customer engagement.",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "calendar",
+        "analytics"
+      ],
+      "status": "active",
+      "id": "calendar_woopra",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "azure.com:scheduler",
+      "url": "https://api.apis.guru/v2/specs/azure.com/scheduler/2016-03-01/swagger.json",
+      "description": "azure.com:scheduler - API service at api.apis.guru",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_azure_com_scheduler",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "canada-holidays.ca",
+      "url": "https://api.apis.guru/v2/specs/canada-holidays.ca/1.8.0/openapi.json",
+      "description": "canada-holidays.ca - API service at api.apis.guru",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_canada_holidays_ca",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "citrixonline.com:gotomeeting",
+      "url": "https://api.apis.guru/v2/specs/citrixonline.com/gotomeeting/1.0.0/swagger.json",
+      "description": "<br>The GoToMeeting API provides seamless integration of GoToMeeting provisioning and meeting management into your existing infrastructure or third party applications.<br><br>For customers, the abilit",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_citrixonline_com_gotomeeting",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "import.io:schedule",
+      "url": "https://api.apis.guru/v2/specs/import.io/schedule/1.0/swagger.json",
+      "description": "import.io:schedule - API service at api.apis.guru",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_import_io_schedule",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "interzoid.com:getglobaltime",
+      "url": "https://api.apis.guru/v2/specs/interzoid.com/getglobaltime/1.0.0/openapi.json",
+      "description": "interzoid.com:getglobaltime - API service at api.apis.guru",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_interzoid_com_getglobaltime",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "wmata.com:rail-realtime",
+      "url": "https://api.apis.guru/v2/specs/wmata.com/rail-realtime/1.0/swagger.json",
+      "description": "wmata.com:rail-realtime - API service at api.apis.guru",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_wmata_com_rail_realtime",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**ProxyCrawl**",
+      "url": "https://proxycrawl.com",
+      "description": "Crawl and scrape websites without the need for proxies, infrastructure or browsers. We solve captchas for you and prevent you being blocked while speeding up your development.",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_proxycrawl",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Icanhazepoch**",
+      "url": "https://icanhazepoch.com",
+      "description": "Get Epoch time.",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_icanhazepoch_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "PredictHQ",
+      "url": "https://docs.predicthq.com/",
+      "description": "Events and natural disasters data",
+      "category": "calendar",
+      "auth": "oAuth",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_predicthq",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Calendarific",
+      "url": "https://calendarific.com/",
+      "description": "Worldwide Holidays",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_calendarific",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Church Calendar",
+      "url": "http://calapi.inadiutorium.cz/",
+      "description": "Catholic liturgical calendar",
+      "category": "calendar",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_church_calendar",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Czech Namedays Calendar",
+      "url": "https://svatky.adresa.info",
+      "description": "Lookup for a name and returns nameday date",
+      "category": "calendar",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_czech_namedays_calendar",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Festivo Public Holidays",
+      "url": "https://docs.getfestivo.com/docs/products/public-holidays-api/intro",
+      "description": "Fastest and most advanced public holiday and observance service on the market",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_festivo_public_holidays",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Google Calendar",
+      "url": "https://developers.google.com/google-apps/calendar/",
+      "description": "Display, create and modify Google calendar events",
+      "category": "calendar",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "other"
+      ],
+      "status": "active",
+      "id": "calendar_google_calendar",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Hebrew Calendar",
+      "url": "https://www.hebcal.com/home/developer-apis",
+      "description": "Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc",
+      "category": "calendar",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_hebrew_calendar",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Holidays",
+      "url": "https://holidayapi.com/",
+      "description": "Historical data regarding holidays",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "other"
+      ],
+      "status": "active",
+      "id": "calendar_holidays",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "LectServe",
+      "url": "http://www.lectserve.com",
+      "description": "Protestant liturgical calendar",
+      "category": "calendar",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_lectserve",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Nager.Date",
+      "url": "https://date.nager.at",
+      "description": "Public holidays for more than 90 countries",
+      "category": "calendar",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "other"
+      ],
+      "status": "active",
+      "id": "calendar_nager_date",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Namedays Calendar",
+      "url": "https://nameday.abalin.net",
+      "description": "Provides namedays for multiple countries",
+      "category": "calendar",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_namedays_calendar",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Non-Working Days",
+      "url": "https://github.com/gadael/icsdb",
+      "description": "Database of ICS files for non working days",
+      "category": "calendar",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_non_working_days",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Public Holidays",
+      "url": "https://www.abstractapi.com/holidays-api",
+      "description": "Data on national, regional, and religious holidays via API",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_public_holidays",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Russian Calendar",
+      "url": "https://github.com/egno/work-calendar",
+      "description": "Check if a date is a Russian holiday or not",
+      "category": "calendar",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_russian_calendar",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "UK Bank Holidays",
+      "url": "https://www.gov.uk/bank-holidays.json",
+      "description": "Bank holidays in England and Wales, Scotland and Northern Ireland",
+      "category": "calendar",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_uk_bank_holidays",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Google Calendar",
+      "url": "https://developers.google.com/calendar",
+      "description": "<details><summary>Calendar management and event scheduling</summary>Integrate calendar functionality, create events, manage schedules, and build scheduling applications.</details>",
+      "category": "calendar",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_google_calendar_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Calendarific",
+      "url": "https://calendarific.com/api-documentation",
+      "description": "<details><summary>Public holidays and observances for 230+ countries</summary>Get holiday information and observances to enhance calendar applications and scheduling systems.</details>",
+      "category": "calendar",
+      "auth": "API Key",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_calendarific_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Ticketmaster API",
+      "url": "https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/",
+      "description": "<details><summary>Search for concerts, sports, and entertainment events</summary>Filter by keyword, genre, location, and date. Great for entertainment and booking apps.</details>",
+      "category": "calendar",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_ticketmaster_api_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Date.nager.Date API",
+      "url": "https://date.nager.at/swagger/index.html",
+      "description": "<details><summary>Worldwide public holiday API</summary>Free and open-source API to retrieve official holidays by country and year. Lightweight and easy to integrate.</details>",
+      "category": "calendar",
+      "auth": "None",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_date_nager_date_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Abstract Public Holidays",
+      "url": "https://www.abstractapi.com/holidays-api",
+      "description": "Data on national, regional, and religious holidays via API",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "toddmotto/public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_abstract_public_holidays",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**CalendarIndex**",
+      "url": "https://www.calendarindex.com",
+      "description": "Worldwide Holidays and Working Days API.",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_calendarindex",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**DigiDates API**",
+      "url": "https://digidates.de/en/",
+      "description": "Rest API for date and time calculations.",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_digidates_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Holiday API**",
+      "url": "https://holidayapi.pl/",
+      "description": "Public holiday API service for several supported countries.",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_holiday_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "Abstract's Holiday API",
+      "url": "https://www.abstractapi.com/holidays-api",
+      "description": "National, regional, and religious holidays for 120+ countries & 100+ years",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "calendar",
+        "other"
+      ],
+      "status": "active",
+      "id": "calendar_abstract_s_holiday_api",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Calendar Index",
+      "url": "https://www.calendarindex.com/",
+      "description": "Worldwide Holidays and Working Days",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "calendar",
+        "other"
+      ],
+      "status": "active",
+      "id": "calendar_calendar_index",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Czech Namedays Calendar",
+      "url": "http://svatky.adresa.info/",
+      "description": "Lookup for a name and returns nameday date",
+      "category": "calendar",
+      "auth": "No",
+      "https": "No",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_czech_namedays_calendar_2",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Non-Working Days ICS",
+      "url": "https://github.com/gadael/icsdb",
+      "description": "Database of ICS files for non working days",
+      "category": "calendar",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_non_working_days_ics",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "TimeZones iCal Library",
+      "url": "https://tz.add-to-calendar-technology.com/",
+      "description": "Database of official time zones and corresponding iCal VTIMEZONE blocks",
+      "category": "calendar",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_timezones_ical_library",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "DigiDates",
+      "url": "https://digidates.de/en/",
+      "description": "Various date and time calculations",
+      "category": "calendar",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_digidates",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Generate iCAL",
+      "url": "https://apyhub.com/utility/generator-ical",
+      "description": "Generates iCal calendar events that can be used across calendar applications",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_generate_ical",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Times Adder",
+      "url": "https://github.com/FranP-code/API-Times-Adder",
+      "description": "With this API you can add each of the times introduced in the array sended",
+      "category": "calendar",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "science-math",
+        "ci"
+      ],
+      "status": "active",
+      "id": "calendar_times_adder",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Let's Count",
+      "url": "https://letscountapi.com",
+      "description": "Create, retrieve, update, increment, and decrement counters",
+      "category": "calendar",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "calendar",
+        "tracking"
+      ],
+      "status": "active",
+      "id": "calendar_let_s_count",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Walltime",
+      "url": "https://walltime.info/api.html",
+      "description": "To retrieve Walltime's market info",
+      "category": "calendar",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "calendar_walltime",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ticketmaster.com:commerce",
+      "url": "https://api.apis.guru/v2/specs/ticketmaster.com/commerce/v2/swagger.json",
+      "description": "ticketmaster.com:commerce - API service at api.apis.guru",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar",
+        "events"
+      ],
+      "status": "active",
+      "id": "calendar_ticketmaster_com_commerce",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "ticketmaster.com:discovery",
+      "url": "https://api.apis.guru/v2/specs/ticketmaster.com/discovery/v2/openapi.json",
+      "description": "ticketmaster.com:discovery - API service at api.apis.guru",
+      "category": "calendar",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "calendar",
+        "events"
+      ],
+      "status": "active",
+      "id": "calendar_ticketmaster_com_discovery",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Eventbrite",
+      "url": "https://www.eventbrite.com/platform/api/",
+      "description": "Find events",
+      "category": "calendar",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "events",
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_eventbrite_2",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SeatGeek",
+      "url": "https://platform.seatgeek.com/",
+      "description": "Search events, venues and performers",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "events"
+      ],
+      "status": "active",
+      "id": "calendar_seatgeek",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Ticketmaster",
+      "url": "http://developer.ticketmaster.com/products-and-docs/apis/getting-started/",
+      "description": "Search events, attractions, or venues",
+      "category": "calendar",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "calendar",
+        "events"
+      ],
+      "status": "active",
+      "id": "calendar_ticketmaster",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Eventbrite",
+      "url": "https://www.eventbrite.com/developer/v3/",
+      "description": "Find events",
+      "category": "calendar",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "calendar",
+        "events"
+      ],
+      "status": "active",
+      "id": "calendar_eventbrite_3",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "World Time API",
+      "url": "http://worldtimeapi.org/",
+      "description": "Current time for timezone",
+      "category": "calendar",
+      "auth": null,
+      "https": false,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_world_time_api_2",
+      "quality": {
+        "score": 50,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 0
+        }
+      },
+      "quality_score": 50,
+      "quality_grade": "D"
+    },
+    {
+      "name": "TimeZoneDB",
+      "url": "https://timezonedb.com/api",
+      "description": "Time zone database",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_timezonedb",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "TimeAPI",
+      "url": "https://www.timeapi.io/",
+      "description": "Time zone and date conversion",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_timeapi",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "USGS Earthquake Feed",
+      "url": "https://earthquake.usgs.gov/earthquakes/feed/",
+      "description": "Real-time global earthquake data (GeoJSON, updated every minute)",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_usgs_earthquake_feed",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Time and Date Astronomy",
+      "url": "https://dev.timeanddate.com/astro/",
+      "description": "Sunrise/sunset, moon phases, astronomical positions",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_time_and_date_astronomy",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Calendly API",
+      "url": "https://developer.calendly.com/",
+      "description": "Scheduling — booking creation, availability, multi-calendar",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_calendly_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Cronofy API",
+      "url": "https://docs.cronofy.com/",
+      "description": "Unified calendar — Google/MS/Apple sync — 99.99% uptime",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_cronofy_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Timekit",
+      "url": "https://www.timekit.io/",
+      "description": "Headless booking — embeddable widgets, webhooks",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_timekit",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "DaySchedule API",
+      "url": "https://dayschedule.com/",
+      "description": "1:1, round-robin, group booking — auto timezone",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_dayschedule_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SuperSaaS API",
+      "url": "https://www.supersaas.com/",
+      "description": "Appointments, calendars, users, payments, notifications",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_supersaas_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Bookeo API",
+      "url": "https://www.bookeo.com/",
+      "description": "Online scheduling — bookings, customers, availability, payments",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_bookeo_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Rollbar API",
+      "url": "https://docs.rollbar.com/",
+      "description": "Real-time errors — RQL query language, 25K free events/month",
+      "category": "calendar",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_rollbar_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Forter API",
+      "url": "https://docs.forter.com/",
+      "description": "Real-time fraud decisioning for ecommerce transactions and account events",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_forter_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Acuity Scheduling",
+      "url": "https://developers.acuityscheduling.com/",
+      "description": "Book, cancel, and reschedule appointments with powerful scheduling rules",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_acuity_scheduling",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Square Bookings",
+      "url": "https://developer.squareup.com/reference/square/bookings-api",
+      "description": "Create, retrieve, update, and cancel service appointments for Square sellers",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_square_bookings",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SuperSaaS",
+      "url": "https://www.supersaas.com/info/dev/appointment_api",
+      "description": "CRUD operations on appointments with availability and agenda endpoints",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_supersaas",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "DaySchedule",
+      "url": "https://dayschedule.com/docs/api",
+      "description": "Scheduling API for 1:1, round-robin, and group bookings",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_dayschedule",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MakePlans",
+      "url": "https://makeplans.com/en/api/",
+      "description": "Online booking for appointments and events with REST endpoints",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_makeplans",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Microsoft Graph Calendar",
+      "url": "https://learn.microsoft.com/en-us/graph/outlook-calendar-concept-overview",
+      "description": "Manage Outlook calendars, events, meeting times, and attendees",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_microsoft_graph_calendar",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Luma API",
+      "url": "https://docs.luma.com/reference/getting-started-with-your-api",
+      "description": "Event creation, calendar management, and guest list endpoints",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_luma_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Luma",
+      "url": "https://docs.luma.com/reference/getting-started-with-your-api",
+      "description": "Programmatic event and calendar management with registration handling",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_luma",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Loc8",
+      "url": "https://loc8.com/",
+      "description": "Asset and maintenance management with work orders and preventive schedules",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_loc8",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Campflare",
+      "url": "https://www.campflare.com/",
+      "description": "Campground availability monitoring and booking data for national parks",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_campflare",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "IONITY",
+      "url": "https://ionity.eu/",
+      "description": "European high-power charging network with real-time station availability",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_ionity",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Booksy",
+      "url": "https://www.booksy.com/",
+      "description": "Beauty service marketplace with appointment booking and business management",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_booksy",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Treatwell",
+      "url": "https://www.treatwell.co.uk/",
+      "description": "European beauty booking marketplace with salon discovery and appointment APIs",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_treatwell",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CityBikes API",
+      "url": "https://docs.citybik.es/api/",
+      "description": "Open API for 700+ bike-sharing networks worldwide with real-time availability",
+      "category": "calendar",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_citybikes_api",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Elvanto API",
+      "url": "https://www.elvanto.com/api/",
+      "description": "Church management for people, groups, services, songs, and calendar events",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_elvanto_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "AlAdhan Prayer Times API",
+      "url": "https://aladhan.com/prayer-times-api",
+      "description": "Free Islamic prayer times with Hijri calendar and timezone calculations",
+      "category": "calendar",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_aladhan_prayer_times_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Oddin.gg Esports Data",
+      "url": "https://oddin.gg/official-esports-data",
+      "description": "Licensed official esports data with real-time match events",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_oddin_gg_esports_data",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Ambee Natural Disasters API",
+      "url": "https://docs.ambeedata.com/apis/natural-disasters",
+      "description": "Real-time disaster data across 150+ countries for multiple event types",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_ambee_natural_disasters_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "UK Environment Agency Flood API",
+      "url": "https://environment.data.gov.uk/flood-monitoring/doc/reference",
+      "description": "Real-time flood monitoring with water levels updated every 15 minutes (UK)",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_uk_environment_agency_flood_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MYLAPS Timing API",
+      "url": "https://mylaps.com/motorsports/sports/karting/",
+      "description": "Professional timing system for karting with lap times, sector splits, and event management",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_mylaps_timing_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "RaceFacer API",
+      "url": "https://www.racefacer.com/en",
+      "description": "Go-kart timing software with social network, lap times, results, and online booking system",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_racefacer_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "GolfNow API",
+      "url": "https://api.gnsvc.com/",
+      "description": "Reservation and booking service for searching and booking tee times at affiliated golf courses",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_golfnow_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "TeeTime Central API",
+      "url": "https://teetimecentral.com/tee-time-gateway-api/",
+      "description": "Complete golf booking engine with real-time API access to 40+ tee sheet systems",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_teetime_central_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Square Bookings API",
+      "url": "https://developer.squareup.com/reference/square/bookings-api",
+      "description": "Appointment scheduling API for service businesses with calendar, staff, and payment integration",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_square_bookings_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Acuity Scheduling API",
+      "url": "https://acuityscheduling.com/",
+      "description": "Appointment booking software for beauty and salon with full customization and self-booking",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_acuity_scheduling_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Vagaro API",
+      "url": "https://www.vagaro.com/",
+      "description": "Salon software for booking appointments, sending reminders, accepting payments, and marketing",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_vagaro_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SeatGeek API",
+      "url": "https://publicapi.dev/seat-geek-api",
+      "description": "Find events and festivals where mobile food vendors can set up, with location and schedule data",
+      "category": "calendar",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_seatgeek_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Blacklane API",
+      "url": "https://www.blacklane.com/en/business-integrations/",
+      "description": "Global chauffeur service API with GDS integration; real-time pricing and booking in 50+ countries",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_blacklane_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "DVAuction",
+      "url": "https://www.dvauction.com/",
+      "description": "Premier real-time broadcast platform for cattle and livestock auctions with live and timed event data",
+      "category": "calendar",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "calendar"
+      ],
+      "status": "active",
+      "id": "calendar_dvauction",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    }
+  ]
+}

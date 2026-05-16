@@ -1,0 +1,941 @@
+{
+  "id": "test-data",
+  "name": "Test Data",
+  "display_name": "Test Data",
+  "api_count": 35,
+  "apis": [
+    {
+      "name": "Mockae",
+      "url": "https://dev.publicapis.dev/resource/mockae/df59f89b-44b6-468d-99e3-ed4fbc86a371",
+      "description": "Fake REST API powered by Lua",
+      "category": "test-data",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "test-data",
+        "development"
+      ],
+      "status": "active",
+      "id": "test_data_mockae",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Httpbin",
+      "url": "https://httpbin.org/",
+      "description": "A Simple HTTP Request & Response Service",
+      "category": "test-data",
+      "auth": "None",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "test-data",
+        "development",
+        "ci"
+      ],
+      "status": "active",
+      "id": "test_data_httpbin",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "Kikobeats/awesome-api"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "JSONPlaceholder",
+      "url": "https://jsonplaceholder.typicode.com",
+      "description": "Fake REST API for testing and prototyping",
+      "category": "test-data",
+      "auth": "None",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "test-data",
+        "development",
+        "ci"
+      ],
+      "status": "active",
+      "id": "test_data_jsonplaceholder",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "public-apis/public-apis",
+        "github.com/AkashYadav8080/awesome-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Corporate BS Generator",
+      "url": "https://corporatebs-generator.sameerkumar.website/",
+      "description": "<details><summary>Get fake corporate jargon and startup phrases</summary>Fun API that outputs corporate-style buzzwords — great for text placeholders and demos.</details>",
+      "category": "test-data",
+      "auth": "None",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_corporate_bs_generator",
+      "https_inferred": true,
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "**Faker API**",
+      "url": "https://fakerapi.it",
+      "description": "Collection of completely free APIs that helps web developers and web designers with generating fake data.",
+      "category": "test-data",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_faker_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "JSONing",
+      "url": "https://jsoning.com/api/",
+      "description": "Mock data for prototyping",
+      "category": "test-data",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_jsoning",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Mockae",
+      "url": "https://mockae.com/",
+      "description": "Fake REST API powered by Lua",
+      "category": "test-data",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_mockae_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Softwium",
+      "url": "https://softwium.com/fake-api/",
+      "description": "Test data for testing and prototyping",
+      "category": "test-data",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_softwium",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Faker",
+      "url": "https://fakerjs.dev/",
+      "description": "Generate massive amounts of fake (but realistic) data for testing and development.",
+      "category": "test-data",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_faker",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "wiremock.org:admin",
+      "url": "https://api.apis.guru/v2/specs/wiremock.org/admin/2.35.0/openapi.json",
+      "description": "wiremock.org:admin - API service at api.apis.guru",
+      "category": "test-data",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "test-data"
+      ],
+      "status": "active",
+      "id": "test_data_wiremock_org_admin",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Bacon Ipsum",
+      "url": "https://baconipsum.com/json-api/",
+      "description": "A Meatier Lorem Ipsum Generator",
+      "category": "test-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_bacon_ipsum",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "FakerAPI",
+      "url": "https://fakerapi.it/en",
+      "description": "APIs collection to get fake data",
+      "category": "test-data",
+      "auth": "None",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_fakerapi",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "JSONPlaceholder",
+      "url": "http://jsonplaceholder.typicode.com/",
+      "description": "Fake data for testing and prototyping",
+      "category": "test-data",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_jsonplaceholder_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Loripsum",
+      "url": "http://loripsum.net/",
+      "description": "The \"lorem ipsum\" generator that doesn't suck",
+      "category": "test-data",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_loripsum",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Mockaroo",
+      "url": "https://www.mockaroo.com/docs",
+      "description": "Generate fake data to JSON, CSV, TXT, SQL and XML",
+      "category": "test-data",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_mockaroo",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "QuickMocker",
+      "url": "https://quickmocker.com",
+      "description": "API mocking tool to generate contextual, fake or random data",
+      "category": "test-data",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_quickmocker",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Random Data",
+      "url": "https://random-data-api.com",
+      "description": "Random data generator",
+      "category": "test-data",
+      "auth": "None",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_random_data",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Randommer",
+      "url": "https://randommer.io/randommer-api",
+      "description": "Random data generator",
+      "category": "test-data",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "test_data_randommer",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "JSON Placeholder",
+      "url": "http://jsonplaceholder.typicode.com/",
+      "description": "Free online REST service that you can use whenever you need some fake data.",
+      "category": "test-data",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "Kikobeats/awesome-api",
+      "tags": [
+        "test-data"
+      ],
+      "status": "active",
+      "id": "test_data_json_placeholder",
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B",
+      "https_inferred": true,
+      "cors_inferred": true
+    },
+    {
+      "name": "Mocky.io",
+      "url": "http://www.mocky.io/",
+      "description": "Free online service to create fake HTTP responses.",
+      "category": "test-data",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "Kikobeats/awesome-api",
+      "tags": [
+        "test-data"
+      ],
+      "status": "active",
+      "id": "test_data_mocky_io",
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B",
+      "https_inferred": true,
+      "cors_inferred": true
+    },
+    {
+      "name": "**Httpbin**",
+      "url": "https://httpbin.org/",
+      "description": "A Simple HTTP Request & Response Service.",
+      "category": "test-data",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "test-data",
+        "telecom"
+      ],
+      "status": "active",
+      "id": "test_data_httpbin_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Mock",
+      "url": "https://mocki.io/docs",
+      "description": "Mock user and to do data",
+      "source": "APIs-guru/graphql-apis",
+      "status": "active",
+      "auth": "[Try it!](https://mocki.io/graphql)",
+      "https": "[Docs](https://mocki.io/docs)",
+      "cors": "",
+      "category": "test-data",
+      "tags": [
+        "test-data"
+      ],
+      "quality_score": 91,
+      "quality_grade": "A",
+      "quality": {
+        "score": 91,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "test_data_mock"
+    },
+    {
+      "name": "sample-gtfs-feed",
+      "url": "https://github.com/public-transport/sample-gtfs-feed",
+      "description": "An imaginary GTFS data set used for testing.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "test-data",
+      "tags": [
+        "test-data"
+      ],
+      "auth": "OAuth",
+      "quality_score": 91,
+      "quality_grade": "A",
+      "quality": {
+        "score": 91,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "test_data_sample_gtfs_feed"
+    },
+    {
+      "name": "ReqRes",
+      "url": "https://reqres.in/",
+      "description": "Mock API for testing frontend apps",
+      "source": "ngongcm/public-api-list",
+      "status": "active",
+      "auth": "None",
+      "https": "✅",
+      "cors": "",
+      "category": "test-data",
+      "tags": [
+        "test-data"
+      ],
+      "quality_score": 88,
+      "quality_grade": "A",
+      "quality": {
+        "score": 88,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "test_data_reqres"
+    },
+    {
+      "name": "Mockae",
+      "url": "https://dev.publicapis.dev/resource/mockae/df59f89b-44b6-46d8-99e3-ed4fbc86a371",
+      "description": "Fake REST API powered by Lua",
+      "source": "dev.publicapis.dev",
+      "status": "active",
+      "category": "test-data",
+      "tags": [
+        "test-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 67,
+      "quality_grade": "C",
+      "quality": {
+        "score": 67,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "test_data_mockae_3"
+    },
+    {
+      "name": "Dummyapi.Io",
+      "url": "https://tools-collection.net/apis-list/dummyapi-io",
+      "description": "Simple API that includes a common data for most of the applications",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "test-data",
+      "tags": [
+        "test-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "test_data_dummyapi_io"
+    },
+    {
+      "name": "FakeJSON",
+      "url": "https://tools-collection.net/apis-list/fakejson",
+      "description": "Easily create custom HTTP resources complete with fake data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "test-data",
+      "tags": [
+        "test-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 79,
+      "quality_grade": "B",
+      "quality": {
+        "score": 79,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "test_data_fakejson"
+    },
+    {
+      "name": "JSONPlaceholder",
+      "url": "https://tools-collection.net/apis-list/jsonplaceholder",
+      "description": "Free online REST API that you can use whenever you need some fake data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "test-data",
+      "tags": [
+        "test-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "test_data_jsonplaceholder_3"
+    },
+    {
+      "name": "Faker API",
+      "url": "https://tools-collection.net/apis-list/faker-api",
+      "description": "Generate fake data and get by REST API requests",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "test-data",
+      "tags": [
+        "test-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 76,
+      "quality_grade": "B",
+      "quality": {
+        "score": 76,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "test_data_faker_api_2"
+    },
+    {
+      "name": "Fhir",
+      "url": "https://tools-collection.net/apis-list/fhir",
+      "description": "Fast Healthcare Interoperability Resources test data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "test-data",
+      "tags": [
+        "test-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 78,
+      "quality_grade": "B",
+      "quality": {
+        "score": 78,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "test_data_fhir"
+    },
+    {
+      "name": "JSON Placeholder",
+      "url": "https://jsonplaceholder.typicode.com/",
+      "description": "Fake REST API abput posts, users and comments",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "test-data",
+      "tags": [
+        "test-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "test_data_json_placeholder_2"
+    },
+    {
+      "name": "langsmith-fetch/",
+      "url": "https://./langsmith-fetch/",
+      "description": "Pull LangSmith project/test data for analysis.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "test-data",
+      "tags": [
+        "test-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "test_data_langsmith_fetch"
+    },
+    {
+      "name": "Faker.js",
+      "url": "https://fakerjs.dev/api/",
+      "description": "Generate massive amounts of realistic fake data (names, addresses, finance)",
+      "category": "test-data",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "test-data"
+      ],
+      "status": "active",
+      "id": "test-data_faker_js",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Chance.js",
+      "url": "https://chancejs.com/",
+      "description": "JavaScript random data generator for strings, names, addresses, dice, etc.",
+      "category": "test-data",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "test-data"
+      ],
+      "status": "active",
+      "id": "test-data_chance_js",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "RandomAPI",
+      "url": "https://randomapi.com/",
+      "description": "Create custom APIs that return random data using user-defined snippets",
+      "category": "test-data",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "test-data"
+      ],
+      "status": "active",
+      "id": "test-data_randomapi",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    }
+  ]
+}

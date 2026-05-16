@@ -1,0 +1,2300 @@
+{
+  "id": "iot",
+  "name": "IoT (Internet of Things)",
+  "display_name": "IoT (Internet of Things)",
+  "api_count": 90,
+  "apis": [
+    {
+      "name": "opto22.com:groov",
+      "url": "https://api.apis.guru/v2/specs/opto22.com/groov/R4.2a/swagger.json",
+      "description": "opto22.com:groov - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_opto22_com_groov",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "opto22.com:pac",
+      "url": "https://api.apis.guru/v2/specs/opto22.com/pac/R1.0a/swagger.json",
+      "description": "opto22.com:pac - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_opto22_com_pac",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-python2package",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-python2package/2018-06-30/swagger.json",
+      "description": "azure.com:automation-python2package - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot",
+        "development"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_python2package",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-webhook",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-webhook/2015-10-31/swagger.json",
+      "description": "azure.com:automation-webhook - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot",
+        "development"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_webhook",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "hubapi.com:automation",
+      "url": "https://api.apis.guru/v2/specs/hubapi.com/automation/v4/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot",
+        "development"
+      ],
+      "status": "active",
+      "id": "iot_hubapi_com_automation",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Blynk-Cloud",
+      "url": "https://blynkapi.docs.apiary.io/#",
+      "description": "Control IoT Devices from Blynk IoT Cloud",
+      "category": "iot",
+      "auth": "`apiKey`",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "iot",
+        "development"
+      ],
+      "status": "active",
+      "id": "iot_blynk_cloud",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BrowserCat",
+      "url": "https://www.browsercat.com/",
+      "description": "Headless browser API for automation, scraping, and more",
+      "category": "iot",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "iot",
+        "development"
+      ],
+      "status": "active",
+      "id": "iot_browsercat",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "fonoApi",
+      "url": "https://fonoapi.freshpixl.com/",
+      "description": "Mobile Device Description",
+      "category": "iot",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "iot",
+        "government"
+      ],
+      "status": "active",
+      "id": "iot_fonoapi",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "amazonaws.com:iot1click-devices",
+      "url": "https://api.apis.guru/v2/specs/amazonaws.com/iot1click-devices/2018-05-14/openapi.json",
+      "description": "amazonaws.com:iot1click-devices - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot",
+        "shopping"
+      ],
+      "status": "active",
+      "id": "iot_amazonaws_com_iot1click_devices",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "amazonaws.com:iotdeviceadvisor",
+      "url": "https://api.apis.guru/v2/specs/amazonaws.com/iotdeviceadvisor/2020-09-18/openapi.json",
+      "description": "amazonaws.com:iotdeviceadvisor - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot",
+        "shopping"
+      ],
+      "status": "active",
+      "id": "iot_amazonaws_com_iotdeviceadvisor",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:security-automations",
+      "url": "https://api.apis.guru/v2/specs/azure.com/security-automations/2019-01-01-preview/swagger.json",
+      "description": "azure.com:security-automations - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot",
+        "finance"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_security_automations",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**BrowserCat**",
+      "url": "https://www.browsercat.com/docs",
+      "description": "Headless browser API for automation, scraping, AI agent web access, image/pdf generation, and more.",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "iot",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "iot_browsercat_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "azure.com:automation-sourceControlSyncJobStreams",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-sourceControlSyncJobStreams/2017-05-15-preview/swagger.json",
+      "description": "azure.com:automation-sourceControlSyncJobStreams - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot",
+        "video"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_sourcecontrolsyncjobstreams",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "firmalyzer.com:iotvas",
+      "url": "https://api.apis.guru/v2/specs/firmalyzer.com/iotvas/1.0/openapi.json",
+      "description": "firmalyzer.com:iotvas - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot",
+        "video"
+      ],
+      "status": "active",
+      "id": "iot_firmalyzer_com_iotvas",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Censys",
+      "url": "https://search.censys.io/api",
+      "description": "Search engine for Internet connected host and devices",
+      "category": "iot",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "iot",
+        "security"
+      ],
+      "status": "active",
+      "id": "iot_censys",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Shodan",
+      "url": "https://developer.shodan.io/",
+      "description": "Search engine for Internet connected devices",
+      "category": "iot",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "iot",
+        "security"
+      ],
+      "status": "active",
+      "id": "iot_shodan",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "adafruit.com",
+      "url": "https://api.apis.guru/v2/specs/adafruit.com/2.0.0/swagger.json",
+      "description": "adafruit.com - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "iot_adafruit_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Gemini Pro (Google AI)",
+      "url": "https://makersuite.google.com/",
+      "description": "<details><summary>Advanced generative AI platform by Google</summary>Use Gemini Flash and Gemini 1.5 Pro for tasks like text generation, scraping automation, summarization, and AI-powered content work",
+      "category": "iot",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "iot",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "iot_gemini_pro_google_ai",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "azure.com:automation-hybridRunbookWorkerGroup",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-hybridRunbookWorkerGroup/2015-10-31/swagger.json",
+      "description": "azure.com:automation-hybridRunbookWorkerGroup - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot",
+        "books"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_hybridrunbookworkergroup",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-runbook",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-runbook/2018-06-30/swagger.json",
+      "description": "azure.com:automation-runbook - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot",
+        "books"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_runbook",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Google Photos",
+      "url": "https://developers.google.com/photos",
+      "description": "Integrate Google Photos with your apps or devices",
+      "category": "iot",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "iot",
+        "photography"
+      ],
+      "status": "active",
+      "id": "iot_google_photos",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "azure.com:automation-account",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-account/2015-10-31/swagger.json",
+      "description": "azure.com:automation-account - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_account",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-certificate",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-certificate/2015-10-31/swagger.json",
+      "description": "azure.com:automation-certificate - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_certificate",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-connection",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-connection/2015-10-31/swagger.json",
+      "description": "azure.com:automation-connection - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_connection",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-connectionType",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-connectionType/2015-10-31/swagger.json",
+      "description": "azure.com:automation-connectionType - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_connectiontype",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-dscCompilationJob",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-dscCompilationJob/2018-01-15/swagger.json",
+      "description": "azure.com:automation-dscCompilationJob - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_dsccompilationjob",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-dscConfiguration",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-dscConfiguration/2015-10-31/swagger.json",
+      "description": "azure.com:automation-dscConfiguration - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_dscconfiguration",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-dscNode",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-dscNode/2018-01-15/swagger.json",
+      "description": "azure.com:automation-dscNode - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_dscnode",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-dscNodeConfiguration",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-dscNodeConfiguration/2018-01-15/swagger.json",
+      "description": "azure.com:automation-dscNodeConfiguration - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_dscnodeconfiguration",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-dscNodeCounts",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-dscNodeCounts/2018-01-15/swagger.json",
+      "description": "azure.com:automation-dscNodeCounts - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_dscnodecounts",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-job",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-job/2017-05-15-preview/swagger.json",
+      "description": "azure.com:automation-job - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_job",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-jobSchedule",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-jobSchedule/2015-10-31/swagger.json",
+      "description": "azure.com:automation-jobSchedule - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_jobschedule",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-linkedWorkspace",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-linkedWorkspace/2015-10-31/swagger.json",
+      "description": "azure.com:automation-linkedWorkspace - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_linkedworkspace",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-module",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-module/2015-10-31/swagger.json",
+      "description": "azure.com:automation-module - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_module",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-schedule",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-schedule/2015-10-31/swagger.json",
+      "description": "azure.com:automation-schedule - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_schedule",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-softwareUpdateConfiguration",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-softwareUpdateConfiguration/2017-05-15-preview/swagger.json",
+      "description": "azure.com:automation-softwareUpdateConfiguration - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_softwareupdateconfiguration",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-softwareUpdateConfigurationMachineRun",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-softwareUpdateConfigurationMachineRun/2017-05-15-preview/swagger.json",
+      "description": "azure.com:automation-softwareUpdateConfigurationMachineRun - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_softwareupdateconfigurationma",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-softwareUpdateConfigurationRun",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-softwareUpdateConfigurationRun/2017-05-15-preview/swagger.json",
+      "description": "azure.com:automation-softwareUpdateConfigurationRun - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_softwareupdateconfigurationru",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-sourceControl",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-sourceControl/2017-05-15-preview/swagger.json",
+      "description": "azure.com:automation-sourceControl - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_sourcecontrol",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-sourceControlSyncJob",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-sourceControlSyncJob/2017-05-15-preview/swagger.json",
+      "description": "azure.com:automation-sourceControlSyncJob - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_sourcecontrolsyncjob",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-variable",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-variable/2015-10-31/swagger.json",
+      "description": "azure.com:automation-variable - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_variable",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:automation-watcher",
+      "url": "https://api.apis.guru/v2/specs/azure.com/automation-watcher/2015-10-31/swagger.json",
+      "description": "azure.com:automation-watcher - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_automation_watcher",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:deviceprovisioningservices-iotdps",
+      "url": "https://api.apis.guru/v2/specs/azure.com/deviceprovisioningservices-iotdps/2018-01-22/swagger.json",
+      "description": "azure.com:deviceprovisioningservices-iotdps - API service at api.apis.guru",
+      "category": "iot",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_com_deviceprovisioningservices_iotdps",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Ably**",
+      "url": "https://www.ably.com/documentation",
+      "description": "API for making cross-protocol real time communication between devices easy.",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_ably",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Particle**",
+      "url": "https://docs.particle.io/reference/api/",
+      "description": "API to manage Particle devices (including their own Arduino-compatible ones and the Raspberry Pi) and control them. Free for up to 25 devices and 250k events/month.",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_particle",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "**PubNub**",
+      "url": "https://www.pubnub.com/docs",
+      "description": "API to make real time applications with a variety of hardware devices including Arduino, RPi, Kinoma, Atmel, Samsung Smart TV WebOS, and more.",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_pubnub",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**SmartThings**",
+      "url": "http://developer.smartthings.com/",
+      "description": "API for Samsung SmartThings Smart Home Hub products (ZigBee, Z-Wave, IP).",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_smartthings",
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C",
+      "https_inferred": true
+    },
+    {
+      "name": "**ThingSpeak**",
+      "url": "https://github.com/iobridge/ThingSpeak",
+      "description": "“Internet of Things” application and API to store and retrieve data from things using HTTP over the Internet or via a Local Area Network.",
+      "category": "iot",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_thingspeak",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A",
+      "auth_inferred": true
+    },
+    {
+      "name": "Wayback Machine API (Memento API, CDX Server API, Wayback Availability JSON API)",
+      "url": "https://archive.org/help/wayback_api.php",
+      "description": "https://archive.org/help/wayback_api.php",
+      "source": "cipher387/API-s-for-OSINT",
+      "status": "active",
+      "auth": "Retrieve information about Wayback capture data",
+      "https": "FREE",
+      "cors": "",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "quality_score": 90,
+      "quality_grade": "A",
+      "quality": {
+        "score": 90,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "iot_wayback_machine_api_memento_api_cdx_server_api_way"
+    },
+    {
+      "name": "Arrivals LED",
+      "url": "https://github.com/jdamcd/arrivals-led",
+      "description": "Python renderer that drives a 128×32 HUB75 LED matrix on a Raspberry Pi to display live transit arrivals.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": "OAuth",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "iot_arrivals_led"
+    },
+    {
+      "name": "Betfair API",
+      "url": "https://docs.developer.betfair.com/",
+      "description": "Betting exchange data & automation",
+      "source": "ngongcm/public-api-list",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "✅",
+      "cors": "",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "quality_score": 93,
+      "quality_grade": "A",
+      "quality": {
+        "score": 93,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "iot_betfair_api"
+    },
+    {
+      "name": "Particle",
+      "url": "https://docs.particle.io/reference/api/",
+      "description": "API to manage Particle devices (including their own Arduino-compatible ones and the Raspberry Pi) and control them. Free for up to 25 devices and 250k events/month.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_particle_2"
+    },
+    {
+      "name": "PubNub",
+      "url": "https://www.pubnub.com/docs",
+      "description": "API to make real time applications with a variety of hardware devices including Arduino, RPi, Kinoma, Atmel, Samsung Smart TV WebOS, and more.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_pubnub_2"
+    },
+    {
+      "name": "SmartThings",
+      "url": "http://developer.smartthings.com/",
+      "description": "API for Samsung SmartThings Smart Home Hub products (ZigBee, Z-Wave, IP).",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": false,
+      "quality_score": 65,
+      "quality_grade": "C",
+      "quality": {
+        "score": 65,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "iot_smartthings_2"
+    },
+    {
+      "name": "ThingSpeak",
+      "url": "https://github.com/iobridge/ThingSpeak",
+      "description": "“Internet of Things” application and API to store and retrieve data from things using HTTP over the Internet or via a Local Area Network.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": "OAuth",
+      "https": true,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "iot_thingspeak_2"
+    },
+    {
+      "name": "Make (Integromat)",
+      "url": "https://tools-collection.net/apis-list/make",
+      "description": "Make&#x27;s API manages scenarios, modules, connections, and executions on the visual automation platform 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_make_integromat"
+    },
+    {
+      "name": "Ontraport",
+      "url": "https://tools-collection.net/apis-list/ontraport",
+      "description": "Marketing automation",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_ontraport"
+    },
+    {
+      "name": "Zapier",
+      "url": "https://tools-collection.net/apis-list/zapier",
+      "description": "Zapier&#x27;s API enables creating and managing Zaps (automated workflows), accessing connected app data, and triggering automations programmatically across 6,000+ integrated apps 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_zapier"
+    },
+    {
+      "name": "Music Machinery",
+      "url": "https://tools-collection.net/apis-list/music-machinery",
+      "description": "Here’s a categorized list of all the Music APIs",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 76,
+      "quality_grade": "B",
+      "quality": {
+        "score": 76,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_music_machinery"
+    },
+    {
+      "name": "fonoApi",
+      "url": "https://tools-collection.net/apis-list/fonoapi",
+      "description": "Mobile Device Description Api",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_fonoapi_2"
+    },
+    {
+      "name": "Philips Hue",
+      "url": "https://tools-collection.net/apis-list/philips-hue",
+      "description": "Philips Hue, smart home lighting",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_philips_hue"
+    },
+    {
+      "name": "Cloud Wallet",
+      "url": "https://tools-collection.net/apis-list/cloud-wallet",
+      "description": "Cloud Wallet enables closed-loop payments between IoT devices and facilitates IoT adoption worldwide",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_cloud_wallet"
+    },
+    {
+      "name": "Particle",
+      "url": "https://tools-collection.net/apis-list/particle",
+      "description": "API to manage Particle devices (including their own Arduino-compatible ones and the Raspberry Pi) and control them",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_particle_3"
+    },
+    {
+      "name": "SmartThings",
+      "url": "https://tools-collection.net/apis-list/smartthings",
+      "description": "An open, programmatic interface for controlling smart devices The SmartThings platform has the largest coverage of competitive IoT devices on the market, including Samsung devices and appliances",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_smartthings_3"
+    },
+    {
+      "name": "ThingSpeak",
+      "url": "https://tools-collection.net/apis-list/thingspeak",
+      "description": "Ppen source “Internet of Things” application and API to store and retrieve data from things using HTTP over the Internet or via a Local Area Network",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_thingspeak_3"
+    },
+    {
+      "name": "inspirehep.net",
+      "url": "https://tools-collection.net/apis-list/inspirehep-net",
+      "description": "INSPIRE API Q: I want to do automated searching and receive machine readable responses",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_inspirehep_net"
+    },
+    {
+      "name": "Wikidata",
+      "url": "https://tools-collection.net/apis-list/wikidata",
+      "description": "Wikidata is a free and open knowledge base that can be read and edited by both humans and machines",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "iot",
+      "tags": [
+        "iot"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "iot_wikidata"
+    },
+    {
+      "name": "Tuya Cloud API",
+      "url": "https://developer.tuya.com/en/docs/cloud/smart_home_paas",
+      "description": "IoT cloud — 400,000+ device types, sensors, lights, appliances",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_tuya_cloud_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Arduino IoT Cloud",
+      "url": "https://docs.arduino.cc/arduino-cloud/api/arduino-iot-api/",
+      "description": "IoT devices, Things, Properties — 400+ hardware models",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_arduino_iot_cloud",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Blynk API",
+      "url": "https://docs.blynk.io/en/",
+      "description": "Low-code IoT — ESP32, Arduino, Raspberry Pi support",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_blynk_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ROOK API",
+      "url": "https://docs.tryrook.io/",
+      "description": "Unified wearable health data from 400+ devices — normalized",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_rook_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "RapidSOS",
+      "url": "https://rapidsos.com/",
+      "description": "Connects apps to 911 PSAPs — device location + sensors",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_rapidsos",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Countly API",
+      "url": "https://support.count.ly/",
+      "description": "Open-source — mobile/web/desktop/IoT, self-hostable",
+      "category": "iot",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_countly_api",
+      "quality": {
+        "score": 74,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 74,
+      "quality_grade": "B"
+    },
+    {
+      "name": "AWS IoT Core API",
+      "url": "https://docs.aws.amazon.com/iot/latest/apireference/Welcome.html",
+      "description": "Secure bi-directional communication between IoT devices and AWS cloud",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_aws_iot_core_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ThingSpeak API",
+      "url": "https://thingspeak.com/docs",
+      "description": "Free open-source IoT analytics platform for sensor data",
+      "category": "iot",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_thingspeak_api",
+      "quality": {
+        "score": 79,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 79,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Adafruit IO API",
+      "url": "https://io.adafruit.com/api/docs/",
+      "description": "Cloud service for storing, sharing, and visualizing IoT sensor data",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_adafruit_io_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Tuya IoT Open API",
+      "url": "https://developer.tuya.com/en/docs/iot/open-apis?id=Kaiuyvvxud2le",
+      "description": "Manage smart home devices and IoT hardware across Tuya's ecosystem",
+      "category": "iot",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_tuya_iot_open_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Polar AccessLink API",
+      "url": "https://www.polar.com/accesslink-api/",
+      "description": "Access training, activity, and physical data from Polar wearables",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_polar_accesslink_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Particle IoT",
+      "url": "https://docs.particle.io/",
+      "description": "IoT device cloud with REST API for sensor data and fleet management",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_particle_iot",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Azure IoT Hub",
+      "url": "https://learn.microsoft.com/en-us/azure/iot-hub/",
+      "description": "Cloud IoT for device management and telemetry",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_azure_iot_hub",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Root Insurance API",
+      "url": "https://root.co.za/docs/insurance-api/",
+      "description": "Programmable insurance platform for embedded policy and claims",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_root_insurance_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Hubitat",
+      "url": "https://docs2.hubitat.com/en/developer",
+      "description": "Local-processing smart home hub with Maker API for device control and events",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_hubitat",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Google Home",
+      "url": "https://developers.home.google.com/",
+      "description": "Google smart home ecosystem with Device Access API and Matter integration",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_google_home",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Amazon Alexa",
+      "url": "https://developer.amazon.com/en-US/docs/alexa/smarthome/understand-the-smart-home-skill-api.html",
+      "description": "Smart Home Skill API with capability interfaces for device control via Alexa",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_amazon_alexa",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Litmus Edge",
+      "url": "https://litmus.io/",
+      "description": "Industrial IoT edge platform for OT data collection and integration",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_litmus_edge",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Nest (Google)",
+      "url": "https://developers.google.com/nest",
+      "description": "Smart home thermostat and HVAC control with energy usage and temperature data",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_nest_google",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Ring Alarm API",
+      "url": "https://ring.com/security-system",
+      "description": "Smart home security with smoke and CO detector integration via Z-Wave",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_ring_alarm_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Home Assistant NUT Integration",
+      "url": "https://www.home-assistant.io/integrations/nut/",
+      "description": "Smart home integration for NUT-monitored UPS and generator systems",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_home_assistant_nut_integration",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ThingsBoard IoT Platform",
+      "url": "https://thingsboard.io/use-cases/smart-farming/",
+      "description": "Smart farming IoT platform for hydroponic sensor data collection, visualization, and control",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_thingsboard_iot_platform",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "LiveAuctioneers",
+      "url": "https://www.liveauctioneers.com/auction-results",
+      "description": "Access 29 million+ antique and collectible auction results with historical pricing data since 1999",
+      "category": "iot",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "iot"
+      ],
+      "status": "active",
+      "id": "iot_liveauctioneers",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    }
+  ]
+}

@@ -1,0 +1,3020 @@
+{
+  "id": "food-drink",
+  "name": "Food & Drink",
+  "display_name": "Food & Drink",
+  "api_count": 117,
+  "apis": [
+    {
+      "name": "spoonacular.com",
+      "url": "https://api.apis.guru/v2/specs/spoonacular.com/1.1/openapi.json",
+      "description": "spoonacular.com - API service at api.apis.guru",
+      "category": "food-drink",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_spoonacular_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Food Standards Agency",
+      "url": "http://ratings.food.gov.uk/open-data/en-GB",
+      "description": "UK food hygiene rating data API",
+      "category": "food-drink",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink",
+        "government"
+      ],
+      "status": "active",
+      "id": "food_drink_food_standards_agency",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Yelp",
+      "url": "https://www.yelp.com/developers",
+      "description": "Find Local Business",
+      "category": "food-drink",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "food-drink",
+        "government"
+      ],
+      "status": "active",
+      "id": "food_drink_yelp",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PunkAPI",
+      "url": "https://dev.publicapis.dev/resource/punkapi/3f13f7ce-1388-4696-9b31-94a6d43bc3bb",
+      "description": "BrewDog's DIY Dog beer catalogue as an API",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "food-drink",
+        "shopping"
+      ],
+      "status": "active",
+      "id": "food_drink_punkapi",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Tripadvisor",
+      "url": "https://developer-tripadvisor.com/home/",
+      "description": "Rating content for a hotel, restaurant, attraction or destination",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "food_drink_tripadvisor",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Zomato**",
+      "url": "https://developers.zomato.com/api",
+      "description": "Zomato APIs give you access to the freshest and most exhaustive information for over 1.5 million restaurants across 10,000 cities globally.",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "food-drink",
+        "social"
+      ],
+      "status": "active",
+      "id": "food_drink_zomato",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Edamam",
+      "url": "https://developer.edamam.com/",
+      "description": "Food and nutrition data API with recipe search",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink",
+        "health"
+      ],
+      "status": "active",
+      "id": "food_drink_edamam",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "description": "National Nutrient Database for Standard Reference",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink",
+        "health"
+      ],
+      "status": "active",
+      "id": "food_drink_fooddata_central",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Nutritionix",
+      "url": "https://developer.nutritionix.com/",
+      "description": "Worlds largest verified nutrition database",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink",
+        "health"
+      ],
+      "status": "active",
+      "id": "food_drink_nutritionix",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Nutritionix API",
+      "url": "https://developer.nutritionix.com/docs/v2",
+      "description": "<details><summary>Nutrition & food database</summary>Search branded and generic foods, fetch nutrition facts, serving sizes, UPC lookups, and natural language meal parsing.</details>",
+      "category": "food-drink",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "food-drink",
+        "health"
+      ],
+      "status": "active",
+      "id": "food_drink_nutritionix_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Open Food Facts**",
+      "url": "https://en.wiki.openfoodfacts.org/API",
+      "description": "Open Food Facts is a database of food products with ingredients, allergens, nutrition facts and all the tidbits of information we can find on product labels.",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "food-drink",
+        "health"
+      ],
+      "status": "active",
+      "id": "food_drink_open_food_facts",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Yelp",
+      "url": "https://www.yelp.com/developers/documentation/v3",
+      "description": "Find Local Business",
+      "category": "food-drink",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink",
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "food_drink_yelp_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "calorieninjas.com",
+      "url": "https://api.apis.guru/v2/specs/calorieninjas.com/1.0.0/openapi.json",
+      "description": "Natural language nutrition API to extract nutrition data from any text.",
+      "category": "food-drink",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_calorieninjas_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Yelp",
+      "url": "https://dev.publicapis.dev/resource/yelp/4ccb5c20-db18-4f90-b938-5b4cc5595221",
+      "description": "Find Local Business",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_yelp_3",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Edamam nutrition",
+      "url": "https://developer.edamam.com/edamam-docs-nutrition-api",
+      "description": "Nutrition Analysis",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_edamam_nutrition",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Edamam recipes",
+      "url": "https://developer.edamam.com/edamam-docs-recipe-api",
+      "description": "Recipe Search",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_edamam_recipes",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "LCBO",
+      "url": "https://lcboapi.com/",
+      "description": "Alcohol",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_lcbo",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PunkAPI",
+      "url": "https://punkapi.com/",
+      "description": "Brewdog Beer Recipes",
+      "category": "food-drink",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_punkapi_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Rustybeer",
+      "url": "https://rustybeer.herokuapp.com/",
+      "description": "Beer brewing tools",
+      "category": "food-drink",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_rustybeer",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Spoonacular",
+      "url": "https://spoonacular.com/food-api",
+      "description": "Recipes, Food Products, and Meal Planning",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_spoonacular",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Tasty",
+      "url": "https://rapidapi.com/apidojo/api/tasty/",
+      "description": "API to query data about recipe, plan, ingredients",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_tasty",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "The Report of the Week",
+      "url": "https://github.com/andyklimczak/TheReportOfTheWeek-API",
+      "description": "Food & Drink Reviews",
+      "category": "food-drink",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_the_report_of_the_week",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "TheCocktailDB",
+      "url": "https://www.thecocktaildb.com/api.php",
+      "description": "Cocktail Recipes",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_thecocktaildb",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "TheMealDB",
+      "url": "https://www.themealdb.com/api.php",
+      "description": "Meal Recipes",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_themealdb",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "What's on the menu?",
+      "url": "http://nypl.github.io/menus-api/",
+      "description": "NYPL human-transcribed historical menu collection",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_what_s_on_the_menu",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "WhiskyHunter",
+      "url": "https://whiskyhunter.net/api/",
+      "description": "Past online whisky auctions statistical data",
+      "category": "food-drink",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_whiskyhunter",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Zestful",
+      "url": "https://zestfuldata.com/",
+      "description": "Parse recipe ingredients",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_zestful",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "RecipeAPI",
+      "url": "https://recipeapi.io",
+      "description": "Recipes, ingredients, nutrition data and cooking instructions",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-apis/public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_recipeapi",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BoozeAPI",
+      "url": "https://boozeapi.com/",
+      "description": "REST API Cocktail Recipes",
+      "category": "food-drink",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_boozeapi",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PunkAPI",
+      "url": "https://github.com/alxiw/punkapi",
+      "description": "BrewDog's DIY Dog beer catalogue as an API",
+      "category": "food-drink",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_punkapi_3",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "LCBO",
+      "url": "https://lcbo.dev/",
+      "description": "Alcohol",
+      "category": "food-drink",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food_drink_lcbo_2",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Wegmans",
+      "url": "https://dev.wegmans.io",
+      "description": "Wegmans Food Markets",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "food_drink_wegmans"
+    },
+    {
+      "name": "Open Food Facts",
+      "url": "https://en.wiki.openfoodfacts.org/API",
+      "description": "Open Food Facts is a database of food products with ingredients, allergens, nutrition facts and all the tidbits of information we can find on product labels.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_open_food_facts_2"
+    },
+    {
+      "name": "Zomato",
+      "url": "https://developers.zomato.com/api",
+      "description": "Zomato APIs give you access to the freshest and most exhaustive information for over 1.5 million restaurants across 10,000 cities globally.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_zomato_2"
+    },
+    {
+      "name": "Nutritionix",
+      "url": "https://tools-collection.net/apis-list/nutritionix",
+      "description": "Add robust nutrition tracking capability to any health app",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 79,
+      "quality_grade": "B",
+      "quality": {
+        "score": 79,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_nutritionix_2"
+    },
+    {
+      "name": "US Restaurant Menus",
+      "url": "https://tools-collection.net/apis-list/us-restaurant-menus",
+      "description": "Database of over 300,000 restaurant menus and over 30,000,000 Individual Menu Items",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_us_restaurant_menus"
+    },
+    {
+      "name": "Xyz Menus",
+      "url": "https://tools-collection.net/apis-list/xyz-menus",
+      "description": "XYZ Menus API provides access to a Database of over 350,000 Restaurant Menus with over 30,000,000 individual menu items",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_xyz_menus"
+    },
+    {
+      "name": "Edamam nutrition &amp; recipes",
+      "url": "https://tools-collection.net/apis-list/edamam-nutrition",
+      "description": "API for Nutrition Analysis, Food Database Lookup, Recipe Search and other",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_edamam_nutrition_amp_recipes"
+    },
+    {
+      "name": "FoodData Central",
+      "url": "https://tools-collection.net/apis-list/food-data-central",
+      "description": "USDA FoodData Central API provides detailed nutritional information for branded foods, standard references, and experimental data 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_fooddata_central_2"
+    },
+    {
+      "name": "Foodish",
+      "url": "https://tools-collection.net/apis-list/foodish",
+      "description": "- surhud004/Foodish",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 69,
+      "quality_grade": "C",
+      "quality": {
+        "score": 69,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "food_drink_foodish"
+    },
+    {
+      "name": "Open Food Facts",
+      "url": "https://tools-collection.net/apis-list/open-food-facts",
+      "description": "Open Food Facts is a database of food products with ingredients, allergens, nutrition facts and all the tidbits of information we can find on product labels 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_open_food_facts_3"
+    },
+    {
+      "name": "Order Pizza Api",
+      "url": "https://tools-collection.net/apis-list/order-pizza-api",
+      "description": "A RESTful API as pizza restaurant ordering system",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 77,
+      "quality_grade": "B",
+      "quality": {
+        "score": 77,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_order_pizza_api"
+    },
+    {
+      "name": "PunkAPI",
+      "url": "https://tools-collection.net/apis-list/punkapi",
+      "description": "Brewdog&#x27;s DIY Dog as a searchable, filterable API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 78,
+      "quality_grade": "B",
+      "quality": {
+        "score": 78,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_punkapi_4"
+    },
+    {
+      "name": "Spoonacular Food API",
+      "url": "https://tools-collection.net/apis-list/spoonacular-food-api",
+      "description": "The only Food API you&#x27;ll ever need",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_spoonacular_food_api"
+    },
+    {
+      "name": "The Meal Db",
+      "url": "https://tools-collection.net/apis-list/the-meal-db",
+      "description": "This food API is free to use and can get you recipes, food details, food names , meals by category, food images and more",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_the_meal_db"
+    },
+    {
+      "name": "TheCocktailDB",
+      "url": "https://tools-collection.net/apis-list/thecocktaildb",
+      "description": "An open, crowd-sourced database of drinks and cocktails from around the world",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_thecocktaildb_2"
+    },
+    {
+      "name": "Yummly",
+      "url": "https://tools-collection.net/apis-list/yummly",
+      "description": "Find food recipes",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 69,
+      "quality_grade": "C",
+      "quality": {
+        "score": 69,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "food_drink_yummly"
+    },
+    {
+      "name": "Food Standards Agency",
+      "url": "https://tools-collection.net/apis-list/food-standards-agency",
+      "description": "Find out if a restaurant, takeaway or food shop you want to visit has good food hygiene standards",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_food_standards_agency_2"
+    },
+    {
+      "name": "Choppingboard.Recipes",
+      "url": "https://tools-collection.net/apis-list/choppingboard-recipes",
+      "description": "Choppingboard.Recipes - API service at tools-collection.net",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 55,
+      "quality_grade": "C",
+      "quality": {
+        "score": 55,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "food_drink_choppingboard_recipes"
+    },
+    {
+      "name": "Food2fork",
+      "url": "https://tools-collection.net/apis-list/food2fork",
+      "description": "Recipe Search",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 68,
+      "quality_grade": "C",
+      "quality": {
+        "score": 68,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "food_drink_food2fork"
+    },
+    {
+      "name": "Food",
+      "url": "https://www.themealdb.com/api.php",
+      "description": "Food and beverage info",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_food"
+    },
+    {
+      "name": "Food",
+      "url": "https://spoonacular.com/food-api/docs",
+      "description": "Food and beverage info",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_food_2"
+    },
+    {
+      "name": "Drinks",
+      "url": "https://www.thecocktaildb.com/api.php",
+      "description": "Drinks and cocktails",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "food_drink_drinks"
+    },
+    {
+      "name": "Nutrition",
+      "url": "https://developer.edamam.com/edamam-docs-nutrition-api",
+      "description": "Nutrition analysis",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 64,
+      "quality_grade": "C",
+      "quality": {
+        "score": 64,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "food_drink_nutrition"
+    },
+    {
+      "name": "Parse",
+      "url": "https://zestfuldata.com",
+      "description": "Parse recipe ingredients",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 66,
+      "quality_grade": "C",
+      "quality": {
+        "score": 66,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "food_drink_parse"
+    },
+    {
+      "name": "Largest",
+      "url": "https://developer.nutritionix.com",
+      "description": "Largest verified nutrition database",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "food-drink",
+      "tags": [
+        "food-drink"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 68,
+      "quality_grade": "C",
+      "quality": {
+        "score": 68,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "food_drink_largest"
+    },
+    {
+      "name": "Edamam Food",
+      "url": "https://developer.edamam.com/food-database-api",
+      "description": "Nutrition data",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_edamam_food",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/api-guide.html",
+      "description": "Food nutrition",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_usda_fooddata_central",
+      "quality": {
+        "score": 57,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 57,
+      "quality_grade": "C"
+    },
+    {
+      "name": "FatSecret",
+      "url": "https://platform.fatsecret.com/api/",
+      "description": "Food and nutrition",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_fatsecret",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "FAO FAOSTAT",
+      "url": "https://www.fao.org/faostat/en/#data",
+      "description": "UN food and agriculture statistics",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_fao_faostat",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Workato API",
+      "url": "https://docs.workato.com/workato-api.html",
+      "description": "Enterprise iPaaS — recipe-based automation, embedded integrations",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_workato_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CalorieNinjas",
+      "url": "https://calorieninjas.com/",
+      "description": "Simple nutrition facts — 100K+ foods, 10K free calls/month",
+      "category": "food-drink",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_calorieninjas",
+      "quality": {
+        "score": 79,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 79,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Spike Nutrition",
+      "url": "https://spikeapi.com/",
+      "description": "AI food image recognition — photo to calorie breakdown",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_spike_nutrition",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "resOS",
+      "url": "https://www.resos.com/",
+      "description": "Open-source restaurant reservations — custom integrations",
+      "category": "food-drink",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_resos",
+      "quality": {
+        "score": 79,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 79,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SevenRooms",
+      "url": "https://sevenrooms.com/",
+      "description": "Restaurant CRM + operations — guest profiles, analytics",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_sevenrooms",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Shipday",
+      "url": "https://docs.shipday.com/",
+      "description": "Local delivery management and on-demand delivery network API",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_shipday",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Commodities-API",
+      "url": "https://commodities-api.com/",
+      "description": "Real-time commodity prices for 100+ commodities; oil, gold, gas, coffee",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_commodities_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Edamam Food Database API",
+      "url": "https://developer.edamam.com/food-database-api",
+      "description": "900K+ foods with nutrition labeling, diet, and allergy data",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_edamam_food_database_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "WineVybe API",
+      "url": "https://winevybe.com/wine-api/",
+      "description": "Wine, beer and liquor database with regions and tasting notes",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_winevybe_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Global Wine Score API",
+      "url": "https://globalwinescore.docs.apiary.io/",
+      "description": "Aggregated wine scores from top critics",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_global_wine_score_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "API Ninjas Cocktail",
+      "url": "https://api-ninjas.com/api/cocktail",
+      "description": "Search thousands of cocktail recipes by name or ingredient",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_api_ninjas_cocktail",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Catalog.beer API",
+      "url": "https://catalog.beer/api-docs",
+      "description": "Open beer catalog database in JSON",
+      "category": "food-drink",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_catalog_beer_api",
+      "quality": {
+        "score": 74,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 74,
+      "quality_grade": "B"
+    },
+    {
+      "name": "FatSecret Platform",
+      "url": "https://platform.fatsecret.com/platform-api",
+      "description": "Food and nutrition database API with barcode lookup and recipe analysis",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_fatsecret_platform",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Toast API",
+      "url": "https://doc.toasttab.com/doc/devguide/apiOverview.html",
+      "description": "Restaurant POS with menus, orders, and location management",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_toast_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MealMe API",
+      "url": "https://www.mealme.ai/",
+      "description": "Aggregated ordering across 1M+ restaurants and grocery stores",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_mealme_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Olo Omnivore API",
+      "url": "https://www.olo.com/omnivoreapi",
+      "description": "Universal POS integration for restaurant menu and order sync",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_olo_omnivore_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "GloriaFood API",
+      "url": "https://www.gloriafood.com/restaurant-ordering-system-with-food-ordering-api",
+      "description": "Free online ordering system with menu and order post-processing",
+      "category": "food-drink",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_gloriafood_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CloudWaitress API",
+      "url": "https://www.cloudwaitress.com/features/api-access/",
+      "description": "Restaurant ordering with delivery, pickup, and table ordering",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_cloudwaitress_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MyFitnessPal",
+      "url": "https://www.myfitnesspal.com/apps/api/version",
+      "description": "Nutrition tracking with 14M+ food item database for calorie and macro logging",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_myfitnesspal",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Questionmark",
+      "url": "https://www.questionmark.com/",
+      "description": "Enterprise assessment platform with item banking, delivery, and psychometrics",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_questionmark",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Vivino",
+      "url": "https://www.vivino.com/",
+      "description": "World's largest wine marketplace with ratings, reviews, and food pairing data",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_vivino",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Global Wine Score",
+      "url": "https://www.globalwinescore.com/api/",
+      "description": "Aggregated wine scores from top critics normalized to a single 100-point scale",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_global_wine_score",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Open Food Facts (Wine)",
+      "url": "https://world.openfoodfacts.org/",
+      "description": "Open database with wine product data including labels, origins, and ingredients",
+      "category": "food-drink",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_open_food_facts_wine",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BreweryDB",
+      "url": "https://www.brewerydb.com/developers",
+      "description": "Beer and brewery database with styles, ingredients, and location data",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_brewerydb",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "TheDrinksBusiness",
+      "url": "https://www.thedrinksbusiness.com/",
+      "description": "Drinks industry news and market data for wine, beer, and spirits",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_thedrinksbusiness",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "USDA FoodData Central API",
+      "url": "https://fdc.nal.usda.gov/api-guide/",
+      "description": "Comprehensive nutrition data for 365,000+ foods for infant nutrition planning",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_usda_fooddata_central_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "DummyJSON Recipes",
+      "url": "https://dummyjson.com/docs/recipes",
+      "description": "Sample recipe dataset for prototyping cooking and food applications",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_dummyjson_recipes",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Rapid Recipes API",
+      "url": "https://docs.rapidevelopers.com/plugins/recipe-food-api-documentation",
+      "description": "Recipe and food data API with search, filtering, and nutritional info",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_rapid_recipes_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "API Bakery",
+      "url": "https://apibakery.com/",
+      "description": "Backend API service generator from JSON recipe definitions for food apps",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_api_bakery",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Punk API",
+      "url": "https://punkapi.com/documentation/v2",
+      "description": "BrewDog beer catalog with ABV, IBU, food pairings, and brewing parameters",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_punk_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Brewfather API",
+      "url": "https://docs.brewfather.app/api",
+      "description": "Homebrewing recipe management with batch tracking and BeerXML support",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_brewfather_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "WineVybe Liquor API",
+      "url": "https://winevybe.com/liquor-api/",
+      "description": "Distillery, brewery, region, variety, tasting notes, and food pairing data",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_winevybe_liquor_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ezCater API",
+      "url": "https://api.ezcater.io/",
+      "description": "Catering menu sync, order management, and restaurant integration platform",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_ezcater_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "UpMenu API",
+      "url": "https://www.upmenu.com/software-for-restaurants/integrations/developers/",
+      "description": "Online food ordering system REST API for restaurant and catering developers",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_upmenu_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Spoonacular Ingredients API",
+      "url": "https://spoonacular.com/food-api/docs#Ingredients",
+      "description": "Cheese ingredients, substitutes, and nutritional profiles",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_spoonacular_ingredients_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Deliverect API",
+      "url": "https://developers.deliverect.com/",
+      "description": "Restaurant integration API syncing menus and orders across delivery platforms",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_deliverect_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Toast POS API",
+      "url": "https://doc.toasttab.com/doc/devguide/apiOverview.html",
+      "description": "Restaurant POS API for menus, orders, and online ordering integration",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_toast_pos_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "GrabFood Partner API",
+      "url": "https://developer.grab.com/",
+      "description": "Southeast Asian superapp delivery for restaurant merchants",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_grabfood_partner_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Sample Coffee API",
+      "url": "https://sampleapis.com/api-list/coffee",
+      "description": "Free sample API providing hot and iced coffee drink data with descriptions",
+      "category": "food-drink",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_sample_coffee_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SeafoodAPI.org",
+      "url": "https://www.seafoodapi.org/",
+      "description": "Seafood traceability verification for Best Aquaculture Practices",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_seafoodapi_org",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "API Ninjas Recipe",
+      "url": "https://api-ninjas.com/api/recipe",
+      "description": "Search 200k+ recipes by name and ingredients with simple JSON responses",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_api_ninjas_recipe",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "API Ninjas Nutrition",
+      "url": "https://api-ninjas.com/api/nutrition",
+      "description": "Nutrition info from text input using NLP for foods including snacks",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_api_ninjas_nutrition",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CalorieNinjas API",
+      "url": "https://calorieninjas.com/api",
+      "description": "Nutrition from dessert text or menu items using natural language",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_calorieninjas_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "FatSecret API",
+      "url": "https://platform.fatsecret.com/platform-api",
+      "description": "1.9M+ food items including desserts with nutrition and curated recipes",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_fatsecret_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Edamam Nutrition Analysis API",
+      "url": "https://developer.edamam.com/edamam-nutrition-api",
+      "description": "Nutrition and allergen analysis from recipe text with gluten and allergen detection",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_edamam_nutrition_analysis_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "FoodFacts Allergen Database",
+      "url": "https://rapidapi.com/foodfacts/api/food-nutrition-allergen-and-ingredient-database",
+      "description": "Full nutrition label, allergen information, and ingredient listings for food products",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_foodfacts_allergen_database",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Allergy Menu API",
+      "url": "https://allergymenu.app/apidocs/",
+      "description": "Restaurant API for sharing and updating known allergens of dishes and menu items",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_allergy_menu_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Halal Scanner API",
+      "url": "https://api.thehalalscanner.app/",
+      "description": "Product scanning API with ingredient data, allergen status, and dietary certification info",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_halal_scanner_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Halal Food Checker",
+      "url": "https://rapidapi.com/nvoltron/api/halal-food-checker",
+      "description": "API for checking food products for halal compliance and common allergen ingredients",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_halal_food_checker",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SPHERE Halal API",
+      "url": "https://halalscience.org/en/sphere-en/",
+      "description": "System Protocol for Halal Electronic Resources Exchange with food additive search database",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_sphere_halal_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "BeerXML Standard",
+      "url": "https://www.brewersfriend.com/forum/threads/api-and-beerxml.100/",
+      "description": "Standard XML format for homebrew recipes enabling recipe exchange between brewing applications",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_beerxml_standard",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Homebrewers Association Recipes",
+      "url": "https://homebrewersassociation.org/homebrew-recipes/",
+      "description": "Hundreds of beer, mead, and cider homebrew recipes from National Homebrew Competition winners",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_homebrewers_association_recipes",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "BrewDog Recipes",
+      "url": "https://brewdogrecipes.com/",
+      "description": "Web version of DIY Dog with all 415 BrewDog recipes available with BeerXML downloads",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_brewdog_recipes",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Edamam Recipe Search",
+      "url": "https://developer.edamam.com/edamam-recipe-api",
+      "description": "2M+ recipe database with nutrition analysis; supports Korean cuisine and fermented food queries",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_edamam_recipe_search",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Edamam Food Database",
+      "url": "https://developer.edamam.com/food-database-api-docs",
+      "description": "Nutrition lookup for tens of thousands of foods including international fermented ingredients",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_edamam_food_database",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Tookan API",
+      "url": "https://tookanapi.docs.apiary.io/",
+      "description": "Delivery management and dispatch system API for laundry pickup and drop-off scheduling",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_tookan_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "FAOSTAT",
+      "url": "https://www.fao.org/faostat/",
+      "description": "UN FAO global food and agriculture statistics for 245+ countries; crop production since 1961",
+      "category": "food-drink",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "food-drink_faostat",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    }
+  ]
+}

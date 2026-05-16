@@ -1,0 +1,1651 @@
+{
+  "id": "vehicle",
+  "name": "Vehicle",
+  "display_name": "Vehicle",
+  "api_count": 62,
+  "apis": [
+    {
+      "name": "mercedes-benz.com:diagnostics",
+      "url": "https://api.apis.guru/v2/specs/mercedes-benz.com/diagnostics/1.0/swagger.json",
+      "description": "mercedes-benz.com:diagnostics - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_mercedes_benz_com_diagnostics",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "npr.org:station-finder",
+      "url": "https://api.apis.guru/v2/specs/npr.org/station-finder/3/swagger.json",
+      "description": "npr.org:station-finder - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_npr_org_station_finder",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "wmata.com:rail-station",
+      "url": "https://api.apis.guru/v2/specs/wmata.com/rail-station/1.0/swagger.json",
+      "description": "wmata.com:rail-station - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_wmata_com_rail_station",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Gitter",
+      "url": "https://developer.gitter.im/docs/welcome",
+      "description": "Chat for Developers",
+      "category": "vehicle",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "vehicle",
+        "development"
+      ],
+      "status": "active",
+      "id": "vehicle_gitter",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Rejax",
+      "url": "https://rejax.io/",
+      "description": "Reverse AJAX service to notify clients",
+      "category": "vehicle",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "vehicle",
+        "development"
+      ],
+      "status": "active",
+      "id": "vehicle_rejax",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "StackExchange",
+      "url": "https://api.stackexchange.com/",
+      "description": "Q&A forum for developers",
+      "category": "vehicle",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "vehicle",
+        "development"
+      ],
+      "status": "active",
+      "id": "vehicle_stackexchange",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Autom",
+      "url": "https://www.autom.dev",
+      "description": "Our SERP API delivers lightning-fast Google search results at unbeatable prices. Built for developers who need reliable, scalable access to search data without the complexity of web scraping or CAPTCH",
+      "category": "vehicle",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "vehicle",
+        "development"
+      ],
+      "status": "active",
+      "id": "vehicle_autom",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "asuarez.dev:searchly",
+      "url": "https://api.apis.guru/v2/specs/asuarez.dev/searchly/1.0/openapi.json",
+      "description": "Search API is a RESTful API that allows developers to run a single line fuzzy search for addresses and POIs. Search API returns the latitude/longitude of a specific address, cross street, geographic f",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_asuarez_dev_searchly",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "clever-cloud.com",
+      "url": "https://api.apis.guru/v2/specs/clever-cloud.com/1.0.0/openapi.json",
+      "description": "clever-cloud.com - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_clever_cloud_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "clever.com",
+      "url": "https://api.apis.guru/v2/specs/clever.com/1.2.0/openapi.json",
+      "description": "clever.com - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_clever_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "dev.to",
+      "url": "https://api.apis.guru/v2/specs/dev.to/1.0.0/openapi.json",
+      "description": "dev.to - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_dev_to",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "doqs.dev",
+      "url": "https://api.apis.guru/v2/specs/doqs.dev/1.0/openapi.json",
+      "description": "doqs.dev - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_doqs_dev",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "elevenlabs.io",
+      "url": "https://api.apis.guru/v2/specs/elevenlabs.io/1.0/openapi.json",
+      "description": "elevenlabs.io - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_elevenlabs_io",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "evetech.net",
+      "url": "https://api.apis.guru/v2/specs/evetech.net/0.8.6/swagger.json",
+      "description": "evetech.net - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_evetech_net",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "interzoid.com:getstateabbreviation",
+      "url": "https://api.apis.guru/v2/specs/interzoid.com/getstateabbreviation/1.0.0/openapi.json",
+      "description": "interzoid.com:getstateabbreviation - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_interzoid_com_getstateabbreviation",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "reverb.com",
+      "url": "https://api.apis.guru/v2/specs/reverb.com/3.0/openapi.json",
+      "description": "reverb",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_reverb_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Evil Insult Generator**",
+      "url": "https://evilinsult.com/api/",
+      "description": "Offers the most evil insults.",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_evil_insult_generator",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**LinkPreview**",
+      "url": "https://www.linkpreview.net",
+      "description": "JSON",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_linkpreview",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Spreaker**",
+      "url": "https://developers.spreaker.com/",
+      "description": "Enables developers to read and write data to Spreaker.",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_spreaker",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "httpie",
+      "url": "https://github.com/jkbrzt/httpie",
+      "description": "Command line HTTP client, far more dev-friendly than `curl`.",
+      "category": "vehicle",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "Kikobeats/awesome-api",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_httpie",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "auth_inferred": true
+    },
+    {
+      "name": "evemarketer.com",
+      "url": "https://api.apis.guru/v2/specs/evemarketer.com/1.0.1/swagger.json",
+      "description": "evemarketer.com - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle",
+        "finance"
+      ],
+      "status": "active",
+      "id": "vehicle_evemarketer_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "CarsXE",
+      "url": "https://dev.publicapis.dev/resource/carsxe/5f5e5bd3-fcc8-4792-8e5b-4f08f7eb02e8",
+      "description": "CarsXE API provides comprehensive data on vehicles, including VIN decoding & specifications, license plate decoding, images, history and market value.",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "vehicle",
+        "finance"
+      ],
+      "status": "active",
+      "id": "vehicle_carsxe",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ParityVend",
+      "url": "https://www.ambeteco.com/ParityVend/",
+      "description": "Globalize your business by auto-adapting pricing for each visitor with Purchasing Power Parity",
+      "category": "vehicle",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "vehicle",
+        "finance"
+      ],
+      "status": "active",
+      "id": "vehicle_parityvend",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Sabre for Developers",
+      "url": "https://developer.sabre.com/guides/travel-agency/quickstart/getting-started-in-travel",
+      "description": "Travel Search - Limited usage",
+      "category": "vehicle",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "vehicle",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "vehicle_sabre_for_developers",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "IPS Online",
+      "url": "https://docs.identity.ps/docs",
+      "description": "Face and License Plate Anonymization",
+      "category": "vehicle",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "vehicle",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "vehicle_ips_online",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Comic Vine",
+      "url": "https://comicvine.gamespot.com/api/documentation",
+      "description": "Comics",
+      "category": "vehicle",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "vehicle",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "vehicle_comic_vine",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Tronald Dump",
+      "url": "https://www.tronalddump.io/",
+      "description": "The dumbest things Donald Trump has ever said",
+      "category": "vehicle",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "vehicle",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "vehicle_tronald_dump",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "xkcd",
+      "url": "https://xkcd.com/json.html",
+      "description": "Retrieve xkcd comics as JSON",
+      "category": "vehicle",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "vehicle",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "vehicle_xkcd",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "blockfrost Cardano",
+      "url": "https://blockfrost.io/",
+      "description": "Interaction with the Cardano mainnet and several testnets",
+      "category": "vehicle",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "vehicle",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "vehicle_blockfrost_cardano",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "paypi.dev",
+      "url": "https://api.apis.guru/v2/specs/paypi.dev/1.0.0/openapi.json",
+      "description": "paypi.dev - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle",
+        "payment"
+      ],
+      "status": "active",
+      "id": "vehicle_paypi_dev",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "ParityVend",
+      "url": "https://dev.publicapis.dev/resource/parityvend/ecc05cb8-0c65-49b0-9cd2-8f00357267f9",
+      "description": "Globalize your business by auto-adapting pricing for each visitor with Purchasing Power Parity",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "vehicle",
+        "payment"
+      ],
+      "status": "active",
+      "id": "vehicle_parityvend_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Flowdash",
+      "url": "https://docs.flowdash.com/docs/api-introduction",
+      "description": "Automate business workflows",
+      "category": "vehicle",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "vehicle",
+        "documents"
+      ],
+      "status": "active",
+      "id": "vehicle_flowdash",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Status Pizza",
+      "url": "https://status.pizza",
+      "description": "Pizza for every HTTP Status",
+      "category": "vehicle",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "vehicle",
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "vehicle_status_pizza",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "autotask.net",
+      "url": "https://api.apis.guru/v2/specs/autotask.net/v1/swagger.json",
+      "description": "autotask.net - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_autotask_net",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "byautomata.io",
+      "url": "https://api.apis.guru/v2/specs/byautomata.io/1.0.1/openapi.json",
+      "description": "byautomata.io - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_byautomata_io",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "microsoft.com:cognitiveservices-AutoSuggest",
+      "url": "https://api.apis.guru/v2/specs/microsoft.com/cognitiveservices-AutoSuggest/1.0/swagger.json",
+      "description": "microsoft.com:cognitiveservices-AutoSuggest - API service at api.apis.guru",
+      "category": "vehicle",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_microsoft_com_cognitiveservices_autosuggest",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "CarAPI",
+      "url": "https://carapi.dev/",
+      "description": "Vehicle specs, VIN decoder, and market data for 21+ million vehicles",
+      "category": "vehicle",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "No",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_carapi",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CarAPI",
+      "url": "https://carapi.app",
+      "description": "The developer friendly vehicle API. Make, model, trims and more via a RESTFul API",
+      "category": "vehicle",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_carapi_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CarsXE",
+      "url": "https://api.carsxe.com/",
+      "description": "CarsXE API provides comprehensive data on vehicles, including VIN decoding & specifications, license plate decoding, images, history and market value. It enables developers to build innovative applica",
+      "category": "vehicle",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_carsxe_2",
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Evil Insult Generator",
+      "url": "https://evilinsult.com/api",
+      "description": "Evil Insults",
+      "category": "vehicle",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "vehicle",
+        "open-source"
+      ],
+      "status": "active",
+      "id": "vehicle_evil_insult_generator_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "The Chargetrip",
+      "url": "https://developers.chargetrip.com/API-Reference/API/introduction",
+      "description": "The Chargetrip API gives you the ability to integrate smart, EV-specific routing into products built for electric car drivers.",
+      "source": "APIs-guru/graphql-apis",
+      "status": "active",
+      "auth": "[Try it!](https://playground.chargetrip.com/)",
+      "https": "[Docs](https://developers.chargetrip.com/API-Reference/API/introduction)",
+      "cors": "",
+      "category": "vehicle",
+      "tags": [
+        "vehicle"
+      ],
+      "quality_score": 100,
+      "quality_grade": "A",
+      "quality": {
+        "score": 100,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "vehicle_the_chargetrip"
+    },
+    {
+      "name": "Bikeshare Map",
+      "url": "http://bikes.oobrien.com/",
+      "description": "Status of all worldwide bikeshare stations",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "vehicle",
+      "tags": [
+        "vehicle"
+      ],
+      "auth": null,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "vehicle_bikeshare_map"
+    },
+    {
+      "name": "Perfect Tense API",
+      "url": "https://tools-collection.net/apis-list/perfect-tense-api",
+      "description": "Automated",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "vehicle",
+      "tags": [
+        "vehicle"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 67,
+      "quality_grade": "C",
+      "quality": {
+        "score": 67,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "vehicle_perfect_tense_api"
+    },
+    {
+      "name": "Open Charge Map",
+      "url": "https://tools-collection.net/apis-list/open-charge-map",
+      "description": "Open Charge Map is a non-commercial, non-profit, electric vehicle data service hosted and supported by a community of businesses, charities, developers and interested parties around the world",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "vehicle",
+      "tags": [
+        "vehicle"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "vehicle_open_charge_map"
+    },
+    {
+      "name": "Publibike",
+      "url": "https://api.publibike.ch/v1/static/api.html",
+      "description": "Provides information about PubliBike stations, their states, positions, and available vehicles. Includes endpoints to get all stations, a specific station with vehicles, and all stations for partners.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "vehicle",
+      "tags": [
+        "vehicle"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "vehicle_publibike"
+    },
+    {
+      "name": "Auto-Combo Engine",
+      "url": "https://docs/AUTO-COMBO.md",
+      "description": "6-factor scoring, mode packs, self-healing",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "vehicle",
+      "tags": [
+        "vehicle"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "vehicle_auto_combo_engine"
+    },
+    {
+      "name": "AutoIt3",
+      "url": "https://tools/lang/AutoIt3.au3",
+      "description": "Script, up to 3.3.16.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "vehicle",
+      "tags": [
+        "vehicle"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 65,
+      "quality_grade": "C",
+      "quality": {
+        "score": 65,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "vehicle_autoit3"
+    },
+    {
+      "name": "M4 Macro",
+      "url": "https://www.gnu.org/software/m4/",
+      "description": "and [Autoconf](https://www.gnu.org/software/autoconf/)",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "vehicle",
+      "tags": [
+        "vehicle"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "vehicle_m4_macro"
+    },
+    {
+      "name": "EasyPost API",
+      "url": "https://www.easypost.com/docs/api",
+      "description": "Multi-carrier — rate comparison, labels, tracking, insurance",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_easypost_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Canopy Connect",
+      "url": "https://www.usecanopy.com/api",
+      "description": "\"Plaid for Insurance\" — 400+ carriers, instant verification",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_canopy_connect",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Root Insurance",
+      "url": "https://www.joinroot.com/",
+      "description": "Telematics-based auto insurance — AI-powered pricing",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_root_insurance",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Insurify",
+      "url": "https://insurify.com/",
+      "description": "Multi-carrier insurance comparison — auto, home, life",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_insurify",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PlateRecognizer API",
+      "url": "https://guides.platerecognizer.com/",
+      "description": "Automatic license plate recognition via cloud and on-premise APIs",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_platerecognizer_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CMS BCDA",
+      "url": "https://bcda.cms.gov/api-documentation.html",
+      "description": "Beneficiary Claims Data API for Medicare Part A/B/D claims via Bulk FHIR",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_cms_bcda",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Virtuous API",
+      "url": "https://virtuous.org/api/",
+      "description": "Responsive nonprofit CRM with giving, contacts, and automation",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_virtuous_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ManageCasa",
+      "url": "https://managecasa.com/",
+      "description": "All-in-one HOA and rental management with accounting and maintenance automation",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_managecasa",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Divine API",
+      "url": "https://divineapi.com",
+      "description": "Daily, weekly, monthly, and yearly horoscopes plus tarot card readings",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_divine_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MeasureSquare Flooring Calculator API",
+      "url": "https://measuresquare.com/api/flooring-calculators-api/",
+      "description": "Real-time flooring estimates for carpet, tile, vinyl, and more",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_measuresquare_flooring_calculator_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Ximilar Collectibles Recognition API",
+      "url": "https://www.ximilar.com/blog/how-to-automate-pricing-of-cards-comics-via-api/",
+      "description": "AI-powered identification and pricing of trading cards, comics, stamps, and coins",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_ximilar_collectibles_recognition_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "API-Car Auto Parts",
+      "url": "https://api-car.com/",
+      "description": "Database of auto parts by vehicle make and model for salvage yard inventory and part matching",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_api_car_auto_parts",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Vehicle Databases Auto Parts",
+      "url": "https://vehicledatabases.com/auto-parts",
+      "description": "OEM car parts catalogs accessible by VIN with part names, numbers, and technical drawings",
+      "category": "vehicle",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_vehicle_databases_auto_parts",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "RunSignup API",
+      "url": "https://runsignup.com/API",
+      "description": "Open race management API for race creation, registration, results posting, and participant data management",
+      "category": "vehicle",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "vehicle"
+      ],
+      "status": "active",
+      "id": "vehicle_runsignup_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    }
+  ]
+}

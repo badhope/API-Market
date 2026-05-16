@@ -1,0 +1,39 @@
+# ========================================
+# API-Market Docker Compose 配置
+# ========================================
+
+version: '3.8'
+
+services:
+  api-market:
+    build: .
+    container_name: api-market
+    ports:
+      - "8080:8080"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # 挂载数据卷（可选，用于持久化）
+      - ./api-database.json:/app/api-database.json:ro
+      - ./search-index.json:/app/search-index.json:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+  # 可选：Nginx 反向代理
+  nginx:
+    image: nginx:alpine
+    container_name: api-market-nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - api-market
+    restart: unless-stopped
+    profiles:
+      - production

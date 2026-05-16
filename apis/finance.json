@@ -1,0 +1,5307 @@
+{
+  "id": "finance",
+  "name": "Finance",
+  "display_name": "Finance",
+  "api_count": 203,
+  "apis": [
+    {
+      "name": "plaid.com",
+      "url": "https://api.apis.guru/v2/specs/plaid.com/2020-09-14_1.334.0/openapi.json",
+      "description": "plaid.com - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_plaid_com",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "PayUs-as-a-Service (PUaaS)",
+      "url": "https://github.com/sticknologic/payus-as-a-service",
+      "description": "A self-hostable API that returns randomized messages for past-due invoices",
+      "category": "finance",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "finance",
+        "development"
+      ],
+      "status": "active",
+      "id": "finance_payus_as_a_service_puaas",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Quandl",
+      "url": "https://www.quandl.com/",
+      "description": "Stock Market Data",
+      "category": "finance",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "finance",
+        "government"
+      ],
+      "status": "active",
+      "id": "finance_quandl",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "apideck.com:accounting",
+      "url": "https://api.apis.guru/v2/specs/apideck.com/accounting/9.3.0/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_apideck_com_accounting",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "apisetu.gov.in:cholainsurance",
+      "url": "https://api.apis.guru/v2/specs/apisetu.gov.in/cholainsurance/3.0.0/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_apisetu_gov_in_cholainsurance",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "apisetu.gov.in:kotakgeneralinsurance",
+      "url": "https://api.apis.guru/v2/specs/apisetu.gov.in/kotakgeneralinsurance/3.0.0/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_apisetu_gov_in_kotakgeneralinsurance",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "apisetu.gov.in:maxlifeinsurance",
+      "url": "https://api.apis.guru/v2/specs/apisetu.gov.in/maxlifeinsurance/3.0.0/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_apisetu_gov_in_maxlifeinsurance",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "apisetu.gov.in:nationalinsurance",
+      "url": "https://api.apis.guru/v2/specs/apisetu.gov.in/nationalinsurance/3.0.0/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_apisetu_gov_in_nationalinsurance",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "apisetu.gov.in:orientalinsurance",
+      "url": "https://api.apis.guru/v2/specs/apisetu.gov.in/orientalinsurance/3.0.0/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_apisetu_gov_in_orientalinsurance",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "codat.io:accounting",
+      "url": "https://api.apis.guru/v2/specs/codat.io/accounting/2.1.0/openapi.json",
+      "description": "codat.io:accounting - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_codat_io_accounting",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "codat.io:banking",
+      "url": "https://api.apis.guru/v2/specs/codat.io/banking/2.1.0/openapi.json",
+      "description": "codat.io:banking - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_codat_io_banking",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "cybertaxonomy.eu",
+      "url": "https://api.apis.guru/v2/specs/cybertaxonomy.eu/1.0/swagger.json",
+      "description": "cybertaxonomy.eu - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_cybertaxonomy_eu",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "mastercard.com:open-banking-connect-pis",
+      "url": "https://api.apis.guru/v2/specs/mastercard.com/open-banking-connect-pis/1.16.0/swagger.json",
+      "description": "mastercard.com:open-banking-connect-pis - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": true,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_mastercard_com_open_banking_connect_pis",
+      "quality": {
+        "score": 78,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 78,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "openbanking.org.uk",
+      "url": "https://api.apis.guru/v2/specs/openbanking.org.uk/v1.3/openapi.json",
+      "description": "openbanking.org.uk - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": true,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_openbanking_org_uk",
+      "quality": {
+        "score": 78,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 78,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "openbanking.org.uk:confirmation-funds-openapi",
+      "url": "https://api.apis.guru/v2/specs/openbanking.org.uk/confirmation-funds-openapi/3.1.7/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": true,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_openbanking_org_uk_confirmation_funds_openapi",
+      "quality": {
+        "score": 78,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 78,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "openbankingproject.ch",
+      "url": "https://api.apis.guru/v2/specs/openbankingproject.ch/1.3.8_2020-12-14 - Swiss edition 1.3.8.1-CH/openapi.json",
+      "description": "openbankingproject.ch - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": true,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_openbankingproject_ch",
+      "quality": {
+        "score": 78,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 78,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "ote-godaddy.com:aftermarket",
+      "url": "https://api.apis.guru/v2/specs/ote-godaddy.com/aftermarket/1.0.0/openapi.json",
+      "description": "ote-godaddy.com:aftermarket - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_ote_godaddy_com_aftermarket",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "portfoliooptimizer.io",
+      "url": "https://api.apis.guru/v2/specs/portfoliooptimizer.io/1.0.9/openapi.json",
+      "description": "portfoliooptimizer.io - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_portfoliooptimizer_io",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "shutterstock.com",
+      "url": "https://api.apis.guru/v2/specs/shutterstock.com/1.1.32/openapi.json",
+      "description": "shutterstock.com - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_shutterstock_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sonar.trading",
+      "url": "https://api.apis.guru/v2/specs/sonar.trading/1.0/swagger.json",
+      "description": "sonar.trading - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_sonar_trading",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "taxamo.com",
+      "url": "https://api.apis.guru/v2/specs/taxamo.com/1/swagger.json",
+      "description": "Taxamo’s elegant suite of APIs and comprehensive reporting dashboard enables digital merchants to easily comply with EU regulatory requirements on tax calculation, evidence collection, tax return crea",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_taxamo_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "taxrates.io",
+      "url": "https://api.apis.guru/v2/specs/taxrates.io/1.0.0/openapi.json",
+      "description": "<h3>Introduction</h3> <p>Taxrates.io is a global tax rate service that automates the management of monitoring tax rates changes in 181 countries. We monitor over 14,000 US sales tax, VAT, GST rates fo",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_taxrates_io",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "vtex.local:Customer-Credit-API",
+      "url": "https://api.apis.guru/v2/specs/vtex.local/Customer-Credit-API/1.0/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_vtex_local_customer_credit_api",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "xero.com:xero_accounting",
+      "url": "https://api.apis.guru/v2/specs/xero.com/xero_accounting/2.9.4/openapi.json",
+      "description": "xero.com:xero_accounting - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_xero_com_xero_accounting",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "FinFeedAPI",
+      "url": "https://dev.publicapis.dev/resource/finfeedapi/4e341f2e-ae16-49d7-b829-91f174175500",
+      "description": "Developer-first market data API",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_finfeedapi",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "IIN API",
+      "url": "https://dev.publicapis.dev/resource/iin-api/fe264490-58da-47ca-aeed-beba9ca50780",
+      "description": "IIN API allows you to accurately identify the issuing bank, card type, country of origin, and other details from a credit or debit card number.",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_iin_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Financial Data",
+      "url": "https://dev.publicapis.dev/resource/financial-data/028537f5-dfd0-4c51-a86d-6e88c4a7cb8d",
+      "description": "Stock market and financial data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_financial_data",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "TradeWatch",
+      "url": "https://dev.publicapis.dev/resource/tradewatch/b60b6782-3899-42d6-84da-a0f91eb6b2c6",
+      "description": "Real time financial market data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_tradewatch",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Bullbear Advisors",
+      "url": "https://dev.publicapis.dev/resource/bullbear-advisors/f364bf98-6e00-44be-9f20-4017f4097135",
+      "description": "See strong buy and sell signals the day they occur. Get today's stocks that closed with a strong Bullish or Bearish candlestick.",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_bullbear_advisors",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Marketstack",
+      "url": "https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "description": "Real-Time, Intraday & Historical Market Data API",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "other"
+      ],
+      "status": "active",
+      "id": "finance_marketstack",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Aletheia",
+      "url": "https://aletheiaapi.com/",
+      "description": "Insider trading data, earnings call analysis, financial statements, and more",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_aletheia",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Alpaca",
+      "url": "https://alpaca.markets/docs/api-documentation/api-v2/market-data/alpaca-data-api-v2/",
+      "description": "Realtime and historical market data on all US equities and ETFs",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_alpaca",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Alpha Vantage",
+      "url": "https://www.alphavantage.co/",
+      "description": "Realtime and historical stock data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "business"
+      ],
+      "status": "active",
+      "id": "finance_alpha_vantage",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Econdb",
+      "url": "https://www.econdb.com/api/",
+      "description": "Global macroeconomic data",
+      "category": "finance",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_econdb",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Financial Modeling Prep",
+      "url": "https://site.financialmodelingprep.com/developer/docs",
+      "description": "Realtime and historical stock data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "business"
+      ],
+      "status": "active",
+      "id": "finance_financial_modeling_prep",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Front Accounting APIs",
+      "url": "https://frontaccounting.com/fawiki/index.php?n=Devel.SimpleAPIModule",
+      "description": "Front accounting is multilingual and multicurrency software for small businesses",
+      "category": "finance",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_front_accounting_apis",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Hotstoks",
+      "url": "https://hotstoks.com?utm_source=public-apis",
+      "description": "Stock market data powered by SQL",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_hotstoks",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "IEX Cloud",
+      "url": "https://iexcloud.io/docs/api/",
+      "description": "Realtime & Historical Stock and Market Data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "business"
+      ],
+      "status": "active",
+      "id": "finance_iex_cloud",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "IG",
+      "url": "https://labs.ig.com/gettingstarted",
+      "description": "Spreadbetting and CFD Market Data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_ig",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Indian Mutual Fund",
+      "url": "https://www.mfapi.in/",
+      "description": "Get complete history of India Mutual Funds Data",
+      "category": "finance",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_indian_mutual_fund",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Polygon",
+      "url": "https://polygon.io/",
+      "description": "Historical stock market data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_polygon",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Portfolio Optimizer",
+      "url": "https://portfoliooptimizer.io/",
+      "description": "Portfolio analysis and optimization",
+      "category": "finance",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_portfolio_optimizer",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Razorpay IFSC",
+      "url": "https://razorpay.com/docs/",
+      "description": "Indian Financial Systems Code (Bank Branch Codes)",
+      "category": "finance",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_razorpay_ifsc",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Real Time Finance",
+      "url": "https://github.com/Real-time-finance/finance-websocket-API/",
+      "description": "Websocket API to access realtime stock data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_real_time_finance",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "StockData",
+      "url": "https://www.StockData.org",
+      "description": "Real-Time, Intraday & Historical Market Data, News and Sentiment API",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_stockdata",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Tradier",
+      "url": "https://developer.tradier.com",
+      "description": "US equity/option market data (delayed, intraday, historical)",
+      "category": "finance",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_tradier",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Twelve Data",
+      "url": "https://twelvedata.com/",
+      "description": "Stock market data (real-time & historical)",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_twelve_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "YNAB",
+      "url": "https://api.youneedabudget.com/",
+      "description": "Budgeting & Planning",
+      "category": "finance",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_ynab",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Zoho Books",
+      "url": "https://www.zoho.com/books/api/v3/",
+      "description": "Online accounting software, built for your business",
+      "category": "finance",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_zoho_books",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BankData API (OpenBanking)",
+      "url": "https://api.apis.guru/v2/specs/openbanking.org.uk/2.0.0/swagger.json",
+      "description": "<details><summary>UK open banking API for bank and ATM data</summary>Access detailed information on banks, ATMs, branches, and account services — ideal for fintech and banking apps.</details>",
+      "category": "finance",
+      "auth": "None",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_bankdata_api_openbanking",
+      "https_inferred": true,
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "IBAN API",
+      "url": "https://www.iban.com/iban-api",
+      "description": "<details><summary>Validate international bank account numbers (IBAN)</summary>Useful for financial applications and international payment verification.</details>",
+      "category": "finance",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_iban_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "apilayer marketstack",
+      "url": "https://marketstack.com/",
+      "description": "Real-Time, Intraday & Historical Market Data API",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "toddmotto/public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_apilayer_marketstack",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**IEX**",
+      "url": "https://iextrading.com/developer/",
+      "description": "Free Stocks and Market Data.",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_iex",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "**Twelve Data**",
+      "url": "https://twelvedata.com/docs/",
+      "description": "Stock market data (real-time & historical).",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_twelve_data_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Australia**",
+      "url": "https://www.rba.gov.au/statistics/tables/",
+      "description": "CSV",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_australia",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Canada**",
+      "url": "https://www.bankofcanada.ca/rates/",
+      "description": "CSV",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_canada",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Ireland**",
+      "url": "https://data.gov.ie/data/search?publisher=central-bank-of-ireland",
+      "description": "XLS",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_ireland",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Myanmar**",
+      "url": "http://forex.cbm.gov.mm/api/",
+      "description": "JSON",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_myanmar",
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C",
+      "https_inferred": true
+    },
+    {
+      "name": "**Moldova**",
+      "url": "https://bnm.md/en/content/official-exchange-rates",
+      "description": "XML",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_moldova",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**New Zealand**",
+      "url": "https://www.rbnz.govt.nz/statistics",
+      "description": "XLS",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_new_zealand",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Nigeria**",
+      "url": "https://www.cbn.gov.ng/rates/",
+      "description": "CSV",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_nigeria",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Peru**",
+      "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/ayuda/api",
+      "description": "XLSX",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_peru",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Poland**",
+      "url": "https://api.nbp.pl",
+      "description": "XML",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_poland",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Russian Federation**",
+      "url": "https://www.cbr.ru/development/",
+      "description": "XML",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_russian_federation",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Switzerland**",
+      "url": "https://data.snb.ch/en",
+      "description": "XLS",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_switzerland",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Portfolio Optimizer**",
+      "url": "https://portfoliooptimizer.io/",
+      "description": "API for investment portfolio optimization.",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_portfolio_optimizer_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Helium",
+      "url": "https://heliumtrades.com/mcp-page/",
+      "description": "News with media bias scoring, balanced news synthesis, live market data, AI options pricing",
+      "category": "finance",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-apis/public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_helium",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Barchart OnDemand",
+      "url": "https://www.barchartondemand.com/free",
+      "description": "Stock, Futures and Forex Market Data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_barchart_ondemand",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Financial Data",
+      "url": "https://financialdata.net/",
+      "description": "Stock Market and Financial Data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_financial_data_2",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "marcelscruz/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "IEX",
+      "url": "https://iextrading.com/developer/",
+      "description": "Realtime stock data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_iex_2",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "KeepRule",
+      "url": "https://github.com/henu-wang/keeprule-api",
+      "description": "Investment principles and quotes from Buffett, Munger & more",
+      "category": "finance",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_keeprule",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Mboum API",
+      "url": "https://docs.mboum.com",
+      "description": "Real-time Stock market and Options Data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_mboum_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Polygon.io",
+      "url": "https://polygon.io/docs/",
+      "description": "Real-time and historical stock market data, crypto and forex",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_polygon_io",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Razorpay IFSC",
+      "url": "https://ifsc.razorpay.com/",
+      "description": "Indian Financial Systems Code (Bank Branch Codes)",
+      "category": "finance",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_razorpay_ifsc_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "World Trading Data",
+      "url": "https://www.worldtradingdata.com/",
+      "description": "Market data provider",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_world_trading_data",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Bullbear Advisors",
+      "url": "https://rapidapi.com/otha1920/api/bullbear-advisor",
+      "description": "See strong buy and sell signals the day they occur. Get today's stocks that closed with a strong Bullish or Bearish candlestick.",
+      "category": "finance",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_bullbear_advisors_2",
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A"
+    },
+    {
+      "name": "FinFeedAPI",
+      "url": "https://finfeedapi.com",
+      "description": "Developer-first market data API",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_finfeedapi_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Kite Connect",
+      "url": "https://kite.trade/docs/connect/v3/",
+      "description": "Stock market investment and trading platform",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_kite_connect",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "TradeWatch",
+      "url": "https://tradewatch.io/",
+      "description": "Real time financial market data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_tradewatch_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "wheretocredit.com",
+      "url": "https://api.apis.guru/v2/specs/wheretocredit.com/1.0/openapi.json",
+      "description": "wheretocredit.com - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "finance_wheretocredit_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Barter.VG",
+      "url": "https://github.com/bartervg/barter.vg/wiki",
+      "description": "Provides information about Game, DLC, Bundles, Giveaways, Trading",
+      "category": "finance",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "finance_barter_vg",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SpaceTradersAPI",
+      "url": "https://spacetraders.io?rel=pub-apis",
+      "description": "A playable inter-galactic space trading MMOAPI",
+      "category": "finance",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "finance_spacetradersapi",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Binance",
+      "url": "https://github.com/binance/binance-spot-api-docs",
+      "description": "Exchange for Trading Cryptocurrencies based in China",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "finance_binance",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bittrex",
+      "url": "https://bittrex.github.io/api/v3",
+      "description": "Next Generation Crypto Trading Platform",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "finance_bittrex",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CryptoMarket",
+      "url": "https://api.exchange.cryptomkt.com/",
+      "description": "Cryptocurrencies Trading platform",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "finance_cryptomarket",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Gateio",
+      "url": "https://www.gate.io/api2",
+      "description": "API provides spot, margin and futures trading operations",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "finance_gateio",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Nomics",
+      "url": "https://nomics.com/docs/",
+      "description": "Historical and realtime cryptocurrency prices and market data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "finance_nomics",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "NovaDax",
+      "url": "https://doc.novadax.com/en-US/#introduction",
+      "description": "NovaDAX API to access all market data, trading management endpoints",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "finance_novadax",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Binance",
+      "url": "https://github.com/binance-exchange/binance-official-api-docs",
+      "description": "Exchange for Trading Cryptocurrencies based in China",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "finance",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "finance_binance_2",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Trading View",
+      "url": "https://www.tradingview.com/rest-api-spec/",
+      "description": "Market price, data, graph for brokers and traders",
+      "category": "finance",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "finance",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "finance_trading_view",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Sunor",
+      "url": "https://docs.sunor.cc",
+      "description": "AI music generation API via Suno, with pay-as-you-go credits",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "music"
+      ],
+      "status": "active",
+      "id": "finance_sunor",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "AcreLens",
+      "url": "https://www.acrelens.com",
+      "description": "Land suitability scoring API for any US property: off-grid, rural, recreational, investment",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "finance_acrelens",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Nasdaq Data Link",
+      "url": "https://docs.data.nasdaq.com/",
+      "description": "Stock market data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "finance_nasdaq_data_link",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "shutterstock",
+      "url": "https://api-reference.shutterstock.com/",
+      "description": "Stock Photos and Videos",
+      "category": "finance",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "photography"
+      ],
+      "status": "active",
+      "id": "finance_shutterstock",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "frankiefinancial.io",
+      "url": "https://api.apis.guru/v2/specs/frankiefinancial.io/1.5.3/swagger.json",
+      "description": "frankiefinancial.io - API service at api.apis.guru",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "finance",
+        "ci"
+      ],
+      "status": "active",
+      "id": "finance_frankiefinancial_io",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Kroger",
+      "url": "https://developer.kroger.com/reference",
+      "description": "Supermarket Data",
+      "category": "finance",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "finance",
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "finance_kroger",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Brave New Coin API",
+      "url": "https://bravenewcoin.com/developers",
+      "description": "<details><summary>Global digital asset market data</summary>Provides real-time and historical price indices, trading data, and analytics from 250+ exchanges via REST and WebSocket feeds.</details>",
+      "category": "finance",
+      "auth": "API Token",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "finance",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "finance_brave_new_coin_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Coinbase API",
+      "url": "https://docs.cdp.coinbase.com/coinbase-app/docs/auth/api-key-authentication",
+      "description": "<details><summary>Retail & institutional crypto trading</summary>Offers account management, market data, and trading endpoints; requires API key, secret, and passphrase—supports both wallet and exchan",
+      "category": "finance",
+      "auth": "API Key + Secret + Passphrase",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "finance",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "finance_coinbase_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Flow",
+      "url": "https://www.flow.cl/apiFlow.php",
+      "description": "Flow es una plataforma de pagos online que te permite pagar y recibir pagos de cualquier persona usando tarjetas de credito o débito.",
+      "source": "juanbrujo/listado-apis-publicas-en-chile",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "quality_score": 90,
+      "quality_grade": "A",
+      "quality": {
+        "score": 90,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "finance_flow"
+    },
+    {
+      "name": "ininal",
+      "url": "https://developer.ininal.com/",
+      "description": "ininal is a Turkish virtual card brand and it is a known online banking platform.",
+      "source": "3rt4nm4n/turkish-apis",
+      "status": "active",
+      "auth": "OAuth",
+      "https": "Yes",
+      "cors": "",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "finance_ininal"
+    },
+    {
+      "name": "Kuveyt Türk",
+      "url": "https://developer.kuveytturk.com.tr/",
+      "description": "Kuveyt Turk's API for API banking system.",
+      "source": "3rt4nm4n/turkish-apis",
+      "status": "active",
+      "auth": "apiKey",
+      "https": "Yes",
+      "cors": "",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "quality_score": 90,
+      "quality_grade": "A",
+      "quality": {
+        "score": 90,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "finance_kuveyt_t_rk"
+    },
+    {
+      "name": "Mboum Finance",
+      "url": "https://mboum.com/api",
+      "description": "Stock, options, and market fundamentals",
+      "source": "ngongcm/public-api-list",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "✅",
+      "cors": "",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "quality_score": 94,
+      "quality_grade": "A",
+      "quality": {
+        "score": 94,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "finance_mboum_finance"
+    },
+    {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/",
+      "description": "Global financial market data",
+      "source": "ngongcm/public-api-list",
+      "status": "active",
+      "auth": "None",
+      "https": "✅",
+      "cors": "",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "quality_score": 87,
+      "quality_grade": "A",
+      "quality": {
+        "score": 87,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "finance_yahoo_finance"
+    },
+    {
+      "name": "Bittrex",
+      "url": "https://bittrex.com/Home/Api",
+      "description": "Next Generation Crypto Trading Platform",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "quality_score": 94,
+      "quality_grade": "A",
+      "quality": {
+        "score": 94,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "finance_bittrex_2"
+    },
+    {
+      "name": "CryptoMarket",
+      "url": "https://developers.cryptomkt.com",
+      "description": "Cryptocurrencies Trading platform",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "quality_score": 88,
+      "quality_grade": "A",
+      "quality": {
+        "score": 88,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "finance_cryptomarket_2"
+    },
+    {
+      "name": "Financial Modeling Prep",
+      "url": "https://financialmodelingprep.com/developer/docs/",
+      "description": "Realtime and historical stock data",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "quality_score": 93,
+      "quality_grade": "A",
+      "quality": {
+        "score": 93,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "finance_financial_modeling_prep_2"
+    },
+    {
+      "name": "Twelve Data",
+      "url": "https://twelvedata.com/docs/",
+      "description": "Stock market data (real-time & historical).",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_twelve_data_3"
+    },
+    {
+      "name": "Parqet Logo API",
+      "url": "https://developers.parqet.com/docs/assets/logos",
+      "description": "Free Company Logo API for 400k+ stocks, ETF, mutual funds, crypto and more in [SVG](https://en.wikipedia.org/wiki/Microsoft_Excel#File_formats), [PNG](https://de.wikipedia.org/wiki/Portable_Network_Gr",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_parqet_logo_api"
+    },
+    {
+      "name": "Plaid",
+      "url": "https://tools-collection.net/apis-list/plaid",
+      "description": "Plaid helps companies build fintech solutions by making it easy, safe and reliable for people to connect their financial data to apps and services",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_plaid"
+    },
+    {
+      "name": "Bitmex",
+      "url": "https://tools-collection.net/apis-list/bitmex",
+      "description": "BitMEX is the world&#x27;s most advanced P2P crypto-products trading platform and API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_bitmex"
+    },
+    {
+      "name": "Bybit",
+      "url": "https://tools-collection.net/apis-list/bybit",
+      "description": "Bybit&#x27;s API provides spot, derivatives, and options trading, market data, and account management for one of the largest crypto derivatives exchanges globally 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_bybit"
+    },
+    {
+      "name": "Gemini",
+      "url": "https://tools-collection.net/apis-list/gemini",
+      "description": "Public REST APIs provide market data such as: current order book recent trading activity trade history",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_gemini"
+    },
+    {
+      "name": "IEX Trading",
+      "url": "https://tools-collection.net/apis-list/iex",
+      "description": "Free Stocks and Market Data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_iex_trading"
+    },
+    {
+      "name": "Kraken",
+      "url": "https://tools-collection.net/apis-list/kraken-api",
+      "description": "Kraken&#x27;s REST and WebSocket APIs provide cryptocurrency trading, market data, order management, and account information 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_kraken"
+    },
+    {
+      "name": "KuCoin",
+      "url": "https://tools-collection.net/apis-list/kucoin-api",
+      "description": "KuCoin&#x27;s API supports spot, margin, and futures trading with market data, order management, and account endpoints 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_kucoin"
+    },
+    {
+      "name": "OKX",
+      "url": "https://tools-collection.net/apis-list/okx-api",
+      "description": "OKX&#x27;s API provides spot, futures, options, and DeFi trading with real-time market data and account management 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_okx"
+    },
+    {
+      "name": "The Shrimpy Universal Crypto Exchange Api",
+      "url": "https://tools-collection.net/apis-list/the-shrimpy-universal-crypto-exchange-api",
+      "description": "Collect real-time trade or order book data for free, manage user exchange accounts, execute trading strategies, and simplify the way you connect to each exchange",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_the_shrimpy_universal_crypto_exchange_api"
+    },
+    {
+      "name": "Twelve Data",
+      "url": "https://tools-collection.net/apis-list/twelve-data",
+      "description": "Stock market data (real-time &amp; historical)",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 76,
+      "quality_grade": "B",
+      "quality": {
+        "score": 76,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_twelve_data_4"
+    },
+    {
+      "name": "Barzahlen",
+      "url": "https://tools-collection.net/apis-list/barzahlen",
+      "description": "viafintech API v2 allows you to create payment, partial payment, payout, and refund slips customers can use in stores like supermarkets to pay or receive money",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_barzahlen"
+    },
+    {
+      "name": "Asana",
+      "url": "https://tools-collection.net/apis-list/asana",
+      "description": "Asana&#x27;s API provides programmatic access to tasks, projects, teams, portfolios, and goals 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_asana"
+    },
+    {
+      "name": "Alpaca Trading",
+      "url": "https://tools-collection.net/apis-list/alpaca-trading",
+      "description": "Alpaca&#x27;s Trading API provides commission-free stock and crypto trading, market data, and portfolio management 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_alpaca_trading"
+    },
+    {
+      "name": "Barchart OnDemand",
+      "url": "https://tools-collection.net/apis-list/barchart-ondemand",
+      "description": "Free Market Data APIs for Stock, futures and forex quotes, and historical data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_barchart_ondemand_2"
+    },
+    {
+      "name": "Consumer Financial Protection Bureau",
+      "url": "https://tools-collection.net/apis-list/consumer-financial-protection-bureau",
+      "description": "Financial services consumer complaint data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_consumer_financial_protection_bureau"
+    },
+    {
+      "name": "Financial Modeling Prep",
+      "url": "https://tools-collection.net/apis-list/financial-modeling-prep",
+      "description": "Access all stocks discounted cash flow statements, market price, stock markets news, and learn more about Financial Modeling",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_financial_modeling_prep_3"
+    },
+    {
+      "name": "Finnhub",
+      "url": "https://tools-collection.net/apis-list/finnhub",
+      "description": "Finnhub&#x27;s API provides real-time stock prices, company fundamentals, earnings estimates, news sentiment, and alternative data for 60+ global exchanges and crypto markets 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_finnhub"
+    },
+    {
+      "name": "Portfolio Optimizer",
+      "url": "https://tools-collection.net/apis-list/portfolio-optimizer",
+      "description": "API for investment portfolio optimization",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_portfolio_optimizer_3"
+    },
+    {
+      "name": "Quandl",
+      "url": "https://tools-collection.net/apis-list/quandl",
+      "description": "The source for financial, economic, and alternative datasets, serving investment professionals",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_quandl_2"
+    },
+    {
+      "name": "Tink (Visa)",
+      "url": "https://tools-collection.net/apis-list/tink",
+      "description": "Tink&#x27;s Open Banking API provides bank account data, payment initiation, and income verification across 3,500+ European banks",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_tink_visa"
+    },
+    {
+      "name": "World Trading Data",
+      "url": "https://tools-collection.net/apis-list/world-trading-data",
+      "description": "World Trading Data is a worldwide market data provider, for example provide a stock name and dates and get trading data for those",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_world_trading_data_2"
+    },
+    {
+      "name": "Figo",
+      "url": "https://tools-collection.net/apis-list/figo",
+      "description": "Banking API that allows you to extract financial data such as transaction history, account balance, account owner name and others to extract from any financial account",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_figo"
+    },
+    {
+      "name": "Cohere",
+      "url": "https://dashboard.cohere.com/api-keys",
+      "description": "Free \"Trial\" API key, no credit card. 1,000 API calls/month. Non-commercial use only.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_cohere"
+    },
+    {
+      "name": "SiliconFlow",
+      "url": "https://cloud.siliconflow.cn/account/ak",
+      "description": "Free tier with 14 CNY signup credits. Permanently free models available.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_siliconflow"
+    },
+    {
+      "name": "helium-mcp/",
+      "url": "https://./helium-mcp/",
+      "description": "Search real-time news with bias scoring, get live market data, ML options pricing, and balanced news synthesis via MCP.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "finance_helium_mcp"
+    },
+    {
+      "name": "Live",
+      "url": "https://www.marketaux.com",
+      "description": "Live stock market news with tickers",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 68,
+      "quality_grade": "C",
+      "quality": {
+        "score": 68,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "finance_live"
+    },
+    {
+      "name": "Supermarket",
+      "url": "https://developer.kroger.com/reference",
+      "description": "Supermarket data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "finance",
+      "tags": [
+        "finance"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 64,
+      "quality_grade": "C",
+      "quality": {
+        "score": 64,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "finance_supermarket"
+    },
+    {
+      "name": "Cryptocurrency News",
+      "url": "https://cryptonews-api.com/",
+      "description": "Crypto news",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_cryptocurrency_news",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "DeepSeek",
+      "url": "https://platform.deepseek.com/api-docs/",
+      "description": "High-performance models at ultra-low cost ($0.07/M input tokens with cache)",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_deepseek",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Finnhub WebSocket",
+      "url": "https://finnhub.io/docs/api/websocket-trades",
+      "description": "Real-time stock trades, forex, and crypto via WebSocket",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_finnhub_websocket",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CoinCap WebSocket",
+      "url": "https://docs.coincap.io/#37dcbe0f-eb09-4580-8406-3c683e662905",
+      "description": "Real-time cryptocurrency price streaming",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_coincap_websocket",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Polygon.io WebSocket",
+      "url": "https://polygon.io/docs/stocks/ws_getting-started",
+      "description": "Real-time stock, options, and crypto data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_polygon_io_websocket",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Crossmint",
+      "url": "https://docs.crossmint.com/",
+      "description": "NFT minting and wallet creation via API (no crypto knowledge needed)",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_crossmint",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Coinbase Commerce",
+      "url": "https://docs.cloud.coinbase.com/commerce/reference",
+      "description": "Accept crypto payments — Bitcoin, Ethereum, USDC, etc.",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_coinbase_commerce",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Mashvisor API",
+      "url": "https://www.mashvisor.com/api",
+      "description": "Investment analytics — cap rate, cash-on-cash return",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_mashvisor_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Expedia Rapid API",
+      "url": "https://partner.expediagroup.com/",
+      "description": "700K+ accommodations — dynamic pricing, geo definitions",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_expedia_rapid_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Morningstar",
+      "url": "https://developer.morningstar.com/",
+      "description": "Investment data, fund analytics, and portfolio analysis APIs",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_morningstar",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "KicksDB (Sneakers API)",
+      "url": "https://kicks.dev/",
+      "description": "Structured sneaker data from StockX, GOAT, and Shopify stores",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_kicksdb_sneakers_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Interactive Brokers",
+      "url": "https://www.interactivebrokers.com/campus/ibkr-api-page/ibkr-api-home/",
+      "description": "Full brokerage API (Web, TWS, FIX) for stocks, options, futures, and forex",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_interactive_brokers",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "EODHD",
+      "url": "https://eodhd.com/financial-apis/",
+      "description": "End-of-day, intraday, and fundamental data for global exchanges",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_eodhd",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Yahoo Finance (via RapidAPI)",
+      "url": "https://rapidapi.com/sparior/api/yahoo-finance15",
+      "description": "Stock quotes, historical data, and financial news via unofficial API",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_yahoo_finance_via_rapidapi",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "IDEX API Center",
+      "url": "https://api.idexonline.com/",
+      "description": "Diamond trading platform for inventory and pricing",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_idex_api_center",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Express Funeral Funding API",
+      "url": "https://www.expressfuneralfunding.com/api/",
+      "description": "Funeral funding and insurance assignment processing",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_express_funeral_funding_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "TCGplayer API",
+      "url": "https://docs.tcgplayer.com/docs/welcome",
+      "description": "Trading card game marketplace and pricing",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_tcgplayer_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Fundraise Up API",
+      "url": "https://fundraiseup.com/docs/develop/",
+      "description": "Nonprofit donation platform and CRM",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_fundraise_up_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Coinbase Exchange API",
+      "url": "https://docs.cdp.coinbase.com/exchange/introduction/welcome",
+      "description": "REST and WebSocket for trading and market data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_coinbase_exchange_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "OKX API v5",
+      "url": "https://www.okx.com/docs-v5/en/",
+      "description": "Unified trading API across spot, futures, options",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_okx_api_v5",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "NIH Reporter API",
+      "url": "https://api.reporter.nih.gov/",
+      "description": "NIH funded research projects and grants",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_nih_reporter_api",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "EU Funding & Tenders API",
+      "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/support/apis",
+      "description": "European Commission funding opportunities",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_eu_funding_tenders_api",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "MSCI ESG Ratings",
+      "url": "https://www.msci.com/our-solutions/esg-investing/esg-ratings-climate-search-tool",
+      "description": "ESG ratings and climate search tools for investment-grade ESG analysis",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_msci_esg_ratings",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ISS ESG",
+      "url": "https://www.issgovernance.com/",
+      "description": "Corporate governance, responsible investment, and ESG ratings data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_iss_esg",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Blockcerts",
+      "url": "https://www.blockcerts.org/guide/",
+      "description": "Open standard for blockchain-based academic credentials; issuance and verification",
+      "category": "finance",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_blockcerts",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Donorbox API",
+      "url": "https://donorbox.org/",
+      "description": "Nonprofit online fundraising with recurring donations and campaigns",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_donorbox_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "KYC-Chain",
+      "url": "https://kyc-chain.com/developers/",
+      "description": "KYC onboarding with token-based authentication and quick integration",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_kyc_chain",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Pexels API",
+      "url": "https://www.pexels.com/api/documentation/",
+      "description": "Free stock photos and videos with search and curated collection APIs",
+      "category": "finance",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_pexels_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Zillow (Bridge/Zestimates)",
+      "url": "https://www.zillowgroup.com/developers/",
+      "description": "Property valuations, listings, and market data from Zillow Group's 20+ APIs",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_zillow_bridge_zestimates",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Mashvisor",
+      "url": "https://www.mashvisor.com/api-doc/",
+      "description": "Investment property analytics with rental income, occupancy, and ROI APIs",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_mashvisor",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PharmVar",
+      "url": "https://www.pharmvar.org/documentation",
+      "description": "Pharmacogene variation consortium data for allele definitions and nomenclature",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_pharmvar",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "RapNet",
+      "url": "https://technet.rapaport.com/",
+      "description": "World's largest diamond trading network with real-time pricing and inventory",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_rapnet",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "IDEX Online",
+      "url": "https://idexonline.com/",
+      "description": "Diamond price index and polished diamond trading platform with market data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_idex_online",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Kitco",
+      "url": "https://www.kitco.com/",
+      "description": "Precious metals market data with spot prices, charts, and news feeds",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_kitco",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "FarmLogs (Bushel)",
+      "url": "https://bushelpowered.com/",
+      "description": "Grain marketing and farm management with field tracking and market data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_farmlogs_bushel",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Pokemon TCG API",
+      "url": "https://pokemontcg.io/",
+      "description": "Pokemon trading card game database with card data, sets, and types",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_pokemon_tcg_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Pokemon TCG API",
+      "url": "https://docs.pokemontcg.io/",
+      "description": "Pokemon Trading Card Game data with cards, sets, types, and subtypes",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_pokemon_tcg_api_2",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "JustTCG API",
+      "url": "https://justtcg.com/docs",
+      "description": "Trading card game price tracking and card data API documentation",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_justtcg_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Open TCG API",
+      "url": "https://tcgtracking.com/tcgapi/",
+      "description": "Open trading card game tracking and pricing data for multiple TCGs",
+      "category": "finance",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_open_tcg_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Carbonmark API",
+      "url": "https://www.carbonmark.com/api-and-integrations",
+      "description": "Real-time carbon credit market data with programmatic credit retirement",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_carbonmark_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Open Collective API",
+      "url": "https://docs.opencollective.com/help/contributing/development/api",
+      "description": "GraphQL API for transparent fundraising and fiscal sponsorship",
+      "category": "finance",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_open_collective_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CryptoCompare API",
+      "url": "https://min-api.cryptocompare.com/documentation",
+      "description": "Comprehensive crypto data including mining stats and market data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_cryptocompare_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "TCGAPIs Trading Card API",
+      "url": "https://tcgapis.com/",
+      "description": "Pricing data for 40+ trading card games including Pokemon, Yu-Gi-Oh, and MTG",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_tcgapis_trading_card_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CME Group Market Data",
+      "url": "https://www.cmegroup.com/markets/agriculture/grain-and-oilseed.html",
+      "description": "CBOT futures data for wheat, corn, soybeans, and other grain commodities",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_cme_group_market_data",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Crunchbase API",
+      "url": "https://data.crunchbase.com/",
+      "description": "Business data platform with franchise company info, funding, and business models",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_crunchbase_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Element14/Farnell API",
+      "url": "https://partner.element14.com/api_gallery",
+      "description": "Real-time electronic component pricing, stock, and specification data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_element14_farnell_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Gold-API.com",
+      "url": "https://gold-api.com/",
+      "description": "Free API for gold, silver, and Bitcoin prices with real-time and historical data",
+      "category": "finance",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_gold_api_com",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "HFR Hedge Fund Research",
+      "url": "https://www.hfr.com/",
+      "description": "Over 500 hedge fund indices covering all major strategies and sub-strategies for 30+ years",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_hfr_hedge_fund_research",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Backstop Solutions",
+      "url": "https://www.backstopsolutions.com/",
+      "description": "Investment management platform with data feeds for custodial, fund admin, benchmarks, and investor data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_backstop_solutions",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "EODHD APIs",
+      "url": "https://eodhd.com/",
+      "description": "End-of-day historical data, fundamentals, and alternative data for stocks, ETFs, and funds worldwide",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_eodhd_apis",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Tiingo",
+      "url": "https://www.tiingo.com/",
+      "description": "Financial data API with end-of-day prices, real-time feeds, crypto data, and fundamental analysis",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_tiingo",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Morningstar API",
+      "url": "https://developer.morningstar.com/",
+      "description": "Investment data covering mutual funds, ETFs, hedge funds, and managed futures with analytics tools",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_morningstar_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "AIMA Hedge Fund Data",
+      "url": "https://www.aima.org/educate/hedge-fund-industry-data.html",
+      "description": "Hedge fund industry data and research from the Alternative Investment Management Association",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_aima_hedge_fund_data",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "API Farmer",
+      "url": "https://apifarmer.com/",
+      "description": "Agriculture commodity prices API with livestock, grain, and farm product market data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_api_farmer",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "OpenSea API",
+      "url": "https://docs.opensea.io/",
+      "description": "NFT and digital collectibles marketplace API for tokenized jewelry certificates and provenance",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_opensea_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "EPA SEMS (Superfund)",
+      "url": "https://www.epa.gov/enviro/sems-overview",
+      "description": "Superfund Enterprise Management System data for contaminated site assessment and remediation",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_epa_sems_superfund",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ATSDR Substance Priority List",
+      "url": "https://www.atsdr.cdc.gov/programs/substance-priority-list.html",
+      "description": "Agency for Toxic Substances priority rankings for hazardous substances at Superfund sites",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_atsdr_substance_priority_list",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "USDA MyMarketNews API",
+      "url": "https://mymarketnews.ams.usda.gov/mymarketnews-api",
+      "description": "Pull raw USDA market news data for livestock auctions including cattle, hogs, sheep and goat prices",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_usda_mymarketnews_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "USDA LMPR API",
+      "url": "https://mpr.datamart.ams.usda.gov/",
+      "description": "Livestock Mandatory Price Reporting API with unrestricted access to JSON-formatted cattle and livestock market data",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_usda_lmpr_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CME Group Market Data API",
+      "url": "https://www.cmegroup.com/market-data/market-data-api.html",
+      "description": "Real-time and historical futures/options data for Live Cattle, Feeder Cattle, and Lean Hogs contracts via WebSocket",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_cme_group_market_data_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "FarmersBid API",
+      "url": "https://www.farmersbid.com/en/features-software",
+      "description": "Livestock auction platform with API connectivity for integrating bidding systems with existing farm management software",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_farmersbid_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CME Group API",
+      "url": "https://www.cmegroup.com/market-data/market-data-api.html",
+      "description": "Lumber futures and options market data with real-time streaming and historical commodity prices",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_cme_group_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "WatchCharts API",
+      "url": "https://watchcharts.com/api",
+      "description": "REST API with trusted watch market data for 27K+ watches; pricing starts at $5K/year with Professional membership",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_watchcharts_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "WatchSignals API",
+      "url": "https://api.watchsignals.com/",
+      "description": "REST API with luxury watch market data including serial numbers, appraisal data, and price history in JSON",
+      "category": "finance",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_watchsignals_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Status code definition in W3C",
+      "url": "http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html",
+      "description": ".",
+      "category": "finance",
+      "auth": null,
+      "https": false,
+      "cors": null,
+      "source": "Kikobeats/awesome-api",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_status_code_definition_in_w3c",
+      "quality": {
+        "score": 40,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 0
+        }
+      },
+      "quality_score": 40,
+      "quality_grade": "D"
+    },
+    {
+      "name": "10 Things You Should Know about Tokens",
+      "url": "https://auth0.com/blog/2014/01/27/ten-things-you-should-know-about-tokens-and-cookies/",
+      "description": ".",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "Kikobeats/awesome-api",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_10_things_you_should_know_about_tokens",
+      "quality": {
+        "score": 59,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 59,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Cookies vs Tokens",
+      "url": "https://auth0.com/blog/2014/01/07/angularjs-authentication-with-cookies-vs-token/",
+      "description": ".",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "Kikobeats/awesome-api",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_cookies_vs_tokens",
+      "quality": {
+        "score": 59,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 59,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Using JSON Web Tokens as API Keys",
+      "url": "https://auth0.com/blog/2014/12/02/using-json-web-tokens-as-api-keys/",
+      "description": ".",
+      "category": "finance",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "Kikobeats/awesome-api",
+      "tags": [
+        "finance"
+      ],
+      "status": "active",
+      "id": "finance_using_json_web_tokens_as_api_keys",
+      "quality": {
+        "score": 59,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 59,
+      "quality_grade": "C"
+    }
+  ]
+}

@@ -1,0 +1,1622 @@
+{
+  "id": "url-shorteners",
+  "name": "URL Shorteners",
+  "display_name": "URL Shorteners",
+  "api_count": 64,
+  "apis": [
+    {
+      "name": "domainsdb.info",
+      "url": "https://api.apis.guru/v2/specs/domainsdb.info/1.0/openapi.json",
+      "description": "domainsdb.info - API service at api.apis.guru",
+      "category": "url-shorteners",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_domainsdb_info",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "nic.at:domainfinder",
+      "url": "https://api.apis.guru/v2/specs/nic.at/domainfinder/1.1.0/openapi.json",
+      "description": "nic.at:domainfinder - API service at api.apis.guru",
+      "category": "url-shorteners",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_nic_at_domainfinder",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "ote-godaddy.com:domains",
+      "url": "https://api.apis.guru/v2/specs/ote-godaddy.com/domains/1.0.0/openapi.json",
+      "description": "ote-godaddy.com:domains - API service at api.apis.guru",
+      "category": "url-shorteners",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_ote_godaddy_com_domains",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "powerdns.local",
+      "url": "https://api.apis.guru/v2/specs/powerdns.local/0.0.13/swagger.json",
+      "description": "powerdns.local - API service at api.apis.guru",
+      "category": "url-shorteners",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_powerdns_local",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "QR code",
+      "url": "https://www.qrtag.net/api/",
+      "description": "Create an easy to read QR code and URL shortener",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners",
+        "development"
+      ],
+      "status": "active",
+      "id": "url_shorteners_qr_code",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "QR Tag",
+      "url": "http://qrtag.net/api/",
+      "description": "Create an easy to read QR code and URL shortener",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "url-shorteners",
+        "development"
+      ],
+      "status": "active",
+      "id": "url_shorteners_qr_tag",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "The Null Pointer",
+      "url": "https://0x0.st",
+      "description": "No-bullshit file hosting and URL shortening service",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners",
+        "cloud-storage"
+      ],
+      "status": "active",
+      "id": "url_shorteners_the_null_pointer",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "T.LY",
+      "url": "https://dev.publicapis.dev/resource/t-ly/7e15accd-d1b9-48c4-9475-85111ca79c11",
+      "description": "URL shortener and link management service",
+      "category": "url-shorteners",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_t_ly",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "1pt",
+      "url": "https://github.com/1pt-co/api/blob/main/README.md",
+      "description": "A simple URL shortener",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_1pt",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bitly",
+      "url": "http://dev.bitly.com/get_started.html",
+      "description": "URL shortener and link management",
+      "category": "url-shorteners",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_bitly",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CleanURI",
+      "url": "https://cleanuri.com/docs",
+      "description": "URL shortener service",
+      "category": "url-shorteners",
+      "auth": "None",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_cleanuri",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Clico",
+      "url": "https://cli.com/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config",
+      "description": "URL shortener service",
+      "category": "url-shorteners",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_clico",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Cutt.ly",
+      "url": "https://cutt.ly/api-documentation/cuttly-links-api",
+      "description": "URL shortener service",
+      "category": "url-shorteners",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_cutt_ly",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Drivet URL Shortener",
+      "url": "https://wiki.drivet.xyz/en/url-shortener/add-links",
+      "description": "Shorten a long URL easily and fast",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_drivet_url_shortener",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Free Url Shortener",
+      "url": "https://ulvis.net/developer.html",
+      "description": "Free URL Shortener offers a powerful API to interact with other sites",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_free_url_shortener",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Git.io",
+      "url": "https://github.blog/2011-11-10-git-io-github-url-shortener/",
+      "description": "Git.io URL shortener",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_git_io",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "GoTiny",
+      "url": "https://github.com/robvanbakel/gotiny-api",
+      "description": "A lightweight URL shortener, focused on ease-of-use for the developer and end-user",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_gotiny",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Kutt",
+      "url": "https://docs.kutt.it/",
+      "description": "Free Modern URL Shortener",
+      "category": "url-shorteners",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_kutt",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Mgnet.me",
+      "url": "http://mgnet.me/api.html",
+      "description": "Torrent URL shorten API",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_mgnet_me",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Rebrandly",
+      "url": "https://developers.rebrandly.com/v1/docs",
+      "description": "Custom URL shortener for sharing branded links",
+      "category": "url-shorteners",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_rebrandly",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Short Link",
+      "url": "https://github.com/FayasNoushad/Short-Link-API",
+      "description": "Short URLs support so many domains",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_short_link",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Shrtcode",
+      "url": "https://shrtco.de/docs",
+      "description": "URl Shortener with multiple Domains",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_shrtcode",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "TinyURL",
+      "url": "https://tinyurl.com/app/dev",
+      "description": "Shorten long URLs",
+      "category": "url-shorteners",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_tinyurl",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Polr API",
+      "url": "https://github.com/cydrobolt/polr/wiki/Developer-API",
+      "description": "<details><summary>Open-source URL shortener API</summary>Host your own shortening service with custom slugs and link tracking.</details>",
+      "category": "url-shorteners",
+      "auth": "Token",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_polr_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "**Is.gd**",
+      "url": "https://is.gd/developers.php",
+      "description": "Simple URL shortener. Supports custom short link ending.",
+      "category": "url-shorteners",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_is_gd",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**ShrtURI**",
+      "url": "https://shrturi.com/docs",
+      "description": "URL shortening API for creating short URLs from long URLs.",
+      "category": "url-shorteners",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_shrturi",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Tiny.cc**",
+      "url": "https://tiny.cc/api-docs",
+      "description": "Easy-to-use URL shortener. Supports custom short link ending.",
+      "category": "url-shorteners",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_tiny_cc",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**V.gd**",
+      "url": "https://v.gd/developers.php",
+      "description": "Simple URL shortener. Supports custom short link ending.",
+      "category": "url-shorteners",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_v_gd",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "T.LY",
+      "url": "https://t.ly/docs/",
+      "description": "URL Shortener With Short Links",
+      "category": "url-shorteners",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_t_ly_2",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "marcelscruz/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "urlfy",
+      "url": "https://urlfy.org/api-doc",
+      "description": "A simple and fast URL shortening service",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_urlfy",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Urlix",
+      "url": "https://app.urlix.me/api",
+      "description": "Free URL Shortener with a powerful API",
+      "category": "url-shorteners",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_urlix",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Manyapis.com",
+      "url": "https://manyapis.com/products/short-url",
+      "description": "Free URL shortener API with up to 50 requests per day",
+      "category": "url-shorteners",
+      "auth": "Yes",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_manyapis_com",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Urlmskr",
+      "url": "https://github.com/Axorax/urlmskr#urlmskr-api",
+      "description": "Easy and fast masked, shortened link creation",
+      "category": "url-shorteners",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url_shorteners_urlmskr",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Whois freaks",
+      "url": "https://whoisfreaks.com/",
+      "description": "https://whoisfreaks.com/",
+      "source": "cipher387/API-s-for-OSINT",
+      "status": "active",
+      "auth": "well-parsed and structured domain WHOIS data for all domain names, registrars, countries and TLDs since the birth of internet",
+      "https": "$19/5000 requests",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "quality_score": 86,
+      "quality_grade": "A",
+      "quality": {
+        "score": 86,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "url_shorteners_whois_freaks"
+    },
+    {
+      "name": "WhoisXMLApi",
+      "url": "https://whois.whoisxmlapi.com",
+      "description": "https://whois.whoisxmlapi.com",
+      "source": "cipher387/API-s-for-OSINT",
+      "status": "active",
+      "auth": "gathers a variety of domain ownership and registration data points from a comprehensive WHOIS database",
+      "https": "500 requests in month/FREE",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "quality_score": 87,
+      "quality_grade": "A",
+      "quality": {
+        "score": 87,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "url_shorteners_whoisxmlapi"
+    },
+    {
+      "name": "whoisxmlapi.com",
+      "url": "https://whoisapi.whoisxmlapi.com/docs",
+      "description": "`apiKey`",
+      "source": "jaegeral/security-apis",
+      "status": "active",
+      "auth": "Yes",
+      "https": "[Link!](https://whoisapi.whoisxmlapi.com/docs)",
+      "cors": "Commercial",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "quality_score": 87,
+      "quality_grade": "A",
+      "quality": {
+        "score": 87,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "url_shorteners_whoisxmlapi_com"
+    },
+    {
+      "name": "AdGuard DNS",
+      "url": "https://adguard-dns.io",
+      "description": "Resolver",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_adguard_dns"
+    },
+    {
+      "name": "Control-D Free DNS",
+      "url": "https://controld.com/free-dns",
+      "description": "Resolver",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_control_d_free_dns"
+    },
+    {
+      "name": "Google Public DNS",
+      "url": "https://developers.google.com/speed/public-dns",
+      "description": "Resolver",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_google_public_dns"
+    },
+    {
+      "name": "Mullvad DNS",
+      "url": "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls",
+      "description": "Resolver",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_mullvad_dns"
+    },
+    {
+      "name": "NextDNS",
+      "url": "https://nextdns.io",
+      "description": "Resolver",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_nextdns"
+    },
+    {
+      "name": "OpenDNS",
+      "url": "https://www.opendns.com",
+      "description": "Resolver",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_opendns"
+    },
+    {
+      "name": "is-a.dev",
+      "url": "https://is-a.dev",
+      "description": "Grab your own sweet-looking `.is-a.dev` subdomain.",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 82,
+      "quality_grade": "B",
+      "quality": {
+        "score": 82,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_is_a_dev"
+    },
+    {
+      "name": "NGO.us",
+      "url": "https://nic.ngo.us",
+      "description": "Free `.ngo.us` subdomains for verified not-for-profit organizations, NGOs, and similar initiatives.",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "url_shorteners_ngo_us"
+    },
+    {
+      "name": "Open Domains",
+      "url": "https://open-domains.net",
+      "description": "Free subdomains for personal sites, open-source projects, and more.",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "url_shorteners_open_domains"
+    },
+    {
+      "name": "pp.ua",
+      "url": "https://pp.ua",
+      "description": "Free pp.ua subdomains.",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_pp_ua"
+    },
+    {
+      "name": "stackryze",
+      "url": "https://domain.stackryze.com",
+      "description": "Free subdomains for `indevs.in` & `sryze.cc`.",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_stackryze"
+    },
+    {
+      "name": "Zone.ID",
+      "url": "https://www.zone.id",
+      "description": "Zone.ID is a premium subdomain provider as an alternative to the traditional .id TLD. This domain is managed by PT. Geksa, a verified PTp company in Indonesia. It also manages the `nett.to` domain.",
+      "source": "wdhdev/free-for-life",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "url_shorteners_zone_id"
+    },
+    {
+      "name": "QR code",
+      "url": "http://qrtag.net/api/",
+      "description": "Create an easy to read QR code and URL shortener",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "quality_score": 87,
+      "quality_grade": "A",
+      "quality": {
+        "score": 87,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "url_shorteners_qr_code_2"
+    },
+    {
+      "name": "Is.gd",
+      "url": "https://is.gd/developers.php",
+      "description": "Simple URL shortener. Supports custom short link ending.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_is_gd_2"
+    },
+    {
+      "name": "ShrtURI",
+      "url": "https://shrturi.com/docs",
+      "description": "URL shortening API for creating short URLs from long URLs.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 79,
+      "quality_grade": "B",
+      "quality": {
+        "score": 79,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_shrturi_2"
+    },
+    {
+      "name": "Tiny.cc",
+      "url": "https://tiny.cc/api-docs",
+      "description": "Easy-to-use URL shortener. Supports custom short link ending.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_tiny_cc_2"
+    },
+    {
+      "name": "V.gd",
+      "url": "https://v.gd/developers.php",
+      "description": "Simple URL shortener. Supports custom short link ending.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_v_gd_2"
+    },
+    {
+      "name": "Universities List",
+      "url": "https://tools-collection.net/apis-list/universities-list",
+      "description": "List of universities and their domain names",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_universities_list"
+    },
+    {
+      "name": "Visit Rank",
+      "url": "https://tools-collection.net/apis-list/visit-rank",
+      "description": "Get a rank for any of 385 million domains",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_visit_rank"
+    },
+    {
+      "name": "Is.gd",
+      "url": "https://tools-collection.net/apis-list/is-gd",
+      "description": "Simple URL shortener",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_is_gd_3"
+    },
+    {
+      "name": "Long Url Shortener",
+      "url": "https://tools-collection.net/apis-list/long-url-shortener",
+      "description": "Given a long URL, returns a short link",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_long_url_shortener"
+    },
+    {
+      "name": "Naver URL Shortener",
+      "url": "https://tools-collection.net/apis-list/naver-url-shortener",
+      "description": "Access to Naver’s URL shortening API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_naver_url_shortener"
+    },
+    {
+      "name": "Rebrandly",
+      "url": "https://tools-collection.net/apis-list/rebrandly",
+      "description": "Rebrandly is the link management platform to brand, track and share short URLs using a custom domain name",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_rebrandly_2"
+    },
+    {
+      "name": "Shrtlnk.dev",
+      "url": "https://tools-collection.net/apis-list/shrtlnk-dev",
+      "description": "URL shortener API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 69,
+      "quality_grade": "C",
+      "quality": {
+        "score": 69,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "url_shorteners_shrtlnk_dev"
+    },
+    {
+      "name": "Tiny.cc",
+      "url": "https://tools-collection.net/apis-list/tiny-cc",
+      "description": "Easy-to-use URL shortener",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_tiny_cc_3"
+    },
+    {
+      "name": "V.gd",
+      "url": "https://tools-collection.net/apis-list/v-gd",
+      "description": "Simple URL shortener",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_v_gd_3"
+    },
+    {
+      "name": "domain-name-brainstormer/",
+      "url": "https://./domain-name-brainstormer/",
+      "description": "Brainstorm available domain names with criteria and checks.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "url-shorteners",
+      "tags": [
+        "url-shorteners"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "url_shorteners_domain_name_brainstormer"
+    },
+    {
+      "name": "Short.io",
+      "url": "https://developers.short.io/",
+      "description": "Branded short links",
+      "category": "url-shorteners",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "url-shorteners_short_io",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    }
+  ]
+}

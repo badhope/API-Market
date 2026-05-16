@@ -1,0 +1,2303 @@
+{
+  "id": "environment",
+  "name": "Environment",
+  "display_name": "Environment",
+  "api_count": 89,
+  "apis": [
+    {
+      "name": "Corsfix",
+      "url": "https://corsfix.com/docs/cors-proxy/api",
+      "description": "Corsfix lets you fetch any resource and bypass CORS errors, free for development environment",
+      "category": "environment",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "environment",
+        "development"
+      ],
+      "status": "active",
+      "id": "environment_corsfix",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "corrently.io",
+      "url": "https://api.apis.guru/v2/specs/corrently.io/2.0.0/openapi.json",
+      "description": "*Corrently - from italian corrente, which is energy* # Introduction The Corrently ecosystem gets maintained by [STROMDAO GmbH](https://www.stromdao.de/) to support green energy services for prosumers,",
+      "category": "environment",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_corrently_io",
+      "quality": {
+        "score": 93,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 93,
+      "quality_grade": "A"
+    },
+    {
+      "name": "openaq.local",
+      "url": "https://api.apis.guru/v2/specs/openaq.local/2.0.0/openapi.json",
+      "description": "API for OpenAQ LCS",
+      "category": "environment",
+      "auth": "apiKey",
+      "https": true,
+      "cors": true,
+      "source": "apis.guru",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_openaq_local",
+      "quality": {
+        "score": 78,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 78,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "EPA",
+      "url": "https://www.epa.gov/developers/data-data-products#apis",
+      "description": "Web services and data sets from the US Environmental Protection Agency",
+      "category": "environment",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "environment",
+        "government"
+      ],
+      "status": "active",
+      "id": "environment_epa",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "EPA",
+      "url": "https://developer.epa.gov/category/apis/",
+      "description": "Web services and data sets from the US Environmental Protection Agency",
+      "category": "environment",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "environment",
+        "government"
+      ],
+      "status": "active",
+      "id": "environment_epa_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "USGS Earthquake API",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+      "description": "<details><summary>Real-time earthquake data globally</summary>Provides real-time earthquake data such as magnitude, location, and time from the U.S. Geological Survey.</details>",
+      "category": "environment",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "environment",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "environment_usgs_earthquake_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Google Earth Engine",
+      "url": "https://developers.google.com/earth-engine/",
+      "description": "A cloud-based platform for planetary-scale environmental data analysis",
+      "category": "environment",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "environment",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "environment_google_earth_engine",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Queimadas INPE",
+      "url": "https://queimadas.dgi.inpe.br/queimadas/dados-abertos/",
+      "description": "Access to heat focus data (probable wildfire)",
+      "category": "environment",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "environment",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "environment_queimadas_inpe",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CommodityPriceAPI",
+      "url": "https://commoditypriceapi.com/",
+      "description": "Real-time & historical commodity prices (metals, energy, etc)",
+      "category": "environment",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "environment",
+        "finance"
+      ],
+      "status": "active",
+      "id": "environment_commoditypriceapi",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "carbondoomsday.com",
+      "url": "https://api.apis.guru/v2/specs/carbondoomsday.com/v1/swagger.json",
+      "description": "A real-time RESTish web API for worldwide carbon dioxide levels.",
+      "category": "environment",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "environment",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "environment_carbondoomsday_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Global Disaster Alert (GDACS)",
+      "url": "https://www.gdacs.org/",
+      "description": "<details><summary>Alerts on earthquakes, floods, cyclones</summary>The Global Disaster Alert and Coordination System gives updates on natural disasters like earthquakes, floods, and cyclones.</details",
+      "category": "environment",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "environment",
+        "social"
+      ],
+      "status": "active",
+      "id": "environment_global_disaster_alert_gdacs",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Application Environment Verification",
+      "url": "https://github.com/fingerprintjs/aev",
+      "description": "Android library and API to verify the safety of user devices, detect rooted devices and other risks",
+      "category": "environment",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "environment",
+        "security"
+      ],
+      "status": "active",
+      "id": "environment_application_environment_verification",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "USGS",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+      "description": "Earthquake Data",
+      "category": "environment",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "environment",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "environment_usgs",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "NOAA NGDC",
+      "url": "https://www.ngdc.noaa.gov/",
+      "description": "Natural hazards data including earthquakes, tsunamis, and volcanic eruptions",
+      "category": "environment",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "environment",
+        "weather"
+      ],
+      "status": "active",
+      "id": "environment_noaa_ngdc",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Mailtrap",
+      "url": "https://mailtrap.docs.apiary.io/#",
+      "description": "A service for the safe testing of emails sent from the development and staging environments",
+      "category": "environment",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "environment",
+        "email"
+      ],
+      "status": "active",
+      "id": "environment_mailtrap",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**DitchCarbon API**",
+      "url": "https://docs.ditchcarbon.com/",
+      "description": "DitchCarbon provides API access to their dataset of company and product carbon emissions disclosures, also includes reccommended actions for each company to decarbonise.",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "environment",
+        "analytics"
+      ],
+      "status": "active",
+      "id": "environment_ditchcarbon_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "USGS Earthquake Hazards Program",
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+      "description": "Earthquakes data real-time",
+      "category": "environment",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "environment",
+        "science-math",
+        "ci"
+      ],
+      "status": "active",
+      "id": "environment_usgs_earthquake_hazards_program",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "azure.com:web-AppServiceEnvironments",
+      "url": "https://api.apis.guru/v2/specs/azure.com/web-AppServiceEnvironments/2019-08-01/swagger.json",
+      "description": "azure.com:web-AppServiceEnvironments - API service at api.apis.guru",
+      "category": "environment",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_azure_com_web_appserviceenvironments",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "greenpeace.org",
+      "url": "https://api.apis.guru/v2/specs/greenpeace.org/1.0.0/swagger.json",
+      "description": "greenpeace.org - API service at api.apis.guru",
+      "category": "environment",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_greenpeace_org",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "solarvps.com",
+      "url": "https://api.apis.guru/v2/specs/solarvps.com/1.0.0/swagger.json",
+      "description": "solarvps.com - API service at api.apis.guru",
+      "category": "environment",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_solarvps_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Corsfix",
+      "url": "https://dev.publicapis.dev/resource/corsfix/e2d8ffda-3902-416a-97f9-e5ede5441e10",
+      "description": "Corsfix lets you fetch any resource and bypass CORS errors, free for development environment",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_corsfix_2",
+      "https_inferred": true,
+      "cors_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Carbon Interface",
+      "url": "https://docs.carboninterface.com/",
+      "description": "API to calculate carbon (C02) emissions estimates for common C02 emitting activities",
+      "category": "environment",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_carbon_interface",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Climatiq",
+      "url": "https://docs.climatiq.io",
+      "description": "Calculate the environmental footprint created by a broad range of emission-generating activities",
+      "category": "environment",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_climatiq",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Cloverly",
+      "url": "https://www.cloverly.com/carbon-offset-documentation",
+      "description": "API calculates the impact of common carbon-intensive activities in real time",
+      "category": "environment",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_cloverly",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Danish data service Energi",
+      "url": "https://www.energidataservice.dk/",
+      "description": "Open energy data from Energinet to society",
+      "category": "environment",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_danish_data_service_energi",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "GrünstromIndex",
+      "url": "https://gruenstromindex.de/",
+      "description": "Green Power Index for Germany (Grünstromindex/GSI)",
+      "category": "environment",
+      "auth": "No",
+      "https": false,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_gr_nstromindex",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "UK Carbon Intensity",
+      "url": "https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v1-0-0",
+      "description": "The Official Carbon Intensity API for Great Britain developed by National Grid",
+      "category": "environment",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_uk_carbon_intensity",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Website Carbon",
+      "url": "https://api.websitecarbon.com/",
+      "description": "API to estimate the carbon footprint of loading web pages",
+      "category": "environment",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_website_carbon",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Electricity Maps",
+      "url": "https://www.electricitymaps.com/",
+      "description": "<details><summary>Electricity data and carbon intensity worldwide</summary>Get real time, historical, and forecasted data on electricity mix, prices, and carbon emissions.</details>",
+      "category": "environment",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_electricity_maps",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "1ClickImpact",
+      "url": "https://docs.1clickimpact.com/",
+      "description": "Environmental impact API for tree planting, carbon offsetting and ocean cleanup",
+      "category": "environment",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_1clickimpact",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "WattBuy",
+      "url": "https://wattbuy.readme.io/reference/getting-started-with-your-api",
+      "description": "Electricity usage estimations, carbon footprint estimations, and utility data",
+      "category": "environment",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_wattbuy",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Website Carbon",
+      "url": "https://docs.1clickimpact.com/website-carbon",
+      "description": "API to estimate the carbon footprint of loading web pages",
+      "category": "environment",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_website_carbon_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Cybergreen",
+      "url": "http://stats.cybergreen.net/download/",
+      "description": "`apiKey`",
+      "source": "jaegeral/security-apis",
+      "status": "active",
+      "auth": "Yes",
+      "https": "[Link!](http://stats.cybergreen.net/download/)",
+      "cors": "?",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_cybergreen"
+    },
+    {
+      "name": "Carbon Black",
+      "url": "https://github.com/carbonblack/cbapi",
+      "description": "`apiKey`",
+      "source": "jaegeral/security-apis",
+      "status": "active",
+      "auth": "Yes",
+      "https": "[Link!](https://github.com/carbonblack/cbapi)",
+      "cors": "Commercial",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 82,
+      "quality_grade": "B",
+      "quality": {
+        "score": 82,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_carbon_black"
+    },
+    {
+      "name": "Climate Change AI",
+      "url": "https://climatechange.ai \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "auth": null,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_climate_change_ai"
+    },
+    {
+      "name": "The National Renewable Energy Laboratory",
+      "url": "https://developer.nrel.gov/ \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "energy",
+      "https": "Helps access energy data on renewable energy and alternative fuel data.",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_the_national_renewable_energy_laboratory"
+    },
+    {
+      "name": "United States Environmental Protection Agency",
+      "url": "https://edg.epa.gov/metadata/catalog/components/components.page# \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "various",
+      "https": "Access to EPA's rich datasets",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_united_states_environmental_protection_agency"
+    },
+    {
+      "name": "Climate Change Data",
+      "url": "https://datahub.io/collections/climate-change \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "various",
+      "https": "The most important “general” datasets to have on climate change",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_climate_change_data"
+    },
+    {
+      "name": "CO2 Emissions from Fossil Fuels since 1751, By Nation",
+      "url": "https://datahub.io/core/co2-fossil-by-nation \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "CO2 emissions",
+      "https": "Per Country CO2 Emissions from fossil-fuels annually since 1751 till 2014. Data Data comes from the Carbon Dioxide Information Analysis Center (CDIAC).",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_co2_emissions_from_fossil_fuels_since_1751_by_nati"
+    },
+    {
+      "name": "CO2 PPM - Trends in Atmospheric Carbon Dioxide",
+      "url": "https://datahub.io/core/co2-ppm#r \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "CO2 emissions",
+      "https": "CO2 PPM - Trends in Atmospheric Carbon Dioxide. Data are sourced from the US Government's Earth System Research Laboratory, Global Monitoring Division.",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_co2_ppm_trends_in_atmospheric_carbon_dioxide"
+    },
+    {
+      "name": "Global Carbon Budget",
+      "url": "https://github.com/openclimatedata/global-carbon-budget",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "various",
+      "https": "Annual data publication of carbon cycle sources and sinks.",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_global_carbon_budget"
+    },
+    {
+      "name": "Global Climate Change Data",
+      "url": "https://data.world/data-society/global-climate-change-data \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "air temperature",
+      "https": "Average land temperature data from 1750－2015",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_global_climate_change_data"
+    },
+    {
+      "name": "Greenhouse gas emissions per 1000 kilocalories",
+      "url": "https://ourworldindata.org/grapher/ghg-kcal-poore \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "CO2 emissions",
+      "https": "Greenhouse gas emissions are measured in kilograms of carbon dioxide equivalents (kgCO₂eq) per 1000 kilocalories.",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_greenhouse_gas_emissions_per_1000_kilocalories"
+    },
+    {
+      "name": "How to reduce the worlds carbon footprint by 2050",
+      "url": "https://informationisbeautiful.net/visualizations/how-to-reduce-the-worlds-carbon-footprint-by-2050/ \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "CO2 emissions",
+      "https": "Data on CO2 emissions - Information Is Beautiful data vis with references to underlying data sources",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_how_to_reduce_the_worlds_carbon_footprint_by_2050"
+    },
+    {
+      "name": "What a technologist can do about Climate Change?",
+      "url": "http://worrydream.com/ClimateChange/ \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "various",
+      "https": "A blog post showing data visualisations and analyses on climate change issues - each analysis gives a reference to the data used.",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_what_a_technologist_can_do_about_climate_change"
+    },
+    {
+      "name": "World Bank Climate Change Data",
+      "url": "https://datacatalog.worldbank.org/dataset/climate-change-data \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "various",
+      "https": "Data from World Development Indicators and Climate Change Knowledge Portal on climate systems, exposure to climate impacts, resilience, greenhouse gas emissions, and energy use.",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_world_bank_climate_change_data"
+    },
+    {
+      "name": "GrünstromIndex",
+      "url": "https://www.corrently.de/hintergrund/gruenstromindex/index.html",
+      "description": "Green Power Index for Germany (Grünstromindex/GSI)",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "No",
+      "https": "No",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 92,
+      "quality_grade": "A",
+      "quality": {
+        "score": 92,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "environment_gr_nstromindex_2"
+    },
+    {
+      "name": "La Data Verte",
+      "url": "https://ladataverte.fr",
+      "description": "Aggregation of multiple environmental indicators (CO2 emissions, Average temperature, etc)",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "environment_la_data_verte"
+    },
+    {
+      "name": "DitchCarbon API",
+      "url": "https://docs.ditchcarbon.com/",
+      "description": "DitchCarbon provides API access to their dataset of company and product carbon emissions disclosures, also includes reccommended actions for each company to decarbonise.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_ditchcarbon_api_2"
+    },
+    {
+      "name": "GrünstromIndex",
+      "url": "https://tools-collection.net/apis-list/grunstromindex",
+      "description": "The green electricity index shows when a lot of renewable electricity is in the grid and can be used in the household",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_gr_nstromindex_3"
+    },
+    {
+      "name": "Matlab",
+      "url": "https://tools-collection.net/apis-list/matlab",
+      "description": "MATLAB is a high-level language and interactive environment for numerical computation, visualization, and programming",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_matlab"
+    },
+    {
+      "name": "EPA",
+      "url": "https://tools-collection.net/apis-list/epa",
+      "description": "United States Environmental Protection Agency API 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 77,
+      "quality_grade": "B",
+      "quality": {
+        "score": 77,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_epa_3"
+    },
+    {
+      "name": "OpenAQ",
+      "url": "https://tools-collection.net/apis-list/openaq",
+      "description": "Loading",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 66,
+      "quality_grade": "C",
+      "quality": {
+        "score": 66,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "environment_openaq"
+    },
+    {
+      "name": "Environment Config",
+      "url": "https://docs/ENVIRONMENT.md",
+      "description": "Complete `.env` variables and references",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "environment",
+      "tags": [
+        "environment"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "environment_environment_config"
+    },
+    {
+      "name": "Breezometer",
+      "url": "https://docs.breezometer.com/api-documentation/introduction/",
+      "description": "Air quality & pollen",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_breezometer",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "EPA Air Quality",
+      "url": "https://www.epa.gov/outdoor-air-quality-data/air-quality-index-daily-values-report",
+      "description": "US air quality",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_epa_air_quality",
+      "quality": {
+        "score": 57,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 57,
+      "quality_grade": "C"
+    },
+    {
+      "name": "PurpleAir",
+      "url": "https://www2.purpleair.com/pages/develop-api",
+      "description": "Real-time air quality",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_purpleair",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "WattTime",
+      "url": "https://www.watttime.org/api-documentation/",
+      "description": "Real-time grid emissions data for clean energy optimization",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_watttime",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "NASA POWER",
+      "url": "https://power.larc.nasa.gov/docs/",
+      "description": "Solar irradiance and meteorological data for energy planning",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_nasa_power",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "NREL Developer",
+      "url": "https://developer.nrel.gov/",
+      "description": "Renewable energy datasets — solar, wind, geothermal, hydrogen",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_nrel_developer",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "AirNow API",
+      "url": "https://docs.airnowapi.org/",
+      "description": "Air Quality Index — current/forecast from EPA",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_airnow_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Sunvoy API",
+      "url": "https://sunvoy.com/api",
+      "description": "Multi-brand energy device API: Enphase, SolarEdge, Tesla, and more",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_sunvoy_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Open-Meteo Air Quality API",
+      "url": "https://open-meteo.com/en/docs/air-quality-api",
+      "description": "Free air quality forecasts for PM, gases, and pollen worldwide",
+      "category": "environment",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_open_meteo_air_quality_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "IQAir AirVisual API",
+      "url": "https://www.iqair.com/commercial-air-quality-monitors/api",
+      "description": "Air quality data from 80+ countries; current conditions and forecasts",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_iqair_airvisual_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Ambee Air Quality API",
+      "url": "https://www.getambee.com/api/air-quality",
+      "description": "Hyperlocal air quality data with pollen, fire, and soil monitoring",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_ambee_air_quality_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PurpleAir API",
+      "url": "https://community.purpleair.com/c/data/api/18",
+      "description": "Real-time data from a global network of low-cost air quality sensors",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_purpleair_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Plume Labs API",
+      "url": "https://plumelabs.com/en/forecast-api/",
+      "description": "Accurate live and forecast air quality data with street-level resolution",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_plume_labs_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Weatherbit Air Quality API",
+      "url": "https://www.weatherbit.io/api/airquality-current",
+      "description": "Detailed air pollution data integrated with weather information",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_weatherbit_air_quality_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Copernicus Atmosphere Monitoring Service",
+      "url": "https://atmosphere.copernicus.eu/",
+      "description": "European-scale air quality forecasts and reanalysis data",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_copernicus_atmosphere_monitoring_service",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "SolarWinds Observability API",
+      "url": "https://documentation.solarwinds.com/en/success_center/observability/content/api/api-swagger.htm",
+      "description": "SaaS network and infrastructure observability",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_solarwinds_observability_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Water Quality Portal (WQP)",
+      "url": "https://www.waterqualitydata.us/webservices_documentation/",
+      "description": "Water quality data from USGS, EPA and 400+ agencies",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_water_quality_portal_wqp",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "UK EA Water Quality",
+      "url": "https://www.api.gov.uk/ea/water-quality/",
+      "description": "Water quality archive in JSON, CSV, and RDF",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_uk_ea_water_quality",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Meersens Water Quality API",
+      "url": "https://meersens.com/api/?lang=en",
+      "description": "Tap water quality and WHO compliance",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_meersens_water_quality_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "S&P Global ESG Scores",
+      "url": "https://www.spglobal.com/sustainable1/en/solutions/esg-scores-data",
+      "description": "Comprehensive ESG scores, Trucost environmental data, and raw emissions data",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_s_p_global_esg_scores",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "OpenWeatherMap Air Pollution",
+      "url": "https://openweathermap.org/api/air-pollution",
+      "description": "Air quality and pollution data with current, forecast, and historical endpoints",
+      "category": "environment",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_openweathermap_air_pollution",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Climatiq API",
+      "url": "https://www.climatiq.io/docs",
+      "description": "Carbon emission calculations for transport, energy, and supply chain",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_climatiq_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "National Renewable Energy Lab API",
+      "url": "https://developer.nrel.gov/",
+      "description": "Solar, wind, and renewable energy datasets and calculators",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_national_renewable_energy_lab_api",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "OpenWeather Solar Radiation API",
+      "url": "https://openweathermap.org/api/solar-radiation",
+      "description": "Solar irradiance and UV data for renewable energy planning",
+      "category": "environment",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_openweather_solar_radiation_api",
+      "quality": {
+        "score": 79,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 79,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SolarWinds Service Desk",
+      "url": "https://apidoc.samanage.com/",
+      "description": "IT service management with incident, problem, and change APIs",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_solarwinds_service_desk",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "WattTime",
+      "url": "https://docs.watttime.org/",
+      "description": "Real-time and forecast grid emissions data API for carbon-aware computing",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_watttime_2",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "2050 Materials API",
+      "url": "https://2050-materials.com/",
+      "description": "Construction sustainability data API for material carbon footprint analysis",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_2050_materials_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "OpenAQ Air Quality API",
+      "url": "https://docs.openaq.org",
+      "description": "Global ground-level air quality data relevant to smoke and fire monitoring",
+      "category": "environment",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_openaq_air_quality_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "USGS Water Data API",
+      "url": "https://api.waterdata.usgs.gov/",
+      "description": "Real-time streamflow, gage height, and water quality for US monitoring locations",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_usgs_water_data_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Renewables.ninja API",
+      "url": "https://www.renewables.ninja/documentation/api",
+      "description": "Hourly power output simulations for renewable energy including geothermal resource areas",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_renewables_ninja_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "IRENA Renewable Data",
+      "url": "https://www.irena.org/Data",
+      "description": "Global geothermal energy capacity, generation statistics, and country-level balances",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_irena_renewable_data",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Zabrizon Renewable Energy API",
+      "url": "https://www.zabrizon.com/products/renewable-energy-sources-api",
+      "description": "Comprehensive renewable energy data API covering geothermal and other sources",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_zabrizon_renewable_energy_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Pilkington Sun Management Calculator",
+      "url": "https://www.pilkington.com/en/us/window-manufacturers/tools-and-calculators/sun-management-calculator",
+      "description": "Interactive tool for calculating glazing combinations and generating specifications",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_pilkington_sun_management_calculator",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "IQAir AirVisual API",
+      "url": "https://api-docs.iqair.com/",
+      "description": "Real-time air quality data from 30,000+ sensors worldwide for environmental monitoring",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_iqair_airvisual_api_2",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "GSAP",
+      "url": "https://greensock.com/gsap/",
+      "description": "",
+      "category": "environment",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "exa-studio/ApiVault",
+      "tags": [
+        "environment"
+      ],
+      "status": "active",
+      "id": "environment_gsap",
+      "quality": {
+        "score": 47,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 47,
+      "quality_grade": "D"
+    }
+  ]
+}

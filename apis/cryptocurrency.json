@@ -1,0 +1,4269 @@
+{
+  "id": "cryptocurrency",
+  "name": "Cryptocurrency",
+  "display_name": "Cryptocurrency",
+  "api_count": 163,
+  "apis": [
+    {
+      "name": "chaingateway.io",
+      "url": "https://api.apis.guru/v2/specs/chaingateway.io/1.0.0/openapi.json",
+      "description": "This API allows you to interact with Ethereum, Binance smart chain, Polygon and Tron blockchain. If you ever looked for a possibility to automate token or payments this is the right place. You still",
+      "category": "cryptocurrency",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_chaingateway_io",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Agent Gateway",
+      "url": "https://agent-gateway-kappa.vercel.app",
+      "description": "34+ AI agent infrastructure services including memory, wallets, and scheduling",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "cryptocurrency",
+        "development"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_agent_gateway",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Yandex**",
+      "url": "https://tech.yandex.com/maps/",
+      "description": "API for installing Yandex.Maps and the necessary tools for working it on your web app or site.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_yandex",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "OpenFIGI",
+      "url": "https://www.openfigi.com/api",
+      "description": "Equity, index, futures, options symbology from Bloomberg LP",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "finance"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_openfigi",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "amazonaws.com:managedblockchain",
+      "url": "https://api.apis.guru/v2/specs/amazonaws.com/managedblockchain/2018-09-24/openapi.json",
+      "description": "amazonaws.com:managedblockchain - API service at api.apis.guru",
+      "category": "cryptocurrency",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_amazonaws_com_managedblockchain",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:blockchain",
+      "url": "https://api.apis.guru/v2/specs/azure.com/blockchain/2018-06-01-preview/swagger.json",
+      "description": "azure.com:blockchain - API service at api.apis.guru",
+      "category": "cryptocurrency",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_azure_com_blockchain",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "polygon.io",
+      "url": "https://api.apis.guru/v2/specs/polygon.io/1.0.0/swagger.json",
+      "description": "The future of fintech.",
+      "category": "cryptocurrency",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_polygon_io",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "spectrocoin.com",
+      "url": "https://api.apis.guru/v2/specs/spectrocoin.com/1.0.0/swagger.json",
+      "description": "spectrocoin.com - API service at api.apis.guru",
+      "category": "cryptocurrency",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_spectrocoin_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "tcgdex.net",
+      "url": "https://api.apis.guru/v2/specs/tcgdex.net/2.0.0/openapi.json",
+      "description": "tcgdex.net - API service at api.apis.guru",
+      "category": "cryptocurrency",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_tcgdex_net",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "tokenjay.app",
+      "url": "https://api.apis.guru/v2/specs/tokenjay.app/1.0.0/openapi.json",
+      "description": "tokenjay.app - API service at api.apis.guru",
+      "category": "cryptocurrency",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_tokenjay_app",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Exchangerate Host",
+      "url": "https://exchangerate.host/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "description": "Real-time current and historical foreign exchange and crypto rates",
+      "category": "cryptocurrency",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "public-apis/public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_exchangerate_host",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "auth_inferred": true
+    },
+    {
+      "name": "LogoKit",
+      "url": "https://dev.publicapis.dev/resource/logokit/24e7641f-8c28-4c3b-b5e6-1da671023ec9",
+      "description": "Logo API for brands, stocks, and cryptocurrencies",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_logokit",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "MercadoBitcoin",
+      "url": "https://dev.publicapis.dev/resource/mercadobitcoin/ab878c8c-70bb-43a0-99e2-996f79fdecb6",
+      "description": "Brazilian Cryptocurrency Information",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_mercadobitcoin",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "0x",
+      "url": "https://0x.org/api",
+      "description": "API for querying token and pool stats across various liquidity pools",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_0x",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Alchemy Ethereum",
+      "url": "https://docs.alchemy.com/alchemy/",
+      "description": "Ethereum Node-as-a-Service Provider",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_alchemy_ethereum",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bitcambio",
+      "url": "https://nova.bitcambio.com.br/api/v3/docs#a-public",
+      "description": "Get the list of all traded assets in the exchange",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_bitcambio",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BitcoinAverage",
+      "url": "https://apiv2.bitcoinaverage.com/",
+      "description": "Digital Asset Price Data for the blockchain industry",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "other"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_bitcoinaverage",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BitcoinCharts",
+      "url": "https://bitcoincharts.com/about/exchanges/",
+      "description": "Financial and Technical Data related to the Bitcoin Network",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_bitcoincharts",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Blockchain",
+      "url": "https://www.blockchain.com/api",
+      "description": "Bitcoin Payment, Wallet & Transaction Data",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_blockchain",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Brave NewCoin",
+      "url": "https://bravenewcoin.com/developers",
+      "description": "Real-time and historic crypto data from more than 200+ exchanges",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_brave_newcoin",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Coinbase",
+      "url": "https://developers.coinbase.com",
+      "description": "Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "other"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinbase",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Coinbase Pro",
+      "url": "https://docs.pro.coinbase.com/#api",
+      "description": "Cryptocurrency Trading Platform",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinbase_pro",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CoinCap",
+      "url": "https://docs.coincap.io/",
+      "description": "Real time Cryptocurrency prices through a RESTful API",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coincap",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CoinDCX",
+      "url": "https://docs.coindcx.com/",
+      "description": "Cryptocurrency Trading Platform",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coindcx",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CoinDesk",
+      "url": "https://old.coindesk.com/coindesk-api/",
+      "description": "CoinDesk's Bitcoin Price Index (BPI) in multiple currencies",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coindesk",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CoinGecko",
+      "url": "http://www.coingecko.com/api",
+      "description": "Cryptocurrency Price, Market, and Developer/Social Data",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coingecko",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Coinigy",
+      "url": "https://coinigy.docs.apiary.io",
+      "description": "Interacting with Coinigy Accounts and Exchange Directly",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinigy",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Coinlib",
+      "url": "https://coinlib.io/apidocs",
+      "description": "Crypto Currency Prices",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinlib",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Coinlore",
+      "url": "https://www.coinlore.com/cryptocurrency-data-api",
+      "description": "Cryptocurrencies prices, volume and more",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinlore",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CoinMarketCap",
+      "url": "https://coinmarketcap.com/api/",
+      "description": "Cryptocurrencies Prices",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "other"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinmarketcap",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Coinpaprika",
+      "url": "https://api.coinpaprika.com",
+      "description": "Cryptocurrencies prices, volume and more",
+      "category": "cryptocurrency",
+      "auth": "None",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "art-design",
+        "other"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinpaprika",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CoinRanking",
+      "url": "https://developers.coinranking.com/api/documentation",
+      "description": "Live Cryptocurrency data",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinranking",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Coinremitter",
+      "url": "https://coinremitter.com/docs",
+      "description": "Cryptocurrencies Payment & Prices",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinremitter",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CoinStats",
+      "url": "https://documenter.getpostman.com/view/5734027/RzZ6Hzr3?version=latest",
+      "description": "Crypto Tracker",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinstats",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CryptoCompare",
+      "url": "https://www.cryptocompare.com/api#",
+      "description": "Cryptocurrencies Comparison",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "other"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_cryptocompare",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Ethplorer",
+      "url": "https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API",
+      "description": "Ethereum tokens, balances, addresses, history of transactions, contracts, and custom structures",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_ethplorer",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "EXMO",
+      "url": "https://documenter.getpostman.com/view/10287440/SzYXWKPi",
+      "description": "Cryptocurrencies exchange based in UK",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_exmo",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Indodax",
+      "url": "https://github.com/btcid/indodax-official-api-docs",
+      "description": "Trade your Bitcoin and other assets with rupiah",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_indodax",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "INFURA Ethereum",
+      "url": "https://infura.io/product/ethereum",
+      "description": "Interaction with the Ethereum mainnet and several testnets",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_infura_ethereum",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Kraken",
+      "url": "https://docs.kraken.com/rest/",
+      "description": "Cryptocurrencies Exchange",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_kraken",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "KuCoin",
+      "url": "https://docs.kucoin.com/",
+      "description": "Cryptocurrency Trading Platform",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_kucoin",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Localbitcoins",
+      "url": "https://localbitcoins.com/api-docs/",
+      "description": "P2P platform to buy and sell Bitcoins",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_localbitcoins",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Mempool",
+      "url": "https://mempool.space/api",
+      "description": "Bitcoin API Service focusing on the transaction fee",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_mempool",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "MercadoBitcoin",
+      "url": "https://www.mercadobitcoin.com.br/api-doc/",
+      "description": "Brazilian Cryptocurrency Information",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_mercadobitcoin_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Poloniex",
+      "url": "https://docs.poloniex.com",
+      "description": "US based digital asset exchange",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_poloniex",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Solana JSON RPC",
+      "url": "https://docs.solana.com/developing/clients/jsonrpc-api",
+      "description": "Provides various endpoints to interact with the Solana Blockchain",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_solana_json_rpc",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "WorldCoinIndex",
+      "url": "https://www.worldcoinindex.com/apiservice",
+      "description": "Cryptocurrencies Prices",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_worldcoinindex",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ZMOK",
+      "url": "https://zmok.io",
+      "description": "Ethereum JSON RPC API and Web3 provider",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_zmok",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Bitcoin**",
+      "url": "https://developer.bitcoin.org/",
+      "description": "Find useful resources, guides and reference material for developers.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_bitcoin",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Bitcoincharts**",
+      "url": "https://bitcoincharts.com/about/markets-api/",
+      "description": "You can use this API to include markets data in your websites, mobile apps or desktop applets.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_bitcoincharts_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**bitpay**",
+      "url": "https://bitpay.com/developers",
+      "description": "A simple, RESTful API to the most powerful bitcoin infrastructure on the planet.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_bitpay",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Block**",
+      "url": "https://block.io/",
+      "description": "The most versatile and secure wallet for all your coins.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_block",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**BlockCypher**",
+      "url": "https://www.blockcypher.com/",
+      "description": "BlockCypher is the infrastructure fabric for blockchain applications.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_blockcypher",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Coinbase**",
+      "url": "https://developers.coinbase.com/",
+      "description": "Coinbase APIs and developer tools make building bitcoin and blockchain apps much easier.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinbase_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**CoinDesk**",
+      "url": "http://www.coindesk.com/api/",
+      "description": "Bitcoin Price Index.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coindesk_2",
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C",
+      "https_inferred": true
+    },
+    {
+      "name": "**Coingecko**",
+      "url": "https://coingecko.com/en/api",
+      "description": "Free and Public Cryptocurrency API which you can use without an API key.",
+      "category": "cryptocurrency",
+      "auth": "apiKey",
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coingecko_2",
+      "auth_inferred": true,
+      "https_inferred": true,
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "**Coinlore**",
+      "url": "https://www.coinlore.com/cryptocurrency-data-api",
+      "description": "Cryptocurrency tick data API.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinlore_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**CoinMarketCap**",
+      "url": "https://coinmarketcap.com/api/",
+      "description": "Cryptocurrencies Prices.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinmarketcap_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**coinpaprika**",
+      "url": "https://api.coinpaprika.com",
+      "description": "Cryptocurrencies prices, market capitalization, volume and more.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinpaprika_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**CryptoCompare**",
+      "url": "https://www.cryptocompare.com/api",
+      "description": "Cryptocurrencies Comparison.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_cryptocompare_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Coinigy**",
+      "url": "https://coinigy.docs.apiary.io",
+      "description": "Interact with Coinigy Accounts and Exchange Accounts Directly.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinigy_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Poloniex**",
+      "url": "https://poloniex.com/support/api/",
+      "description": "US based digital asset exchange.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_poloniex_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PumpFunData",
+      "url": "https://pumpfundata.com/docs",
+      "description": "Historical Pump.fun and PumpSwap AMM swap data as hourly Parquet files",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-apis/public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_pumpfundata",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bitquery",
+      "url": "https://bitquery.io/",
+      "description": "Bitquery provides blockchain data, offering real-time streaming APIs for 40+ chains, NFT APIs, and a money flow investigation tool",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency",
+        "other"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_bitquery",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Blockchain",
+      "url": "https://www.blockchain.info/api",
+      "description": "Bitcoin Payment, Wallet & Transaction Data",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency",
+        "other"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_blockchain_2",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BlockFacts",
+      "url": "https://blockfacts.io/",
+      "description": "Real-time crypto data from multiple exchanges via a single unified API, and much more",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_blockfacts",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CoinDesk",
+      "url": "http://www.coindesk.com/api/",
+      "description": "Bitcoin Price Index",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": "No",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coindesk_3",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CoinGecko",
+      "url": "https://www.coingecko.com/api",
+      "description": "Cryptocurrency Price, Market, and Developer/Social Data",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency",
+        "other"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coingecko_3",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CoinRanking",
+      "url": "https://docs.coinranking.com/",
+      "description": "Live Cryptocurrency data",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinranking_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "DexPaprika",
+      "url": "https://api.dexpaprika.com",
+      "description": "Free DEX and DeFi data — pools, tokens, OHLCV, and trades across all chains",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency",
+        "other"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_dexpaprika",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Gates.io",
+      "url": "https://www.gate.io/api2",
+      "description": "Blockchain Assets Exchange",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_gates_io",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "NiceHash",
+      "url": "https://docs.nicehash.com/",
+      "description": "Largest Crypto Mining Marketplace",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_nicehash",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Poloniex",
+      "url": "https://api-docs.poloniex.com/spot",
+      "description": "US based digital asset exchange",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency",
+        "other"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_poloniex_3",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CoinStats",
+      "url": "https://coinstats.app/api-docs/",
+      "description": "Blockchain and DeFi across 120+ chains, market, historical data, portfolio tracking, news, sentiment, MCP, and agent skills",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinstats_2",
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A"
+    },
+    {
+      "name": "INFURA Ethereum",
+      "url": "https://www.infura.io/product/ethereum",
+      "description": "Interaction with the Ethereum mainnet and several testnets",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_infura_ethereum_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "MercadoBitcoin",
+      "url": "https://api.mercadobitcoin.net/api/v4/docs",
+      "description": "Brazilian Cryptocurrency Information",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_mercadobitcoin_3",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ZMOK",
+      "url": "https://docs.zmok.io",
+      "description": "Ethereum JSON RPC API and Web3 provider",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_zmok_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SWAPI",
+      "url": "https://swapi.dev/",
+      "description": "All the Star Wars data you've ever wanted",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "video"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_swapi",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SWAPI",
+      "url": "https://www.swapi.tech",
+      "description": "All things Star Wars",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "video"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_swapi_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Doge-Meme",
+      "url": "https://api.doge-meme.lol/docs",
+      "description": "Top meme posts from r/dogecoin which include 'Meme' flair",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "social"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_doge_meme",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Star Wars API (SWAPI)**",
+      "url": "https://www.swapi.tech/",
+      "description": "All things Star Wars, based on Wookpedia and other sources. Reboot of original swapi.co, guaranteed to be maintained.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency",
+        "entertainment"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_star_wars_api_swapi",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Exchangerate.host",
+      "url": "https://exchangerate.host?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "description": "Free foreign exchange & crypto rates API",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "currency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_exchangerate_host_2",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Coingecko.com**",
+      "url": "https://www.coingecko.com/en/api",
+      "description": "Free, comprehensive cryptocurrency API.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency",
+        "currency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coingecko_com",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "Coinnect",
+      "url": "https://coinnect.bot/docs",
+      "description": "Open money transfer routing across fiat, crypto and P2P networks",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency",
+        "currency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coinnect",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Lowy Asia Power Index",
+      "url": "https://github.com/0x0is1/lowy-index-api-docs",
+      "description": "Get measure resources and influence to rank the relative power of states in Asia",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_lowy_asia_power_index",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Onyx Bazaar",
+      "url": "https://onyx-actions.onrender.com/bazaar",
+      "description": "Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_onyx_bazaar",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Chinese Character Web",
+      "url": "http://ccdb.hemiola.com/",
+      "description": "Chinese character definitions and pronunciations",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "dictionaries"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_chinese_character_web",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Lingua Robot",
+      "url": "https://www.linguarobot.io",
+      "description": "Word definitions, pronunciations, synonyms, antonyms and others",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "dictionaries"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_lingua_robot",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Words",
+      "url": "https://www.wordsapi.com/docs/",
+      "description": "Definitions and synonyms for more than 150,000 words",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "dictionaries"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_words",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Words API**",
+      "url": "https://www.wordsapi.com/",
+      "description": "Use it to find definitions for more than 150,000 words.",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "cryptocurrency",
+        "dictionaries"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_words_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "LogoKit",
+      "url": "https://logokit.com",
+      "description": "Logo API for brands, stocks, and cryptocurrencies",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "cryptocurrency",
+        "business"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_logokit_2",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "LogoKit",
+      "url": "https://docs.logokit.com",
+      "description": "Logo API for brands, stocks, and cryptocurrencies",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "cryptocurrency",
+        "business"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_logokit_3",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Chainlink",
+      "url": "https://chain.link/developer-resources",
+      "description": "Build hybrid smart contracts with Chainlink",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_chainlink",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Chainpoint",
+      "url": "https://tierion.com/chainpoint/",
+      "description": "Chainpoint is a global network for anchoring data to the Bitcoin blockchain",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_chainpoint",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Nownodes",
+      "url": "https://nownodes.io/",
+      "description": "Blockchain-as-a-service solution that provides high-quality connection via API",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_nownodes",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Steem",
+      "url": "https://developers.steem.io/",
+      "description": "Blockchain-based blogging and social media website",
+      "category": "cryptocurrency",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_steem",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "The Graph",
+      "url": "https://thegraph.com",
+      "description": "Indexing protocol for querying networks like Ethereum with GraphQL",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_the_graph",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Watchdata",
+      "url": "https://docs.watchdata.io",
+      "description": "Provide simple and reliable API access to Ethereum blockchain",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "cryptocurrency",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_watchdata",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CoinGecko",
+      "url": "https://www.coingecko.com/en/api",
+      "description": "<details><summary>Cryptocurrency data including prices, market cap, and trading volume</summary>Get real-time crypto prices, historical data, market trends, and coin information for building crypto ap",
+      "category": "cryptocurrency",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "cryptocurrency",
+        "blockchain",
+        "business"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_coingecko_4",
+      "sources": [
+        "keploy/public-apis-collection"
+      ],
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Blockchain.info",
+      "url": "https://www.blockchain.com/api",
+      "description": "<details><summary>Bitcoin blockchain data and statistics</summary>Access Bitcoin transaction data, wallet information, and blockchain statistics.</details>",
+      "category": "cryptocurrency",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "cryptocurrency",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_blockchain_info",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "GetBlock",
+      "url": "https://getblock.io/",
+      "description": "Blockchain RPC Node provider that supports over 50 multiple blockchains",
+      "category": "cryptocurrency",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "cryptocurrency",
+        "blockchain"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_getblock",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bitquery",
+      "url": "https://bitquery.io/blog/working-with-blockchain-data",
+      "description": "on-chain blockchain analytics",
+      "source": "APIs-guru/graphql-apis",
+      "status": "active",
+      "auth": "[Try it!](https://graphql.bitquery.io)",
+      "https": "[Docs](https://bitquery.io/blog/working-with-blockchain-data)",
+      "cors": "",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "quality_score": 87,
+      "quality_grade": "A",
+      "quality": {
+        "score": 87,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_bitquery_2"
+    },
+    {
+      "name": "flask-restless",
+      "url": "https://flask-restless.readthedocs.org/en/latest/",
+      "description": "Flask extension for generating ReSTful APIs for database models defined with SQLAlchemy (or Flask-SQLAlchemy).",
+      "source": "marmelab/awesome-rest",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_flask_restless"
+    },
+    {
+      "name": "Bitcointabyse",
+      "url": "https://www.bitcoinabuse.com/api-docs",
+      "description": "https://www.bitcoinabuse.com/api-docs",
+      "source": "cipher387/API-s-for-OSINT",
+      "status": "active",
+      "auth": "Lookup bitcoin addresses that have been linked to criminal activity",
+      "https": "FREE",
+      "cors": "",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "quality_score": 94,
+      "quality_grade": "A",
+      "quality": {
+        "score": 94,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_bitcointabyse"
+    },
+    {
+      "name": "Bitcoinwhoswho",
+      "url": "https://www.bitcoinwhoswho.com/api",
+      "description": "https://www.bitcoinwhoswho.com/api",
+      "source": "cipher387/API-s-for-OSINT",
+      "status": "active",
+      "auth": "Scam reports on the Bitcoin Address",
+      "https": "FREE",
+      "cors": "",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "quality_score": 93,
+      "quality_grade": "A",
+      "quality": {
+        "score": 93,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_bitcoinwhoswho"
+    },
+    {
+      "name": "WalletLabels",
+      "url": "https://www.walletlabels.xyz/docs",
+      "description": "https://www.walletlabels.xyz/docs",
+      "source": "cipher387/API-s-for-OSINT",
+      "status": "active",
+      "auth": "Labels for 7,5 million Ethereum wallets",
+      "https": "FREE",
+      "cors": "",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "quality_score": 93,
+      "quality_grade": "A",
+      "quality": {
+        "score": 93,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_walletlabels"
+    },
+    {
+      "name": "Yandex Safe Browsing",
+      "url": "https://yandex.com/dev/safebrowsing/",
+      "description": "`apiKey`",
+      "source": "jaegeral/security-apis",
+      "status": "active",
+      "auth": "Yes",
+      "https": "[Link!](https://yandex.com/dev/safebrowsing/)",
+      "cors": "?",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "quality_score": 82,
+      "quality_grade": "B",
+      "quality": {
+        "score": 82,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_yandex_safe_browsing"
+    },
+    {
+      "name": "LlamaIndex 🦙 \\(GPT Index\\)",
+      "url": "https://github.com/jerryjliu/gpt_index",
+      "description": "LlamaIndex 🦙 \\(GPT Index\\) - API service at github.com",
+      "source": "reorx/awesome-chatgpt-api",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": "OAuth",
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_llamaindex_gpt_index"
+    },
+    {
+      "name": "MercadoBitcoin",
+      "url": "https://www.mercadobitcoin.net/api-doc/",
+      "description": "Brazilian Cryptocurrency Information",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "quality_score": 94,
+      "quality_grade": "A",
+      "quality": {
+        "score": 94,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_mercadobitcoin_4"
+    },
+    {
+      "name": "Wazirx",
+      "url": "https://wazirx.github.io/",
+      "description": "Cryptocurrencies Exchange",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "quality_score": 86,
+      "quality_grade": "A",
+      "quality": {
+        "score": 86,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_wazirx"
+    },
+    {
+      "name": "Bitcoincharts",
+      "url": "https://bitcoincharts.com/about/markets-api/",
+      "description": "You can use this API to include markets data in your websites, mobile apps or desktop applets.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_bitcoincharts_3"
+    },
+    {
+      "name": "Block",
+      "url": "https://block.io/",
+      "description": "The most versatile and secure wallet for all your coins.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_block_2"
+    },
+    {
+      "name": "Coingecko",
+      "url": "https://coingecko.com/en/api",
+      "description": "Free and Public Cryptocurrency API which you can use without an API key.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coingecko_5"
+    },
+    {
+      "name": "CryptoCompare",
+      "url": "https://www.cryptocompare.com/api",
+      "description": "Cryptocurrencies Comparison.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_cryptocompare_3"
+    },
+    {
+      "name": "Coingecko.com",
+      "url": "https://www.coingecko.com/en/api",
+      "description": "Free, comprehensive cryptocurrency API.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coingecko_com_2"
+    },
+    {
+      "name": "Words API",
+      "url": "https://www.wordsapi.com/",
+      "description": "Use it to find definitions for more than 150,000 words.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_words_api_2"
+    },
+    {
+      "name": "Star Wars API (SWAPI)",
+      "url": "https://www.swapi.tech/",
+      "description": "All things Star Wars, based on Wookpedia and other sources. Reboot of original swapi.co, guaranteed to be maintained.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_star_wars_api_swapi_2"
+    },
+    {
+      "name": "MercadoBitcoin",
+      "url": "https://publicapis.io/mercadobitcoin-api",
+      "description": "Brazilian Cryptocurrency Information.",
+      "source": "publicapis.io",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 69,
+      "quality_grade": "C",
+      "quality": {
+        "score": 69,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_mercadobitcoin_5"
+    },
+    {
+      "name": "Alchemy",
+      "url": "https://tools-collection.net/apis-list/alchemy-api",
+      "description": "Alchemy&#x27;s Web3 API provides enhanced node access, NFT data, transaction history, token balances, and webhook notifications across Ethereum, Polygon, Solana, and other blockchains 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": "apiKey",
+      "https": true,
+      "quality_score": 90,
+      "quality_grade": "A",
+      "quality": {
+        "score": 90,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_alchemy"
+    },
+    {
+      "name": "Bitcoin",
+      "url": "https://tools-collection.net/apis-list/bitcoin",
+      "description": "Bitcoin is an innovative payment network and a new kind of money",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_bitcoin_2"
+    },
+    {
+      "name": "BitcoinAverage",
+      "url": "https://tools-collection.net/apis-list/bitcoinaverage",
+      "description": "The world&#x27;s best and longest running Cryptocurrency price API provider",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_bitcoinaverage_2"
+    },
+    {
+      "name": "Bitcoincharts",
+      "url": "https://tools-collection.net/apis-list/bitcoincharts",
+      "description": "You can use this API to include markets data in your websites, mobile apps or desktop applets",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_bitcoincharts_4"
+    },
+    {
+      "name": "Block",
+      "url": "https://tools-collection.net/apis-list/block",
+      "description": "The most versatile and secure wallet for all your coins",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 78,
+      "quality_grade": "B",
+      "quality": {
+        "score": 78,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_block_3"
+    },
+    {
+      "name": "BlockCypher",
+      "url": "https://tools-collection.net/apis-list/blockcypher",
+      "description": "Build blockchain applications easily with our web APIs and callbacks",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_blockcypher_2"
+    },
+    {
+      "name": "Chasing Coin",
+      "url": "https://tools-collection.net/apis-list/chasing-coin",
+      "description": "Cryptocurrency, coin and token resource on the web",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": "apiKey",
+      "https": true,
+      "quality_score": 87,
+      "quality_grade": "A",
+      "quality": {
+        "score": 87,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_chasing_coin"
+    },
+    {
+      "name": "Coinbase",
+      "url": "https://tools-collection.net/apis-list/coinbase",
+      "description": "Coinbase’s API makes it easy to integrate bitcoin, bitcoin cash, litecoin and ethereum into both new and existing applications",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coinbase_3"
+    },
+    {
+      "name": "CoinDesk",
+      "url": "https://tools-collection.net/apis-list/coindesk",
+      "description": "Bitcoin Price Index",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 69,
+      "quality_grade": "C",
+      "quality": {
+        "score": 69,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coindesk_4"
+    },
+    {
+      "name": "Coingecko.com",
+      "url": "https://tools-collection.net/apis-list/coingecko-com",
+      "description": "Free, comprehensive cryptocurrency API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coingecko_com_3"
+    },
+    {
+      "name": "Coinigy",
+      "url": "https://tools-collection.net/apis-list/coinigy",
+      "description": "Interact with Coinigy Accounts and Exchange Accounts Directly",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coinigy_3"
+    },
+    {
+      "name": "Coinlib",
+      "url": "https://tools-collection.net/apis-list/coinlib",
+      "description": "Coinlib - Crypto Prices, Charts, Lists &amp; Crypto Market News",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coinlib_2"
+    },
+    {
+      "name": "Coinlore",
+      "url": "https://tools-collection.net/apis-list/coinlore",
+      "description": "Coinlore presents public free crypto tick data api",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 77,
+      "quality_grade": "B",
+      "quality": {
+        "score": 77,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coinlore_3"
+    },
+    {
+      "name": "CoinMarketCap",
+      "url": "https://tools-collection.net/apis-list/coinmarketcap",
+      "description": "Cryptocurrencies Prices",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coinmarketcap_3"
+    },
+    {
+      "name": "coinpaprika",
+      "url": "https://tools-collection.net/apis-list/coinpaprika",
+      "description": "Cryptocurrencies prices, market capitalization, volume and more",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coinpaprika_3"
+    },
+    {
+      "name": "CoinRanking",
+      "url": "https://tools-collection.net/apis-list/coinranking",
+      "description": "Introduction Power your projects with the high quality cryptocurrency data coinranking",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coinranking_3"
+    },
+    {
+      "name": "CryptoCompare",
+      "url": "https://tools-collection.net/apis-list/cryptocompare",
+      "description": "Cryptocurrencies Comparison",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_cryptocompare_4"
+    },
+    {
+      "name": "Cryptonator",
+      "url": "https://tools-collection.net/apis-list/cryptonator",
+      "description": "Prices are updated every 30 seconds, covering 300+ cryptocurrencies across 42 exchanges",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_cryptonator"
+    },
+    {
+      "name": "Exchange Rates API",
+      "url": "https://tools-collection.net/apis-list/exchange-rates-api",
+      "description": "The most popular place to securely buy, store, and trade Bitcoin, Ethereum, and other top cryptocurrencies",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_exchange_rates_api"
+    },
+    {
+      "name": "Messari",
+      "url": "https://tools-collection.net/apis-list/messari",
+      "description": "Messari provides an institutional grade Bitcoin and blockchain data API, ranging from market data to fundamentals, blockchain metrics and news",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_messari"
+    },
+    {
+      "name": "Moralis",
+      "url": "https://tools-collection.net/apis-list/moralis",
+      "description": "Moralis Web3 API provides NFT data, token balances, DeFi positions, transaction history, and wallet analytics across EVM-compatible blockchains including Ethereum, Polygon, and BNB Chain 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": "apiKey",
+      "https": true,
+      "quality_score": 90,
+      "quality_grade": "A",
+      "quality": {
+        "score": 90,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_moralis"
+    },
+    {
+      "name": "Nicehash",
+      "url": "https://tools-collection.net/apis-list/nicehash",
+      "description": "Largest Crypto Mining Marketplace",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_nicehash_2"
+    },
+    {
+      "name": "Nimiq Hub",
+      "url": "https://tools-collection.net/apis-list/nimiq-hub",
+      "description": "Nimiq aims to be the best performing and easiest-to-use decentralized payment protocol ecosystem",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_nimiq_hub"
+    },
+    {
+      "name": "OpenSea",
+      "url": "https://tools-collection.net/apis-list/opensea",
+      "description": "OpenSea&#x27;s API provides NFT metadata, collection stats, listings, offers, and transaction history from the world&#x27;s largest NFT marketplace across Ethereum, Polygon, and other chains 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_opensea"
+    },
+    {
+      "name": "Pocket Network",
+      "url": "https://tools-collection.net/apis-list/pocket-network",
+      "description": "Pocket proportionally rewards the participating nodes with native cryptographic tokens POKT",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": "apiKey",
+      "https": true,
+      "quality_score": 90,
+      "quality_grade": "A",
+      "quality": {
+        "score": 90,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_pocket_network"
+    },
+    {
+      "name": "Quidax Merchant",
+      "url": "https://tools-collection.net/apis-list/quidax-merchant",
+      "description": "Buy, sell and store Bitcoin, Ethereum, Ripple (XRP), Litecoin &amp; other cryptocurrencies with Naira",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_quidax_merchant"
+    },
+    {
+      "name": "ShapeShift.io",
+      "url": "https://tools-collection.net/apis-list/shapeshift-io",
+      "description": "Exchange between cryptocurrencies without an account",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 78,
+      "quality_grade": "B",
+      "quality": {
+        "score": 78,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_shapeshift_io"
+    },
+    {
+      "name": "SuredBits",
+      "url": "https://tools-collection.net/apis-list/suredbits",
+      "description": "This API allows you to query our NFL, NBA and Crypto Exchange data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_suredbits"
+    },
+    {
+      "name": "The Graph",
+      "url": "https://tools-collection.net/apis-list/the-graph",
+      "description": "The Graph is an indexing protocol for querying blockchain data via GraphQL 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_the_graph_2"
+    },
+    {
+      "name": "Upvest Blockchain Api",
+      "url": "https://tools-collection.net/apis-list/upvest-blockchain-api",
+      "description": "The Upvest Blockchain API is a multi-protocol blockchain API for building blockchain-interacting applications",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_upvest_blockchain_api"
+    },
+    {
+      "name": "WorldCoinIndex",
+      "url": "https://tools-collection.net/apis-list/worldcoinindex",
+      "description": "Cryptocurrencies price API, prices denoted in USD, EUR, CNY, GBP, RUB",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_worldcoinindex_2"
+    },
+    {
+      "name": "Star Wars API (SWAPI)",
+      "url": "https://tools-collection.net/apis-list/star-wars-api-swapi",
+      "description": "A Remake of the original api, using the MERN stack",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 77,
+      "quality_grade": "B",
+      "quality": {
+        "score": 77,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_star_wars_api_swapi_3"
+    },
+    {
+      "name": "1Forge.com",
+      "url": "https://tools-collection.net/apis-list/1forge-com",
+      "description": "Real-time forex and crypto quotes via JSON and WebSocket",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 79,
+      "quality_grade": "B",
+      "quality": {
+        "score": 79,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_1forge_com"
+    },
+    {
+      "name": "SWAPI",
+      "url": "https://tools-collection.net/apis-list/swapi",
+      "description": "A Remake of the original api, using the MERN stack",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 77,
+      "quality_grade": "B",
+      "quality": {
+        "score": 77,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_swapi_3"
+    },
+    {
+      "name": "TVDB",
+      "url": "https://tools-collection.net/apis-list/tvdb",
+      "description": "Token Added. Token Added",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": "apiKey",
+      "https": true,
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_tvdb"
+    },
+    {
+      "name": "Evident Proof",
+      "url": "https://tools-collection.net/apis-list/evident-proof",
+      "description": "Users of Evident Proof can plug any data source sitting on current databases to Evident Proof’s immutable un-hackable Blockchain data platform and through Evident Proof&#x27;s Verification Bundle &amp",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_evident_proof"
+    },
+    {
+      "name": "Coinbin",
+      "url": "https://tools-collection.net/apis-list/coinbin",
+      "description": "Cryptocurrency information",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_coinbin"
+    },
+    {
+      "name": "Livecoin",
+      "url": "https://tools-collection.net/apis-list/livecoin",
+      "description": "Livecoin - API service at tools-collection.net",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 55,
+      "quality_grade": "C",
+      "quality": {
+        "score": 55,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_livecoin"
+    },
+    {
+      "name": "MercadoBitcoin",
+      "url": "https://tools-collection.net/apis-list/mercadobitcoin",
+      "description": "MercadoBitcoin - API service at tools-collection.net",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 55,
+      "quality_grade": "C",
+      "quality": {
+        "score": 55,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_mercadobitcoin_6"
+    },
+    {
+      "name": "Path Tech Crypto API",
+      "url": "https://tools-collection.net/apis-list/path-tech-crypto-api",
+      "description": "Single interface to retrieve transactions across crypto exchanges and wallets",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_path_tech_crypto_api"
+    },
+    {
+      "name": "API Guessr (detect API by auth key or by token)",
+      "url": "https://api-guesser.netlify.app/",
+      "description": "API Guessr (detect API by auth key or by token) - API service at api-guesser.netlify.app",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": "apiKey",
+      "https": true,
+      "quality_score": 65,
+      "quality_grade": "C",
+      "quality": {
+        "score": 65,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_api_guessr_detect_api_by_auth_key_or_by_token"
+    },
+    {
+      "name": "theme-factory/",
+      "url": "https://./theme-factory/",
+      "description": "Create reusable theme tokens and palettes.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "cryptocurrency",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "auth": "apiKey",
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "cryptocurrency_theme_factory"
+    },
+    {
+      "name": "Luxor / Hashrate Index API",
+      "url": "https://docs.luxor.tech",
+      "description": "Bitcoin mining pool with hashprice data and operation statistics",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_luxor_hashrate_index_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Blockchain.com API",
+      "url": "https://www.blockchain.com/explorer/api",
+      "description": "Bitcoin blockchain data including mining stats and network hashrate",
+      "category": "cryptocurrency",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_blockchain_com_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Mempool.space API",
+      "url": "https://mempool.space/docs/api",
+      "description": "Open-source Bitcoin mempool and blockchain explorer with mining stats",
+      "category": "cryptocurrency",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "cryptocurrency_mempool_space_api",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    }
+  ]
+}

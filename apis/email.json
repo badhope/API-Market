@@ -1,0 +1,4132 @@
+{
+  "id": "email",
+  "name": "Email",
+  "display_name": "Email",
+  "api_count": 157,
+  "apis": [
+    {
+      "name": "vtex.local:Session-Manager-API",
+      "url": "https://api.apis.guru/v2/specs/vtex.local/Session-Manager-API/1.0/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email",
+        "development"
+      ],
+      "status": "active",
+      "id": "email_vtex_local_session_manager_api",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "whapi.com:sessions",
+      "url": "https://api.apis.guru/v2/specs/whapi.com/sessions/2.0.0/swagger.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email",
+        "development"
+      ],
+      "status": "active",
+      "id": "email_whapi_com_sessions",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "GETPing",
+      "url": "https://www.getping.info",
+      "description": "Trigger an email notification with a simple GET request",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "development"
+      ],
+      "status": "active",
+      "id": "email_getping",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Hunter",
+      "url": "https://hunter.io/api",
+      "description": "API for domain search, professional email finder, author finder and email verifier",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "development"
+      ],
+      "status": "active",
+      "id": "email_hunter",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "OneSignal",
+      "url": "https://documentation.onesignal.com/docs/onesignal-api",
+      "description": "Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "development"
+      ],
+      "status": "active",
+      "id": "email_onesignal",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ZenRows",
+      "url": "https://www.zenrows.com/",
+      "description": "Web Scraping API that bypasses anti-bot solutions while offering JS rendering, and rotating proxies",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "development"
+      ],
+      "status": "active",
+      "id": "email_zenrows",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "OOPSpam",
+      "url": "https://oopspam.com/",
+      "description": "Multiple spam filtering service",
+      "category": "email",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "email",
+        "development"
+      ],
+      "status": "active",
+      "id": "email_oopspam",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "OneSignal",
+      "url": "https://documentation.onesignal.com/reference/rest-api-overview",
+      "description": "Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email",
+        "development"
+      ],
+      "status": "active",
+      "id": "email_onesignal_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "codat.io:assess",
+      "url": "https://api.apis.guru/v2/specs/codat.io/assess/1.0/openapi.json",
+      "description": "codat.io:assess - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_codat_io_assess",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "codat.io:sync-for-expenses",
+      "url": "https://api.apis.guru/v2/specs/codat.io/sync-for-expenses/prealpha/openapi.json",
+      "description": "codat.io:sync-for-expenses - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_codat_io_sync_for_expenses",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Yellow Pages API**",
+      "url": "https://github.com/Hrushi11/Yellow-Pages-End-API",
+      "description": "Get data for all categories of businesses in any city of the US.",
+      "category": "email",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "email",
+        "shopping"
+      ],
+      "status": "active",
+      "id": "email_yellow_pages_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "auth_inferred": true
+    },
+    {
+      "name": "apisetu.gov.in:ehimapurtihp",
+      "url": "https://api.apis.guru/v2/specs/apisetu.gov.in/ehimapurtihp/3.0.0/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "email_apisetu_gov_in_ehimapurtihp",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "IPWhois",
+      "url": "https://dev.publicapis.dev/resource/ipwhois/0f5c990b-fb4e-45a4-930b-cd9b3ff779e7",
+      "description": "Identify website, IP, or email owners with geolocation, reverse IP lookup, country insights, ASN data, and email verification",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "email",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "email_ipwhois",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SuperHeroes",
+      "url": "https://superheroapi.com",
+      "description": "All SuperHeroes and Villains data from all universes under a single API",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "email_superheroes",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "NioLeads",
+      "url": "https://dev.publicapis.dev/resource/nioleads/96901a1d-471a-4f0e-9127-e6bf9ab19347",
+      "description": "LinkedIn Email Finder and Email Verifier",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "email",
+        "social"
+      ],
+      "status": "active",
+      "id": "email_nioleads",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Substack API Wrapper",
+      "url": "https://github.com/NHagar/substack_api",
+      "description": "Substack's newsletter platform now has an API wrapper, for easy access to latest posts",
+      "category": "email",
+      "auth": "`No`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email",
+        "news"
+      ],
+      "status": "active",
+      "id": "email_substack_api_wrapper",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "EmailRep",
+      "url": "https://docs.emailrep.io/",
+      "description": "Email address threat and risk prediction",
+      "category": "email",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "security"
+      ],
+      "status": "active",
+      "id": "email_emailrep",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "mailboxvalidator.com:disposable",
+      "url": "https://api.apis.guru/v2/specs/mailboxvalidator.com/disposable/1.0.0/openapi.json",
+      "description": "mailboxvalidator.com:disposable - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email",
+        "payment"
+      ],
+      "status": "active",
+      "id": "email_mailboxvalidator_com_disposable",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "postmarkapp.com:account",
+      "url": "https://api.apis.guru/v2/specs/postmarkapp.com/account/0.9.0/swagger.json",
+      "description": "postmarkapp.com:account - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email",
+        "payment"
+      ],
+      "status": "active",
+      "id": "email_postmarkapp_com_account",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "postmarkapp.com:server",
+      "url": "https://api.apis.guru/v2/specs/postmarkapp.com/server/1.0.0/swagger.json",
+      "description": "postmarkapp.com:server - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email",
+        "payment"
+      ],
+      "status": "active",
+      "id": "email_postmarkapp_com_server",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "amazonaws.com:email",
+      "url": "https://api.apis.guru/v2/specs/amazonaws.com/email/2010-12-01/openapi.json",
+      "description": "amazonaws.com:email - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_amazonaws_com_email",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "amazonaws.com:pinpoint-email",
+      "url": "https://api.apis.guru/v2/specs/amazonaws.com/pinpoint-email/2018-07-26/openapi.json",
+      "description": "amazonaws.com:pinpoint-email - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_amazonaws_com_pinpoint_email",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:apimanagement-apimemailtemplate",
+      "url": "https://api.apis.guru/v2/specs/azure.com/apimanagement-apimemailtemplate/2018-06-01-preview/swagger.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_azure_com_apimanagement_apimemailtemplate",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:apimanagement-apimemailtemplates",
+      "url": "https://api.apis.guru/v2/specs/azure.com/apimanagement-apimemailtemplates/2019-12-01-preview/swagger.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_azure_com_apimanagement_apimemailtemplates",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "interzoid.com:getemailinfo",
+      "url": "https://api.apis.guru/v2/specs/interzoid.com/getemailinfo/1.0.0/openapi.json",
+      "description": "interzoid.com:getemailinfo - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_interzoid_com_getemailinfo",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "mailboxvalidator.com:validation",
+      "url": "https://api.apis.guru/v2/specs/mailboxvalidator.com/validation/0.1/openapi.json",
+      "description": "mailboxvalidator.com:validation - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailboxvalidator_com_validation",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "mailscript.com",
+      "url": "https://api.apis.guru/v2/specs/mailscript.com/0.4.0/openapi.json",
+      "description": "mailscript.com - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailscript_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "royalmail.com:click-and-drop",
+      "url": "https://api.apis.guru/v2/specs/royalmail.com/click-and-drop/1.0.0/swagger.json",
+      "description": "royalmail.com:click-and-drop - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_royalmail_com_click_and_drop",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "scrapewebsite.email",
+      "url": "https://api.apis.guru/v2/specs/scrapewebsite.email/0.1/swagger.json",
+      "description": "scrapewebsite.email - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_scrapewebsite_email",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sendgrid.com",
+      "url": "https://api.apis.guru/v2/specs/sendgrid.com/1.0.0/openapi.json",
+      "description": "sendgrid.com - API service at api.apis.guru",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_sendgrid_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Gmail API**",
+      "url": "https://developers.google.com/gmail/api/?hl=en",
+      "description": "The Gmail REST API. _v1_",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_gmail_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Mailboxlayer",
+      "url": "https://mailboxlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "description": "Email Validation & Verification JSON API for Developers",
+      "category": "email",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "public-apis/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailboxlayer",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "auth_inferred": true
+    },
+    {
+      "name": "Zyntra",
+      "url": "https://dev.publicapis.dev/resource/zyntra/03a1137f-d126-44a4-bdaf-1060e96f652c",
+      "description": "Unlimited e-mail inboxes with API access. Catch OTPs, reset links, and sign-up emails in test flows",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_zyntra",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Finturest Email",
+      "url": "https://dev.publicapis.dev/resource/finturest-email/465652ca-c1f5-4702-a606-bb7d242ca6be",
+      "description": "Accurate email validation for reliable delivery",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_finturest_email",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Spam Hunter",
+      "url": "https://dev.publicapis.dev/resource/spam-hunter/7eca8110-786d-4ff0-bbd5-5a7e1f758042",
+      "description": "Free service to classify text as spam using ML",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_spam_hunter",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "IndiePitcher",
+      "url": "https://dev.publicapis.dev/resource/indiepitcher/8c8022ae-95ca-4988-ad10-42de0e7aeeb5",
+      "description": "Everything email for your startup with markdown support",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_indiepitcher",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Trueguard",
+      "url": "https://dev.publicapis.dev/resource/trueguard/07fd7573-7888-4ca6-9209-8a4e521e73b2",
+      "description": "Trueguard offers API for detecting temporary emails, free-tier abusers and automated bots",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_trueguard",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "Heybounce",
+      "url": "https://dev.publicapis.dev/resource/heybounce/d3165189-86d1-4f2b-8117-241072da06b8",
+      "description": "Email Verification API",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_heybounce",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Temp mail api",
+      "url": "https://www.freepublicapis.com/temp-mail-api-2",
+      "description": "Generate millions of temp mail from boomlify",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "freepublicapis.com",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_temp_mail_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "mailboxlayer",
+      "url": "https://mailboxlayer.com?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "description": "Email address validation",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailboxlayer_2",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Cloudmersive Validate",
+      "url": "https://cloudmersive.com/validate-api",
+      "description": "Validate email addresses, phone numbers, VAT numbers and domain names",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "other"
+      ],
+      "status": "active",
+      "id": "email_cloudmersive_validate",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Disify",
+      "url": "https://www.disify.com/",
+      "description": "Validate and detect disposable and temporary email addresses",
+      "category": "email",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_disify",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Email Validation",
+      "url": "https://www.abstractapi.com/email-verification-validation-api",
+      "description": "Validate email addresses for deliverability and spam",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_email_validation",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "EVA",
+      "url": "https://eva.pingutil.com/",
+      "description": "Validate email addresses",
+      "category": "email",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_eva",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Guerrilla Mail",
+      "url": "https://www.guerrillamail.com/GuerrillaMailAPI.html",
+      "description": "Disposable temporary Email addresses",
+      "category": "email",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_guerrilla_mail",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ImprovMX",
+      "url": "https://improvmx.com/api",
+      "description": "API for free email forwarding service",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_improvmx",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Kickbox",
+      "url": "https://open.kickbox.com/",
+      "description": "Email verification API",
+      "category": "email",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_kickbox",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "mail.gw",
+      "url": "https://docs.mail.gw",
+      "description": "10 Minute Mail",
+      "category": "email",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mail_gw",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "mail.tm",
+      "url": "https://docs.mail.tm",
+      "description": "Temporary Email Service",
+      "category": "email",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mail_tm",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "MailboxValidator",
+      "url": "https://www.mailboxvalidator.com/api-email-free",
+      "description": "Validate email address to improve deliverability",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailboxvalidator",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "MailCheck.ai",
+      "url": "https://www.mailcheck.ai/#documentation",
+      "description": "Prevent users to sign up with temporary email addresses",
+      "category": "email",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailcheck_ai",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Sendgrid",
+      "url": "https://docs.sendgrid.com/api-reference/",
+      "description": "A cloud-based SMTP provider that allows you to send emails without having to maintain email servers",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "other"
+      ],
+      "status": "active",
+      "id": "email_sendgrid",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Verifier",
+      "url": "https://verifier.meetchopra.com/docs#/",
+      "description": "Verifies that a given email is real",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_verifier",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Mailgun",
+      "url": "https://documentation.mailgun.com/en/latest/",
+      "description": "<details><summary>Email delivery service for developers</summary>Send transactional emails, newsletters, and notifications with high deliverability rates.</details>",
+      "category": "email",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailgun",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Brevo (Sendinblue) API",
+      "url": "https://developers.brevo.com/docs",
+      "description": "<details><summary>Email and SMS communication platform API</summary>Use for newsletters, OTPs, and alerts with real-time analytics.</details>",
+      "category": "email",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_brevo_sendinblue_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Abstract Email Validation",
+      "url": "https://www.abstractapi.com/email-verification-validation-api",
+      "description": "Validate email addresses for deliverability and spam",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "toddmotto/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_abstract_email_validation",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "apilayer mailboxlayer",
+      "url": "https://mailboxlayer.com",
+      "description": "Email address validation",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "toddmotto/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_apilayer_mailboxlayer",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Academic Email API",
+      "url": "https://apyhub.com/utility/validator-academic-email",
+      "description": "This API allows you to verify whether an email belongs to a recognized educational institution",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_academic_email_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Emailvalidation",
+      "url": "https://emailvalidation.io/email-validation-api/",
+      "description": "E-Mail address validation",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_emailvalidation",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Enveloop",
+      "url": "https://enveloop.com",
+      "description": "Design, host, and send emails and texts. All from one place - with a simple API",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_enveloop",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Heybounce",
+      "url": "https://www.heybounce.io/#email-verification-api",
+      "description": "Email Verification API",
+      "category": "email",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_heybounce_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "IndiePitcher",
+      "url": "https://docs.indiepitcher.com/api-reference",
+      "description": "Everything email for your startup with markdown support",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_indiepitcher_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Proweblook Email Checker",
+      "url": "https://proweblook.com/email-verifier",
+      "description": "Validate email addresses without sending",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_proweblook_email_checker",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Resend",
+      "url": "https://resend.com/docs/",
+      "description": "Email API for developers",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_resend",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Sweep Emails",
+      "url": "https://sweepemails.com/",
+      "description": "Reliable email validation API with Free tier",
+      "category": "email",
+      "auth": "`apikey`",
+      "https": "Yes",
+      "cors": "NO",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_sweep_emails",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Temporary and Disposable emails API",
+      "url": "https://apyhub.com/utility/boomlify-temp-mail",
+      "description": "This API provides temporary & disposable email addresses",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_temporary_and_disposable_emails_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Trueguard",
+      "url": "https://trueguard.io",
+      "description": "Trueguard offers API for detecting temporary emails, free-tier abusers and automated bots",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_trueguard_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Zyntra",
+      "url": "https://docs.zyntra.app/",
+      "description": "Unlimited e-mail inboxes with API access. Catch OTPs, reset links, and sign-up emails in test flows",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_zyntra_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Black History Facts",
+      "url": "https://www.blackhistoryapi.io/docs",
+      "description": "Contribute or search one of the largest black history fact databases on the web",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "email_black_history_facts",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Gmail",
+      "url": "https://developers.google.com/gmail/api/",
+      "description": "Flexible, RESTful access to the user's inbox",
+      "category": "email",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "business"
+      ],
+      "status": "active",
+      "id": "email_gmail",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "mailjet",
+      "url": "https://www.mailjet.com/",
+      "description": "Marketing email can be sent and mail templates made in MJML or HTML can be sent using API",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "business"
+      ],
+      "status": "active",
+      "id": "email_mailjet",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Tomba email finder",
+      "url": "https://tomba.io/api",
+      "description": "Email Finder for B2B sales and email marketing and email verifier",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "business"
+      ],
+      "status": "active",
+      "id": "email_tomba_email_finder",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "MailboxValidator",
+      "url": "https://www.mailboxvalidator.com/api-single-validation",
+      "description": "Validate email address to improve deliverability",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "email",
+        "business"
+      ],
+      "status": "active",
+      "id": "email_mailboxvalidator_2",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "mailgun",
+      "url": "https://www.mailgun.com/",
+      "description": "Email Service",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "email",
+        "business"
+      ],
+      "status": "active",
+      "id": "email_mailgun_2",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "NioLeads",
+      "url": "https://nioleads.com/apidoc",
+      "description": "LinkedIn Email Finder and Email Verifier",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "email",
+        "business"
+      ],
+      "status": "active",
+      "id": "email_nioleads_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**MailGun**",
+      "url": "https://mailgun.com",
+      "description": "Transactional Email API Service For Developers. Free first 10000 emails per month.",
+      "category": "email",
+      "auth": "apiKey",
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "email",
+        "phone"
+      ],
+      "status": "active",
+      "id": "email_mailgun_3",
+      "auth_inferred": true,
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Spam Hunter",
+      "url": "https://spam-hunter.ru",
+      "description": "Free service to classify text for spam using ML",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "email",
+        "text-analysis",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "email_spam_hunter_2",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "marcelscruz/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "quoteclear",
+      "url": "https://quoteclear.web.app/",
+      "description": "Ever-growing list of James Clear quotes from the 3-2-1 Newsletter",
+      "category": "email",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "personality"
+      ],
+      "status": "active",
+      "id": "email_quoteclear",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "mailboxlayer",
+      "url": "https://mailboxlayer.com",
+      "description": "Email address validation",
+      "category": "email",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "email",
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "email_mailboxlayer_3",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Mailsac",
+      "url": "https://mailsac.com/docs/api",
+      "description": "Disposable Email",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "email",
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "email_mailsac",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Have I Been Pwned",
+      "url": "https://haveibeenpwned.com/API/v3",
+      "description": "<details><summary>Check if email addresses have been compromised in data breaches</summary>Help users check if their credentials have been exposed in known data breaches.</details>",
+      "category": "email",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "email",
+        "anti-malware"
+      ],
+      "status": "active",
+      "id": "email_have_i_been_pwned",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "IPQualityScore",
+      "url": "https://www.ipqualityscore.com/documentation/overview",
+      "description": "<details><summary>Detect fraudulent users, bots, and malicious IPs</summary>Prevent fake signups and abuse with fraud scoring, email validation, and proxy/VPN detection.</details>",
+      "category": "email",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "email",
+        "anti-malware"
+      ],
+      "status": "active",
+      "id": "email_ipqualityscore",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Dymo API",
+      "url": "https://dymo.tpeoficial.com/",
+      "description": "Multi-account and fraud detection. Sending emails without ending up in SPAM.",
+      "category": "email",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "email",
+        "anti-malware"
+      ],
+      "status": "active",
+      "id": "email_dymo_api",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "httpstatuses.com",
+      "url": "https://httpstatuses.com/",
+      "description": "httpstatuses.com - API service at httpstatuses.com",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "Kikobeats/awesome-api",
+      "tags": [
+        "email",
+        "programming"
+      ],
+      "status": "active",
+      "id": "email_httpstatuses_com",
+      "https_inferred": true,
+      "quality": {
+        "score": 50,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 50,
+      "quality_grade": "D"
+    },
+    {
+      "name": "EmailCrawlr",
+      "url": "https://emailcrawlr.com/",
+      "description": "https://emailcrawlr.com/",
+      "source": "cipher387/API-s-for-OSINT",
+      "status": "active",
+      "auth": "Get key information about company websites. Find all email addresses associated with a domain. Get social accounts associated with an email. Verify email address deliverability.",
+      "https": "200 requests FREE, 5000 requets — $40",
+      "cors": "",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "quality_score": 86,
+      "quality_grade": "A",
+      "quality": {
+        "score": 86,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "email_emailcrawlr"
+    },
+    {
+      "name": "OpenTripPlanner User mailing list",
+      "url": "https://groups.google.com/forum/#!forum/opentripplanner-users",
+      "description": "OpenTripPlanner User mailing list - API service at groups.google.com",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "quality_score": 60,
+      "quality_grade": "C",
+      "quality": {
+        "score": 60,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "email_opentripplanner_user_mailing_list"
+    },
+    {
+      "name": "OneBusAway API mailing list",
+      "url": "http://groups.google.com/group/onebusaway-api",
+      "description": "OneBusAway API mailing list - API service at groups.google.com",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "quality_score": 50,
+      "quality_grade": "D",
+      "quality": {
+        "score": 50,
+        "grade": "D",
+        "max_score": 100
+      },
+      "id": "email_onebusaway_api_mailing_list"
+    },
+    {
+      "name": "EmailRep",
+      "url": "https://blog.sublimesecurity.com/emailrep-query-and-report",
+      "description": "none",
+      "source": "jaegeral/security-apis",
+      "status": "active",
+      "auth": "Yes",
+      "https": "[Link!](https://blog.sublimesecurity.com/emailrep-query-and-report)",
+      "cors": "Free",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_emailrep_2"
+    },
+    {
+      "name": "Spamhaus",
+      "url": "https://www.spamhaus.org/zen/",
+      "description": "`?`",
+      "source": "jaegeral/security-apis",
+      "status": "active",
+      "auth": "Yes",
+      "https": "[Link!](https://www.spamhaus.org/zen/)",
+      "cors": "?",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_spamhaus"
+    },
+    {
+      "name": "YaaniMail",
+      "url": "https://api.yaanimail.com/",
+      "description": "Turkcell'e ait olan Yaani'nin e-posta platformu.",
+      "source": "3rt4nm4n/turkish-apis",
+      "status": "active",
+      "auth": "OAuth",
+      "https": "Var",
+      "cors": "",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "quality_score": 97,
+      "quality_grade": "A",
+      "quality": {
+        "score": 97,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "email_yaanimail"
+    },
+    {
+      "name": "Plino",
+      "url": "https://plino.herokuapp.com/",
+      "description": "An intelligent spam filtering system",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "quality_score": 89,
+      "quality_grade": "A",
+      "quality": {
+        "score": 89,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "email_plino"
+    },
+    {
+      "name": "Sendgrid",
+      "url": "https://sendgrid.com/docs/api-reference/",
+      "description": "A cloud-based SMTP provider that allows you to send emails without having to maintain email servers",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "quality_score": 100,
+      "quality_grade": "A",
+      "quality": {
+        "score": 100,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "email_sendgrid_2"
+    },
+    {
+      "name": "Black History Facts",
+      "url": "https://blackhistoryapi.io/docs",
+      "description": "Contribute or search one of the largest black history fact databases on the web",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "quality_score": 100,
+      "quality_grade": "A",
+      "quality": {
+        "score": 100,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "email_black_history_facts_2"
+    },
+    {
+      "name": "Facebook Marketing API",
+      "url": "https://developers.facebook.com/docs/marketing-apis",
+      "description": "Manage ads and campaigns using the Facebook API.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 77,
+      "quality_grade": "B",
+      "quality": {
+        "score": 77,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_facebook_marketing_api"
+    },
+    {
+      "name": "Google AdWords API",
+      "url": "https://developers.google.com/adwords/api/docs/guides/start",
+      "description": "Manage Google AdWords campaigns programmatically.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 77,
+      "quality_grade": "B",
+      "quality": {
+        "score": 77,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_google_adwords_api"
+    },
+    {
+      "name": "MailGun",
+      "url": "https://mailgun.com",
+      "description": "Transactional Email API Service For Developers. Free first 10000 emails per month.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_mailgun_4"
+    },
+    {
+      "name": "Gmail API",
+      "url": "https://developers.google.com/gmail/api/?hl=en",
+      "description": "The Gmail REST API. _v1_",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_gmail_api_2"
+    },
+    {
+      "name": "Mailjet",
+      "url": "https://tools-collection.net/apis-list/mailjet",
+      "description": "Reliable and scalable email delivery platform with SMTP and API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_mailjet_2"
+    },
+    {
+      "name": "SparkPost",
+      "url": "https://tools-collection.net/apis-list/sparkpost",
+      "description": "SparkPost is a cloud based email delivery service that sends 25% of the worlds legitimate emails",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_sparkpost"
+    },
+    {
+      "name": "Postmark",
+      "url": "https://tools-collection.net/apis-list/postmark",
+      "description": "No bulk",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 66,
+      "quality_grade": "C",
+      "quality": {
+        "score": 66,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "email_postmark"
+    },
+    {
+      "name": "HubSpot",
+      "url": "https://tools-collection.net/apis-list/hubspot",
+      "description": "HubSpot&#x27;s API provides access to CRM contacts, companies, deals, tickets, marketing emails, and automation workflows 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_hubspot"
+    },
+    {
+      "name": "Turso",
+      "url": "https://tools-collection.net/apis-list/turso",
+      "description": "Turso provides edge SQLite databases powered by libSQL 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 79,
+      "quality_grade": "B",
+      "quality": {
+        "score": 79,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_turso"
+    },
+    {
+      "name": "AWS SES",
+      "url": "https://tools-collection.net/apis-list/aws-ses",
+      "description": "AWS Simple Email Service API enables sending transactional and marketing emails at scale with high deliverability 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_aws_ses"
+    },
+    {
+      "name": "Plino",
+      "url": "https://tools-collection.net/apis-list/plino",
+      "description": "Plino - A responsive spam filtering system",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_plino_2"
+    },
+    {
+      "name": "Gmail API",
+      "url": "https://tools-collection.net/apis-list/gmail-api",
+      "description": "The Gmail API: modern, fast, RESTful",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_gmail_api_3"
+    },
+    {
+      "name": "mailboxlayer",
+      "url": "https://tools-collection.net/apis-list/mailboxlayer",
+      "description": "Simple and powerful email verification JSON API using SMTP, typo checks, syntax validation, and free and disposable provider filtering",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_mailboxlayer_4"
+    },
+    {
+      "name": "Mailchimp",
+      "url": "https://tools-collection.net/apis-list/mailchimp",
+      "description": "Mailchimp&#x27;s Marketing API manages email campaigns, audiences, automations, and reports 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_mailchimp"
+    },
+    {
+      "name": "MailGun",
+      "url": "https://tools-collection.net/apis-list/mailgun",
+      "description": "Learn more today",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 69,
+      "quality_grade": "C",
+      "quality": {
+        "score": 69,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "email_mailgun_5"
+    },
+    {
+      "name": "Nylas Email Api",
+      "url": "https://tools-collection.net/apis-list/nylas-email-api",
+      "description": "Email API to integrate 100% of Email Services Providers directly into your app",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_nylas_email_api"
+    },
+    {
+      "name": "SendGrid",
+      "url": "https://tools-collection.net/apis-list/sendgrid",
+      "description": "SendGrid&#x27;s Email API enables sending transactional and marketing emails at scale 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": "apiKey",
+      "https": true,
+      "quality_score": 90,
+      "quality_grade": "A",
+      "quality": {
+        "score": 90,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "email_sendgrid_3"
+    },
+    {
+      "name": "OOPSpam",
+      "url": "https://tools-collection.net/apis-list/oopspam",
+      "description": "Stop bots and manual spam from reaching you or your customer",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_oopspam_2"
+    },
+    {
+      "name": "Google URL Shortener API",
+      "url": "https://tools-collection.net/apis-list/google-url-shortener-api",
+      "description": "Used by Google products to create short URLs that can be easily shared, tweeted, or emailed to friends",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_google_url_shortener_api"
+    },
+    {
+      "name": "Scrape Website Email",
+      "url": "https://tools-collection.net/apis-list/scrape-website-email",
+      "description": "Grabs email addresses from a URL",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_scrape_website_email"
+    },
+    {
+      "name": "LeakPeek",
+      "url": "https://psbdmp.ws/api",
+      "description": "searc in leaks databases",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_leakpeek"
+    },
+    {
+      "name": "email-draft-polish/",
+      "url": "https://./email-draft-polish/",
+      "description": "Draft, rewrite, or condense emails for the right tone and audience.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "email_email_draft_polish"
+    },
+    {
+      "name": "Data",
+      "url": "https://data.humdata.org",
+      "description": "Data across crises and organizations",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "email",
+      "tags": [
+        "email"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 69,
+      "quality_grade": "C",
+      "quality": {
+        "score": 69,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "email_data"
+    },
+    {
+      "name": "MailCheck",
+      "url": "https://www.mailcheck.ai/api",
+      "description": "Email validation",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailcheck",
+      "quality": {
+        "score": 57,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 57,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Temp Mail",
+      "url": "https://temp-mail.org/en/api/",
+      "description": "Temporary email addresses",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_temp_mail",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Clearbit",
+      "url": "https://dashboard.clearbit.com/docs",
+      "description": "Company and person data enrichment from email/domain",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_clearbit",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Snov.io",
+      "url": "https://snov.io/api",
+      "description": "Email finder, verifier, and drip campaign API",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_snov_io",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Loops",
+      "url": "https://loops.so/docs/api",
+      "description": "Email marketing API for SaaS — drip campaigns, newsletters",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_loops",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Amazon SES",
+      "url": "https://docs.aws.amazon.com/ses/",
+      "description": "High-volume email sending at $0.10 per 1,000 emails",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_amazon_ses",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ZeroBounce",
+      "url": "https://www.zerobounce.net/docs/",
+      "description": "Email validation and deliverability testing",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_zerobounce",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "MailerSend",
+      "url": "https://developers.mailersend.com/",
+      "description": "Transactional email and SMS with analytics dashboard",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailersend",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Buttondown",
+      "url": "https://api.buttondown.email/",
+      "description": "Newsletter API with Markdown support and RSS import",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_buttondown",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "ConvertKit (Kit)",
+      "url": "https://developers.convertkit.com/",
+      "description": "Creator-focused email marketing with automation",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_convertkit_kit",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Close CRM",
+      "url": "https://developer.close.com/",
+      "description": "Startup CRM — leads, email sequences, built-in calling",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_close_crm",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SEON Fraud API",
+      "url": "https://docs.seon.io/api-reference",
+      "description": "Email, phone, IP, and device intelligence for fraud detection in a single call",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_seon_fraud_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Clearbit API",
+      "url": "https://clearbit.com/docs",
+      "description": "Person and Company enrichment from email/domain; real-time lookups",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_clearbit_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Lusha API",
+      "url": "https://docs.lusha.com/",
+      "description": "B2B contact enrichment; direct dials, emails, company data",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_lusha_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Snov.io API",
+      "url": "https://snov.io/api",
+      "description": "Email finder, verifier, and drip campaign automation via REST",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_snov_io_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "RocketReach API",
+      "url": "https://docs.rocketreach.co/reference/rocketreach-api",
+      "description": "700M+ contacts; email and phone lookup for professionals",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_rocketreach_api",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Infobip API",
+      "url": "https://www.infobip.com/docs/api",
+      "description": "CPaaS APIs for SMS, voice, email, WhatsApp, and Viber",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_infobip_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Mailchimp Marketing API",
+      "url": "https://mailchimp.com/developer/marketing/api/",
+      "description": "Full-featured email marketing API for campaigns, lists, and automation",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailchimp_marketing_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Buttondown API",
+      "url": "https://docs.buttondown.com/api-introduction",
+      "description": "Simple RESTful newsletter API for emails and subscribers",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_buttondown_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Mailgun API",
+      "url": "https://documentation.mailgun.com/docs/mailgun/api-reference/",
+      "description": "Powerful email API for sending, receiving, and tracking at scale",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailgun_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ConvertKit (Kit) API",
+      "url": "https://developers.kit.com/welcome",
+      "description": "Creator-focused email API for forms, sequences, and subscribers",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_convertkit_kit_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "LiveAgent API",
+      "url": "https://support.liveagent.com/840770-Complete-API-reference",
+      "description": "Multi-channel helpdesk with live chat, email, and phone ticketing",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_liveagent_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Novu API",
+      "url": "https://docs.novu.co/platform/overview",
+      "description": "Open-source notification infrastructure for email, SMS, push, chat",
+      "category": "email",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_novu_api",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Amazon SNS API",
+      "url": "https://docs.aws.amazon.com/sns/latest/api/welcome.html",
+      "description": "AWS pub-sub messaging for push, SMS, email, and SQS",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_amazon_sns_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Apollo.io",
+      "url": "https://docs.apollo.io/",
+      "description": "People and company enrichment with email finding and engagement data",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_apollo_io",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Lusha",
+      "url": "https://www.lusha.com/docs/",
+      "description": "Contact and company enrichment with phone numbers and email addresses",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_lusha",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ActiveCampaign",
+      "url": "https://developers.activecampaign.com/",
+      "description": "CRM and email automation API for contacts, campaigns, and automations",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_activecampaign",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Constant Contact",
+      "url": "https://developer.constantcontact.com/",
+      "description": "Email campaign creation, scheduling, contact management, and reporting",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_constant_contact",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Campaign Monitor",
+      "url": "https://www.campaignmonitor.com/api/",
+      "description": "Email campaign API for lists, subscribers, transactional, and journeys",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_campaign_monitor",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Kit (ConvertKit)",
+      "url": "https://developers.kit.com/v3",
+      "description": "Creator-focused email API for subscribers, broadcasts, and automations",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_kit_convertkit",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SparkPost (Bird)",
+      "url": "https://developers.sparkpost.com/",
+      "description": "High-volume email delivery API with analytics and deliverability tools",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_sparkpost_bird",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Customer.io",
+      "url": "https://customer.io/docs/api/track/",
+      "description": "Event-driven email and messaging automation with tracking API",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_customer_io",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SEON",
+      "url": "https://docs.seon.io/",
+      "description": "Digital footprint-based fraud prevention with email/phone/IP enrichment",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_seon",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Emailage (LexisNexis)",
+      "url": "https://risk.lexisnexis.com/global/en/products/lexisnexis-emailage",
+      "description": "Email-based risk assessment for identity verification and fraud scoring",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_emailage_lexisnexis",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "HubSpot Marketing",
+      "url": "https://developers.hubspot.com/docs/api-reference/overview",
+      "description": "Inbound marketing with email, campaign, analytics, and attribution APIs",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_hubspot_marketing",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MoEngage",
+      "url": "https://developers.moengage.com/hc/en-us",
+      "description": "Customer engagement API for push, in-app, email, and SMS messaging",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_moengage",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Iterable",
+      "url": "https://api.iterable.com/api/docs",
+      "description": "Cross-channel marketing automation API for email, push, SMS, and more",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_iterable",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Agrimap",
+      "url": "https://www.agrimap.com/",
+      "description": "Precision agriculture mapping with soil analysis and variable-rate prescriptions",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_agrimap",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "LimoExpress API",
+      "url": "https://limoexpress.app/faq/integrations-and-api-access",
+      "description": "Chauffeur management API for custom booking, dispatch, and SMS/email alert integration",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_limoexpress_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MailerLite",
+      "url": "https://apihunt.io/apis/mailerlite",
+      "description": "",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "apihunt/awesome-api-list",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailerlite",
+      "quality": {
+        "score": 52,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 52,
+      "quality_grade": "D"
+    },
+    {
+      "name": "Mailersend",
+      "url": "https://apihunt.io/apis/mailersend",
+      "description": "",
+      "category": "email",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "apihunt/awesome-api-list",
+      "tags": [
+        "email"
+      ],
+      "status": "active",
+      "id": "email_mailersend_2",
+      "quality": {
+        "score": 52,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 52,
+      "quality_grade": "D"
+    }
+  ]
+}

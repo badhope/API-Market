@@ -1,0 +1,5653 @@
+{
+  "id": "data-validation",
+  "name": "Data Validation",
+  "display_name": "Data Validation",
+  "api_count": 213,
+  "apis": [
+    {
+      "name": "interzoid.com:getcompanymatch",
+      "url": "https://api.apis.guru/v2/specs/interzoid.com/getcompanymatch/1.0.0/openapi.json",
+      "description": "interzoid.com:getcompanymatch - API service at api.apis.guru",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_interzoid_com_getcompanymatch",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "interzoid.com:getfullnamematch",
+      "url": "https://api.apis.guru/v2/specs/interzoid.com/getfullnamematch/1.0.0/openapi.json",
+      "description": "interzoid.com:getfullnamematch - API service at api.apis.guru",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_interzoid_com_getfullnamematch",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "interzoid.com:globalpageload",
+      "url": "https://api.apis.guru/v2/specs/interzoid.com/globalpageload/1.0.0/openapi.json",
+      "description": "interzoid.com:globalpageload - API service at api.apis.guru",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_interzoid_com_globalpageload",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "netlicensing.io",
+      "url": "https://api.apis.guru/v2/specs/netlicensing.io/2.x/openapi.json",
+      "description": "netlicensing.io - API service at api.apis.guru",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_netlicensing_io",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "orghunter.com",
+      "url": "https://api.apis.guru/v2/specs/orghunter.com/1.0.0/swagger.json",
+      "description": "Get the latest IRS data and most up to date charity information for your website or application",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_orghunter_com",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "sheetlabs.com:rig-veda",
+      "url": "https://api.apis.guru/v2/specs/sheetlabs.com/rig-veda/1.2/swagger.json",
+      "description": "sheetlabs.com:rig-veda - API service at api.apis.guru",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_sheetlabs_com_rig_veda",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Dad Jokes API",
+      "url": "https://icanhazdadjoke.com/api",
+      "description": "Dad jokes in JSON format.",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_dad_jokes_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Vertopal**",
+      "url": "https://www.vertopal.com/en/developer/api/introduction",
+      "description": "The Vertopal API lets you convert files to a variety of formats.",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_vertopal",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "HAL",
+      "url": "http://stateless.co/hal_specification.html",
+      "description": "Simple format that gives a consistent and easy way to hyperlink between resources in your API (see: HATEOAS).",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "Kikobeats/awesome-api",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_hal",
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B",
+      "https_inferred": true
+    },
+    {
+      "name": "Finturest IBAN",
+      "url": "https://dev.publicapis.dev/resource/finturest-iban/4820508e-6a47-4f45-901d-9ced7c870fd5",
+      "description": "Fast, accurate IBAN validation and generation",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_finturest_iban",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Logotypes",
+      "url": "https://dev.publicapis.dev/resource/logotypes/acd82475-b27f-4a80-87ad-a1f467631852",
+      "description": "Logotypes of the world in multiples format",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_logotypes",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Is Even API",
+      "url": "https://www.freepublicapis.com/is-even-api",
+      "description": "The Is Even API checks whether a given integer is even or odd",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "freepublicapis.com",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_is_even_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Wayback Machine API",
+      "url": "https://www.freepublicapis.com/wayback-machine-api",
+      "description": "The Wayback Machine API enables developers to check if a specific URL has been archived",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "freepublicapis.com",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_wayback_machine_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "User Agent Lookup API",
+      "url": "https://www.freepublicapis.com/user-agent-lookup-api",
+      "description": "This API allows users to parse and retrieve information about user agents for free",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "freepublicapis.com",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_user_agent_lookup_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "Contentful Images",
+      "url": "https://www.contentful.com/developers/docs/references/images-api/",
+      "description": "Used to retrieve and apply transformations to images",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_contentful_images",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Google Keep",
+      "url": "https://developers.google.com/keep/api/reference/rest",
+      "description": "API to read, write, and format Google Keep notes",
+      "category": "data-validation",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_google_keep",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Google Sheets",
+      "url": "https://developers.google.com/sheets/api/reference/rest",
+      "description": "API to read, write, and format Google Sheets data",
+      "category": "data-validation",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_google_sheets",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "IP2WHOIS Information Lookup",
+      "url": "https://www.ip2whois.com/",
+      "description": "WHOIS domain name lookup",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_ip2whois_information_lookup",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "isitdownstatus",
+      "url": "https://isitdownstatus.com",
+      "description": "Check if websites and online services are currently down",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_isitdownstatus",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "npm Registry",
+      "url": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md",
+      "description": "Query information about your favorite Node.js libraries programatically",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_npm_registry",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BetterMeta",
+      "url": "http://bettermeta.io",
+      "description": "Return a site's meta tags in JSON format",
+      "category": "data-validation",
+      "auth": "`X-Mashape-Key`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_bettermeta",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SQLable",
+      "url": "https://sqlable.com/validator/",
+      "description": "Validate SQL query",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_sqlable",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "XMLable",
+      "url": "https://xmlable.com/validator/",
+      "description": "Validate XML",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_xmlable",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "FormForge",
+      "url": "https://formforge-api.vercel.app",
+      "description": "Generate styled, accessible HTML forms from JSON definitions with validation",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "development"
+      ],
+      "status": "active",
+      "id": "data_validation_formforge",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "cambase.io",
+      "url": "https://api.apis.guru/v2/specs/cambase.io/1.0/swagger.json",
+      "description": "Cambase.io is a project by Evercam.io in order to make it easier for software developers to have a reliable, up to date source of model hardware information available via a public API.",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": true,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_cambase_io",
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "FBI Wanted",
+      "url": "https://www.fbi.gov/wanted/api",
+      "description": "Access information on the FBI Wanted program",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "government"
+      ],
+      "status": "active",
+      "id": "data_validation_fbi_wanted",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "India IT Department",
+      "url": "https://directory.apisetu.gov.in/api-collection/pan",
+      "description": "<details><summary>India income tax data</summary>Track PAN, verify PAN, organization PAN verification API</details>",
+      "category": "data-validation",
+      "auth": "None/API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "data-validation",
+        "government"
+      ],
+      "status": "active",
+      "id": "data_validation_india_it_department",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Colorado Data Engine",
+      "url": "http://codataengine.org/",
+      "description": "Formatted and geolocated Colorado public data",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "government"
+      ],
+      "status": "active",
+      "id": "data_validation_colorado_data_engine",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Fruits",
+      "url": "https://fruits-api.netlify.app/graphql",
+      "description": "Information of fruit trees of the world",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "No",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "government"
+      ],
+      "status": "active",
+      "id": "data_validation_fruits",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**CountryAPI**",
+      "url": "https://fabian7593.github.io/CountryAPI/",
+      "description": "Get all the countries, and obtain the most important information of these.",
+      "category": "data-validation",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "data-validation",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "data_validation_countryapi",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "auth_inferred": true
+    },
+    {
+      "name": "US ZipCode",
+      "url": "https://www.smarty.com/docs/cloud/us-zipcode-api",
+      "description": "Validate and append data for any US ZipCode",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "data_validation_us_zipcode",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Zippopotam.us",
+      "url": "http://www.zippopotam.us",
+      "description": "Get information about place such as country, city, state, etc",
+      "category": "data-validation",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "data_validation_zippopotam_us",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SpaceX Launch Data",
+      "url": "https://api.spacexdata.com/",
+      "description": "<details><summary>SpaceX launch information API</summary>Get data on recent and upcoming launches including rocket, crew, site, payload, and more.</details>",
+      "category": "data-validation",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "data-validation",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "data_validation_spacex_launch_data",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "US ZipCode",
+      "url": "https://smartystreets.com/docs/cloud/us-zipcode-api",
+      "description": "Validate and append data for any US ZipCode",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "data_validation_us_zipcode_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Zippopotam",
+      "url": "http://www.zippopotam.us",
+      "description": "Get information about place such as country, city, state, etc",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "No",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "data_validation_zippopotam",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BigDataCloud's Phone and Email Verification API",
+      "url": "https://www.bigdatacloud.com/phone-email-verification",
+      "description": "Syntax and Format Validation of Phone Number and Email address.",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "data_validation_bigdatacloud_s_phone_and_email_verification_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "apigee.net:marketcheck-cars",
+      "url": "https://api.apis.guru/v2/specs/apigee.net/marketcheck-cars/2.01/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation",
+        "finance"
+      ],
+      "status": "active",
+      "id": "data_validation_apigee_net_marketcheck_cars",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Bank Data API",
+      "url": "https://apilayer.com/marketplace/bank_data-api",
+      "description": "Instant IBAN and SWIFT number validation across the globe",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "finance"
+      ],
+      "status": "active",
+      "id": "data_validation_bank_data_api",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Binlist",
+      "url": "https://binlist.net/",
+      "description": "Public access to a database of IIN/BIN information",
+      "category": "data-validation",
+      "auth": "None",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "finance"
+      ],
+      "status": "active",
+      "id": "data_validation_binlist",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Tax Data API",
+      "url": "https://apilayer.com/marketplace/tax_data-api",
+      "description": "Instant VAT number and tax validation across the globe",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "finance"
+      ],
+      "status": "active",
+      "id": "data_validation_tax_data_api",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "VAT Validation",
+      "url": "https://www.abstractapi.com/vat-validation-rates-api",
+      "description": "Validate VAT numbers and calculate VAT rates",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "finance"
+      ],
+      "status": "active",
+      "id": "data_validation_vat_validation",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Abstract VAT Validation",
+      "url": "https://www.abstractapi.com/vat-validation-rates-api",
+      "description": "Validate VAT numbers and calculate VAT rates",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "toddmotto/public-apis",
+      "tags": [
+        "data-validation",
+        "finance"
+      ],
+      "status": "active",
+      "id": "data_validation_abstract_vat_validation",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**IBANAPI**",
+      "url": "https://ibanapi.com/get-api",
+      "description": "Validate IBAN number & get bank account from it.",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "data-validation",
+        "finance"
+      ],
+      "status": "active",
+      "id": "data_validation_ibanapi",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "IBANforge",
+      "url": "https://api.ibanforge.com",
+      "description": "IBAN validation and BIC/SWIFT lookup for 75+ countries with 121K+ bank entries",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-apis/public-apis",
+      "tags": [
+        "data-validation",
+        "finance"
+      ],
+      "status": "active",
+      "id": "data_validation_ibanforge",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Finturest IBAN",
+      "url": "https://finturest.com/products/iban-api",
+      "description": "Fast, accurate IBAN validation and generation",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "finance"
+      ],
+      "status": "active",
+      "id": "data_validation_finturest_iban_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Validate Swift/BIC",
+      "url": "https://apyhub.com/utility/finance-validator-bic",
+      "description": "Validates BIC/SWIFT code",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "finance"
+      ],
+      "status": "active",
+      "id": "data_validation_validate_swift_bic",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ArcNautical Vessel Check",
+      "url": "https://github.com/SaltyTaro/vessel-check-api",
+      "description": "Vessel sanctions screening, ownership transparency scoring, and vetting intelligence",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "data_validation_arcnautical_vessel_check",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Fuel Prices at Spanish Gas Stations",
+      "url": "https://datos.gob.es/en/apidata",
+      "description": "Provides information about fuel prices at gas stations in Spain",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "data_validation_fuel_prices_at_spanish_gas_stations",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Schema.org",
+      "url": "http://schema.org",
+      "description": "Collection of schemas describing common data models.",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "Kikobeats/awesome-api",
+      "tags": [
+        "data-validation",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "data_validation_schema_org",
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C",
+      "https_inferred": true
+    },
+    {
+      "name": "NSFW AI Convos",
+      "url": "https://dev.publicapis.dev/resource/nsfw-ai-convos/3cf54876-cd27-4fbb-ad38-3b708433bba3",
+      "description": "Simple uncensored AI convos in JSON format",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "data-validation",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "data_validation_nsfw_ai_convos",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Brawl Stars",
+      "url": "https://developer.brawlstars.com",
+      "description": "Brawl Stars Game Information",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_brawl_stars",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bugsnax",
+      "url": "https://www.bugsnaxapi.com/",
+      "description": "Get information about Bugsnax",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_bugsnax",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Clash of Clans",
+      "url": "https://developer.clashofclans.com",
+      "description": "Clash of Clans Game Information",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_clash_of_clans",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Clash Royale",
+      "url": "https://developer.clashroyale.com",
+      "description": "Clash Royale Game Information",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_clash_royale",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Digimon Information",
+      "url": "https://digimon-api.vercel.app/",
+      "description": "Provides information about digimon creatures",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_digimon_information",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Dota 2",
+      "url": "https://docs.opendota.com/",
+      "description": "Provides information about Player stats , Match stats, Rankings for Dota 2",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_dota_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Guild Wars 2",
+      "url": "https://wiki.guildwars2.com/wiki/API:Main",
+      "description": "Guild Wars 2 Game Information",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_guild_wars_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Halo",
+      "url": "https://developer.haloapi.com/",
+      "description": "Halo 5 and Halo Wars 2 Information",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_halo",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Hearthstone",
+      "url": "http://hearthstoneapi.com/",
+      "description": "Hearthstone Cards Information",
+      "category": "data-validation",
+      "auth": "`X-Mashape-Key`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_hearthstone",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Magic The Gathering",
+      "url": "http://magicthegathering.io/",
+      "description": "Magic The Gathering Game Information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_magic_the_gathering",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Path of Exile",
+      "url": "https://www.pathofexile.com/developer/docs",
+      "description": "Path of Exile Game Information",
+      "category": "data-validation",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_path_of_exile",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Pokéapi",
+      "url": "https://pokeapi.co",
+      "description": "Pokémon Information",
+      "category": "data-validation",
+      "auth": "None",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics",
+        "entertainment"
+      ],
+      "status": "active",
+      "id": "data_validation_pok_api",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Pokémon TCG",
+      "url": "https://pokemontcg.io",
+      "description": "Pokémon TCG Information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_pok_mon_tcg",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Psychonauts",
+      "url": "https://psychonauts-api.netlify.app/",
+      "description": "Psychonauts World Characters Information and PSI Powers",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_psychonauts",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Puyo Nexus",
+      "url": "https://github.com/deltadex7/puyodb-api-deno",
+      "description": "Puyo Puyo information from Puyo Nexus Wiki",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_puyo_nexus",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Rick and Morty",
+      "url": "https://rickandmortyapi.com",
+      "description": "All the Rick and Morty information, including images",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_rick_and_morty",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "RuneScape",
+      "url": "https://runescape.wiki/w/Application_programming_interface",
+      "description": "RuneScape and OSRS RPGs information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_runescape",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Sakura CardCaptor",
+      "url": "https://github.com/JessVel/sakura-card-captor-api",
+      "description": "Sakura CardCaptor Cards Information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_sakura_cardcaptor",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Tebex",
+      "url": "https://docs.tebex.io/plugin/",
+      "description": "Tebex API for information about game purchases",
+      "category": "data-validation",
+      "auth": "`X-Mashape-Key`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_tebex",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "When is next MCU film",
+      "url": "https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md",
+      "description": "Upcoming MCU film information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_when_is_next_mcu_film",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Yu-Gi-Oh!",
+      "url": "https://db.ygoprodeck.com/api-guide/",
+      "description": "Yu-Gi-Oh! TCG Information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_yu_gi_oh",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Age of Empires II",
+      "url": "https://age-of-empires-2-api.herokuapp.com",
+      "description": "Get information about Age of Empires II resources",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "No",
+      "source": "toddmotto/public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_age_of_empires_ii",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Clash Of Clans**",
+      "url": "https://developer.clashofclans.com/",
+      "description": "An API for Clash of Clans to fetch all information about players, clans, wars, etc.",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_clash_of_clans_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "AmiiboAPI",
+      "url": "http://www.amiiboapi.com/",
+      "description": "Amiibo Information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "No",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_amiiboapi",
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Wynncraft",
+      "url": "https://docs.wynncraft.com/",
+      "description": "Wynncraft Information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "data_validation_wynncraft",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**TVmaze**",
+      "url": "https://www.tvmaze.com/api",
+      "description": "TV Show and web series database. Episode guide, cast, crew and character information. Recaps, reviews, episode trailers, celebrity photos and more.",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "data-validation",
+        "video"
+      ],
+      "status": "active",
+      "id": "data_validation_tvmaze",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "IMDb-API",
+      "url": "https://imdb-api.com/",
+      "description": "API for receiving movie, serial and cast information",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "video"
+      ],
+      "status": "active",
+      "id": "data_validation_imdb_api",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "IMDbOT",
+      "url": "https://github.com/SpEcHiDe/IMDbOT",
+      "description": "Unofficial IMDb Movie / Series Information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "video"
+      ],
+      "status": "active",
+      "id": "data_validation_imdbot",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Open Movie Database",
+      "url": "http://www.omdbapi.com/",
+      "description": "Movie information",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "video"
+      ],
+      "status": "active",
+      "id": "data_validation_open_movie_database",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "STAPI",
+      "url": "http://stapi.co",
+      "description": "Information on all things Star Trek",
+      "category": "data-validation",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "video"
+      ],
+      "status": "active",
+      "id": "data_validation_stapi",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "STAPI",
+      "url": "https://stapi.co",
+      "description": "Information on all things Star Trek",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "video"
+      ],
+      "status": "active",
+      "id": "data_validation_stapi_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "IMDb",
+      "url": "https://developer.imdb.com/",
+      "description": "API for receiving movie, serial and cast information",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "video"
+      ],
+      "status": "active",
+      "id": "data_validation_imdb",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**SSL-Checker**",
+      "url": "https://ssl-checker.io/",
+      "description": "Python script with free API that collects SSL/TLS information from hosts with JSON/CSV export.",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "data-validation",
+        "security"
+      ],
+      "status": "active",
+      "id": "data_validation_ssl_checker",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "Complete Criminal Checks",
+      "url": "https://completecriminalchecks.com/Developers",
+      "description": "Provides data of offenders from all U.S. States and Pureto Rico",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "security"
+      ],
+      "status": "active",
+      "id": "data_validation_complete_criminal_checks",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CRXcavator",
+      "url": "https://crxcavator.io/apidocs",
+      "description": "Chrome extension risk scoring",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "security"
+      ],
+      "status": "active",
+      "id": "data_validation_crxcavator",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "FraudLabs Pro",
+      "url": "https://www.fraudlabspro.com/developer/api/screen-order",
+      "description": "Screen order information using AI to detect frauds",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "security"
+      ],
+      "status": "active",
+      "id": "data_validation_fraudlabs_pro",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Callook.info**",
+      "url": "https://callook.info",
+      "description": "Look up information about United States ham radio callsigns.",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "data-validation",
+        "music"
+      ],
+      "status": "active",
+      "id": "data_validation_callook_info",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Gaana",
+      "url": "https://github.com/cyberboysumanjay/GaanaAPI",
+      "description": "API to retrieve song information from Gaana",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "music"
+      ],
+      "status": "active",
+      "id": "data_validation_gaana",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Makeup",
+      "url": "http://makeup-api.herokuapp.com/",
+      "description": "Makeup Information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "health"
+      ],
+      "status": "active",
+      "id": "data_validation_makeup",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**VeganCheck**",
+      "url": "https://jokenetwork.de/vegancheck-api",
+      "description": "API that provides a couple of information about a food or non-food product based on its EAN/UPC code.",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "data-validation",
+        "health"
+      ],
+      "status": "active",
+      "id": "data_validation_vegancheck",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Diabetes",
+      "url": "http://predictbgl.com/api/",
+      "description": "Logging and retrieving diabetes information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "No",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "health"
+      ],
+      "status": "active",
+      "id": "data_validation_diabetes",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Cartola FC",
+      "url": "https://github.com/wgenial/cartrolandofc",
+      "description": "The Cartola FC API serves to check the partial points of your team",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "health"
+      ],
+      "status": "active",
+      "id": "data_validation_cartola_fc",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "xColors",
+      "url": "https://github.com/cheatsnake/xColors-api",
+      "description": "<details><summary>A free API for generating & converting colors</summary>Easily generate and convert color formats like HEX, RGB, and HSL with a simple, free API.</details>",
+      "category": "data-validation",
+      "auth": "None",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "data-validation",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "data_validation_xcolors",
+      "https_inferred": true,
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "**Abstract**",
+      "url": "https://www.abstractapi.com",
+      "description": "Suite of utility API's (validate emails, create user avatars, calculate VAT, and more)",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "data-validation",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "data_validation_abstract",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Logotypes",
+      "url": "https://logotypes.dev/",
+      "description": "Logotypes of the world in multiples format",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "data_validation_logotypes_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "GISTDA",
+      "url": "https://disaster.gistda.or.th/services/open-api",
+      "description": "Thailand natural disaster information",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "weather"
+      ],
+      "status": "active",
+      "id": "data_validation_gistda",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Comic Vine**",
+      "url": "http://comicvine.gamespot.com/api/",
+      "description": "An extremely mature, well organized and continually updated resource of comic information.",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "data-validation",
+        "entertainment"
+      ],
+      "status": "active",
+      "id": "data_validation_comic_vine",
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B",
+      "https_inferred": true
+    },
+    {
+      "name": "**Rick and Morty**",
+      "url": "https://rickandmortyapi.com/",
+      "description": "All the Rick and Morty information, including images.",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "data-validation",
+        "entertainment"
+      ],
+      "status": "active",
+      "id": "data_validation_rick_and_morty_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "JokeAPI",
+      "url": "https://jokeapi.dev/",
+      "description": "Jokes in multiple formats",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "entertainment"
+      ],
+      "status": "active",
+      "id": "data_validation_jokeapi",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Wizard World",
+      "url": "https://wizard-world-api.herokuapp.com/swagger/index.html",
+      "description": "Get information from the Harry Potter universe",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "books"
+      ],
+      "status": "active",
+      "id": "data_validation_wizard_world",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Wolne Lektury",
+      "url": "https://wolnelektury.pl/api/",
+      "description": "API for obtaining information about e-books available on the WolneLektury.pl website",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "books"
+      ],
+      "status": "active",
+      "id": "data_validation_wolne_lektury",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Wynncraft",
+      "url": "https://dev.publicapis.dev/resource/wynncraft/6ddda847-283c-493d-a603-f9479d621067",
+      "description": "Wynncraft Information",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "data-validation",
+        "documents"
+      ],
+      "status": "active",
+      "id": "data_validation_wynncraft_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "DocForge",
+      "url": "https://docforge-api.vercel.app",
+      "description": "Convert between Markdown, HTML, CSV, JSON, and YAML formats",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "documents"
+      ],
+      "status": "active",
+      "id": "data_validation_docforge",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Vertopal",
+      "url": "https://www.vertopal.com/en/developer/api/introduction",
+      "description": "Convert your files to a variety of formats using Vertopal API",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "documents"
+      ],
+      "status": "active",
+      "id": "data_validation_vertopal_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "mailboxvalidator.com:checker",
+      "url": "https://api.apis.guru/v2/specs/mailboxvalidator.com/checker/1.0.0/openapi.json",
+      "description": "mailboxvalidator.com:checker - API service at api.apis.guru",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation",
+        "email"
+      ],
+      "status": "active",
+      "id": "data_validation_mailboxvalidator_com_checker",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "NoParam",
+      "url": "https://noparam.com",
+      "description": "Email validation API for real-time & bulk checking",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "email"
+      ],
+      "status": "active",
+      "id": "data_validation_noparam",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "LinkPreview",
+      "url": "https://www.linkpreview.net",
+      "description": "Get JSON formatted summary with title, description and preview image for any requested URL",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "data_validation_linkpreview",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Recreation Information Database",
+      "url": "https://ridb.recreation.gov/",
+      "description": "Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US)",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "data_validation_recreation_information_database",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "GBIF",
+      "url": "https://www.gbif.org/developer/summary",
+      "description": "Global Biodiversity Information Facility",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "science-math",
+        "ci"
+      ],
+      "status": "active",
+      "id": "data_validation_gbif",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ITIS",
+      "url": "https://www.itis.gov/ws_description.html",
+      "description": "Integrated Taxonomic Information System",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "science-math",
+        "ci"
+      ],
+      "status": "active",
+      "id": "data_validation_itis",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Minor Planet Center",
+      "url": "http://www.asterank.com/mpc",
+      "description": "Asterank.com Information",
+      "category": "data-validation",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "science-math",
+        "ci"
+      ],
+      "status": "active",
+      "id": "data_validation_minor_planet_center",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "GBIF",
+      "url": "http://api.gbif.org/v1/",
+      "description": "Global Biodiversity Information Facility",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "data-validation",
+        "ci"
+      ],
+      "status": "active",
+      "id": "data_validation_gbif_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Smartsheet",
+      "url": "https://smartsheet.redoc.ly/",
+      "description": "Allows you to programmatically access and Smartsheet data and account information",
+      "category": "data-validation",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "business"
+      ],
+      "status": "active",
+      "id": "data_validation_smartsheet",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Tenders in Hungary",
+      "url": "https://tenders.guru/hu/api",
+      "description": "Get data for procurements in Hungary in JSON format",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "business"
+      ],
+      "status": "active",
+      "id": "data_validation_tenders_in_hungary",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Tenders in Poland",
+      "url": "https://tenders.guru/pl/api",
+      "description": "Get data for procurements in Poland in JSON format",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "business"
+      ],
+      "status": "active",
+      "id": "data_validation_tenders_in_poland",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Tenders in Romania",
+      "url": "https://tenders.guru/ro/api",
+      "description": "Get data for procurements in Romania in JSON format",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "business"
+      ],
+      "status": "active",
+      "id": "data_validation_tenders_in_romania",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Tenders in Spain",
+      "url": "https://tenders.guru/es/api",
+      "description": "Get data for procurements in Spain in JSON format",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "business"
+      ],
+      "status": "active",
+      "id": "data_validation_tenders_in_spain",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Tenders in Ukraine",
+      "url": "https://tenders.guru/ua/api",
+      "description": "Get data for procurements in Ukraine in JSON format",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "business"
+      ],
+      "status": "active",
+      "id": "data_validation_tenders_in_ukraine",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Proweblook Phone Number Checker",
+      "url": "https://proweblook.com/phone-number-validator",
+      "description": "Phone number validation",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "phone"
+      ],
+      "status": "active",
+      "id": "data_validation_proweblook_phone_number_checker",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CO2 Offset",
+      "url": "https://co2offset.io/api.html",
+      "description": "API calculates and validates the carbon footprint",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "environment"
+      ],
+      "status": "active",
+      "id": "data_validation_co2_offset",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "azure.com:sql-DatabaseSchema",
+      "url": "https://api.apis.guru/v2/specs/azure.com/sql-DatabaseSchema/2018-06-01-preview/swagger.json",
+      "description": "azure.com:sql-DatabaseSchema - API service at api.apis.guru",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_azure_com_sql_databaseschema",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:sql-ManagedDatabaseSchema",
+      "url": "https://api.apis.guru/v2/specs/azure.com/sql-ManagedDatabaseSchema/2018-06-01-preview/swagger.json",
+      "description": "azure.com:sql-ManagedDatabaseSchema - API service at api.apis.guru",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_azure_com_sql_manageddatabaseschema",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "facecheck.id",
+      "url": "https://api.apis.guru/v2/specs/facecheck.id/v1.02/openapi.json",
+      "description": "facecheck.id - API service at api.apis.guru",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_facecheck_id",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "nexmo.com:verify",
+      "url": "https://api.apis.guru/v2/specs/nexmo.com/verify/1.2.4/openapi.json",
+      "description": "nexmo.com:verify - API service at api.apis.guru",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_nexmo_com_verify",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "regcheck.org.uk",
+      "url": "https://api.apis.guru/v2/specs/regcheck.org.uk/1.0.0/swagger.json",
+      "description": "regcheck.org.uk - API service at api.apis.guru",
+      "category": "data-validation",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_regcheck_org_uk",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Nonprofit Check Plus",
+      "url": "https://dev.publicapis.dev/resource/nonprofit-check-plus/6fad9228-d3b4-4dbe-a44b-bc69e5b2363f",
+      "description": "Verify charities via EIN using IRS, PUB78, BMF & OFAC data for compliance and legitimacy",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_nonprofit_check_plus",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "VATlayer",
+      "url": "https://vatlayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers",
+      "description": "VAT number validation",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_vatlayer",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PurgoMalum",
+      "url": "http://www.purgomalum.com",
+      "description": "Content validator against profanity & obscenity",
+      "category": "data-validation",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "other"
+      ],
+      "status": "active",
+      "id": "data_validation_purgomalum",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "vatlayer",
+      "url": "https://vatlayer.com/documentation",
+      "description": "VAT number validation",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "toddmotto/public-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_vatlayer_2",
+      "sources": [
+        "toddmotto/public-apis",
+        "public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Nonprofit Check Plus",
+      "url": "https://pactman.org/nonprofitcheckplus-api/landing",
+      "description": "Verify charities via EIN using IRS, PUB78, BMF & OFAC data for compliance and legitimacy",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_nonprofit_check_plus_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "VatcheckAPI",
+      "url": "https://vatcheckapi.com",
+      "description": "VAT Number Validation & Lookup REST API",
+      "category": "data-validation",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data_validation_vatcheckapi",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Softwium",
+      "url": "https://softwium.com/sql-validator/",
+      "description": "Validate SQL queries",
+      "category": "data-validation",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "data-validation",
+        "programming"
+      ],
+      "status": "active",
+      "id": "data_validation_softwium",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Shields",
+      "url": "https://shields.io/",
+      "description": "Concise, consistent, and legible badges in SVG and raster format",
+      "category": "data-validation",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "data-validation",
+        "open-source"
+      ],
+      "status": "active",
+      "id": "data_validation_shields",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Information",
+      "url": "https://github.com/ZaneTurner/PlanetsAPI",
+      "description": "Information about planets and exoplanets, including mass, radius, orbit, semimajor axis, and how it was discovered.",
+      "source": "APIs-guru/graphql-apis",
+      "status": "active",
+      "auth": "[Try it!](https://pristine-gadget-267405.appspot.com/graphql/)",
+      "https": "[Repo](https://github.com/ZaneTurner/PlanetsAPI)",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_information"
+    },
+    {
+      "name": "Rickandmortyapi",
+      "url": "https://rickandmortyapi.com/documentation/#graphql",
+      "description": "All the Rick and Morty information.",
+      "source": "APIs-guru/graphql-apis",
+      "status": "active",
+      "auth": "[Try it!](https://rickandmortyapi.com/graphql)",
+      "https": "[Docs](https://rickandmortyapi.com/documentation/#graphql)",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "quality_score": 88,
+      "quality_grade": "A",
+      "quality": {
+        "score": 88,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_rickandmortyapi"
+    },
+    {
+      "name": "Information",
+      "url": "https://github.com/Franqsanz/fruits-api/blob/main/readme.md",
+      "description": "Information of fruit trees of the world",
+      "source": "APIs-guru/graphql-apis",
+      "status": "active",
+      "auth": "[Try it!](https://fruits-api.netlify.app/graphql)",
+      "https": "[Docs](https://github.com/Franqsanz/fruits-api/blob/main/readme.md)",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "quality_score": 89,
+      "quality_grade": "A",
+      "quality": {
+        "score": 89,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_information_2"
+    },
+    {
+      "name": "HAL",
+      "url": "https://tools.ietf.org/html/draft-kelly-json-hal-06",
+      "description": "Simple format that gives a consistent and easy way to hyperlink between resources in your API.",
+      "source": "marmelab/awesome-rest",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_hal_2"
+    },
+    {
+      "name": "Schema.org",
+      "url": "https://schema.org",
+      "description": "Collection of schemas describing common data models.",
+      "source": "marmelab/awesome-rest",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 83,
+      "quality_grade": "B",
+      "quality": {
+        "score": 83,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_schema_org_2"
+    },
+    {
+      "name": "Expressa",
+      "url": "https://github.com/thomas4019/expressa",
+      "description": "Express middleware for creating APIs from JSON schemas with a simple admin editor and permissions model.",
+      "source": "marmelab/awesome-rest",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": "OAuth",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_expressa"
+    },
+    {
+      "name": "DNSCheck",
+      "url": "https://www.dnscheck.co/api",
+      "description": "https://www.dnscheck.co/api",
+      "source": "cipher387/API-s-for-OSINT",
+      "status": "active",
+      "auth": "monitor the status of both individual DNS records and groups of related DNS records",
+      "https": "up to 10 DNS records/FREE",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "quality_score": 91,
+      "quality_grade": "A",
+      "quality": {
+        "score": 91,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_dnscheck"
+    },
+    {
+      "name": "OneBusAway GTFS Modules",
+      "url": "https://github.com/OneBusAway/onebusaway-gtfs-modules/wiki",
+      "description": "A Java-based library for reading, writing, and transforming public transit data in the GTFS format, including database support.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_onebusaway_gtfs_modules"
+    },
+    {
+      "name": "gtfs-schema",
+      "url": "https://github.com/tyleragreen/gtfs-schema",
+      "description": "PostgreSQL schema for GTFS feeds.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": "OAuth",
+      "quality_score": 88,
+      "quality_grade": "A",
+      "quality": {
+        "score": 88,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_gtfs_schema"
+    },
+    {
+      "name": "TimeTablePublisher (TTPUB)",
+      "url": "https://github.com/OpenTransitTools/ttpub",
+      "description": "A web publishing system developed by TriMet that allows a transit agency to examine, modify, and transform raw scheduling data into easy-to-read timetables for customer information purposes",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": "OAuth",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_timetablepublisher_ttpub"
+    },
+    {
+      "name": "gtfsclean",
+      "url": "https://github.com/public-transport/gtfsclean",
+      "description": "A tool for checking, sanitizing, and minimizing GTFS feeds. Fork of gtfstidy, with some additional fixes that haven't been merged upstream yet.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": "OAuth",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_gtfsclean"
+    },
+    {
+      "name": "GTFS-Realtime-Capsule",
+      "url": "https://github.com/tsdataclinic/gtfs-realtime-capsule",
+      "description": "A command-line tool that scrapes, normalizes, and archives real-time public transit data.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_gtfs_realtime_capsule"
+    },
+    {
+      "name": "JOSM Validator Rules",
+      "url": "https://josm.openstreetmap.de/wiki/Rules",
+      "description": "The JOSM validator (Tag checker) can be customized with different rules based on MapCSS.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_josm_validator_rules"
+    },
+    {
+      "name": "Project Mapping",
+      "url": "https://www.projectmapping.co.uk/index.html",
+      "description": "Schematic maps of UK and worldwide rail networks.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 82,
+      "quality_grade": "B",
+      "quality": {
+        "score": 82,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_project_mapping"
+    },
+    {
+      "name": "\"Legacy AVL system? It's okay, join the club.\" by Kurt Raschke",
+      "url": "https://kurtraschke.com/2015/01/legacy-avl-export",
+      "description": "Discussion of options for transforming legacy AVL system data into the GTFS-realtime format.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_legacy_avl_system_it_s_okay_join_the_club_by_kurt_"
+    },
+    {
+      "name": "\"GTFS Best Practices now available!\" by Sean Barbeau",
+      "url": "https://medium.com/@sjbarbeau/gtfs-best-practices-now-available-88ac67194233",
+      "description": "Discusses some of the challenges of an open data format like GTFS and the GTFS Best Practices that were launched in early 2017 to help address data quality.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_gtfs_best_practices_now_available_by_sean_barbeau"
+    },
+    {
+      "name": "Schemathesis",
+      "url": "https://schemathesis.readthedocs.io/",
+      "description": "Schemathesis - API service at schemathesis.readthedocs.io",
+      "source": "stepci/awesome-api-clients",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 60,
+      "quality_grade": "C",
+      "quality": {
+        "score": 60,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "data_validation_schemathesis"
+    },
+    {
+      "name": "Check Point APIs",
+      "url": "https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk121360",
+      "description": "`apiKey`",
+      "source": "jaegeral/security-apis",
+      "status": "active",
+      "auth": "Yes",
+      "https": "[Link!](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk121360)",
+      "cors": "Commercial",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "quality_score": 82,
+      "quality_grade": "B",
+      "quality": {
+        "score": 82,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_check_point_apis"
+    },
+    {
+      "name": "Turnos de Farmacia",
+      "url": "http://datos.gob.cl/dataset/farmacias-en-chile",
+      "description": "URL para obtener en formato JSON el listado de farmacias del país y sus turnos nocturnos legales, directamente desde FARMANET del Ministerio de Salud.",
+      "source": "juanbrujo/listado-apis-publicas-en-chile",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_turnos_de_farmacia"
+    },
+    {
+      "name": "Indicadores del Día",
+      "url": "http://indicadoresdeldia.cl/pages/code/",
+      "description": "Los indicadores que entregamos en el servicio, aparecen en el sitio del Banco Central de Chile (http://www.bcentral.cl/), estos datos son actualizados cada una hora y servidos en diferentes formatos c",
+      "source": "juanbrujo/listado-apis-publicas-en-chile",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_indicadores_del_d_a"
+    },
+    {
+      "name": "API de RedMeteo (Red Meteorológica Aficionada de Chile)",
+      "url": "https://redmeteo.cl/api.html",
+      "description": "Permite obtener observaciones meteorológicas recientes y metadatos básicos de estaciones ciudadanas en Chile, actualizados cada 5 minutos en formatos JSON o CSV.",
+      "source": "juanbrujo/listado-apis-publicas-en-chile",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "quality_score": 90,
+      "quality_grade": "A",
+      "quality": {
+        "score": 90,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "data_validation_api_de_redmeteo_red_meteorol_gica_aficionada_de_ch"
+    },
+    {
+      "name": "Comic Vine",
+      "url": "http://comicvine.gamespot.com/api/",
+      "description": "An extremely mature, well organized and continually updated resource of comic information.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": false,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_comic_vine_2"
+    },
+    {
+      "name": "Australia",
+      "url": "https://www.rba.gov.au/statistics/tables/",
+      "description": "Plenty of kinds of data in [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_australia"
+    },
+    {
+      "name": "VeganCheck",
+      "url": "https://jokenetwork.de/vegancheck-api",
+      "description": "API that provides a couple of information about a food or non-food product based on its EAN/UPC code.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_vegancheck_2"
+    },
+    {
+      "name": "Cognito",
+      "url": "https://cognitohq.com/docs",
+      "description": "A powerful API for verifying and retrieving identity information. Can take a customer's cellphone number and return name, address history, full SSN, and date of birth.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_cognito"
+    },
+    {
+      "name": "Nonprofit Check Plus",
+      "url": "https://publicapis.io/nonprofit-check-plus-api",
+      "description": "Power your websites and applications with comprehensive nonprofit data.",
+      "source": "publicapis.io",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_nonprofit_check_plus_3"
+    },
+    {
+      "name": "Change.Photos",
+      "url": "https://publicapis.io/change-photos-api",
+      "description": "Resize, compress, sharpen, blur and transform photos at scale.",
+      "source": "publicapis.io",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_change_photos"
+    },
+    {
+      "name": "Semantira",
+      "url": "https://tools-collection.net/apis-list/semantira",
+      "description": "To get started check out Install the SDK",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_semantira"
+    },
+    {
+      "name": "ICObench",
+      "url": "https://tools-collection.net/apis-list/icobench",
+      "description": "ICObench Data API allows you to get various information and data from the platform including ICO listings, ratings, and stats",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_icobench"
+    },
+    {
+      "name": "Tardis",
+      "url": "https://tools-collection.net/apis-list/tardis",
+      "description": "Raw historical market data is available both in exchange native and normalized formats and includes full order book depth snapshots plus incremental updates, tick-by-tick trades, historical open inter",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_tardis"
+    },
+    {
+      "name": "Ecart",
+      "url": "https://tools-collection.net/apis-list/ecart",
+      "description": "Data is offered in JSON format",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_ecart"
+    },
+    {
+      "name": "Enigma Public",
+      "url": "https://tools-collection.net/apis-list/enigma-public",
+      "description": "Enigma Businesses provides the most accurate and reliable information on small and medium businesses in real-time",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_enigma_public"
+    },
+    {
+      "name": "MailboxValidator",
+      "url": "https://tools-collection.net/apis-list/mailboxvalidator",
+      "description": "MailboxValidator provides single email validation API that checks if an email address is valid and exists",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_mailboxvalidator"
+    },
+    {
+      "name": "Comic Vine",
+      "url": "https://tools-collection.net/apis-list/comic-vine",
+      "description": "An extremely mature, well organized and continuely updated resource of comic information",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_comic_vine_3"
+    },
+    {
+      "name": "MAC address vendor lookup",
+      "url": "https://tools-collection.net/apis-list/mac-address-vendor-lookup",
+      "description": "The MAC address API allows you to retrieve OUI vendor information, detect virtual machines, possible applications, read the information encoded in the MAC, and get research&#x27;s results regarding th",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_mac_address_vendor_lookup"
+    },
+    {
+      "name": "Postmen",
+      "url": "https://tools-collection.net/apis-list/postmen",
+      "description": "Download Postmen&#x27;s JSON schema",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_postmen"
+    },
+    {
+      "name": "Verse",
+      "url": "https://tools-collection.net/apis-list/verse",
+      "description": "Check what&#x27;s the latest version of your favorite open-source project",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_verse"
+    },
+    {
+      "name": "Cloudmersive Validate",
+      "url": "https://tools-collection.net/apis-list/cloudmersive-validate",
+      "description": "Data Validation APIs",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_cloudmersive_validate"
+    },
+    {
+      "name": "Battlefield 4",
+      "url": "https://tools-collection.net/apis-list/battlefield-4",
+      "description": "Battlefield 4 Information",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_battlefield_4"
+    },
+    {
+      "name": "Colorado Data Engine",
+      "url": "https://tools-collection.net/apis-list/colorado-data-engine",
+      "description": "Formatted and geolocated Colorado public data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 76,
+      "quality_grade": "B",
+      "quality": {
+        "score": 76,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_colorado_data_engine_2"
+    },
+    {
+      "name": "imgix",
+      "url": "https://tools-collection.net/apis-list/imgix",
+      "description": "imgix&#x27;s Image Processing API transforms, optimizes, and delivers images on-the-fly via URL parameters",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_imgix"
+    },
+    {
+      "name": "IP Sidekick",
+      "url": "https://tools-collection.net/apis-list/ip-sidekick",
+      "description": "IP Sidekick is an API that returns information about an IP address",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_ip_sidekick"
+    },
+    {
+      "name": "Sweden",
+      "url": "https://tools-collection.net/apis-list/sweden",
+      "description": "Information you need to get started using PostNord API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 78,
+      "quality_grade": "B",
+      "quality": {
+        "score": 78,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_sweden"
+    },
+    {
+      "name": "US Street Address",
+      "url": "https://tools-collection.net/apis-list/us-street-address",
+      "description": "Verify one or more addresses using the SmartyStreets US Street Address API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_us_street_address"
+    },
+    {
+      "name": "US ZipCode",
+      "url": "https://tools-collection.net/apis-list/us-zipcode",
+      "description": "Easily look up, verify and append ZIP Code data using the US ZIP Code API from SmartyStreets",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_us_zipcode_3"
+    },
+    {
+      "name": "Freesound",
+      "url": "https://tools-collection.net/apis-list/freesound",
+      "description": "With the Freesound API you can browse, search, and retrieve information about Freesound users, packs, and the sounds themselves",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_freesound"
+    },
+    {
+      "name": "BetterMeta",
+      "url": "https://tools-collection.net/apis-list/bettermeta",
+      "description": "A simple API to return the meta tags of any site in a digestable JSON format",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_bettermeta_2"
+    },
+    {
+      "name": "Web Of Trust (WOT)",
+      "url": "https://tools-collection.net/apis-list/web-of-trust-wot",
+      "description": "The WOT reputation system computes website reputations using ratings received from users and information from third-party sources",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_web_of_trust_wot"
+    },
+    {
+      "name": "Cartola Fc",
+      "url": "https://tools-collection.net/apis-list/cartola-fc",
+      "description": "The Cartola FC API serves to check the partial points of your team",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_cartola_fc_2"
+    },
+    {
+      "name": "AIS Hub",
+      "url": "https://tools-collection.net/apis-list/ais-hub",
+      "description": "AISHub members have access to AISHub aggregated AIS data via this API and receive real time data in XML, JSON or CSV format",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_ais_hub"
+    },
+    {
+      "name": "STAPI",
+      "url": "https://tools-collection.net/apis-list/stapi",
+      "description": "Information on all things Star Trek",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_stapi_3"
+    },
+    {
+      "name": "Recreation Information Database",
+      "url": "https://tools-collection.net/apis-list/recreation-information-database",
+      "description": "Recreation",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 67,
+      "quality_grade": "C",
+      "quality": {
+        "score": 67,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "data_validation_recreation_information_database_2"
+    },
+    {
+      "name": "Ais Web",
+      "url": "https://tools-collection.net/apis-list/ais-web",
+      "description": "Aeronautical information in digital media produced by the Department of Airspace Control (DECEA)",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_ais_web"
+    },
+    {
+      "name": "Celebinfo",
+      "url": "https://tools-collection.net/apis-list/celebinfo",
+      "description": "Celebrity information",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_celebinfo"
+    },
+    {
+      "name": "Cryptostandardizer",
+      "url": "https://tools-collection.net/apis-list/cryptostandardizer",
+      "description": "Standardize crypto coin symbols (eg",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_cryptostandardizer"
+    },
+    {
+      "name": "Vat Rates",
+      "url": "https://tools-collection.net/apis-list/vat-rates",
+      "description": "A collection of all VAT rates for EU countries",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 76,
+      "quality_grade": "B",
+      "quality": {
+        "score": 76,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_vat_rates"
+    },
+    {
+      "name": "CVEDetails API",
+      "url": "https://www.cvedetails.com/documentation/apis",
+      "description": "Get basic information about CVE",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_cvedetails_api"
+    },
+    {
+      "name": "Makeup",
+      "url": "http://makeup-api.herokuapp.com",
+      "description": "Makeup information",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": false,
+      "quality_score": 54,
+      "quality_grade": "D",
+      "quality": {
+        "score": 54,
+        "grade": "D",
+        "max_score": 100
+      },
+      "id": "data_validation_makeup_2"
+    },
+    {
+      "name": "An",
+      "url": "https://finalspaceapi.com/docs/",
+      "description": "An API based on the animated show *Final Space*, providing character info from the wiki in friendly JSON format.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_an"
+    },
+    {
+      "name": "Comprehensive",
+      "url": "https://web.dragonball-api.com/documentation",
+      "description": "Comprehensive *Dragon Ball* data on characters, transformations, power stats, planets, and locations—power up your app with Saiyan strength!",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_comprehensive"
+    },
+    {
+      "name": "RTK Compression",
+      "url": "https://docs/RTK_COMPRESSION.md",
+      "description": "Command-output compression, filters, trust, verify, raw-output recovery",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_rtk_compression"
+    },
+    {
+      "name": "Compression Rules Format",
+      "url": "https://docs/COMPRESSION_RULES_FORMAT.md",
+      "description": "JSON rule-pack schemas for Caveman and RTK filters",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 77,
+      "quality_grade": "B",
+      "quality": {
+        "score": 77,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "data_validation_compression_rules_format"
+    },
+    {
+      "name": "XML Schema",
+      "url": "https://www.w3.org/XML/Schema",
+      "description": "XML Schema - API service at w3.org",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "data-validation",
+      "tags": [
+        "data-validation"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 50,
+      "quality_grade": "D",
+      "quality": {
+        "score": 50,
+        "grade": "D",
+        "max_score": 100
+      },
+      "id": "data_validation_xml_schema"
+    },
+    {
+      "name": "Plaid Identity",
+      "url": "https://plaid.com/docs/api/products/identity-verification/",
+      "description": "Identity verification tied to financial accounts",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_plaid_identity",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Certn API",
+      "url": "https://docs.certn.co/",
+      "description": "Global background checks — criminal, education, identity — sandbox",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_certn_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "GoodHire API",
+      "url": "https://www.goodhire.com/",
+      "description": "Streamlined background checks with real-time results",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_goodhire_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Sardine API",
+      "url": "https://docs.sardine.ai/home",
+      "description": "Fraud, compliance, and identity verification for fintechs via behavioral analytics",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_sardine_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Jumio API",
+      "url": "https://www.jumio.com/",
+      "description": "AI-powered identity verification with ID document and biometric checks",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_jumio_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Onfido API",
+      "url": "https://onfido.com/",
+      "description": "Document and biometric identity verification for onboarding",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_onfido_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Onfido (Entrust)",
+      "url": "https://documentation.onfido.com/",
+      "description": "Document verification and facial biometric identity checks",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_onfido_entrust",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "EasyPost",
+      "url": "https://docs.easypost.com/",
+      "description": "Multi-carrier shipping API for labels, tracking, and address verification",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_easypost",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "EasyPost API",
+      "url": "https://docs.easypost.com/",
+      "description": "Multi-carrier shipping; rates, labels, tracking, address verification",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_easypost_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "USPS API",
+      "url": "https://developers.usps.com/",
+      "description": "Official USPS; tracking, pricing, labels, address verification",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_usps_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Melissa Global Address",
+      "url": "https://docs.melissa.com/cloud-api/global-address-verification/global-address-verification-index.html",
+      "description": "Address verification, cleansing, and enrichment for 240+ countries",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_melissa_global_address",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Talend Data Quality",
+      "url": "https://help.talend.com/r/en-US/8.0/data-quality-user-guide",
+      "description": "Open-source and enterprise data quality with profiling and cleansing",
+      "category": "data-validation",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_talend_data_quality",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Ataccama ONE",
+      "url": "https://docs.ataccama.com/one/latest/",
+      "description": "AI-powered data quality, catalog, and governance unified platform",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_ataccama_one",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "GoodHire",
+      "url": "https://www.goodhire.com/api/",
+      "description": "Launch background checks with Partner and Customer API modes",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_goodhire",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Onfido (Entrust)",
+      "url": "https://documentation.identity.entrust.com/",
+      "description": "Identity verification with document and biometric checks via REST",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_onfido_entrust_2",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Smile ID",
+      "url": "https://usesmileid.com/blog/kyc-api/",
+      "description": "KYC and AML compliance API focused on African identity verification",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_smile_id",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Microsoft Azure Face API",
+      "url": "https://learn.microsoft.com/en-us/azure/ai-services/computer-vision/overview-identity",
+      "description": "Cloud face detection, recognition, and verification with facial attribute analysis",
+      "category": "data-validation",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "data-validation"
+      ],
+      "status": "active",
+      "id": "data-validation_microsoft_azure_face_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    }
+  ]
+}

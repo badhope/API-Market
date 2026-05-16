@@ -1,0 +1,2694 @@
+{
+  "id": "open-data",
+  "name": "Open Data",
+  "display_name": "Open Data",
+  "api_count": 101,
+  "apis": [
+    {
+      "name": "owler.com",
+      "url": "https://api.apis.guru/v2/specs/owler.com/1.0.0/swagger.json",
+      "description": "Search for information on companies using a website or company name and get access to Company Data, News, Blog Posts, Competitor Lists and much more.",
+      "category": "open-data",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open_data_owler_com",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "stackexchange.com",
+      "url": "https://api.apis.guru/v2/specs/stackexchange.com/2.0/openapi.json",
+      "description": "Stack Exchange is a network of 130+ Q&A communities including Stack Overflow.",
+      "category": "open-data",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open_data_stackexchange_com",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Bank Negara Malaysia Open Data",
+      "url": "https://apikijangportal.bnm.gov.my/",
+      "description": "Malaysia Central Bank Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_bank_negara_malaysia_open_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Brazil Central Bank Open Data",
+      "url": "https://dadosabertos.bcb.gov.br/",
+      "description": "Brazil Central Bank Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_brazil_central_bank_open_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Brazilian Chamber of Deputies Open Data",
+      "url": "https://dadosabertos.camara.leg.br/swagger/api.html",
+      "description": "Provides legislative information in Apis XML and JSON, as well as files in various formats",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_brazilian_chamber_of_deputies_open_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "City, Berlin",
+      "url": "https://daten.berlin.de/",
+      "description": "Berlin(DE) City Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_berlin",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "City, Gdańsk",
+      "url": "https://ckan.multimediagdansk.pl/en",
+      "description": "Gdańsk (PL) City Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_gda_sk",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "City, Gdynia",
+      "url": "http://otwartedane.gdynia.pl/en/api_doc.html",
+      "description": "Gdynia (PL) City Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_gdynia",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "City, Helsinki",
+      "url": "https://hri.fi/en_gb/",
+      "description": "Helsinki(FI) City Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_helsinki",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "City, Lviv",
+      "url": "https://opendata.city-adm.lviv.ua/",
+      "description": "Lviv(UA) City Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_lviv",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "City, Nantes Open Data",
+      "url": "https://data.nantesmetropole.fr/pages/home/",
+      "description": "Nantes(FR) City Open Data",
+      "category": "open-data",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_nantes_open_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "City, New York Open Data",
+      "url": "https://opendata.cityofnewyork.us/",
+      "description": "New York (US) City Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_new_york_open_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "City, Prague Open Data",
+      "url": "http://opendata.praha.eu/en",
+      "description": "Prague(CZ) City Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_prague_open_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "City, Toronto Open Data",
+      "url": "https://open.toronto.ca/",
+      "description": "Toronto (CA) City Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_toronto_open_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Istanbul (İBB) Open Data",
+      "url": "https://data.ibb.gov.tr",
+      "description": "Data sets from the İstanbul Metropolitan Municipality (İBB)",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_istanbul_i_bb_open_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "World Bank",
+      "url": "https://datahelpdesk.worldbank.org/knowledgebase/articles/889392",
+      "description": "<details><summary>Global development data and statistics</summary>Access economic, social, and development indicators for countries worldwide.</details>",
+      "category": "open-data",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_world_bank",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Data.gov",
+      "url": "https://www.data.gov/developers/apis",
+      "description": "<details><summary>US government open data</summary>Access thousands of government datasets covering various topics and departments.</details>",
+      "category": "open-data",
+      "auth": "None/API Key",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_data_gov",
+      "https_inferred": true,
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Open Data EU Portal",
+      "url": "https://data.europa.eu/en/apis",
+      "description": "<details><summary>Datasets from the European Union’s public repositories</summary>Ideal for researchers, analysts, and open data visualizations.</details>",
+      "category": "open-data",
+      "auth": "API Key",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_open_data_eu_portal",
+      "https_inferred": true,
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "City, Analyze Boston",
+      "url": "https://data.boston.gov/",
+      "description": "Boston(US) City Open Data",
+      "category": "open-data",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_analyze_boston",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "City, Bologna Opendata",
+      "url": "https://dati.comune.bologna.it",
+      "description": "Bologna(IT) City Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_bologna_opendata",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "City, Nantes Opendata",
+      "url": "https://data.nantesmetropole.fr/pages/home/",
+      "description": "Nantes(FR) City Open Data",
+      "category": "open-data",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_nantes_opendata",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "City, Prague Opendata",
+      "url": "http://opendata.praha.eu/en",
+      "description": "Prague(CZ) City Open Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": "No",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_city_prague_opendata",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "openfintech.io",
+      "url": "https://api.apis.guru/v2/specs/openfintech.io/2017-08-24/swagger.json",
+      "description": "# Introduction [OpenFinTech.io](https://openfintech.io) is an open database that comprises of standardized primary data for FinTech industry.<br> It contains such information as geolocation data (coun",
+      "category": "open-data",
+      "auth": "apiKey",
+      "https": true,
+      "cors": true,
+      "source": "apis.guru",
+      "tags": [
+        "open-data",
+        "finance"
+      ],
+      "status": "active",
+      "id": "open_data_openfintech_io",
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Velib metropolis, Paris, France",
+      "url": "https://www.velib-metropole.fr/donnees-open-data-gbfs-du-service-velib-metropole",
+      "description": "Velib Open Data API",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "open_data_velib_metropolis_paris_france",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Edmunds**",
+      "url": "http://developer.edmunds.com/",
+      "description": "A dataset containing all the car makes.",
+      "category": "open-data",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "open-data",
+        "transportation"
+      ],
+      "status": "active",
+      "id": "open_data_edmunds",
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C",
+      "https_inferred": true
+    },
+    {
+      "name": "datasette.local",
+      "url": "https://api.apis.guru/v2/specs/datasette.local/v1/openapi.json",
+      "description": "datasette.local - API service at api.apis.guru",
+      "category": "open-data",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "open-data",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "open_data_datasette_local",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "GreyNoise",
+      "url": "https://docs.greynoise.io/reference/get_v3-community-ip",
+      "description": "Query IPs in the GreyNoise dataset and retrieve a subset of the full IP context data",
+      "category": "open-data",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "security"
+      ],
+      "status": "active",
+      "id": "open_data_greynoise",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Covid-19 Datenhub",
+      "url": "https://npgeo-corona-npgeo-de.hub.arcgis.com",
+      "description": "Maps, datasets, applications and more in the context of COVID-19",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "health"
+      ],
+      "status": "active",
+      "id": "open_data_covid_19_datenhub",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Open Data NHS Scotland",
+      "url": "https://www.opendata.nhs.scot",
+      "description": "Medical reference data and statistics by Public Health Scotland",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "health"
+      ],
+      "status": "active",
+      "id": "open_data_open_data_nhs_scotland",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Dogs",
+      "url": "https://dog.ceo/dog-api/",
+      "description": "Based on the Stanford Dogs Dataset",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "animals"
+      ],
+      "status": "active",
+      "id": "open_data_dogs",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Data Science Toolkit**",
+      "url": "https://github.com/petewarden/dstk",
+      "description": "A collection of the best open data sets and open-source tools for data science.",
+      "category": "open-data",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open_data_data_science_toolkit",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "Archive.org",
+      "url": "https://archive.readme.io/docs",
+      "description": "The Internet Archive",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_archive_org",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Enigma Public",
+      "url": "https://developers.enigma.com/docs",
+      "description": "Broadest collection of public data",
+      "category": "open-data",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_enigma_public",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "GENESIS",
+      "url": "https://www.destatis.de/EN/Service/OpenData/api-webservice.html",
+      "description": "Federal Statistical Office Germany",
+      "category": "open-data",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_genesis",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Nobel Prize",
+      "url": "https://www.nobelprize.org/about/developer-zone-2/",
+      "description": "Open data about nobel prizes and events",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_nobel_prize",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Open Data Minneapolis",
+      "url": "https://opendata.minneapolismn.gov/",
+      "description": "Spatial (GIS) and non-spatial city data for Minneapolis",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_open_data_minneapolis",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "openAFRICA",
+      "url": "https://africaopendata.org/",
+      "description": "Large datasets repository of African open data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_openafrica",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "OpenCorporates",
+      "url": "http://api.opencorporates.com/documentation/API-Reference",
+      "description": "Data on corporate entities and directors in many countries",
+      "category": "open-data",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_opencorporates",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Scoop.it",
+      "url": "http://www.scoop.it/dev",
+      "description": "Content Curation Service",
+      "category": "open-data",
+      "auth": "`apiKey`",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_scoop_it",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Teleport",
+      "url": "https://developers.teleport.org/",
+      "description": "Quality of Life Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_teleport",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Umeå Open Data",
+      "url": "https://opendata.umea.se/api/",
+      "description": "Open data of the city Umeå in northen Sweden",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "open_data_ume_open_data",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Keen IO**",
+      "url": "https://keen.io/docs/api/",
+      "description": "Keen IO is a powerful, flexible, and scalable solution that’s literally Big Data, easy-to-implement and at your fingertips.",
+      "category": "open-data",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open_data_keen_io",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Short Id",
+      "url": "https://github.com/aguedo/idgen",
+      "description": "Generate unique short Ids",
+      "category": "open-data",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open_data_short_id",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SHARE",
+      "url": "https://share.osf.io/api/v2/",
+      "description": "A free, open, dataset about research and scholarly activities",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "science-math",
+        "ci"
+      ],
+      "status": "active",
+      "id": "open_data_share",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "World Bank",
+      "url": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589",
+      "description": "World Data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "science-math",
+        "ci"
+      ],
+      "status": "active",
+      "id": "open_data_world_bank_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**SHARE**",
+      "url": "http://share-research.readthedocs.io/en/latest/",
+      "description": "A free, open dataset of scholarly research activity across the scholarly lifecycle.",
+      "category": "open-data",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "open-data",
+        "science-math"
+      ],
+      "status": "active",
+      "id": "open_data_share_2",
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B",
+      "https_inferred": true,
+      "cors_inferred": true
+    },
+    {
+      "name": "OpenCorporates API",
+      "url": "https://api.opencorporates.com/documentation/API-Reference",
+      "description": "<details><summary>Largest open database of companies in the world</summary>Get company info, jurisdictions, directors, and more — useful for KYC, research, and compliance tools.</details>",
+      "category": "open-data",
+      "auth": "API Key",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "open-data",
+        "business"
+      ],
+      "status": "active",
+      "id": "open_data_opencorporates_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "National Grid ESO",
+      "url": "https://data.nationalgrideso.com/",
+      "description": "Open data from Great Britain’s Electricity System Operator",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "environment"
+      ],
+      "status": "active",
+      "id": "open_data_national_grid_eso",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PM2.5 Open Data Portal",
+      "url": "https://pm25.lass-net.org/#apis",
+      "description": "Open low-cost PM2.5 sensor data",
+      "category": "open-data",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-data",
+        "environment"
+      ],
+      "status": "active",
+      "id": "open_data_pm2_5_open_data_portal",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Thames Water Open Data",
+      "url": "https://data.thameswater.co.uk",
+      "description": "Open Data from the UK's largest water and wastewater services company",
+      "category": "open-data",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "open-data",
+        "environment"
+      ],
+      "status": "active",
+      "id": "open_data_thames_water_open_data",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "GBFS",
+      "url": "https://gbfs.org/",
+      "description": "General Bikeshare Feed Specification: open data standard for real-time information about bikeshare, scootershare, mopedshare, and carshare.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "open_data_gbfs"
+    },
+    {
+      "name": "National Transit Database (USA)",
+      "url": "https://www.transit.dot.gov/ntd",
+      "description": "Information and statistics on the transit systems of the United States, run by the Federal Transit Administration.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "open_data_national_transit_database_usa"
+    },
+    {
+      "name": "gtfs-visualizations",
+      "url": "https://github.com/cmichi/gtfs-visualizations",
+      "description": "Open-source NodeJS application for visualizing the routes of GTFS datasets.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "open_data_gtfs_visualizations"
+    },
+    {
+      "name": "TCRP Synthesis 115 - Open Data: Challenges and Opportunities for Transit Agencies",
+      "url": "http://onlinepubs.trb.org/Onlinepubs/tcrp/tcrp_syn_115.pdf",
+      "description": "TCRP Synthesis 115 - Open Data: Challenges and Opportunities for Transit Agencies - API service at onlinepubs.trb.org",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "quality_score": 50,
+      "quality_grade": "D",
+      "quality": {
+        "score": 50,
+        "grade": "D",
+        "max_score": 100
+      },
+      "id": "open_data_tcrp_synthesis_115_open_data_challenges_and_opport"
+    },
+    {
+      "name": "Finnhub",
+      "url": "https://finnhub.io/",
+      "description": "Real-time financial data",
+      "source": "ngongcm/public-api-list",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "✅",
+      "cors": "",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "quality_score": 86,
+      "quality_grade": "A",
+      "quality": {
+        "score": 86,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "open_data_finnhub"
+    },
+    {
+      "name": "CryptoTradingAPI",
+      "url": "https://www.cryptotradingapi.io/",
+      "description": "Crypto Prices & Technical Indicators",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "quality_score": 89,
+      "quality_grade": "A",
+      "quality": {
+        "score": 89,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "open_data_cryptotradingapi"
+    },
+    {
+      "name": "Bank Negara Malaysia Open Data",
+      "url": "https://api.bnm.gov.my/",
+      "description": "Malaysia Central Bank Open Data",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "quality_score": 92,
+      "quality_grade": "A",
+      "quality": {
+        "score": 92,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "open_data_bank_negara_malaysia_open_data_2"
+    },
+    {
+      "name": "City, Kyiv",
+      "url": "https://data.kyivcity.gov.ua/",
+      "description": "Kyiv(UA) City Open Data",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "open_data_city_kyiv"
+    },
+    {
+      "name": "City, Warsaw Open Data",
+      "url": "https://api.um.warszawa.pl/",
+      "description": "Warsaw (PL) City Open Data",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "quality_score": 91,
+      "quality_grade": "A",
+      "quality": {
+        "score": 91,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "open_data_city_warsaw_open_data"
+    },
+    {
+      "name": "Open Government, Russia",
+      "url": "https://data.gov.ru/?language=en",
+      "description": "Open Data Portal Russia",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "No",
+      "cors": "",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "open_data_open_government_russia"
+    },
+    {
+      "name": "Data Science Toolkit",
+      "url": "https://github.com/petewarden/dstk",
+      "description": "A collection of the best open data sets and open-source tools for data science.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_data_science_toolkit_2"
+    },
+    {
+      "name": "SHARE",
+      "url": "http://share-research.readthedocs.io/en/latest/",
+      "description": "A free, open dataset of scholarly research activity across the scholarly lifecycle.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": false,
+      "quality_score": 65,
+      "quality_grade": "C",
+      "quality": {
+        "score": 65,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "open_data_share_3"
+    },
+    {
+      "name": "Edmunds",
+      "url": "http://developer.edmunds.com/",
+      "description": "A dataset containing all the car makes.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": false,
+      "quality_score": 59,
+      "quality_grade": "C",
+      "quality": {
+        "score": 59,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "open_data_edmunds_2"
+    },
+    {
+      "name": "Network Calculators API",
+      "url": "https://publicapis.io/network-calculators-api",
+      "description": "APIs for IPv4 networks and subnets; base conversions and DNS record lookup.",
+      "source": "publicapis.io",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_network_calculators_api"
+    },
+    {
+      "name": "OpenCorporates",
+      "url": "https://tools-collection.net/apis-list/opencorporates",
+      "description": "World&#x27;s largest open database of companies",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 76,
+      "quality_grade": "B",
+      "quality": {
+        "score": 76,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_opencorporates_2"
+    },
+    {
+      "name": "Wip",
+      "url": "https://tools-collection.net/apis-list/wip",
+      "description": "Open API for the maker community",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_wip"
+    },
+    {
+      "name": "World Bank",
+      "url": "https://tools-collection.net/apis-list/world-bank",
+      "description": "World Bank APIs",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 68,
+      "quality_grade": "C",
+      "quality": {
+        "score": 68,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "open_data_world_bank_3"
+    },
+    {
+      "name": "City, Nantes Opendata",
+      "url": "https://tools-collection.net/apis-list/city-nantes-opendata",
+      "description": "Open public data (Open data) made available by the City of Nantes and Nantes Métropole",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_city_nantes_opendata_2"
+    },
+    {
+      "name": "City, New York Opendata",
+      "url": "https://tools-collection.net/apis-list/city-new-york-opendata",
+      "description": "NYC Open Data helps New Yorkers use and learn about City data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_city_new_york_opendata"
+    },
+    {
+      "name": "District of Columbia Open Data",
+      "url": "https://tools-collection.net/apis-list/district-of-columbia-open-data",
+      "description": "Goal is for this API is to be your platform for developing apps around DC’s freely available, machine readable data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_district_of_columbia_open_data"
+    },
+    {
+      "name": "Prague Opendata",
+      "url": "https://tools-collection.net/apis-list/prague-opendata",
+      "description": "Prague City Open Data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_prague_opendata"
+    },
+    {
+      "name": "Astronomy",
+      "url": "https://tools-collection.net/apis-list/astronomy",
+      "description": "Astronomy API provides timings for sunrise, sunset, moonrise, moonset, sun azimuth, moon azimuth, sun altitude, moon altitude, sun distance from the earth and moon distance from the earth from latitud",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_astronomy"
+    },
+    {
+      "name": "Data Science Toolkit",
+      "url": "https://tools-collection.net/apis-list/data-science-toolkit",
+      "description": "A collection of the best open data sets and open-source tools for data science 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_data_science_toolkit_3"
+    },
+    {
+      "name": "Deutsche Bahn Open Data Portal",
+      "url": "https://tools-collection.net/apis-list/transport-for-germany",
+      "description": "API provides the timetable data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_deutsche_bahn_open_data_portal"
+    },
+    {
+      "name": "TransitLand",
+      "url": "https://tools-collection.net/apis-list/transitland",
+      "description": "Transitland is a community-edited open data service aggregating transit networks across metropolitan and rural around the world",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_transitland"
+    },
+    {
+      "name": "Edmunds",
+      "url": "https://tools-collection.net/apis-list/edmunds",
+      "description": "A dataset containing all the car makes",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_edmunds_3"
+    },
+    {
+      "name": "Maps",
+      "url": "https://npgeo-corona-npgeo-de.hub.arcgis.com",
+      "description": "Maps, datasets for COVID-19",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 66,
+      "quality_grade": "C",
+      "quality": {
+        "score": 66,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "open_data_maps"
+    },
+    {
+      "name": "Mathematica",
+      "url": "https://tools/lang/Mathematica.nb",
+      "description": "and [WolframScript](https://www.wolfram.com/wolframscript/)",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "open-data",
+      "tags": [
+        "open-data"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "open_data_mathematica"
+    },
+    {
+      "name": "EU Open Data Portal",
+      "url": "https://data.europa.eu/api/hub/search/",
+      "description": "European Union institutional data (15,000+ datasets)",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_eu_open_data_portal",
+      "quality": {
+        "score": 74,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 74,
+      "quality_grade": "B"
+    },
+    {
+      "name": "UK Open Data",
+      "url": "https://www.data.gov.uk/",
+      "description": "UK government datasets (50,000+ datasets)",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_uk_open_data",
+      "quality": {
+        "score": 74,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 74,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Cannabis Reports API",
+      "url": "https://www.cannabisreports.com/api",
+      "description": "Open database of 20,000+ strains, products, and dispensaries",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_cannabis_reports_api",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "IODE Ocean Data Portal",
+      "url": "https://iode.org/",
+      "description": "International Oceanographic Data Exchange network for 100+ countries",
+      "category": "open-data",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_iode_ocean_data_portal",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CDC Open Data API",
+      "url": "https://open.cdc.gov/apis.html",
+      "description": "Public health data including child vaccinations",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_cdc_open_data_api",
+      "quality": {
+        "score": 74,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 74,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Climate TRACE",
+      "url": "https://climatetrace.org/",
+      "description": "Independent global inventory of greenhouse gas emissions with open data access",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_climate_trace",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "RadioBrowser",
+      "url": "https://www.radio-browser.info/",
+      "description": "Community-maintained open database of internet radio stations worldwide",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_radiobrowser",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "NYC Popular Baby Names API",
+      "url": "https://dev.socrata.com/foundry/data.cityofnewyork.us/g374-eanh",
+      "description": "Open data API for popular baby names from NYC birth records",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_nyc_popular_baby_names_api",
+      "quality": {
+        "score": 79,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 79,
+      "quality_grade": "B"
+    },
+    {
+      "name": "511 SF Bay Open Data",
+      "url": "https://511.org/open-data/transit",
+      "description": "Bay Area real-time GTFS-RT feeds, stop monitoring, and service alerts",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_511_sf_bay_open_data",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BarentsWatch API",
+      "url": "https://www.barentswatch.no/en/articles/open-data-via-barentswatch/",
+      "description": "Norwegian aquaculture open data with fish farm status and biomass",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_barentswatch_api",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Data.gov Recycling Datasets",
+      "url": "https://catalog.data.gov/dataset?tags=recycling",
+      "description": "US Government open data portal with recycling and composting datasets",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_data_gov_recycling_datasets",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "B Corp Impact Data",
+      "url": "https://data.world/blab/b-corp-impact-data",
+      "description": "Dataset of B Corp certified companies with ESG scores, demographics, and impact data",
+      "category": "open-data",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_b_corp_impact_data",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Vancouver Drinking Fountains API",
+      "url": "https://opendata.vancouver.ca/explore/dataset/drinking-fountains/api/",
+      "description": "Open data for permanent and temporary public drinking fountains in Vancouver",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_vancouver_drinking_fountains_api",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Burnaby Drinking Water Fountains",
+      "url": "https://data.burnaby.ca/datasets/burnaby::drinking-water-fountains/about",
+      "description": "Open data for drinking water fountain locations in Burnaby, BC with GIS data",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_burnaby_drinking_water_fountains",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Data.gov SBA Datasets",
+      "url": "https://data.sba.gov/",
+      "description": "Open data portal with SBA franchise directory and small business licensing data",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_data_gov_sba_datasets",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Crystal-Gems Dataset",
+      "url": "https://github.com/loliverhennigh/Crystal-Gems",
+      "description": "Open dataset of mineral images and labels for machine learning identification",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_crystal_gems_dataset",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Street Art Cities Open Data",
+      "url": "https://streetartcities.com/open-data",
+      "description": "World's largest street art community with open data on tens of thousands of artworks and artists",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_street_art_cities_open_data",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Brussels Street Art Open Data",
+      "url": "https://opendata.brussels.be/explore/dataset/parcours_street_art/",
+      "description": "Open dataset of the Street Art Trail of the City of Brussels with artist and location data",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_brussels_street_art_open_data",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Data.gov Firearms Datasets",
+      "url": "https://catalog.data.gov/dataset?tags=firearms",
+      "description": "Federal open data catalog with firearms-related datasets from ATF and DOJ",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_data_gov_firearms_datasets",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Network Rail Open Data",
+      "url": "https://www.networkrail.co.uk/who-we-are/transparency-and-ethics/transparency/open-data-feeds/",
+      "description": "Operational data feeds from the UK rail infrastructure operator including train movements",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_network_rail_open_data",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SNCF Open Data",
+      "url": "https://data.sncf.com/",
+      "description": "French national railway open data portal with historical and real-time train information",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_sncf_open_data",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Historic England Open Data",
+      "url": "https://opendata-historicengland.hub.arcgis.com/",
+      "description": "National Heritage List for England with GIS data on listed buildings, monuments, and battlefields",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_historic_england_open_data",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Data.gov Open Data",
+      "url": "https://catalog.data.gov/",
+      "description": "Federal open data catalog with datasets on Superfund sites, lead exposure, and EPA enforcement",
+      "category": "open-data",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-data"
+      ],
+      "status": "active",
+      "id": "open-data_data_gov_open_data",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    }
+  ]
+}

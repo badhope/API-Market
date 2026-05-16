@@ -1,0 +1,5907 @@
+{
+  "id": "photography",
+  "name": "Photography & Images",
+  "display_name": "Photography & Images",
+  "api_count": 228,
+  "apis": [
+    {
+      "name": "setlist.fm",
+      "url": "https://api.apis.guru/v2/specs/setlist.fm/1.0/swagger.json",
+      "description": "<p> The setlist.fm API has been designed to give you easy access to setlist data in order to build fancy websites and other applications. Before starting to use the API, be sure to ... <ol> <li>... un",
+      "category": "photography",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_setlist_fm",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "visualstudio.com",
+      "url": "https://api.apis.guru/v2/specs/visualstudio.com/v1/openapi.json",
+      "description": "visualstudio.com - API service at api.apis.guru",
+      "category": "photography",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_visualstudio_com",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "logoraisr.com",
+      "url": "https://api.apis.guru/v2/specs/logoraisr.com/v1/openapi.json",
+      "description": "<p style=\"font-size:110%;\">Dig into our logoraisr API reference documentation. We also offer an OpenAPI specification to allow easy integration into your systems. You can download the json file by cli",
+      "category": "photography",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "photography",
+        "development"
+      ],
+      "status": "active",
+      "id": "photography_logoraisr_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**LetsValidate**",
+      "url": "https://github.com/letsvalidate/api",
+      "description": "Uncovers the technologies used on websites and URL to thumbnail.",
+      "category": "photography",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "development"
+      ],
+      "status": "active",
+      "id": "photography_letsvalidate",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A",
+      "auth_inferred": true
+    },
+    {
+      "name": "**ApiFlash**",
+      "url": "https://apiflash.com/",
+      "description": "Chrome based screenshot API to convert URLs to images.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "development"
+      ],
+      "status": "active",
+      "id": "photography_apiflash",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Generate Image Thumbnails API",
+      "url": "https://dev.publicapis.dev/resource/generate-image-thumbnails-api/e7bdf5af-102c-4334-a5c1-160887e86273",
+      "description": "Generate and optimise Image Thumbnails from any image with this API and save hours of image editing",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "photography",
+        "development"
+      ],
+      "status": "active",
+      "id": "photography_generate_image_thumbnails_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "DomainDb Info",
+      "url": "https://api.domainsdb.info/",
+      "description": "Domain name search to find all domains containing particular words/phrases/etc",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "development"
+      ],
+      "status": "active",
+      "id": "photography_domaindb_info",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Glitterly",
+      "url": "https://developers.glitterly.app",
+      "description": "Image generation API",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "development"
+      ],
+      "status": "active",
+      "id": "photography_glitterly",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "oyyi",
+      "url": "https://oyyi.xyz/docs/1.0",
+      "description": "API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "development"
+      ],
+      "status": "active",
+      "id": "photography_oyyi",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Supportivekoala",
+      "url": "https://developers.supportivekoala.com/",
+      "description": "Autogenerate images with template",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "development"
+      ],
+      "status": "active",
+      "id": "photography_supportivekoala",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Suprsonic",
+      "url": "https://suprsonic.ai",
+      "description": "Unified agent API: search, scrape, enrich, image gen, TTS, STT, messaging. One key, 20+ capabilities",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "development"
+      ],
+      "status": "active",
+      "id": "photography_suprsonic",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Let's Validate",
+      "url": "https://github.com/letsvalidate/api",
+      "description": "Uncovers the technologies used on websites and URL to thumbnail",
+      "category": "photography",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "photography",
+        "development"
+      ],
+      "status": "active",
+      "id": "photography_let_s_validate",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "europeana.eu",
+      "url": "https://api.apis.guru/v2/specs/europeana.eu/version unknown/swagger.json",
+      "description": "europeana.eu - API service at api.apis.guru",
+      "category": "photography",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_europeana_eu",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Microsoft Graph**",
+      "url": "https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/onedrive",
+      "description": "API for accessing stored files and photos for personal and enterprise users with high resolution thumbnails and Microsoft Office APIs.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "shopping"
+      ],
+      "status": "active",
+      "id": "photography_microsoft_graph",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Verizon Cloud**",
+      "url": "http://www.verizon.com/cloudstorageapi",
+      "description": "API for accessing stored pictures and other files stored by users of Verizon Cloud app.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "shopping"
+      ],
+      "status": "active",
+      "id": "photography_verizon_cloud",
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C",
+      "https_inferred": true
+    },
+    {
+      "name": "RoadGoat Cities",
+      "url": "https://www.roadgoat.com/business/cities-api",
+      "description": "Cities content & photos API",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "photography_roadgoat_cities",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Parqet Logo API**",
+      "url": "https://developers.parqet.com/docs/assets/logos",
+      "description": "Web API for TL mobile and web app",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "finance"
+      ],
+      "status": "active",
+      "id": "photography_parqet_logo_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Cloudmersive",
+      "url": "https://www.cloudmersive.com/image-recognition-and-processing-api",
+      "description": "Image captioning, face recognition, NSFW classification",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "photography_cloudmersive",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Irisnet",
+      "url": "https://irisnet.de/api/",
+      "description": "Realtime content moderation API that blocks or blurs unwanted images in real-time",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "photography_irisnet",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Machinetutors",
+      "url": "https://www.machinetutors.com/portfolio/MT_api.html",
+      "description": "AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "photography_machinetutors",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**ObjectCut**",
+      "url": "https://objectcut.com",
+      "description": "Automatic background removal service powered by AI. From an input image given its public-accessible URL or being the image itself, ObjectCut returns the same image but without background.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "photography_objectcut",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Machinetutors",
+      "url": "https://machinetutors.com/api/",
+      "description": "AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "photography",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "photography_machinetutors_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Generate Thumbnail from video API",
+      "url": "https://dev.publicapis.dev/resource/generate-thumbnail-from-video-api/37abc20f-311e-46ff-810f-536370118143",
+      "description": "This API generates image thumbnails from any input video file",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "photography",
+        "video"
+      ],
+      "status": "active",
+      "id": "photography_generate_thumbnail_from_video_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Harry Potter Charactes",
+      "url": "https://hp-api.herokuapp.com/",
+      "description": "Harry Potter Characters Data with with imagery",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "video"
+      ],
+      "status": "active",
+      "id": "photography_harry_potter_charactes",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ThronesApi",
+      "url": "https://thronesapi.com/",
+      "description": "Game Of Thrones Characters Data with imagery",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "video"
+      ],
+      "status": "active",
+      "id": "photography_thronesapi",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bob's Burgers API",
+      "url": "https://bobsburgersapi.com/",
+      "description": "The Bob's Burgers API contains data for hundreds of characters, episodes, running gags, and images from the show",
+      "category": "photography",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "photography",
+        "video"
+      ],
+      "status": "active",
+      "id": "photography_bob_s_burgers_api",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Generate Thumbnail from video API",
+      "url": "https://apyhub.com/utility/thumbnail-from-video",
+      "description": "This API generates image thumbnails from any input video file, in the desired size (pixels). The API supports multiple video formats including MP4, WEBM, FLV, AVI, MKV, MOV and 3GP",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "photography",
+        "video"
+      ],
+      "status": "active",
+      "id": "photography_generate_thumbnail_from_video_api_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Harry Potter Characters",
+      "url": "https://hp-api.onrender.com/",
+      "description": "Harry Potter Characters Data with with imagery",
+      "category": "photography",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "photography",
+        "video"
+      ],
+      "status": "active",
+      "id": "photography_harry_potter_characters",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Video Thumbnail API",
+      "url": "https://apyhub.com/utility/job-video-thumbnail",
+      "description": "Create Video Thumbnails from any video or URL",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "photography",
+        "video"
+      ],
+      "status": "active",
+      "id": "photography_video_thumbnail_api",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "4chan",
+      "url": "https://github.com/4chan/4chan-API",
+      "description": "Simple image-based bulletin board dedicated to a variety of topics",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "social"
+      ],
+      "status": "active",
+      "id": "photography_4chan",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Flickr**",
+      "url": "https://www.flickr.com/services/api/",
+      "description": "Search through user Flickr content, contacts, upload or replace photos.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "social"
+      ],
+      "status": "active",
+      "id": "photography_flickr",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Imgur**",
+      "url": "https://api.imgur.com/",
+      "description": "Imgur's API exposes the entire Imgur infrastructure via a standardized programmatic interface.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "social"
+      ],
+      "status": "active",
+      "id": "photography_imgur",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "OkSurf",
+      "url": "https://ok.surf/",
+      "description": "Free Google News with OG Images",
+      "category": "photography",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "photography",
+        "news"
+      ],
+      "status": "active",
+      "id": "photography_oksurf",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Colormind",
+      "url": "http://colormind.io/api-access/",
+      "description": "Color scheme generator",
+      "category": "photography",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_colormind",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ColourLovers",
+      "url": "http://www.colourlovers.com/api",
+      "description": "Get various patterns, palettes and images",
+      "category": "photography",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_colourlovers",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Dribbble",
+      "url": "https://developer.dribbble.com",
+      "description": "Discover the world’s top designers & creatives",
+      "category": "photography",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_dribbble",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Europeana",
+      "url": "https://pro.europeana.eu/resources/apis/search",
+      "description": "European Museum and Galleries content",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_europeana",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Iconfinder",
+      "url": "https://developer.iconfinder.com",
+      "description": "Icons",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_iconfinder",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Icons8",
+      "url": "https://img.icons8.com/",
+      "description": "Icons (find \"search icon\" hyperlink in page)",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_icons8",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Lordicon",
+      "url": "https://lordicon.com/",
+      "description": "Icons with predone Animations",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_lordicon",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Noun Project",
+      "url": "http://api.thenounproject.com/index.html",
+      "description": "Icons",
+      "category": "photography",
+      "auth": "`OAuth`",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_noun_project",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PHP-Noise",
+      "url": "https://php-noise.com/",
+      "description": "Noise Background Image Generator",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_php_noise",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Pixel Encounter",
+      "url": "https://pixelencounter.com/api",
+      "description": "SVG Icon Generator",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_pixel_encounter",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Rijksmuseum",
+      "url": "https://data.rijksmuseum.nl/object-metadata/api/",
+      "description": "RijksMuseum Data",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_rijksmuseum",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Stability AI",
+      "url": "https://platform.stability.ai/docs/api-reference",
+      "description": "<details><summary>Text-to-image generation API using Stable Diffusion</summary>Create stunning visuals from text prompts — great for creative AI projects.</details>",
+      "category": "photography",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_stability_ai",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Dribbble**",
+      "url": "http://developer.dribbble.com/",
+      "description": "Dribbble is a community of designers answering that question each day.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_dribbble_2",
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C",
+      "https_inferred": true
+    },
+    {
+      "name": "**Icon Horse**",
+      "url": "https://icon.horse/usage",
+      "description": "Get the favicon logo for any web address, customizable and complete with a fallback if it fails.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_icon_horse",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Pexels**",
+      "url": "https://www.pexels.com/api/",
+      "description": "Pexels provides high quality and completely free stock photos licensed under the Creative Commons Zero (CC0) license.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_pexels",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Dribbble",
+      "url": "http://developer.dribbble.com/v2/",
+      "description": "Design",
+      "category": "photography",
+      "auth": "`OAuth`",
+      "https": "No",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_dribbble_3",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Freepik",
+      "url": "https://freepik.com/api",
+      "description": "Stock resources(Icons, videos, photos), AI image generation and editing tools",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_freepik",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Rijksmuseum",
+      "url": "https://www.rijksmuseum.nl/en/api",
+      "description": "Art",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_rijksmuseum_2",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "svg.new",
+      "url": "https://svg.new",
+      "description": "AI-powered image to SVG vectorization",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_svg_new",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Pika",
+      "url": "https://pika.style/image-generation-api",
+      "description": "Image Generation API",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_pika",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Sport Vision",
+      "url": "https://developers.decathlon.com/products/sport-vision",
+      "description": "Identify sport, brands and gear in an image. Also does image sports captioning",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "sports-fitness",
+        "health"
+      ],
+      "status": "active",
+      "id": "photography_sport_vision",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Bob's Burgers API**",
+      "url": "https://www.bobsburgersapi.com/documentation",
+      "description": "Get data for hundreds of characters, episodes, running gags, and images from the show.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "entertainment"
+      ],
+      "status": "active",
+      "id": "photography_bob_s_burgers_api_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Danbooru**",
+      "url": "https://danbooru.donmai.us/posts?tags=help%3Aapi",
+      "description": "Get images categorized by tags.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "entertainment"
+      ],
+      "status": "active",
+      "id": "photography_danbooru",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Cataas",
+      "url": "https://cataas.com/",
+      "description": "Cat as a service (cats pictures and gifs)",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "animals"
+      ],
+      "status": "active",
+      "id": "photography_cataas",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Cats",
+      "url": "https://docs.thecatapi.com/",
+      "description": "Pictures of cats from Tumblr",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "animals"
+      ],
+      "status": "active",
+      "id": "photography_cats",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "FishWatch",
+      "url": "https://www.fishwatch.gov/developers",
+      "description": "Information and pictures about individual fish species",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "animals"
+      ],
+      "status": "active",
+      "id": "photography_fishwatch",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PlaceBear",
+      "url": "https://placebear.com/",
+      "description": "Placeholder bear pictures",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "animals"
+      ],
+      "status": "active",
+      "id": "photography_placebear",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PlaceDog",
+      "url": "https://place.dog",
+      "description": "Placeholder Dog pictures",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "animals"
+      ],
+      "status": "active",
+      "id": "photography_placedog",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PlaceKitten",
+      "url": "https://placekitten.com/",
+      "description": "Placeholder Kitten pictures",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "animals"
+      ],
+      "status": "active",
+      "id": "photography_placekitten",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "RandomDog",
+      "url": "https://random.dog/woof.json",
+      "description": "Random pictures of dogs",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "animals"
+      ],
+      "status": "active",
+      "id": "photography_randomdog",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "RandomDuck",
+      "url": "https://random-d.uk/api",
+      "description": "Random pictures of ducks",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "animals"
+      ],
+      "status": "active",
+      "id": "photography_randomduck",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "RandomFox",
+      "url": "https://randomfox.ca/floof/",
+      "description": "Random pictures of foxes",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "animals"
+      ],
+      "status": "active",
+      "id": "photography_randomfox",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Cats",
+      "url": "https://developers.thecatapi.com/",
+      "description": "Pictures of cats from Tumblr",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "photography",
+        "animals"
+      ],
+      "status": "active",
+      "id": "photography_cats_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Dog Pics",
+      "url": "https://dog.ceo/dog-api/",
+      "description": "Pictures of dogs based on the Stanford Dogs Dataset",
+      "category": "photography",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "photography",
+        "animals"
+      ],
+      "status": "active",
+      "id": "photography_dog_pics",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Imgbb",
+      "url": "https://api.imgbb.com/",
+      "description": "Simple and quick private image sharing",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "cloud-storage"
+      ],
+      "status": "active",
+      "id": "photography_imgbb",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "flickr.com",
+      "url": "https://api.apis.guru/v2/specs/flickr.com/1.0.0/openapi.json",
+      "description": "flickr.com - API service at api.apis.guru",
+      "category": "photography",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_flickr_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "gettyimages.com",
+      "url": "https://api.apis.guru/v2/specs/gettyimages.com/3/openapi.json",
+      "description": "gettyimages.com - API service at api.apis.guru",
+      "category": "photography",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_gettyimages_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "icons8.com",
+      "url": "https://api.apis.guru/v2/specs/icons8.com/1.0.0/openapi.json",
+      "description": "icons8.com - API service at api.apis.guru",
+      "category": "photography",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_icons8_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "mercedes-benz.com:image",
+      "url": "https://api.apis.guru/v2/specs/mercedes-benz.com/image/1.0/swagger.json",
+      "description": "mercedes-benz.com:image - API service at api.apis.guru",
+      "category": "photography",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_mercedes_benz_com_image",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "microsoft.com:cognitiveservices-CustomImageSearch",
+      "url": "https://api.apis.guru/v2/specs/microsoft.com/cognitiveservices-CustomImageSearch/1.0/swagger.json",
+      "description": "Search API is a RESTful API that allows developers to run a single line fuzzy search for addresses and POIs. Search API returns the latitude/longitude of a specific address, cross street, geographic f",
+      "category": "photography",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_microsoft_com_cognitiveservices_customimagesearch",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "microsoft.com:cognitiveservices-ImageSearch",
+      "url": "https://api.apis.guru/v2/specs/microsoft.com/cognitiveservices-ImageSearch/1.0/swagger.json",
+      "description": "Search API is a RESTful API that allows developers to run a single line fuzzy search for addresses and POIs. Search API returns the latitude/longitude of a specific address, cross street, geographic f",
+      "category": "photography",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_microsoft_com_cognitiveservices_imagesearch",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**Skybiometry**",
+      "url": "https://www.skybiometry.com",
+      "description": "Face detection, emotional analysis, face grouping, recognition service and tagging the photo.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_skybiometry",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Bruzu**",
+      "url": "https://docs.bruzu.com",
+      "description": "Dynamically generate Images with a URL string. This service allows you to create dynamic images using nothing more than a URL string.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_bruzu",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Bruzu",
+      "url": "https://docs.bruzu.com",
+      "description": "Image generation with query string",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_bruzu_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "CheetahO",
+      "url": "https://cheetaho.com/docs/getting-started/",
+      "description": "Photo optimization and resize",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_cheetaho",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "marcelscruz/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Dagpi",
+      "url": "https://dagpi.xyz",
+      "description": "Image manipulation and processing",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_dagpi",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "DynaPictures",
+      "url": "https://dynapictures.com/docs/",
+      "description": "Generate Hundreds of Personalized Images in Minutes",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_dynapictures",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Flickr",
+      "url": "https://www.flickr.com/services/api/",
+      "description": "Flickr Services",
+      "category": "photography",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_flickr_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Giphy",
+      "url": "https://developers.giphy.com/docs/",
+      "description": "Get all your gifs",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "entertainment",
+        "other"
+      ],
+      "status": "active",
+      "id": "photography_giphy",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis",
+        "github.com/AkashYadav8080/awesome-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Imgur",
+      "url": "https://apidocs.imgur.com/",
+      "description": "Images",
+      "category": "photography",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_imgur_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Imsea",
+      "url": "https://imsea.herokuapp.com/",
+      "description": "Free image search",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_imsea",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Lorem Picsum",
+      "url": "https://picsum.photos/",
+      "description": "Images from Unsplash",
+      "category": "photography",
+      "auth": "None",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "photography_lorem_picsum",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ObjectCut",
+      "url": "https://objectcut.com/",
+      "description": "Image Background removal",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_objectcut_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Pexels",
+      "url": "https://www.pexels.com/api/",
+      "description": "Free Stock Photos and Videos",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_pexels_2",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "marcelscruz/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PhotoRoom",
+      "url": "https://www.photoroom.com/api/",
+      "description": "Remove background from images",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_photoroom",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Pixabay",
+      "url": "https://pixabay.com/sk/service/about/api/",
+      "description": "Photography",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_pixabay",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "PlaceKeanu",
+      "url": "https://placekeanu.com/",
+      "description": "Resizable Keanu Reeves placeholder images with grayscale and young Keanu options",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_placekeanu",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Readme typing SVG",
+      "url": "https://github.com/DenverCoder1/readme-typing-svg",
+      "description": "Customizable typing and deleting text SVG",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_readme_typing_svg",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Remove.bg",
+      "url": "https://www.remove.bg/api",
+      "description": "Image Background removal",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_remove_bg",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ReSmush.it",
+      "url": "https://resmush.it/api",
+      "description": "Photo optimization",
+      "category": "photography",
+      "auth": "No",
+      "https": false,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_resmush_it",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Unsplash",
+      "url": "https://unsplash.com/developers",
+      "description": "Photography",
+      "category": "photography",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "other"
+      ],
+      "status": "active",
+      "id": "photography_unsplash",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "mergesociety.com"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Wallhaven",
+      "url": "https://wallhaven.cc/help/api",
+      "description": "Wallpapers",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_wallhaven",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Webdam",
+      "url": "https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API",
+      "description": "Images",
+      "category": "photography",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_webdam",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Pixabay",
+      "url": "https://pixabay.com/api/docs/",
+      "description": "<details><summary>Free images, vectors, and videos</summary>Get royalty-free images, illustrations, and videos for commercial and personal use.</details>",
+      "category": "photography",
+      "auth": "API Key",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_pixabay_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Flickr",
+      "url": "https://www.flickr.com/services/developer/api/",
+      "description": "<details><summary>Photo sharing and search API</summary>Access billions of public photos, search by tags, keywords, users, and more. Retrieve metadata, manage galleries, and interact with user content",
+      "category": "photography",
+      "auth": "API Key (OAuth for user data)",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_flickr_3",
+      "https_inferred": true,
+      "quality": {
+        "score": 100,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 100,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "Unsplash",
+      "url": "https://unsplash.com/documentation",
+      "description": "<details><summary>Pull beautiful high-res images for UI testing</summary></details>",
+      "category": "photography",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_unsplash_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "apilayer screenshotlayer",
+      "url": "https://screenshotlayer.com",
+      "description": "URL 2 Image",
+      "category": "photography",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "toddmotto/public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_apilayer_screenshotlayer",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**WebPurify**",
+      "url": "https://www.webpurify.com/image-moderation/",
+      "description": "Provides live image moderation by humans. Free for the first 100 images. 2¢ per image after.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_webpurify",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "**DummyImage**",
+      "url": "https://dummyimage.com/",
+      "description": "Particularly nice, when compared to some of its competitors, in that it offers a great deal of flexibility.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_dummyimage",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**Pixabay**",
+      "url": "https://pixabay.com/api/docs/",
+      "description": "Restful API for searching and retrieving free images and videos.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_pixabay_3",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "**SingleColorImage**",
+      "url": "https://singlecolorimage.com/api.html",
+      "description": "Free API for generating single color images with dimensions up to 5000x5000.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_singlecolorimage",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "**Lorem Picsum**",
+      "url": "https://picsum.photos/",
+      "description": "Unsplash.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_lorem_picsum_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 60,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 60,
+      "quality_grade": "C"
+    },
+    {
+      "name": "ScreenShotLayer",
+      "url": "https://screenshotlayer.com",
+      "description": "URL 2 Image",
+      "category": "photography",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_screenshotlayer",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Change Image Background API",
+      "url": "https://apyhub.com/utility/image-processor-change-background",
+      "description": "This API helps you change the background of any image",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_change_image_background_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Generate Image Thumbnails API",
+      "url": "https://apyhub.com/utility/image-processor-thumbnail",
+      "description": "Generate and optimise Image Thumbnails from any image with this API and save hours of image editing",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_generate_image_thumbnails_api_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Remove Background from Images API",
+      "url": "https://apyhub.com/utility/image-processor-remove-background",
+      "description": "This API helps you remove background from any image",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_remove_background_from_images_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ShotOG",
+      "url": "https://shotog.2214962083.workers.dev/docs",
+      "description": "Open-source OG image generation with 8 templates, custom fonts, and batch generation",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_shotog",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Byabbe",
+      "url": "https://byabbe.se/on-this-day/#/default/get__month___day__events_json",
+      "description": "Seach histories from wikipedia for a particular day",
+      "category": "photography",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "photography",
+        "calendar"
+      ],
+      "status": "active",
+      "id": "photography_byabbe",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "OwlBot",
+      "url": "https://owlbot.info/",
+      "description": "Definitions with example sentence and photo if available",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "dictionaries"
+      ],
+      "status": "active",
+      "id": "photography_owlbot",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "NASA",
+      "url": "https://api.nasa.gov",
+      "description": "NASA data, including imagery",
+      "category": "photography",
+      "auth": "API Key",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "science-math",
+        "ci"
+      ],
+      "status": "active",
+      "id": "photography_nasa",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis",
+        "github.com/AkashYadav8080/awesome-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**NASA**",
+      "url": "https://api.nasa.gov/index.html",
+      "description": "Get NASA data, including imagery, list of asteroids based on their closest approach date to Earth and much more.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "photography",
+        "science-math"
+      ],
+      "status": "active",
+      "id": "photography_nasa_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Clearbit Logo",
+      "url": "https://clearbit.com/docs#logo-api",
+      "description": "Search for company logos and embed them in your projects",
+      "category": "photography",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "business"
+      ],
+      "status": "active",
+      "id": "photography_clearbit_logo",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists",
+        "mergesociety.com"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Favicon.im",
+      "url": "https://favicon.im",
+      "description": "Instantly fetch and display the favicon for any website",
+      "category": "photography",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "No",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "photography",
+        "business"
+      ],
+      "status": "active",
+      "id": "photography_favicon_im",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Biriyani As A Service",
+      "url": "https://biriyani.anoram.com/",
+      "description": "Biriyani images placeholder",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "personality"
+      ],
+      "status": "active",
+      "id": "photography_biriyani_as_a_service",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Vadivelu HTTP Codes",
+      "url": "https://vadivelu.anoram.com/",
+      "description": "On demand HTTP Codes with images",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "personality"
+      ],
+      "status": "active",
+      "id": "photography_vadivelu_http_codes",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "BaconMockup",
+      "url": "https://baconmockup.com/",
+      "description": "Resizable bacon placeholder images",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "photography_baconmockup",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Coffee",
+      "url": "https://coffee.alexflipnote.dev/",
+      "description": "Random pictures of coffee",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "photography_coffee",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Foodish",
+      "url": "https://github.com/surhud004/Foodish#readme",
+      "description": "Random pictures of food dishes",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "food-drink"
+      ],
+      "status": "active",
+      "id": "photography_foodish",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Waifu.im",
+      "url": "https://waifu.im/docs",
+      "description": "Get waifu pictures from an archive of over 4000 images and multiple tags",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "anime"
+      ],
+      "status": "active",
+      "id": "photography_waifu_im",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "RoboHash",
+      "url": "https://robohash.org/",
+      "description": "Generate random robot/alien avatars",
+      "category": "photography",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "photography",
+        "test-data",
+        "open-data"
+      ],
+      "status": "active",
+      "id": "photography_robohash",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "giphy.com",
+      "url": "https://api.apis.guru/v2/specs/giphy.com/1.0/openapi.json",
+      "description": "giphy.com - API service at api.apis.guru",
+      "category": "photography",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "photography",
+        "patent"
+      ],
+      "status": "active",
+      "id": "photography_giphy_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "The Storefront",
+      "url": "https://help.shopify.com/api/storefront-api",
+      "description": "The Storefront API gives you full creative control to build customized purchasing experiences for your customers.",
+      "source": "APIs-guru/graphql-apis",
+      "status": "active",
+      "auth": "[Try it!](https://help.shopify.com/api/storefront-graphiql)",
+      "https": "[Docs](https://help.shopify.com/api/storefront-api)<br>[Examples](https://github.com/Shopify/storefront-api-examples)",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "quality_score": 100,
+      "quality_grade": "A",
+      "quality": {
+        "score": 100,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_the_storefront"
+    },
+    {
+      "name": "How to design a REST API?",
+      "url": "https://blog.octo.com/en/design-a-rest-api/",
+      "description": "Full guide tackling security, pagination, filtering, versioning, partial answers, CORS, etc.",
+      "source": "marmelab/awesome-rest",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_how_to_design_a_rest_api"
+    },
+    {
+      "name": "Archive-it API",
+      "url": "https://support.archive-it.org/hc/en-us/articles/115001790023-Access-Archive-It-s-Wayback-index-with-the-CDX-C-API",
+      "description": "https://support.archive-it.org/hc/en-us/articles/115001790023-Access-Archive-It-s-Wayback-index-with-the-CDX-C-API",
+      "source": "cipher387/API-s-for-OSINT",
+      "status": "active",
+      "auth": "Retrieve information about archive-it capture data",
+      "https": "FREE",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_archive_it_api"
+    },
+    {
+      "name": "GTFS Editor for Vagrant",
+      "url": "https://github.com/laidig/vagrant-gtfs-editor",
+      "description": "Quickly set up the GTFS editor (above) using [Vagrant](https://www.vagrantup.com/)",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": "OAuth",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_gtfs_editor_for_vagrant"
+    },
+    {
+      "name": "Trak.Tools",
+      "url": "https://github.com/SparksTheFolf/trak.tools",
+      "description": "Alows viewing raw GTFS data on a select scale to further enhance visual data editing and easier viewing.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": "OAuth",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_trak_tools"
+    },
+    {
+      "name": "Visualizing MBTA Data",
+      "url": "http://mbtaviz.github.io/",
+      "description": "Interactive graphs that show how people use Boston's subway system.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": "OAuth",
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_visualizing_mbta_data"
+    },
+    {
+      "name": "Artillery",
+      "url": "https://artillery.io",
+      "description": "Artillery - API service at artillery.io",
+      "source": "stepci/awesome-api-clients",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "quality_score": 60,
+      "quality_grade": "C",
+      "quality": {
+        "score": 60,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_artillery"
+    },
+    {
+      "name": "Atlas of Data on Earth",
+      "url": "https://theatlasofdata.earth/ \"LINK\"",
+      "description": "LINK",
+      "source": "KKulma/climate-change-data",
+      "status": "active",
+      "auth": "various",
+      "https": "A portal hosting various data visualisations on climate change issues - each project gives a reference to the data used.",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_atlas_of_data_on_earth"
+    },
+    {
+      "name": "Logo Yazılım",
+      "url": "https://docs.logo.com.tr/public/lgap/logoapps-temelleri",
+      "description": "Türk yazılım şirketi.",
+      "source": "3rt4nm4n/turkish-apis",
+      "status": "active",
+      "auth": "apiKey",
+      "https": "Var",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "quality_score": 90,
+      "quality_grade": "A",
+      "quality": {
+        "score": 90,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_logo_yaz_l_m"
+    },
+    {
+      "name": "liquid/lfm-2.5-1.2b-instruct:free",
+      "url": "https://openrouter.ai/liquid/lfm-2.5-1.2b-instruct:free",
+      "description": "liquid/lfm-2.5-1.2b-instruct:free - API service at openrouter.ai",
+      "source": "cheahjs/free-llm-api-resources",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "quality_score": 60,
+      "quality_grade": "C",
+      "quality": {
+        "score": 60,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_liquid_lfm_2_5_1_2b_instruct_free"
+    },
+    {
+      "name": "liquid/lfm-2.5-1.2b-thinking:free",
+      "url": "https://openrouter.ai/liquid/lfm-2.5-1.2b-thinking:free",
+      "description": "liquid/lfm-2.5-1.2b-thinking:free - API service at openrouter.ai",
+      "source": "cheahjs/free-llm-api-resources",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "quality_score": 60,
+      "quality_grade": "C",
+      "quality": {
+        "score": 60,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_liquid_lfm_2_5_1_2b_thinking_free"
+    },
+    {
+      "name": "catAPI",
+      "url": "https://thatcopy.pw/catapi",
+      "description": "Random pictures of cats",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_catapi"
+    },
+    {
+      "name": "RandomCat",
+      "url": "https://aws.random.cat",
+      "description": "Random pictures of cats",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_randomcat"
+    },
+    {
+      "name": "Affirmations",
+      "url": "https://affirmations.dev/",
+      "description": "Generate Stuart Smalley Affirmations",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "quality_score": 89,
+      "quality_grade": "A",
+      "quality": {
+        "score": 89,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_affirmations"
+    },
+    {
+      "name": "Dribbble",
+      "url": "http://developer.dribbble.com/",
+      "description": "Dribbble is a community of designers answering that question each day.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": false,
+      "quality_score": 65,
+      "quality_grade": "C",
+      "quality": {
+        "score": 65,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_dribbble_4"
+    },
+    {
+      "name": "Bob's Burgers API",
+      "url": "https://www.bobsburgersapi.com/documentation",
+      "description": "Get data for hundreds of characters, episodes, running gags, and images from the show.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_bob_s_burgers_api_3"
+    },
+    {
+      "name": "Danbooru",
+      "url": "https://danbooru.donmai.us/posts?tags=help%3Aapi",
+      "description": "Get images categorized by tags.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 67,
+      "quality_grade": "C",
+      "quality": {
+        "score": 67,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_danbooru_2"
+    },
+    {
+      "name": "Microsoft Graph",
+      "url": "https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/onedrive",
+      "description": "API for accessing stored files and photos for personal and enterprise users with high resolution thumbnails and Microsoft Office APIs.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_microsoft_graph_2"
+    },
+    {
+      "name": "Verizon Cloud",
+      "url": "http://www.verizon.com/cloudstorageapi",
+      "description": "API for accessing stored pictures and other files stored by users of Verizon Cloud app.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": false,
+      "quality_score": 65,
+      "quality_grade": "C",
+      "quality": {
+        "score": 65,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_verizon_cloud_2"
+    },
+    {
+      "name": "WebPurify",
+      "url": "https://www.webpurify.com/image-moderation/",
+      "description": "Provides live image moderation by humans. Free for the first 100 images. 2¢ per image after.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_webpurify_2"
+    },
+    {
+      "name": "LetsValidate",
+      "url": "https://github.com/letsvalidate/api",
+      "description": "Uncovers the technologies used on websites and URL to thumbnail.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": "OAuth",
+      "https": true,
+      "quality_score": 90,
+      "quality_grade": "A",
+      "quality": {
+        "score": 90,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_letsvalidate_2"
+    },
+    {
+      "name": "TVmaze",
+      "url": "https://www.tvmaze.com/api",
+      "description": "TV Show and web series database. Episode guide, cast, crew and character information. Recaps, reviews, episode trailers, celebrity photos and more.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_tvmaze"
+    },
+    {
+      "name": "DummyImage",
+      "url": "https://dummyimage.com/",
+      "description": "Particularly nice, when compared to some of its competitors, in that it offers a great deal of flexibility.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_dummyimage_2"
+    },
+    {
+      "name": "SingleColorImage",
+      "url": "https://singlecolorimage.com/api.html",
+      "description": "Free API for generating single color images with dimensions up to 5000x5000.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_singlecolorimage_2"
+    },
+    {
+      "name": "NASA",
+      "url": "https://api.nasa.gov/index.html",
+      "description": "Get NASA data, including imagery, list of asteroids based on their closest approach date to Earth and much more.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_nasa_3"
+    },
+    {
+      "name": "Open Access Button",
+      "url": "https://openaccessbutton.org/api",
+      "description": "Free, legal research articles delivered instantly or automatically requested from authors.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_open_access_button"
+    },
+    {
+      "name": "Microlink",
+      "url": "https://microlink.io",
+      "description": "Turns any link into information. Take screenshots, extract predominant palette colors.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_microlink"
+    },
+    {
+      "name": "Danbooru",
+      "url": "https://tools-collection.net/apis-list/danbooru",
+      "description": "Danbooru Imageboard API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_danbooru_3"
+    },
+    {
+      "name": "iDigBio",
+      "url": "https://tools-collection.net/apis-list/idigbio",
+      "description": "Making data and images of millions of biological specimens available on the web",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_idigbio"
+    },
+    {
+      "name": "PlaceGoat",
+      "url": "https://tools-collection.net/apis-list/placegoat",
+      "description": "PlaceGOAT placeholder service.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_placegoat"
+    },
+    {
+      "name": "PlaceKitten",
+      "url": "https://tools-collection.net/apis-list/placekitten",
+      "description": "A quick and simple service for getting pictures of kittens for use as placeholders in your designs or code",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_placekitten_2"
+    },
+    {
+      "name": "Behance",
+      "url": "https://tools-collection.net/apis-list/behance",
+      "description": "Behance is the world&#x27;s largest creative network for showcasing and discovering creative work",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_behance"
+    },
+    {
+      "name": "Dribbble",
+      "url": "https://tools-collection.net/apis-list/dribbble",
+      "description": "Build and integrate tools and applications to help members publish their design work on Dribbble",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_dribbble_5"
+    },
+    {
+      "name": "Getty Images",
+      "url": "https://tools-collection.net/apis-list/getty-images",
+      "description": "Page moved here. Page moved here",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_getty_images"
+    },
+    {
+      "name": "Icons8",
+      "url": "https://tools-collection.net/apis-list/icons8",
+      "description": "Icons8 offers simple reliable solutions to cope with all sorts of the challenges concerning icons",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_icons8_2"
+    },
+    {
+      "name": "Lorem Picsum",
+      "url": "https://tools-collection.net/apis-list/lorem-picsum",
+      "description": "Lorem Ipsum, but for photos.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_lorem_picsum_3"
+    },
+    {
+      "name": "Pexels",
+      "url": "https://tools-collection.net/apis-list/pexels",
+      "description": "Pexels provides high quality and completely free stock photos licensed under the Creative Commons Zero (CC0) license",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_pexels_3"
+    },
+    {
+      "name": "Rijksmuseum",
+      "url": "https://tools-collection.net/apis-list/rijksmuseum",
+      "description": "The Rijksmuseum links individuals with art and history",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 78,
+      "quality_grade": "B",
+      "quality": {
+        "score": 78,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_rijksmuseum_3"
+    },
+    {
+      "name": "Qrcode Monkey",
+      "url": "https://tools-collection.net/apis-list/qrcode-monkey",
+      "description": "Create thousands of QR codes with design and logo automatically",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_qrcode_monkey"
+    },
+    {
+      "name": "Viber",
+      "url": "https://tools-collection.net/apis-list/viber",
+      "description": "Millions of Viber users call, text, and send photos to each other, worldwide - for free",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_viber"
+    },
+    {
+      "name": "Let&#x27;S Validate",
+      "url": "https://tools-collection.net/apis-list/lets-validate",
+      "description": "Uncovers the technologies used on websites and URL to thumbnail",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_let_x27_s_validate"
+    },
+    {
+      "name": "Gumroad",
+      "url": "https://tools-collection.net/apis-list/gumroad",
+      "description": "Gumroad helps creators do more of what they love by offering tools to get paid online, they have sent over $202M to artists, designers, educators, writers, influencers and more",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_gumroad"
+    },
+    {
+      "name": "Open Access Button",
+      "url": "https://tools-collection.net/apis-list/open-access-button",
+      "description": "Free, legal research articles delivered instantly or automatically requested from authors 🆓",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_open_access_button_2"
+    },
+    {
+      "name": "Domainsdb.info",
+      "url": "https://tools-collection.net/apis-list/domainsdb-info",
+      "description": "Registered domain names search checks the lists of registered domains for names containing particular words/phrases/numbers or symbols",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_domainsdb_info"
+    },
+    {
+      "name": "DummyImage",
+      "url": "https://tools-collection.net/apis-list/dummyimage",
+      "description": "Particularly nice, when compared to some of its competitors, in that it offers a great deal of flexibility",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_dummyimage_3"
+    },
+    {
+      "name": "Pixabay",
+      "url": "https://tools-collection.net/apis-list/pixabay",
+      "description": "Restful API for searching and retrieving free images and videos",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_pixabay_4"
+    },
+    {
+      "name": "Placehold",
+      "url": "https://tools-collection.net/apis-list/placehold",
+      "description": "Contents1 What Is Placeholder",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_placehold"
+    },
+    {
+      "name": "Satyr",
+      "url": "https://tools-collection.net/apis-list/satyr",
+      "description": "Free powerful API for generating dummy images with unique features like delay, aspect ratio, variable resolution, themes, flags and offline mode",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_satyr"
+    },
+    {
+      "name": "Unsplash",
+      "url": "https://tools-collection.net/apis-list/unsplash",
+      "description": "but for photos. Lorem Ipsum. Lorem Ipsum",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_unsplash_3"
+    },
+    {
+      "name": "ApiFlash",
+      "url": "https://tools-collection.net/apis-list/apiflash",
+      "description": "Chrome based screenshot API to convert URLs to images",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 78,
+      "quality_grade": "B",
+      "quality": {
+        "score": 78,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_apiflash_2"
+    },
+    {
+      "name": "Image-Charts",
+      "url": "https://tools-collection.net/apis-list/image-charts",
+      "description": "A drop-in-replacement for the deprecated Google Image Charts",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_image_charts"
+    },
+    {
+      "name": "Verizon Cloud",
+      "url": "https://tools-collection.net/apis-list/verizon-cloud",
+      "description": "API for accessing stored pictures and other files stored by users of Verizon Cloud app",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_verizon_cloud_3"
+    },
+    {
+      "name": "Dicebear Avatars",
+      "url": "https://tools-collection.net/apis-list/dicebear-avatars",
+      "description": "Avatars is an avatar placeholder library for designers and developers",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_dicebear_avatars"
+    },
+    {
+      "name": "Flickr",
+      "url": "https://tools-collection.net/apis-list/flickr",
+      "description": "Search through user Flickr content, contacts, upload or replace photos",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_flickr_4"
+    },
+    {
+      "name": "Gravatar",
+      "url": "https://tools-collection.net/apis-list/gravatar",
+      "description": "Use the links below to find out more about constructing request URLs, different imp",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_gravatar"
+    },
+    {
+      "name": "Imgur",
+      "url": "https://tools-collection.net/apis-list/imgur",
+      "description": "Imgur: The magic of the Internet",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_imgur_3"
+    },
+    {
+      "name": "NASA",
+      "url": "https://tools-collection.net/apis-list/nasa",
+      "description": "Get NASA data, including imagery, list of asteroids based on their closest approach date to Earth and much more",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_nasa_4"
+    },
+    {
+      "name": "Smartip.Io",
+      "url": "https://tools-collection.net/apis-list/smartip-io",
+      "description": "SmartIP offers the following data points:",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_smartip_io"
+    },
+    {
+      "name": "RoboHash",
+      "url": "https://tools-collection.net/apis-list/robohash",
+      "description": "Generate Unique images from any text",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_robohash_2"
+    },
+    {
+      "name": "UI Names",
+      "url": "https://tools-collection.net/apis-list/ui-names",
+      "description": "A simple tool to generate names for use in designs and mockups",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_ui_names"
+    },
+    {
+      "name": "Bing Search API",
+      "url": "https://tools-collection.net/apis-list/bing-search-api",
+      "description": "Add intelligent search to your app, combing hundreds of billions of webpages, images, videos, and news to provide relevant results with no ad requirements",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_bing_search_api"
+    },
+    {
+      "name": "Qmeta Global Search Engine",
+      "url": "https://tools-collection.net/apis-list/qmeta-global-search-engine",
+      "description": "RadSportRadar ist eine Übersichtskarte über alle gemeldeten Straßenschäden und Gefahrenstellen die so gravierend sind, dass sie zu einem Unfall führen könnten",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_qmeta_global_search_engine"
+    },
+    {
+      "name": "Full Contact",
+      "url": "https://tools-collection.net/apis-list/full-contact",
+      "description": "Build a clearer picture of your customers in minutes with our data-focused APIs",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_full_contact"
+    },
+    {
+      "name": "Lorempicsum",
+      "url": "https://tools-collection.net/apis-list/lorempicsum",
+      "description": "Generate placeholder pictures",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_lorempicsum"
+    },
+    {
+      "name": "RandomUserGenerator",
+      "url": "https://tools-collection.net/apis-list/randomusergenerator",
+      "description": "Random user generator is a FREE API for generating placeholder user information",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_randomusergenerator"
+    },
+    {
+      "name": "Google Visualization API",
+      "url": "https://tools-collection.net/apis-list/google-visualization-api",
+      "description": "This page lists the objects exposed by the Google Visualization API, and the standard methods exposed by all visualizations",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_google_visualization_api"
+    },
+    {
+      "name": "QuickChart",
+      "url": "https://tools-collection.net/apis-list/quickchart",
+      "description": "Create a chart image with one API call and embed it anywhere",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_quickchart"
+    },
+    {
+      "name": "Adorable Avatars",
+      "url": "https://tools-collection.net/apis-list/adorable-avatars",
+      "description": "Generate random cartoon avatars",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_adorable_avatars"
+    },
+    {
+      "name": "Contentxtractor",
+      "url": "https://tools-collection.net/apis-list/contentxtractor",
+      "description": "Extract relevant content from articles",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_contentxtractor"
+    },
+    {
+      "name": "FengShui",
+      "url": "https://tools-collection.net/apis-list/fengshui",
+      "description": "Let’s you enter your name and the name of your partner/lover/crush to find Love compatibility &amp; chances of successful love relationship",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_fengshui"
+    },
+    {
+      "name": "Pixhost",
+      "url": "https://tools-collection.net/apis-list/pixhost",
+      "description": "Upload images, photos, galleries",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_pixhost"
+    },
+    {
+      "name": "Quotes on Design",
+      "url": "https://tools-collection.net/apis-list/quotes-on-design",
+      "description": "Quotes on Design",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 69,
+      "quality_grade": "C",
+      "quality": {
+        "score": 69,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_quotes_on_design"
+    },
+    {
+      "name": "Robohash Image Generator",
+      "url": "https://tools-collection.net/apis-list/robohash-image-generator",
+      "description": "Generates cool looking robot image for any text",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 76,
+      "quality_grade": "B",
+      "quality": {
+        "score": 76,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_robohash_image_generator"
+    },
+    {
+      "name": "Google Reverse images search API",
+      "url": "https://github.com/SOME-1HING/google-reverse-image-api/",
+      "description": "This is a simple API built using Node.js and Express.js that allows you to perform Google Reverse Image Search by providing an image URL.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": "OAuth",
+      "https": true,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "photography_google_reverse_images_search_api"
+    },
+    {
+      "name": "Bing Images Search API",
+      "url": "https://www.microsoft.com/en-us/bing/apis/bing-image-search-api",
+      "description": "With Bing Image Search API v7, help users scour the web for images. Results include thumbnails, full image URLs, publishing website info, image metadata, and more.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_bing_images_search_api"
+    },
+    {
+      "name": "create-plan/",
+      "url": "https://./create-plan/",
+      "description": "Quickly draft concise execution plans for coding tasks.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_create_plan"
+    },
+    {
+      "name": "brand-guidelines/",
+      "url": "https://./brand-guidelines/",
+      "description": "Apply OpenAI/Codex brand colors and typography to artifacts.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_brand_guidelines"
+    },
+    {
+      "name": "canvas-design/",
+      "url": "https://./canvas-design/",
+      "description": "Generate structured canvas layouts and design artifacts.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 74,
+      "quality_grade": "B",
+      "quality": {
+        "score": 74,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_canvas_design"
+    },
+    {
+      "name": "image-enhancer/",
+      "url": "https://./image-enhancer/",
+      "description": "Upscale and refine images with configurable presets.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_image_enhancer"
+    },
+    {
+      "name": "Live",
+      "url": "https://newsapi.org/docs",
+      "description": "Live articles from all over the web",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_live"
+    },
+    {
+      "name": "Resizable",
+      "url": "https://baconmockup.com",
+      "description": "Resizable bacon placeholder images",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 68,
+      "quality_grade": "C",
+      "quality": {
+        "score": 68,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_resizable"
+    },
+    {
+      "name": "Random",
+      "url": "https://coffee.alexflipnote.dev",
+      "description": "Random coffee pictures",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 65,
+      "quality_grade": "C",
+      "quality": {
+        "score": 65,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_random"
+    },
+    {
+      "name": "Data",
+      "url": "https://www.fruityvice.com",
+      "description": "Data about all kinds of fruit",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 67,
+      "quality_grade": "C",
+      "quality": {
+        "score": 67,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_data"
+    },
+    {
+      "name": "Electronic",
+      "url": "https://octopart.com/api/v4/reference",
+      "description": "Electronic part data",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_electronic"
+    },
+    {
+      "name": "Open-source",
+      "url": "https://dog.ceo/dog-api",
+      "description": "Open-source dog pictures",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 66,
+      "quality_grade": "C",
+      "quality": {
+        "score": 66,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_open_source"
+    },
+    {
+      "name": "Cat",
+      "url": "https://cataas.com",
+      "description": "Cat pictures and GIFs",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 65,
+      "quality_grade": "C",
+      "quality": {
+        "score": 65,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_cat"
+    },
+    {
+      "name": "Pictures",
+      "url": "https://docs.thecatapi.com",
+      "description": "Pictures of cats from Tumblr",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_pictures"
+    },
+    {
+      "name": "Fish",
+      "url": "https://www.fishwatch.gov/developers",
+      "description": "Fish species info and pictures",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 67,
+      "quality_grade": "C",
+      "quality": {
+        "score": 67,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_fish"
+    },
+    {
+      "name": "Placeholder",
+      "url": "https://placekitten.com",
+      "description": "Placeholder kitten pictures",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 66,
+      "quality_grade": "C",
+      "quality": {
+        "score": 66,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_placeholder"
+    },
+    {
+      "name": "Random",
+      "url": "https://random-d.uk/api",
+      "description": "Random duck pictures",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "photography_random_2"
+    },
+    {
+      "name": "Random",
+      "url": "https://randomfox.ca/floof",
+      "description": "Random fox pictures",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 64,
+      "quality_grade": "C",
+      "quality": {
+        "score": 64,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_random_3"
+    },
+    {
+      "name": "Quick Start",
+      "url": "https://README.md#-quick-start",
+      "description": "3-step install → connect → configure",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "photography",
+      "tags": [
+        "photography"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 69,
+      "quality_grade": "C",
+      "quality": {
+        "score": 69,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "photography_quick_start"
+    },
+    {
+      "name": "Placeholder.com",
+      "url": "https://placeholder.com/",
+      "description": "Generate placeholder images",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_placeholder_com",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Recraft",
+      "url": "https://www.recraft.ai/docs",
+      "description": "AI design tool for generating and editing vector/raster images",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_recraft",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "USGS EarthExplorer",
+      "url": "https://m2m.cr.usgs.gov/",
+      "description": "Decades of Landsat satellite imagery and aerial photos",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_usgs_earthexplorer",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Orca Scan Barcode",
+      "url": "https://orcascan.com/",
+      "description": "QR, Code 128, EAN, Data Matrix — SVG/PNG/JPG/PDF, free",
+      "category": "photography",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_orca_scan_barcode",
+      "quality": {
+        "score": 79,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 79,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Maxio (Chargify)",
+      "url": "https://maxio.com/",
+      "description": "Complex B2B SaaS — component pricing, metered usage",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_maxio_chargify",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Thumbor",
+      "url": "https://thumbor.readthedocs.io/",
+      "description": "Open-source smart image cropping and resizing with face detection filters",
+      "category": "photography",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_thumbor",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "AstroBin",
+      "url": "https://www.astrobin.com/help/api/",
+      "description": "Read-only API for astrophotography images and equipment metadata",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_astrobin",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Planet Labs (Agriculture)",
+      "url": "https://developers.planet.com/",
+      "description": "Daily satellite imagery for crop monitoring, yield prediction, and land analysis",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_planet_labs_agriculture",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Minerals.net Database",
+      "url": "https://www.minerals.net/",
+      "description": "Comprehensive mineral and gemstone identification guide with properties and photos",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_minerals_net_database",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "DrawShield API",
+      "url": "https://drawshield.net/",
+      "description": "PHP-based heraldic blazon parser that generates SVG shield images from textual blazon descriptions",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_drawshield_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Agromonitoring Agro API",
+      "url": "https://agromonitoring.com/api/agro-api",
+      "description": "Satellite imagery and vegetation indices (NDVI, EVI) for monitoring hydroponic crop health",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_agromonitoring_agro_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Identicon",
+      "url": "https://www.kwelo.com/media/identicon/",
+      "description": "가상의 아바타 이미지를 생성합니다.",
+      "category": "photography",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "biomalls/open-apis-korea",
+      "tags": [
+        "photography"
+      ],
+      "status": "active",
+      "id": "photography_identicon",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    }
+  ]
+}

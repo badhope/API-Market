@@ -1,0 +1,1854 @@
+{
+  "id": "sports",
+  "name": "sports-fitness",
+  "display_name": "sports-fitness",
+  "api_count": 71,
+  "apis": [
+    {
+      "name": "NBA API",
+      "url": "https://sportsdata.io/developers/api-documentation/nba",
+      "description": "NBA scores and stats",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_nba_api",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "API-NBA",
+      "url": "https://api-sports.io/documentation/nba",
+      "description": "Basketball data",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_api_nba",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "API-Baseball",
+      "url": "https://api-sports.io/documentation/baseball",
+      "description": "Baseball data",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_api_baseball",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "API-Hockey",
+      "url": "https://api-sports.io/documentation/hockey",
+      "description": "Hockey stats",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_api_hockey",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Sportsradar",
+      "url": "https://developer.sportradar.com/",
+      "description": "Sports data",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sportsradar",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "CollegeFootballData",
+      "url": "https://collegefootballdata.com/",
+      "description": "College football",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_collegefootballdata",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "MLB Stats",
+      "url": "http://statsapi.mlb.com/docs/",
+      "description": "Baseball statistics",
+      "category": "sports",
+      "auth": null,
+      "https": false,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_mlb_stats",
+      "quality": {
+        "score": 50,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 0
+        }
+      },
+      "quality_score": 50,
+      "quality_grade": "D"
+    },
+    {
+      "name": "CricketAPI",
+      "url": "https://www.cricketapi.com/",
+      "description": "Cricket data",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_cricketapi",
+      "quality": {
+        "score": 62,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 62,
+      "quality_grade": "C"
+    },
+    {
+      "name": "JSON-RPC 2.0",
+      "url": "https://www.jsonrpc.org/specification",
+      "description": "Lightweight remote procedure call protocol used by MCP transport",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_json_rpc_2_0",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Finnworlds ESG",
+      "url": "https://finnworlds.com/",
+      "description": "ESG scores — sub-millisecond response, 99.5% uptime",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_finnworlds_esg",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Arya.ai Signature",
+      "url": "https://www.arya.ai/",
+      "description": "AI signature verification — confidence scores for authenticity",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_arya_ai_signature",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Twinword Emotion",
+      "url": "https://www.twinword.com/",
+      "description": "6 emotions with per-emotion scores — pay-as-you-go",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_twinword_emotion",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Google Vision SafeSearch",
+      "url": "https://cloud.google.com/vision/docs/detecting-safe-search",
+      "description": "Adult/violence/racy content — likelihood scores per category",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_google_vision_safesearch",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Loqate (GBG)",
+      "url": "https://www.loqate.com/",
+      "description": "250+ countries — confidence scores, multi-match",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_loqate_gbg",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CreatorIQ",
+      "url": "https://creatoriq.com/",
+      "description": "Enterprise influencer management with real-time data across major platforms",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_creatoriq",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Favikon",
+      "url": "https://www.favikon.com/",
+      "description": "AI-powered influencer discovery and ranking platform with API",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_favikon",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Peloton API",
+      "url": "https://peloton.readthedocs.io/en/latest/api-guide/",
+      "description": "Workout and membership data from Peloton connected fitness",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_peloton_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Sportradar",
+      "url": "https://developer.sportradar.com/",
+      "description": "Premium sports data, odds, and imagery for global leagues",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sportradar",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Stacksync",
+      "url": "https://www.stacksync.com/blog/9-data-replication-tools-you-need-2025",
+      "description": "Real-time bi-directional sync with sub-second latency and conflict resolution",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_stacksync",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "BrainFlow",
+      "url": "https://brainflow.readthedocs.io/",
+      "description": "Hardware-agnostic library for EEG/EMG/ECG biosensor data in 9+ languages",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_brainflow",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Walkscore API",
+      "url": "https://www.walkscore.com/professional/api.php",
+      "description": "Walk Score, Transit Score and Bike Score",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_walkscore_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Traackr",
+      "url": "https://www.traackr.com/",
+      "description": "Enterprise influencer management with audience vetting, fraud detection, analytics",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_traackr",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Wobb",
+      "url": "https://wobb.ai/influencer-api",
+      "description": "Influencer marketing API with 400M+ creators, UGC data, and audience insights",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_wobb",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SportsDataIO",
+      "url": "https://sportsdata.io/developers/apis",
+      "description": "Real-time scores, stats, odds, projections, and fantasy data for major sports",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sportsdataio",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Genius Sports",
+      "url": "https://www.geniussports.com/",
+      "description": "Official sports data and fan engagement platform for leagues and sportsbooks",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_genius_sports",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "iSportsAPI",
+      "url": "https://www.isportsapi.com/",
+      "description": "Real-time sports data API for soccer, basketball, tennis, and cricket",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_isportsapi",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Peloton",
+      "url": "https://www.peloton.com/",
+      "description": "Connected fitness workout data, performance metrics, and class information",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_peloton",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "API-Sports",
+      "url": "https://api-sports.io/",
+      "description": "RESTful API for live scores, standings, and statistics across many sports",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_api_sports",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PractiScore API",
+      "url": "https://api.beta.practiscore.com/results",
+      "description": "Shooting competition scoring, match results, and shooter search data",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_practiscore_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PandaScore API",
+      "url": "https://www.pandascore.co/",
+      "description": "Live scores, odds, and statistics for LoL, CS2, Dota 2, Valorant, and 20+ titles",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_pandascore_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Liquipedia API",
+      "url": "https://liquipedia.net/api",
+      "description": "Comprehensive esports data with OpenAPI 3 for tournaments, teams, and records",
+      "category": "sports",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_liquipedia_api",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Sportbex Esports API",
+      "url": "https://sportbex.com/esports-api/",
+      "description": "Live match scores, betting odds, and tournament brackets",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sportbex_esports_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Recombee API",
+      "url": "https://docs.recombee.com/api",
+      "description": "AI recommendation engine for esports content personalization",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_recombee_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "14meters Fencing Data",
+      "url": "https://www.14meters.com/",
+      "description": "Olympic fencing data services with API access for bout analysis and tournament results",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_14meters_fencing_data",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Fencing Time Live",
+      "url": "https://www.fencingtimelive.com/",
+      "description": "Live tournament results platform with real-time scoring and bracket data",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_fencing_time_live",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Olympics Sports Data API",
+      "url": "https://www.olympics.com/",
+      "description": "Olympic fencing results and historical data from the International Olympic Committee",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_olympics_sports_data_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Ergast Motorsport API",
+      "url": "https://ergast.com/mrd/",
+      "description": "Historical motor racing data API for Formula One from 1950 to present in XML and JSON",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_ergast_motorsport_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Sportbex Motorsport API",
+      "url": "https://sportbex.com/motorsport-api/",
+      "description": "Covers F1, MotoGP, NASCAR, IndyCar, Formula E with lap results, driver stats, and standings",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sportbex_motorsport_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Race Monitor API",
+      "url": "https://www.race-monitor.com/Home/API",
+      "description": "Live race data API for motorsport events including karting with timing and scoring integration",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_race_monitor_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SportsDataIO Golf/Racing API",
+      "url": "https://sportsdata.io/developers/api-documentation/golf",
+      "description": "Sports data feeds for motorsport including schedules, scores, odds, and projections",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sportsdataio_golf_racing_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SportsDataIO Golf API",
+      "url": "https://sportsdata.io/developers/api-documentation/golf",
+      "description": "PGA tour data including schedules, scores, odds, projections, stats, and player images",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sportsdataio_golf_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Slash Golf API",
+      "url": "https://slashgolf.dev/",
+      "description": "Tournament data with real-time leaderboards, hole-by-hole scorecards, and FedEx Cup points",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_slash_golf_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Golf Genius API",
+      "url": "https://www.golfgenius.com/api/v2/docs",
+      "description": "Cloud-based golf management API for tournaments, leagues, and association scoring",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_golf_genius_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Sportradar Golf API",
+      "url": "https://developer.sportradar.com/golf/reference/golf-overview",
+      "description": "Comprehensive golf data including live scoring, player profiles, and tournament statistics",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sportradar_golf_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Golf Leaderboard Data",
+      "url": "https://rapidapi.com/sportcontentapi/api/golf-leaderboard-data/details",
+      "description": "Real-time golf leaderboard data and tournament results available via RapidAPI",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_golf_leaderboard_data",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Data Sports Group Gymnastics API",
+      "url": "https://datasportsgroup.com/coverage/gymnastics/",
+      "description": "Precise scoring data, athlete stats, and live updates from international gymnastics competitions",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_data_sports_group_gymnastics_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MeetScoresOnline",
+      "url": "https://meetscoresonline.com/",
+      "description": "Free live gymnastics results publishing from ProScore, ScoreMaster, and ScoreFlippers",
+      "category": "sports",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_meetscoresonline",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "ScoreCat Live Scoring",
+      "url": "https://scorecatonline.com/",
+      "description": "Mobile app and platform for live gymnastics scores, performance analytics, and athlete profiles",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_scorecat_live_scoring",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Gymnastics Results Archive",
+      "url": "https://gymnasticsresults.com/",
+      "description": "Most complete online gymnastics results archive for Olympics, World Championships, and more",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_gymnastics_results_archive",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Sportzsoft LiveMeet",
+      "url": "https://sportzsoftlivemeet.com/",
+      "description": "Web-based gymnastics scoring and meet management for trampoline, tumbling, and artistic",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sportzsoft_livemeet",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ScoreKing",
+      "url": "https://scoreking.com/",
+      "description": "Gymnastics scoring system for meets of all sizes with real-time results and judging tools",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_scoreking",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MyMeetScores",
+      "url": "https://mymeetscores.com/",
+      "description": "Gymnastics meet scores aggregator with historical performance data and athlete tracking",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_mymeetscores",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Sports Acrobatics Results",
+      "url": "https://sportsacrobatics.info/results/index.htm",
+      "description": "Comprehensive acrobatic gymnastics competition results database organized by year",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sports_acrobatics_results",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "MeetScorer",
+      "url": "https://meetscorer.com/results/",
+      "description": "Gymnastics meet scoring platform with live results and competition management features",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_meetscorer",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SportsDataIO NHL API",
+      "url": "https://sportsdata.io/nhl-api",
+      "description": "Comprehensive NHL data with scores, odds, projections, stats, news, and player images",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sportsdataio_nhl_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "API-Sports Hockey",
+      "url": "https://api-sports.io/documentation/hockey/v1",
+      "description": "Hockey leagues and cups data with fixtures, standings, and match results; 100 free requests/day",
+      "category": "sports",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_api_sports_hockey",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Broadage Ice Hockey API",
+      "url": "https://www.broadage.com/sports-data-api/ice-hockey",
+      "description": "Real-time hockey data from top leagues worldwide with 50+ data endpoints",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_broadage_ice_hockey_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Data Sports Group Hockey",
+      "url": "https://datasportsgroup.com/coverage/ice-hockey/",
+      "description": "Fastest ice hockey data API with live play-by-play, period scores, and power play stats",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_data_sports_group_hockey",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Equestrian Hub",
+      "url": "https://equestrian-hub.com/",
+      "description": "Equestrian results and data including live scores, entries, schedules, and horse/rider profiles",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_equestrian_hub",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "OddsMatrix Horse Racing API",
+      "url": "https://oddsmatrix.com/sports/horseracing/",
+      "description": "Horse racing odds data with stats, scores, and betting market information",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_oddsmatrix_horse_racing_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Travel Buddy Visa API",
+      "url": "https://travel-buddy.ai/api/",
+      "description": "Visa intelligence for 200+ passports with allowed stay duration, eVisa availability, and embassy links",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_travel_buddy_visa_api",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Enetpulse",
+      "url": "https://enetpulse.com/sports-data-api/",
+      "description": "Live sports data API with pre-match and in-play data for fixtures, results, and standings",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_enetpulse",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Scoreholio",
+      "url": "https://scoreholio.com/",
+      "description": "Tournament bracket and scoring platform for recreational sports including bocce and cornhole",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_scoreholio",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Sportsipy",
+      "url": "https://sportsreference.readthedocs.io/en/stable/",
+      "description": "Free open-source Python API for pulling sports reference stats for multiple leagues",
+      "category": "sports",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_sportsipy",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Stattleship",
+      "url": "https://developers.stattleship.com/",
+      "description": "Sports data API with player stats, game logs, and team data for professional North American leagues",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_stattleship",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "LeaguePals",
+      "url": "https://www.leaguepals.com/",
+      "description": "League management software for organizing standings, schedules, and player statistics",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_leaguepals",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Limos4 API",
+      "url": "https://www.limos4.com/integrations",
+      "description": "Global ground transportation API with GNet, Karhoo, and SummitQuest integration in 200+ cities",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_limos4_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "GNet (GRiDD)",
+      "url": "https://gnet.grdd.net/",
+      "description": "Open transportation network API connecting 4,800+ ground transportation companies worldwide",
+      "category": "sports",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_gnet_gridd",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Suunto API",
+      "url": "https://apizone.suunto.com/",
+      "description": "Developer API for workout data from Suunto sports watches including GPS tracks, heart rate, and lap data",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_suunto_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "TrainingPeaks API",
+      "url": "https://help.trainingpeaks.com/hc/en-us/articles/234441128-TrainingPeaks-API",
+      "description": "Approved developer API for athlete profile, workout data, and training plan management for endurance sports",
+      "category": "sports",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_trainingpeaks_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Transport for New York City, US",
+      "url": "http://datamine.mta.info/",
+      "description": "미국 뉴욕 교통정보",
+      "category": "sports",
+      "auth": null,
+      "https": false,
+      "cors": null,
+      "source": "biomalls/open-apis-korea",
+      "tags": [
+        "sports"
+      ],
+      "status": "active",
+      "id": "sports_transport_for_new_york_city_us",
+      "quality": {
+        "score": 45,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "minimal",
+          "metadata_completeness": 0
+        }
+      },
+      "quality_score": 45,
+      "quality_grade": "D"
+    }
+  ]
+}

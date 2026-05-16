@@ -1,0 +1,560 @@
+{
+  "id": "events",
+  "name": "Events",
+  "display_name": "Events",
+  "api_count": 23,
+  "apis": [
+    {
+      "name": "PolitiData",
+      "url": "https://politidata.ca",
+      "description": "Canadian political financing, lobbying registrations and communications",
+      "category": "events",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "events",
+        "government"
+      ],
+      "status": "active",
+      "id": "events_politidata",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "azure.com:azurestack-Registration",
+      "url": "https://api.apis.guru/v2/specs/azure.com/azurestack-Registration/2017-06-01/swagger.json",
+      "description": "azure.com:azurestack-Registration - API service at api.apis.guru",
+      "category": "events",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "events",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "events_azure_com_azurestack_registration",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:web-CertificateRegistrationProvider",
+      "url": "https://api.apis.guru/v2/specs/azure.com/web-CertificateRegistrationProvider/2019-08-01/swagger.json",
+      "description": "azure.com:web-CertificateRegistrationProvider - API service at api.apis.guru",
+      "category": "events",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "events",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "events_azure_com_web_certificateregistrationprovider",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "azure.com:web-DomainRegistrationProvider",
+      "url": "https://api.apis.guru/v2/specs/azure.com/web-DomainRegistrationProvider/2019-08-01/swagger.json",
+      "description": "azure.com:web-DomainRegistrationProvider - API service at api.apis.guru",
+      "category": "events",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "events",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "events_azure_com_web_domainregistrationprovider",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Dedline.io API",
+      "url": "https://dev.publicapis.dev/resource/dedline-io-api/4af18fd0-c3cc-45e6-a8f5-cafe1f73a457",
+      "description": "Data for US state voter registration deadlines and details",
+      "category": "events",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "events",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "events_dedline_io_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "FreeGeoIP",
+      "url": "https://freegeoip.app/",
+      "description": "Free geo ip information, no registration required. 15k/hour rate limit",
+      "category": "events",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "toddmotto/public-apis",
+      "tags": [
+        "events",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "events_freegeoip",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Marvel Comics API",
+      "url": "https://developer.marvel.com/",
+      "description": "<details><summary>Access Marvel characters, comics, stories, and events</summary>Official API for developers to integrate Marvel universe data into their apps. Requires registration.</details>",
+      "category": "events",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "events",
+        "entertainment"
+      ],
+      "status": "active",
+      "id": "events_marvel_comics_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Is.gd",
+      "url": "https://is.gd/apishortenservice.php",
+      "description": "<details><summary>Simple URL shortening service</summary>Basic URL shortening without registration requirements.</details>",
+      "category": "events",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "events",
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "events_is_gd",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Philips Hue**",
+      "url": "https://developers.meethue.com/documentation/getting-started",
+      "description": "Registration (free) and local Hue Bridge (not free) required - Control Hue brand lights made by Philips. API calls are made to the Hue Bridge residing on the local network. Includes a web based UI.",
+      "category": "events",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "events",
+        "iot"
+      ],
+      "status": "active",
+      "id": "events_philips_hue",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "**Picatic**",
+      "url": "http://developer.picatic.com/?utm_medium=web&utm_source=github&utm_campaign=public-apis%20repo&utm_content=abhishekbanthia",
+      "description": "Sell tickets directly from your app or website.",
+      "category": "events",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "events"
+      ],
+      "status": "active",
+      "id": "events_picatic",
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B",
+      "auth_inferred": true,
+      "https_inferred": true
+    },
+    {
+      "name": "React Finland",
+      "url": "https://github.com/ReactFinland/graphql-api",
+      "description": "React Finland API is built with conferences and meetups in mind",
+      "source": "APIs-guru/graphql-apis",
+      "status": "active",
+      "auth": "[Try it!](https://api.react-finland.fi/graphql)",
+      "https": "[Repo](https://github.com/ReactFinland/graphql-api)",
+      "cors": "",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "events_react_finland"
+    },
+    {
+      "name": "Check",
+      "url": "https://developers.universe.com/docs/graphql",
+      "description": "Check what your friends are doing & find unique events near you using our filter.",
+      "source": "APIs-guru/graphql-apis",
+      "status": "active",
+      "auth": "[Try it!](https://www.universe.com/graphiql)",
+      "https": "[Docs](https://developers.universe.com/docs/graphql)",
+      "cors": "",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "quality_score": 100,
+      "quality_grade": "A",
+      "quality": {
+        "score": 100,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "events_check"
+    },
+    {
+      "name": "CurrentsAPI",
+      "url": "https://currentsapi.services/",
+      "description": "Trending news & events",
+      "source": "ngongcm/public-api-list",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "✅",
+      "cors": "",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "events_currentsapi"
+    },
+    {
+      "name": "Today in History",
+      "url": "https://history.muffinlabs.com/",
+      "description": "Daily historical events, births and deaths API.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "events_today_in_history"
+    },
+    {
+      "name": "Philips Hue",
+      "url": "https://developers.meethue.com/documentation/getting-started",
+      "description": "Registration (free) and local Hue Bridge (not free) required - Control Hue brand lights made by Philips. API calls are made to the Hue Bridge residing on the local network. Includes a web based UI.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "events_philips_hue_2"
+    },
+    {
+      "name": "Today in History",
+      "url": "https://tools-collection.net/apis-list/today-in-history",
+      "description": "Database of historical events",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "events_today_in_history_2"
+    },
+    {
+      "name": "CountAPI",
+      "url": "https://tools-collection.net/apis-list/countapi",
+      "description": "You can use it to track page hits, and specific events among other things",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "events_countapi"
+    },
+    {
+      "name": "Meetup.com",
+      "url": "https://tools-collection.net/apis-list/meetup-com",
+      "description": "Find groups that host online or in person events and meet people in your local community who share your interests",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "events_meetup_com"
+    },
+    {
+      "name": "Gender API",
+      "url": "https://tools-collection.net/apis-list/gender-api",
+      "description": "Keep your registration forms simple",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "events_gender_api"
+    },
+    {
+      "name": "FreeGeoIP",
+      "url": "https://tools-collection.net/apis-list/freegeoip",
+      "description": "Free IP Geolocation API with no registration required",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 78,
+      "quality_grade": "B",
+      "quality": {
+        "score": 78,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "events_freegeoip_2"
+    },
+    {
+      "name": "BikeWise",
+      "url": "https://tools-collection.net/apis-list/bikewise",
+      "description": "Bicycle registration service.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "events_bikewise"
+    },
+    {
+      "name": "Car Registration Api",
+      "url": "https://tools-collection.net/apis-list/car-registration-api",
+      "description": "Get the Make, Model, Insurer, VIN and 50 other data fields from an Australian number plate (rego)",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "events_car_registration_api"
+    },
+    {
+      "name": "LLM7.io",
+      "url": "https://token.llm7.io",
+      "description": "Zero-friction API gateway. No registration needed for basic access. 30+ models.",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "events",
+      "tags": [
+        "events"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "events_llm7_io"
+    }
+  ]
+}

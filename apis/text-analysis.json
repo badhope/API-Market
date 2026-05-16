@@ -1,0 +1,1792 @@
+{
+  "id": "text-analysis",
+  "name": "Text Analysis & NLP",
+  "display_name": "Text Analysis & NLP",
+  "api_count": 69,
+  "apis": [
+    {
+      "name": "text2data.org",
+      "url": "https://api.apis.guru/v2/specs/text2data.org/v3.4/swagger.json",
+      "description": "text2data.org - API service at api.apis.guru",
+      "category": "text-analysis",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_text2data_org",
+      "quality": {
+        "score": 58,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 58,
+      "quality_grade": "C"
+    },
+    {
+      "name": "ApicAgent",
+      "url": "https://www.apicagent.com",
+      "description": "Extract device details from user-agent string",
+      "category": "text-analysis",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis",
+        "development"
+      ],
+      "status": "active",
+      "id": "text_analysis_apicagent",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Thunderbit",
+      "url": "https://thunderbit.com/docs/introduction",
+      "description": "Extract web pages as Markdown or structured data for AI apps",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis",
+        "development"
+      ],
+      "status": "active",
+      "id": "text_analysis_thunderbit",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "JMESPath Free API",
+      "url": "https://noteapiconnector.com/jmespath-free-api",
+      "description": "Run JMESPath queries on JSON data for filtering, transforming, and extracting results",
+      "category": "text-analysis",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "text-analysis",
+        "development"
+      ],
+      "status": "active",
+      "id": "text_analysis_jmespath_free_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "WebCrawlerAPI",
+      "url": "https://webcrawlerapi.com/",
+      "description": "Easily extract content from websites",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "text-analysis",
+        "development"
+      ],
+      "status": "active",
+      "id": "text_analysis_webcrawlerapi",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "MetaScrape",
+      "url": "https://metascrape.shanecode.org",
+      "description": "Extract metadata, Open Graph tags, and structured data from any URL",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "text-analysis",
+        "development"
+      ],
+      "status": "active",
+      "id": "text_analysis_metascrape",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Piloterr",
+      "url": "https://www.piloterr.com/",
+      "description": "Piloterr web scraping API handles headless browsers, rotates proxies for you, and offers json-parsed data extraction",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "text-analysis",
+        "development"
+      ],
+      "status": "active",
+      "id": "text_analysis_piloterr",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SERP Rank Checker",
+      "url": "https://apyhub.com/utility/serp-rank",
+      "description": "Check realtime Google SERP Rank of any keywords",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "text-analysis",
+        "development"
+      ],
+      "status": "active",
+      "id": "text_analysis_serp_rank_checker",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Web Scraping API",
+      "url": "https://apyhub.com/utility/sharpapi-web-scraping-api",
+      "description": "Extract structured data from any public URL",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "text-analysis",
+        "development"
+      ],
+      "status": "active",
+      "id": "text_analysis_web_scraping_api",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "SearchAPI.io",
+      "url": "https://www.searchapi.io/",
+      "description": "<details><summary>Real-time Google Search scraping API for extracting web results, news, images, shopping data, and more without captchas or IP bans</summary>Useful for SEO tools, market research, con",
+      "category": "text-analysis",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "text-analysis",
+        "government"
+      ],
+      "status": "active",
+      "id": "text_analysis_searchapi_io",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "amazonaws.com:textract",
+      "url": "https://api.apis.guru/v2/specs/amazonaws.com/textract/2018-06-27/openapi.json",
+      "description": "amazonaws.com:textract - API service at api.apis.guru",
+      "category": "text-analysis",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "text-analysis",
+        "shopping"
+      ],
+      "status": "active",
+      "id": "text_analysis_amazonaws_com_textract",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "NLP Cloud",
+      "url": "https://nlpcloud.io",
+      "description": "NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "text_analysis_nlp_cloud",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**AYLIEN**",
+      "url": "http://aylien.com/",
+      "description": "AYLIEN Text Analysis API is a package of Natural Language Processing, Information Retrieval and Machine Learning tools for extracting meaning and insight from textual and visual content with ease.",
+      "category": "text-analysis",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "text-analysis",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "text_analysis_aylien",
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B",
+      "https_inferred": true
+    },
+    {
+      "name": "Summarize Text with AI",
+      "url": "https://apyhub.com/utility/ai-summarize",
+      "description": "This API generates customizable summaries of text and web pages using AI",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "text-analysis",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "text_analysis_summarize_text_with_ai",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Extract Audio from Video API",
+      "url": "https://apyhub.com/utility/job-extract-video-audio",
+      "description": "This API helps you extract audio from any video at scale",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "text-analysis",
+        "video"
+      ],
+      "status": "active",
+      "id": "text_analysis_extract_audio_from_video_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Hashtag",
+      "url": "https://mukeshsolanki.gitbook.io/hashtag-api/",
+      "description": "Generate Hashtags using a keyword or an Image",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "text-analysis",
+        "social"
+      ],
+      "status": "active",
+      "id": "text_analysis_hashtag",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Aylien News API",
+      "url": "https://developer.aylien.com/newsapi",
+      "description": "<details><summary>AI-powered news analysis</summary>Search and analyze global news stories using NLP: filter by entities, categories, sentiment, and more.</details>",
+      "category": "text-analysis",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "text-analysis",
+        "news"
+      ],
+      "status": "active",
+      "id": "text_analysis_aylien_news_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "HasData: Structured Web Data APIs",
+      "url": "https://hasdata.com",
+      "description": "Real-time Google News, SERP, and Web Scraping APIs. Extract structured public data from any news outlet or search engine at scale without blocks",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "No",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "text-analysis",
+        "news"
+      ],
+      "status": "active",
+      "id": "text_analysis_hasdata_structured_web_data_apis",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Lexigram",
+      "url": "https://docs.lexigram.io/",
+      "description": "NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis",
+        "health"
+      ],
+      "status": "active",
+      "id": "text_analysis_lexigram",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Lexigram",
+      "url": "https://docs.lexigram.io/v1/welcome",
+      "description": "NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "text-analysis",
+        "health"
+      ],
+      "status": "active",
+      "id": "text_analysis_lexigram_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Mercury",
+      "url": "https://mercury.postlight.com/web-parser/",
+      "description": "Web parser",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis",
+        "documents"
+      ],
+      "status": "active",
+      "id": "text_analysis_mercury",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Microlink.io",
+      "url": "https://microlink.io",
+      "description": "Extract structured data from any website",
+      "category": "text-analysis",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis",
+        "open-data",
+        "government"
+      ],
+      "status": "active",
+      "id": "text_analysis_microlink_io",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Cohere**",
+      "url": "https://docs.cohere.com/reference/about",
+      "description": "Offers text summarization, entity extraction, text generation, and semantic search.",
+      "category": "text-analysis",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "text-analysis",
+        "dictionaries"
+      ],
+      "status": "active",
+      "id": "text_analysis_cohere",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**MeaningCloud**",
+      "url": "https://www.meaningcloud.com",
+      "description": "Text analysis APIs for topic extraction, sentiment analysis, automatic classification, morphosyntactic analysis, language detection and more. Several languages are supported.",
+      "category": "text-analysis",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "text-analysis",
+        "dictionaries"
+      ],
+      "status": "active",
+      "id": "text_analysis_meaningcloud",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**SummarizeBot API**",
+      "url": "https://www.summarizebot.com/summarization_business.html",
+      "description": "AI web data extraction and analysis. Multilingual summarization, keywords and sentiment analysis, language recognition, article extraction, comments identification, multimedia analysis, image and face",
+      "category": "text-analysis",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "text-analysis",
+        "dictionaries"
+      ],
+      "status": "active",
+      "id": "text_analysis_summarizebot_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "**TextRazor**",
+      "url": "https://www.textrazor.com/plans",
+      "description": "Helps you extract and understand the Who, What, Why, and How from your supplied text.",
+      "category": "text-analysis",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "text-analysis",
+        "dictionaries"
+      ],
+      "status": "active",
+      "id": "text_analysis_textrazor",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Remote Calc",
+      "url": "https://github.com/elizabethadegbaju/remotecalc",
+      "description": "Decodes base64 encoding and parses it to return a solution to the calculation in JSON",
+      "category": "text-analysis",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis",
+        "science-math",
+        "ci"
+      ],
+      "status": "active",
+      "id": "text_analysis_remote_calc",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Yourls**",
+      "url": "https://yourls.org/#API",
+      "description": "Generate or get existing short URLs, with sequential or custom keywords.",
+      "category": "text-analysis",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "text-analysis",
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "text_analysis_yourls",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Domainsdb",
+      "url": "https://domainsdb.info/",
+      "description": "<details><summary>Search across 260M+ registered domain names and 1000+ TLDs.</summary>Provides access to a vast index of registered domains, enabling keyword-based search across over 260 million doma",
+      "category": "text-analysis",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "text-analysis",
+        "business"
+      ],
+      "status": "active",
+      "id": "text_analysis_domainsdb",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "adyen.com:LegalEntityService",
+      "url": "https://api.apis.guru/v2/specs/adyen.com/LegalEntityService/3/openapi.json",
+      "description": "adyen.com:LegalEntityService - API service at api.apis.guru",
+      "category": "text-analysis",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_adyen_com_legalentityservice",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "import.io:extraction",
+      "url": "https://api.apis.guru/v2/specs/import.io/extraction/1.0/swagger.json",
+      "description": "import.io:extraction - API service at api.apis.guru",
+      "category": "text-analysis",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_import_io_extraction",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "interzoid.com:getfullnameparsedmatch",
+      "url": "https://api.apis.guru/v2/specs/interzoid.com/getfullnameparsedmatch/1.0.0/openapi.json",
+      "description": "interzoid.com:getfullnameparsedmatch - API service at api.apis.guru",
+      "category": "text-analysis",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_interzoid_com_getfullnameparsedmatch",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "microsoft.com:cognitiveservices-EntitySearch",
+      "url": "https://api.apis.guru/v2/specs/microsoft.com/cognitiveservices-EntitySearch/1.0/swagger.json",
+      "description": "Search API is a RESTful API that allows developers to run a single line fuzzy search for addresses and POIs. Search API returns the latitude/longitude of a specific address, cross street, geographic f",
+      "category": "text-analysis",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_microsoft_com_cognitiveservices_entitysearch",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Aylien Text Analysis",
+      "url": "https://docs.aylien.com/textapi/#getting-started",
+      "description": "A collection of information retrieval and natural language APIs",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_aylien_text_analysis",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Cloudmersive Natural Language Processing",
+      "url": "https://www.cloudmersive.com/nlp-api",
+      "description": "Natural language processing and text analysis",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_cloudmersive_natural_language_processing",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Google Cloud Natural",
+      "url": "https://cloud.google.com/natural-language/docs/",
+      "description": "Natural language understanding technology, including sentiment, entity and syntax analysis",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_google_cloud_natural",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Semantria",
+      "url": "https://semantria.readme.io/docs",
+      "description": "Text Analytics with sentiment analysis, categorization & named entity extraction",
+      "category": "text-analysis",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_semantria",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Watson Natural Language Understanding",
+      "url": "https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding",
+      "description": "Natural language processing for advanced text analysis",
+      "category": "text-analysis",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_watson_natural_language_understanding",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Natural Language API",
+      "url": "https://cloud.google.com/natural-language/docs",
+      "description": "<details><summary>Text analysis including sentiment, entities, and syntax</summary>Analyze text for sentiment, extract entities, and understand document structure using Google's ML models.</details>",
+      "category": "text-analysis",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_natural_language_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Twinword Text Analysis API",
+      "url": "https://www.twinword.com/api/text-analysis.php",
+      "description": "<details><summary>Multi-feature text analysis (sentiment, emotion, keyword, etc.)</summary>Analyze text to extract keywords, check grammar, detect topics, measure readability, and classify sentiment/e",
+      "category": "text-analysis",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_twinword_text_analysis_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Semantira",
+      "url": "https://semantria.readme.io/docs",
+      "description": "Text Analytics with sentiment analysis, categorization & named entity extraction",
+      "category": "text-analysis",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_semantira",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Watson Natural Language Understanding",
+      "url": "https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/",
+      "description": "Natural language processing for advanced text analysis",
+      "category": "text-analysis",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_watson_natural_language_understanding_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Analyse Keywords API",
+      "url": "https://apyhub.com/utility/analyse-keywords",
+      "description": "This API lets you extract high-frequency keywords, key phrases and latent semantic keywords from any URL",
+      "category": "text-analysis",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text_analysis_analyse_keywords_api",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "JMESPath",
+      "url": "https://noteapiconnector.com/jmespath-free-api",
+      "description": "Run JMESPath queries on JSON data for filtering, transforming, and extracting results",
+      "category": "text-analysis",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "text-analysis",
+        "programming"
+      ],
+      "status": "active",
+      "id": "text_analysis_jmespath",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Obsidian Text Generator Plugin",
+      "url": "https://github.com/nhaouari/obsidian-textgenerator-plugin",
+      "description": "Obsidian Text Generator Plugin - API service at github.com",
+      "source": "reorx/awesome-chatgpt-api",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": "OAuth",
+      "quality_score": 70,
+      "quality_grade": "B",
+      "quality": {
+        "score": 70,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_obsidian_text_generator_plugin"
+    },
+    {
+      "name": "Dialogflow",
+      "url": "https://dialogflow.com",
+      "description": "Natural Language Processing",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "quality_score": 86,
+      "quality_grade": "A",
+      "quality": {
+        "score": 86,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "text_analysis_dialogflow"
+    },
+    {
+      "name": "Sentium",
+      "url": "https://sentim-api.herokuapp.com/",
+      "description": "Free API for Text Sentimental analysis",
+      "source": "free-public-apis/apis",
+      "status": "active",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "quality_score": 89,
+      "quality_grade": "A",
+      "quality": {
+        "score": 89,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "text_analysis_sentium"
+    },
+    {
+      "name": "TextCortex",
+      "url": "https://textcortex.com/",
+      "description": "Link",
+      "source": "foss42/awesome-generative-ai-apis",
+      "status": "active",
+      "auth": "Y",
+      "https": "TextCortex provides a highly-scalable Text Generation API that uses advanced NLP to produce diverse and refined content.",
+      "cors": "",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "quality_score": 81,
+      "quality_grade": "B",
+      "quality": {
+        "score": 81,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_textcortex"
+    },
+    {
+      "name": "Text Cortex REWRITING API ⚙️ AI Text Generator",
+      "url": "https://www.youtube.com/watch?v=vIusOmfXhoA",
+      "description": "Link",
+      "source": "foss42/awesome-generative-ai-apis",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_text_cortex_rewriting_api_ai_text_generator"
+    },
+    {
+      "name": "AYLIEN",
+      "url": "http://aylien.com/",
+      "description": "AYLIEN Text Analysis API is a package of Natural Language Processing, Information Retrieval and Machine Learning tools for extracting meaning and insight from textual and visual content with ease.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": false,
+      "quality_score": 65,
+      "quality_grade": "C",
+      "quality": {
+        "score": 65,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "text_analysis_aylien_2"
+    },
+    {
+      "name": "Cohere",
+      "url": "https://docs.cohere.com/reference/about",
+      "description": "Offers text summarization, entity extraction, text generation, and semantic search.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_cohere_2"
+    },
+    {
+      "name": "TextRazor",
+      "url": "https://www.textrazor.com/plans",
+      "description": "Helps you extract and understand the Who, What, Why, and How from your supplied text.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_textrazor_2"
+    },
+    {
+      "name": "AYLIEN",
+      "url": "https://tools-collection.net/apis-list/aylien",
+      "description": "AYLIEN Text Analysis API is a package of Natural Language Processing, Information Retrieval and Machine Learning tools for extracting meaning and insight from textual and visual content with ease",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_aylien_3"
+    },
+    {
+      "name": "Aylien Text Analysis",
+      "url": "https://tools-collection.net/apis-list/aylien-text-analysis",
+      "description": "Explore AYLIEN’s advanced NLP APIs",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 73,
+      "quality_grade": "B",
+      "quality": {
+        "score": 73,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_aylien_text_analysis_2"
+    },
+    {
+      "name": "Cloudmersive Natural Language Processing",
+      "url": "https://tools-collection.net/apis-list/cloudmersive-natural-language-processing",
+      "description": "Powerful Natural Language Processing APIs",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_cloudmersive_natural_language_processing_2"
+    },
+    {
+      "name": "Lettria",
+      "url": "https://tools-collection.net/apis-list/lettria",
+      "description": "LETTRIA is a natural language processing tool (NLP) dedicated to understanding French",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_lettria"
+    },
+    {
+      "name": "Lexalytics",
+      "url": "https://tools-collection.net/apis-list/semantria",
+      "description": "Flexible natural language processing APIs and complete text analytics platform solutions for data analytics companies and data analyst teams",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_lexalytics"
+    },
+    {
+      "name": "TextRazor",
+      "url": "https://tools-collection.net/apis-list/textrazor",
+      "description": "TextRazor is the world&#x27;s fastest and most accurate Natural Language Processing API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_textrazor_3"
+    },
+    {
+      "name": "Wit.ai",
+      "url": "https://tools-collection.net/apis-list/wit-ai",
+      "description": "Natural Language Processing",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_wit_ai"
+    },
+    {
+      "name": "Bacon Ipsum",
+      "url": "https://tools-collection.net/apis-list/bacon-ipsum",
+      "description": "JSON API for returning meaty lorem ipsum filler text",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 78,
+      "quality_grade": "B",
+      "quality": {
+        "score": 78,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_bacon_ipsum"
+    },
+    {
+      "name": "Website Text Extraction",
+      "url": "https://tools-collection.net/apis-list/website-text-extraction",
+      "description": "Scrape websites and get their content as plaintext",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 77,
+      "quality_grade": "B",
+      "quality": {
+        "score": 77,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_website_text_extraction"
+    },
+    {
+      "name": "Digital Owl Free Text Classification Api",
+      "url": "https://tools-collection.net/apis-list/digital-owl-free-text-classification-api",
+      "description": "Free for use text classification, sentiment analysis, semantic similarity and word analysis api",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_digital_owl_free_text_classification_api"
+    },
+    {
+      "name": "Hipster Ipsum",
+      "url": "https://tools-collection.net/apis-list/hipster-ipsum",
+      "description": "Generates Hipster Ipsum text",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 72,
+      "quality_grade": "B",
+      "quality": {
+        "score": 72,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_hipster_ipsum"
+    },
+    {
+      "name": "Lorem Text",
+      "url": "https://tools-collection.net/apis-list/lorem-text",
+      "description": "Generates Lorem Ipsum text",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "text_analysis_lorem_text"
+    },
+    {
+      "name": "API Context Directory",
+      "url": "https://apicontext.com/api-directory/",
+      "description": "API Context Directory - API service at apicontext.com",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "text-analysis",
+      "tags": [
+        "text-analysis"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 55,
+      "quality_grade": "C",
+      "quality": {
+        "score": 55,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "text_analysis_api_context_directory"
+    },
+    {
+      "name": "Text Analysis API",
+      "url": "https://www.twinword.com/api/",
+      "description": "NLP tools",
+      "category": "text-analysis",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text-analysis_text_analysis_api",
+      "quality": {
+        "score": 52,
+        "max_score": 100,
+        "grade": "D",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 52,
+      "quality_grade": "D"
+    },
+    {
+      "name": "IBM Watson NLU",
+      "url": "https://www.ibm.com/products/natural-language-understanding",
+      "description": "5 emotions (joy/sadness/anger/fear/disgust) — entity extraction",
+      "category": "text-analysis",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text-analysis_ibm_watson_nlu",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Textkernel (Sovren)",
+      "url": "https://www.textkernel.com/",
+      "description": "Enterprise parsing + semantic matching engine",
+      "category": "text-analysis",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text-analysis_textkernel_sovren",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Diffbot",
+      "url": "https://docs.diffbot.com/",
+      "description": "AI-powered web data extraction with Knowledge Graph and NLP APIs",
+      "category": "text-analysis",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "text-analysis"
+      ],
+      "status": "active",
+      "id": "text-analysis_diffbot",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    }
+  ]
+}

@@ -1,0 +1,1421 @@
+{
+  "generated_at": "2026-05-15 19:16:14",
+  "total_apis": 14405,
+  "total_categories": 60,
+  "total_sources": 47,
+  "overall_stats": {
+    "avg_quality_score": 76.6,
+    "median_quality_score": 79,
+    "min_quality_score": 40,
+    "max_quality_score": 100
+  },
+  "grade_distribution": {
+    "A": 3566,
+    "B": 6745,
+    "C": 3451,
+    "D": 643,
+    "F": 0
+  },
+  "metadata_coverage": {
+    "description": "14026/14405 (97.4%)",
+    "auth": "6879/14405 (47.8%)",
+    "https": "11697/14405 (81.2%)",
+    "cors": "4200/14405 (29.2%)"
+  },
+  "top_quality_apis": [
+    {
+      "name": "**OpenAI API**",
+      "category": "dictionaries",
+      "grade": "A",
+      "score": 100,
+      "source": "n0shake/Public-APIs"
+    },
+    {
+      "name": "**PDF Blocks**",
+      "category": "documents",
+      "grade": "A",
+      "score": 100,
+      "source": "n0shake/Public-APIs"
+    },
+    {
+      "name": "AI Engine",
+      "category": "machine-learning",
+      "grade": "A",
+      "score": 100,
+      "source": "public-api-lists/public-api-lists"
+    },
+    {
+      "name": "API Platform",
+      "category": "development",
+      "grade": "A",
+      "score": 100,
+      "source": "marmelab/awesome-rest"
+    },
+    {
+      "name": "API Umbrella",
+      "category": "development",
+      "grade": "A",
+      "score": 100,
+      "source": "marmelab/awesome-rest"
+    },
+    {
+      "name": "APITube News API",
+      "category": "development",
+      "grade": "A",
+      "score": 100,
+      "source": "marcelscruz/public-apis"
+    },
+    {
+      "name": "Adidas REST API Guidelines",
+      "category": "development",
+      "grade": "A",
+      "score": 100,
+      "source": "marmelab/awesome-rest"
+    },
+    {
+      "name": "Akbank API Portal",
+      "category": "development",
+      "grade": "A",
+      "score": 100,
+      "source": "3rt4nm4n/turkish-apis"
+    },
+    {
+      "name": "Apache Superset",
+      "category": "development",
+      "grade": "A",
+      "score": 100,
+      "source": "free-public-apis/apis"
+    },
+    {
+      "name": "Apizr",
+      "category": "development",
+      "grade": "A",
+      "score": 100,
+      "source": "marmelab/awesome-rest"
+    },
+    {
+      "name": "BankData API (OpenBanking)",
+      "category": "finance",
+      "grade": "A",
+      "score": 100,
+      "source": "keploy/public-apis-collection"
+    },
+    {
+      "name": "Barkod API",
+      "category": "development",
+      "grade": "A",
+      "score": 100,
+      "source": "3rt4nm4n/turkish-apis"
+    },
+    {
+      "name": "Bing Web Search API",
+      "category": "development",
+      "grade": "A",
+      "score": 100,
+      "source": "cipher387/API-s-for-OSINT"
+    },
+    {
+      "name": "Black History Facts",
+      "category": "email",
+      "grade": "A",
+      "score": 100,
+      "source": "free-public-apis/apis"
+    },
+    {
+      "name": "BookBrainz",
+      "category": "books",
+      "grade": "A",
+      "score": 100,
+      "source": "keploy/public-apis-collection"
+    },
+    {
+      "name": "BreachDirectory.org",
+      "category": "development",
+      "grade": "A",
+      "score": 100,
+      "source": "cipher387/API-s-for-OSINT"
+    },
+    {
+      "name": "BtcTurk",
+      "category": "currency",
+      "grade": "A",
+      "score": 100,
+      "source": "3rt4nm4n/turkish-apis"
+    },
+    {
+      "name": "Bullbear Advisors",
+      "category": "finance",
+      "grade": "A",
+      "score": 100,
+      "source": "marcelscruz/public-apis"
+    },
+    {
+      "name": "Bulutfon",
+      "category": "development",
+      "grade": "A",
+      "score": 100,
+      "source": "3rt4nm4n/turkish-apis"
+    },
+    {
+      "name": "Calendarific",
+      "category": "calendar",
+      "grade": "A",
+      "score": 100,
+      "source": "keploy/public-apis-collection"
+    }
+  ],
+  "apis_needing_attention": [
+    {
+      "name": "Contributing Guide",
+      "category": "development",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "public-apis/public-apis"
+    },
+    {
+      "name": "Python wrapper for Geopy",
+      "category": "development",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "HTTP Status code table in RESTAPITutorial",
+      "category": "development",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "Kikobeats/awesome-api"
+    },
+    {
+      "name": "RAML, RESTful API Modeling Language",
+      "category": "development",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "Kikobeats/awesome-api"
+    },
+    {
+      "name": "ApiAxle",
+      "category": "development",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "Kikobeats/awesome-api"
+    },
+    {
+      "name": "WSO2 API Manager",
+      "category": "development",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "Kikobeats/awesome-api"
+    },
+    {
+      "name": "Moovit",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth"
+      ],
+      "source": "MobilityData/awesome-transit"
+    },
+    {
+      "name": "Vkontakte",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "https://2captcha.com",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "Microsoft",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "Cowtransfer",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "WeTransfer",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "ABAQUS",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "Jasmin",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "NASM",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "HSS Style Sheet",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "CSV File",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "LaTeX",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "Pandoc’s Markdown",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "VBScript",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "Vim Script",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "RL Vision",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "swagger.io",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "Kikobeats/awesome-api"
+    },
+    {
+      "name": "KrakenD",
+      "category": "other",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "Kikobeats/awesome-api"
+    },
+    {
+      "name": "Why Meteor doesn't use session cookies",
+      "category": "analytics",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "Kikobeats/awesome-api"
+    },
+    {
+      "name": "Status code definition in W3C",
+      "category": "finance",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "Kikobeats/awesome-api"
+    },
+    {
+      "name": "Learn REST: A RESTful Tutorial",
+      "category": "education",
+      "grade": "D",
+      "score": 40,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "Kikobeats/awesome-api"
+    },
+    {
+      "name": "Ergast",
+      "category": "other",
+      "grade": "D",
+      "score": 44,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "3ps",
+      "category": "other",
+      "grade": "D",
+      "score": 45,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    },
+    {
+      "name": "Qriusity",
+      "category": "other",
+      "grade": "D",
+      "score": 45,
+      "issues": [
+        "missing_auth",
+        "missing_cors"
+      ],
+      "source": "github_round3_raw.json"
+    }
+  ],
+  "category_breakdown": [
+    {
+      "id": "development",
+      "name": "Development",
+      "api_count": 4297,
+      "avg_score": 76.3,
+      "min_score": 40,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 417,
+        "A": 861,
+        "B": 2601,
+        "D": 418
+      },
+      "description_coverage": 92.1
+    },
+    {
+      "id": "cloud-storage",
+      "name": "Cloud Storage & File Sharing",
+      "api_count": 915,
+      "avg_score": 71.0,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 690,
+        "B": 148,
+        "A": 74,
+        "D": 3
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "transportation",
+      "name": "Transportation & Travel",
+      "api_count": 698,
+      "avg_score": 79.5,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 137,
+        "A": 233,
+        "B": 326,
+        "D": 2
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping & E-commerce",
+      "api_count": 661,
+      "avg_score": 74.2,
+      "min_score": 47,
+      "max_score": 100,
+      "grade_distribution": {
+        "A": 74,
+        "C": 317,
+        "B": 266,
+        "D": 4
+      },
+      "description_coverage": 99.4
+    },
+    {
+      "id": "government",
+      "name": "Government",
+      "api_count": 504,
+      "avg_score": 76.1,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 211,
+        "B": 159,
+        "A": 132,
+        "D": 2
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "documents",
+      "name": "Documents & Productivity",
+      "api_count": 499,
+      "avg_score": 72.2,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 152,
+        "B": 206,
+        "A": 91,
+        "D": 50
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "machine-learning",
+      "name": "Machine Learning & AI",
+      "api_count": 484,
+      "avg_score": 77.0,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 72,
+        "A": 98,
+        "B": 301,
+        "D": 13
+      },
+      "description_coverage": 98.6
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "api_count": 469,
+      "avg_score": 59.8,
+      "min_score": 40,
+      "max_score": 88,
+      "grade_distribution": {
+        "C": 306,
+        "D": 85,
+        "B": 73,
+        "A": 5
+      },
+      "description_coverage": 99.8
+    },
+    {
+      "id": "geocoding",
+      "name": "Geocoding",
+      "api_count": 340,
+      "avg_score": 81.0,
+      "min_score": 52,
+      "max_score": 100,
+      "grade_distribution": {
+        "B": 122,
+        "A": 150,
+        "C": 67,
+        "D": 1
+      },
+      "description_coverage": 99.7
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "api_count": 309,
+      "avg_score": 78.6,
+      "min_score": 52,
+      "max_score": 97,
+      "grade_distribution": {
+        "C": 43,
+        "B": 173,
+        "A": 90,
+        "D": 3
+      },
+      "description_coverage": 99.4
+    },
+    {
+      "id": "payment",
+      "name": "Payment & Billing",
+      "api_count": 263,
+      "avg_score": 77.8,
+      "min_score": 52,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 60,
+        "A": 45,
+        "B": 154,
+        "D": 4
+      },
+      "description_coverage": 99.2
+    },
+    {
+      "id": "analytics",
+      "name": "Analytics & Metrics",
+      "api_count": 260,
+      "avg_score": 78.8,
+      "min_score": 40,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 79,
+        "A": 76,
+        "B": 104,
+        "D": 1
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "social",
+      "name": "Social & Messaging",
+      "api_count": 248,
+      "avg_score": 77.3,
+      "min_score": 50,
+      "max_score": 99,
+      "grade_distribution": {
+        "C": 32,
+        "A": 63,
+        "B": 144,
+        "D": 9
+      },
+      "description_coverage": 97.2
+    },
+    {
+      "id": "photography",
+      "name": "Photography & Images",
+      "api_count": 228,
+      "avg_score": 80.2,
+      "min_score": 58,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 35,
+        "A": 97,
+        "B": 96
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "security",
+      "name": "Security",
+      "api_count": 223,
+      "avg_score": 77.5,
+      "min_score": 52,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 78,
+        "A": 66,
+        "B": 74,
+        "D": 5
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "api_count": 215,
+      "avg_score": 79.5,
+      "min_score": 52,
+      "max_score": 100,
+      "grade_distribution": {
+        "A": 67,
+        "C": 36,
+        "B": 109,
+        "D": 3
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "data-validation",
+      "name": "Data Validation",
+      "api_count": 213,
+      "avg_score": 81.1,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 21,
+        "B": 90,
+        "A": 100,
+        "D": 2
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "finance",
+      "name": "Finance",
+      "api_count": 203,
+      "avg_score": 79.1,
+      "min_score": 40,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 43,
+        "A": 67,
+        "B": 92,
+        "D": 1
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "api_count": 197,
+      "avg_score": 80.6,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "A": 68,
+        "C": 16,
+        "B": 110,
+        "D": 3
+      },
+      "description_coverage": 99.0
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "api_count": 193,
+      "avg_score": 77.0,
+      "min_score": 52,
+      "max_score": 98,
+      "grade_distribution": {
+        "A": 30,
+        "C": 44,
+        "B": 118,
+        "D": 1
+      },
+      "description_coverage": 99.5
+    },
+    {
+      "id": "news",
+      "name": "News & Media",
+      "api_count": 191,
+      "avg_score": 77.0,
+      "min_score": 45,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 59,
+        "B": 72,
+        "A": 57,
+        "D": 3
+      },
+      "description_coverage": 99.5
+    },
+    {
+      "id": "books",
+      "name": "Books",
+      "api_count": 189,
+      "avg_score": 78.5,
+      "min_score": 52,
+      "max_score": 100,
+      "grade_distribution": {
+        "A": 48,
+        "B": 118,
+        "C": 17,
+        "D": 6
+      },
+      "description_coverage": 97.9
+    },
+    {
+      "id": "cryptocurrency",
+      "name": "Cryptocurrency",
+      "api_count": 163,
+      "avg_score": 82.3,
+      "min_score": 55,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 16,
+        "A": 81,
+        "B": 66
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "email",
+      "name": "Email",
+      "api_count": 157,
+      "avg_score": 79.3,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 32,
+        "A": 58,
+        "B": 63,
+        "D": 4
+      },
+      "description_coverage": 98.7
+    },
+    {
+      "id": "phone",
+      "name": "Phone & Telecom",
+      "api_count": 152,
+      "avg_score": 74.5,
+      "min_score": 58,
+      "max_score": 95,
+      "grade_distribution": {
+        "C": 78,
+        "B": 42,
+        "A": 32
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "currency",
+      "name": "Currency Exchange",
+      "api_count": 144,
+      "avg_score": 81.7,
+      "min_score": 55,
+      "max_score": 100,
+      "grade_distribution": {
+        "A": 76,
+        "C": 15,
+        "B": 53
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "calendar",
+      "name": "Calendar",
+      "api_count": 129,
+      "avg_score": 80.3,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 22,
+        "B": 51,
+        "A": 55,
+        "D": 1
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "food-drink",
+      "name": "Food & Drink",
+      "api_count": 117,
+      "avg_score": 78.8,
+      "min_score": 55,
+      "max_score": 90,
+      "grade_distribution": {
+        "C": 14,
+        "B": 83,
+        "A": 20
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "open-data",
+      "name": "Open Data",
+      "api_count": 101,
+      "avg_score": 82.5,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 8,
+        "A": 53,
+        "B": 39,
+        "D": 1
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "science-math",
+      "name": "Science & Math",
+      "api_count": 97,
+      "avg_score": 78.4,
+      "min_score": 45,
+      "max_score": 95,
+      "grade_distribution": {
+        "A": 32,
+        "C": 18,
+        "B": 42,
+        "D": 5
+      },
+      "description_coverage": 96.9
+    },
+    {
+      "id": "iot",
+      "name": "IoT (Internet of Things)",
+      "api_count": 90,
+      "avg_score": 75.3,
+      "min_score": 58,
+      "max_score": 95,
+      "grade_distribution": {
+        "C": 38,
+        "A": 14,
+        "B": 38
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "environment",
+      "name": "Environment",
+      "api_count": 89,
+      "avg_score": 80.6,
+      "min_score": 47,
+      "max_score": 95,
+      "grade_distribution": {
+        "A": 29,
+        "B": 47,
+        "C": 12,
+        "D": 1
+      },
+      "description_coverage": 98.9
+    },
+    {
+      "id": "art-design",
+      "name": "Art & Design",
+      "api_count": 89,
+      "avg_score": 80.6,
+      "min_score": 45,
+      "max_score": 95,
+      "grade_distribution": {
+        "B": 59,
+        "A": 21,
+        "C": 8,
+        "D": 1
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "dictionaries",
+      "name": "Dictionaries",
+      "api_count": 85,
+      "avg_score": 82.7,
+      "min_score": 62,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 14,
+        "B": 20,
+        "A": 51
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "animals",
+      "name": "Animals",
+      "api_count": 84,
+      "avg_score": 78.9,
+      "min_score": 60,
+      "max_score": 95,
+      "grade_distribution": {
+        "B": 40,
+        "A": 27,
+        "C": 17
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "sports-fitness",
+      "name": "Sports & Fitness",
+      "api_count": 80,
+      "avg_score": 76.9,
+      "min_score": 65,
+      "max_score": 95,
+      "grade_distribution": {
+        "C": 44,
+        "A": 30,
+        "B": 6
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "video",
+      "name": "Video",
+      "api_count": 79,
+      "avg_score": 80.3,
+      "min_score": 62,
+      "max_score": 100,
+      "grade_distribution": {
+        "A": 32,
+        "C": 16,
+        "B": 31
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "games-comics",
+      "name": "Games & Comics",
+      "api_count": 77,
+      "avg_score": 81.2,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "A": 40,
+        "C": 6,
+        "B": 28,
+        "D": 3
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "ci",
+      "name": "Continuous Integration",
+      "api_count": 76,
+      "avg_score": 78.5,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 29,
+        "A": 29,
+        "B": 16,
+        "D": 2
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "sports",
+      "name": "sports-fitness",
+      "api_count": 71,
+      "avg_score": 78.0,
+      "min_score": 45,
+      "max_score": 89,
+      "grade_distribution": {
+        "C": 7,
+        "D": 2,
+        "B": 59,
+        "A": 3
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "text-analysis",
+      "name": "Text Analysis & NLP",
+      "api_count": 69,
+      "avg_score": 81.0,
+      "min_score": 52,
+      "max_score": 95,
+      "grade_distribution": {
+        "C": 8,
+        "A": 33,
+        "B": 27,
+        "D": 1
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "education",
+      "name": "Education",
+      "api_count": 65,
+      "avg_score": 79.9,
+      "min_score": 40,
+      "max_score": 95,
+      "grade_distribution": {
+        "A": 15,
+        "C": 6,
+        "B": 42,
+        "D": 2
+      },
+      "description_coverage": 98.5
+    },
+    {
+      "id": "url-shorteners",
+      "name": "URL Shorteners",
+      "api_count": 64,
+      "avg_score": 79.2,
+      "min_score": 58,
+      "max_score": 95,
+      "grade_distribution": {
+        "C": 7,
+        "A": 28,
+        "B": 29
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "vehicle",
+      "name": "Vehicle",
+      "api_count": 62,
+      "avg_score": 77.2,
+      "min_score": 58,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 20,
+        "A": 19,
+        "B": 23
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "auth",
+      "name": "Authentication & Authorization",
+      "api_count": 54,
+      "avg_score": 79.9,
+      "min_score": 68,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 16,
+        "B": 15,
+        "A": 23
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "media",
+      "name": "Media",
+      "api_count": 52,
+      "avg_score": 74.5,
+      "min_score": 50,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 17,
+        "B": 24,
+        "A": 10,
+        "D": 1
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "jobs",
+      "name": "Jobs",
+      "api_count": 46,
+      "avg_score": 77.9,
+      "min_score": 58,
+      "max_score": 95,
+      "grade_distribution": {
+        "C": 7,
+        "B": 24,
+        "A": 15
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "collaboration",
+      "name": "Collaboration",
+      "api_count": 40,
+      "avg_score": 82.4,
+      "min_score": 68,
+      "max_score": 95,
+      "grade_distribution": {
+        "A": 18,
+        "C": 6,
+        "B": 16
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "telecom",
+      "name": "Telecom",
+      "api_count": 39,
+      "avg_score": 79.2,
+      "min_score": 67,
+      "max_score": 90,
+      "grade_distribution": {
+        "A": 4,
+        "C": 2,
+        "B": 33
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "test-data",
+      "name": "Test Data",
+      "api_count": 35,
+      "avg_score": 81.2,
+      "min_score": 65,
+      "max_score": 95,
+      "grade_distribution": {
+        "C": 4,
+        "A": 17,
+        "B": 14
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "programming",
+      "name": "Programming",
+      "api_count": 34,
+      "avg_score": 85.5,
+      "min_score": 68,
+      "max_score": 95,
+      "grade_distribution": {
+        "C": 1,
+        "A": 23,
+        "B": 10
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "tracking",
+      "name": "Tracking",
+      "api_count": 27,
+      "avg_score": 84.6,
+      "min_score": 68,
+      "max_score": 100,
+      "grade_distribution": {
+        "A": 14,
+        "B": 11,
+        "C": 2
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "open-source",
+      "name": "Open Source Projects",
+      "api_count": 26,
+      "avg_score": 83.3,
+      "min_score": 65,
+      "max_score": 95,
+      "grade_distribution": {
+        "C": 3,
+        "B": 6,
+        "A": 17
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "anti-malware",
+      "name": "Anti-Malware",
+      "api_count": 25,
+      "avg_score": 82.3,
+      "min_score": 65,
+      "max_score": 95,
+      "grade_distribution": {
+        "C": 5,
+        "A": 15,
+        "B": 5
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "anime",
+      "name": "Anime",
+      "api_count": 23,
+      "avg_score": 83.3,
+      "min_score": 65,
+      "max_score": 90,
+      "grade_distribution": {
+        "C": 2,
+        "B": 5,
+        "A": 16
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "events",
+      "name": "Events",
+      "api_count": 23,
+      "avg_score": 79.3,
+      "min_score": 68,
+      "max_score": 100,
+      "grade_distribution": {
+        "A": 8,
+        "C": 3,
+        "B": 12
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "personality",
+      "name": "Personality",
+      "api_count": 17,
+      "avg_score": 79.1,
+      "min_score": 67,
+      "max_score": 100,
+      "grade_distribution": {
+        "C": 7,
+        "A": 7,
+        "B": 3
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "patent",
+      "name": "Patent",
+      "api_count": 16,
+      "avg_score": 75.7,
+      "min_score": 62,
+      "max_score": 95,
+      "grade_distribution": {
+        "B": 5,
+        "A": 3,
+        "C": 8
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "blockchain",
+      "name": "Blockchain",
+      "api_count": 6,
+      "avg_score": 84.7,
+      "min_score": 68,
+      "max_score": 95,
+      "grade_distribution": {
+        "C": 1,
+        "A": 4,
+        "B": 1
+      },
+      "description_coverage": 100.0
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "api_count": 3,
+      "avg_score": 83.3,
+      "min_score": 80,
+      "max_score": 85,
+      "grade_distribution": {
+        "B": 1,
+        "A": 2
+      },
+      "description_coverage": 100.0
+    }
+  ],
+  "source_distribution": {
+    "joshephan/awesome-agent-apis": 4223,
+    "apis.guru": 2529,
+    "github_round3_raw.json": 1803,
+    "public-apis": 1466,
+    "n0shake/Public-APIs": 489,
+    "marcelscruz/public-apis": 377,
+    "MobilityData/awesome-transit": 376,
+    "github:n0shake/Public-APIs": 373,
+    "apihunt/awesome-api-list": 370,
+    "realpython/list-of-python-api-wrappers": 364,
+    "public-api-lists/public-api-lists": 329,
+    "keploy/public-apis-collection": 250,
+    "marmelab/awesome-rest": 164,
+    "dev.publicapis.dev": 126,
+    "reorx/awesome-chatgpt-api": 122,
+    "jaegeral/security-apis": 100,
+    "cipher387/API-s-for-OSINT": 87,
+    "Kikobeats/awesome-api": 80,
+    "free-public-apis/apis": 72,
+    "3rt4nm4n/turkish-apis": 68,
+    "APIs-guru/graphql-apis": 67,
+    "foss42/awesome-generative-ai-apis": 66,
+    "KKulma/climate-change-data": 57,
+    "juanbrujo/listado-apis-publicas-en-chile": 52,
+    "stepci/awesome-api-clients": 49,
+    "biomalls/open-apis-korea": 48,
+    "publicapis.io": 35,
+    "wdhdev/free-for-life": 32,
+    "public-apis/public-apis": 28,
+    "cheahjs/free-llm-api-resources": 26,
+    "TideTree/public-apis-cn": 25,
+    "ngongcm/public-api-list": 24,
+    "toddmotto/public-apis": 23,
+    "zukixa/cool-ai-stuff": 21,
+    "freepublicapis.com": 18,
+    "mergesociety.com": 13,
+    "gunjanjaswal/Awesome-Public-Free-Apis": 12,
+    "github.com/AkashYadav8080/awesome-apis": 7,
+    "matthewdean/roblox-web-apis": 7,
+    "Correia-jpv/fucking-public-apis": 6,
+    "in-c0/updAPI": 5,
+    "anjar/awesome-api": 5,
+    "Hameds/APIs-made-in-Iran": 4,
+    "BuiltWitAI/free-apis-for-projects": 3,
+    "exa-studio/ApiVault": 2,
+    "github:Shieldfy/API-Security-Checklist": 1,
+    "github:public-apis/public-apis": 1
+  }
+}

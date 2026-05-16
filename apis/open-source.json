@@ -1,0 +1,761 @@
+{
+  "id": "open-source",
+  "name": "Open Source Projects",
+  "display_name": "Open Source Projects",
+  "api_count": 26,
+  "apis": [
+    {
+      "name": "vtex.local:License-Manager-API",
+      "url": "https://api.apis.guru/v2/specs/vtex.local/License-Manager-API/1.0/openapi.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "open-source",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "open-source",
+        "development"
+      ],
+      "status": "active",
+      "id": "open_source_vtex_local_license_manager_api",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "**GitHub Licenses API**",
+      "url": "https://developer.github.com/v3/licenses/",
+      "description": "**N/A**",
+      "category": "open-source",
+      "auth": "OAuth",
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "open-source",
+        "development"
+      ],
+      "status": "active",
+      "id": "open_source_github_licenses_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B",
+      "auth_inferred": true
+    },
+    {
+      "name": "Changelogs.md",
+      "url": "https://changelogs.md",
+      "description": "Structured changelog metadata from open source projects",
+      "category": "open-source",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-source",
+        "development"
+      ],
+      "status": "active",
+      "id": "open_source_changelogs_md",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "YADG",
+      "url": "https://yadg.cc/api/v2/",
+      "description": "An API that scrapes music release data and renders it using different templates",
+      "category": "open-source",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "open-source",
+        "development"
+      ],
+      "status": "active",
+      "id": "open_source_yadg",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "amazonaws.com:license-manager",
+      "url": "https://api.apis.guru/v2/specs/amazonaws.com/license-manager/2018-08-01/openapi.json",
+      "description": "amazonaws.com:license-manager - API service at api.apis.guru",
+      "category": "open-source",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "open-source",
+        "shopping"
+      ],
+      "status": "active",
+      "id": "open_source_amazonaws_com_license_manager",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Actinia Grass GIS",
+      "url": "https://actinia.mundialis.de/api_docs/",
+      "description": "Actinia is an open source REST API for geographical data that uses GRASS GIS",
+      "category": "open-source",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-source",
+        "geocoding"
+      ],
+      "status": "active",
+      "id": "open_source_actinia_grass_gis",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "GHTorrent API",
+      "url": "http://ghtorrent.org/",
+      "description": "<details><summary>Provides a mirror of GitHub's public event stream into a queryable database format.</summary>Excellent for open source research, contributor network analysis, and understanding GitHu",
+      "category": "open-source",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "open-source",
+        "video"
+      ],
+      "status": "active",
+      "id": "open_source_ghtorrent_api",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A",
+      "https_inferred": true,
+      "cors_inferred": true
+    },
+    {
+      "name": "Revolt",
+      "url": "https://dev.publicapis.dev/resource/revolt/97398a25-3aea-49ff-805d-1c54b48f43d0",
+      "description": "Revolt open source Discord alternative",
+      "category": "open-source",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "open-source",
+        "social"
+      ],
+      "status": "active",
+      "id": "open_source_revolt",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "Revolt",
+      "url": "https://developers.revolt.chat/api/",
+      "description": "Revolt open source Discord alternative",
+      "category": "open-source",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-source",
+        "social"
+      ],
+      "status": "active",
+      "id": "open_source_revolt_2",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "marcelscruz/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Saidit",
+      "url": "https://www.saidit.net/dev/api",
+      "description": "Open Source Reddit Clone",
+      "category": "open-source",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-source",
+        "social"
+      ],
+      "status": "active",
+      "id": "open_source_saidit",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Saidit**",
+      "url": "https://github.com/IThinkImOKAY/rsaw",
+      "description": "Open source API wrapper made for the Reddit alternative Saidit.net.",
+      "category": "open-source",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "open-source",
+        "social"
+      ],
+      "status": "active",
+      "id": "open_source_saidit_2",
+      "https_inferred": true,
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "cors_inferred": true
+    },
+    {
+      "name": "Data Commons",
+      "url": "https://datacommons.org/disasters",
+      "description": "Open source initiative from Google. Global disaster events and statistics data",
+      "category": "open-source",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "open-source",
+        "weather"
+      ],
+      "status": "active",
+      "id": "open_source_data_commons",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bhagavad Gita",
+      "url": "https://docs.bhagavadgitaapi.in",
+      "description": "Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi",
+      "category": "open-source",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "open-source",
+        "books"
+      ],
+      "status": "active",
+      "id": "open_source_bhagavad_gita",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Open Science Framework",
+      "url": "https://developer.osf.io",
+      "description": "Repository and archive for study designs, research materials, data, manuscripts, etc",
+      "category": "open-source",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-source",
+        "science-math",
+        "ci"
+      ],
+      "status": "active",
+      "id": "open_source_open_science_framework",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Programming Quotes",
+      "url": "https://github.com/skolakoda/programming-quotes-api",
+      "description": "Programming Quotes API for open source projects",
+      "category": "open-source",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-source",
+        "personality"
+      ],
+      "status": "active",
+      "id": "open_source_programming_quotes",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Quotable Quotes",
+      "url": "https://github.com/lukePeavey/quotable",
+      "description": "Quotable is a free, open source quotations API",
+      "category": "open-source",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-source",
+        "personality"
+      ],
+      "status": "active",
+      "id": "open_source_quotable_quotes",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Zetta**",
+      "url": "https://github.com/zettajs/zetta/wiki",
+      "description": "An open source platform built on Node.js for creating IoT servers that run across geo-distributed computers and the cloud.",
+      "category": "open-source",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "open-source",
+        "iot"
+      ],
+      "status": "active",
+      "id": "open_source_zetta",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "**Labs64 NetLicensing**",
+      "url": "https://netlicensing.io/wiki/restful-api",
+      "description": "Innovative License Management Solution.",
+      "category": "open-source",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "open-source"
+      ],
+      "status": "active",
+      "id": "open_source_labs64_netlicensing",
+      "https_inferred": true,
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 65,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Drupal.org",
+      "url": "https://www.drupal.org/drupalorg/docs/api",
+      "description": "Drupal.org",
+      "category": "open-source",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "open-source",
+        "other"
+      ],
+      "status": "active",
+      "id": "open_source_drupal_org",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "GitHub Contribution Chart Generator",
+      "url": "https://github-contributions.vercel.app",
+      "description": "Create an image of your GitHub contributions",
+      "category": "open-source",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "open-source",
+        "other"
+      ],
+      "status": "active",
+      "id": "open_source_github_contribution_chart_generator",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Metabase",
+      "url": "https://www.metabase.com/",
+      "description": "An open source Business Intelligence server to share data and analytics inside your company",
+      "category": "open-source",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "open-source",
+        "other"
+      ],
+      "status": "active",
+      "id": "open_source_metabase",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "MITRE ATT&CK",
+      "url": "https://attack.mitre.org/resources/working-with-attack/",
+      "description": "Adversary tactics and techniques knowledge base (free, open)",
+      "category": "open-source",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-source"
+      ],
+      "status": "active",
+      "id": "open-source_mitre_att_ck",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "MITRE ATLAS",
+      "url": "https://atlas.mitre.org/",
+      "description": "Adversarial threat landscape for AI systems",
+      "category": "open-source",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-source"
+      ],
+      "status": "active",
+      "id": "open-source_mitre_atlas",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Construction Monitor",
+      "url": "https://www.constructionmonitor.com/data",
+      "description": "Permit data search — Elasticsearch-based, large-scale",
+      "category": "open-source",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-source"
+      ],
+      "status": "active",
+      "id": "open-source_construction_monitor",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Art-Net Protocol",
+      "url": "https://art-net.org.uk/",
+      "description": "Open protocol for transmitting DMX512 lighting data over Ethernet networks",
+      "category": "open-source",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-source"
+      ],
+      "status": "active",
+      "id": "open-source_art_net_protocol",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Smithsonian NMNH Paleobiology",
+      "url": "https://collections.nmnh.si.edu/ipt/resource?r=nmnh_paleo_dwc-a",
+      "description": "Fossil invertebrate, vertebrate, and plant specimen data including 139K+ type specimens",
+      "category": "open-source",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "open-source"
+      ],
+      "status": "active",
+      "id": "open-source_smithsonian_nmnh_paleobiology",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+# ========================================
+# API-Market - .gitignore
+# 全网规模化公开API集合
+# ========================================
+
+# ============ 系统文件 ============
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# ============ 编辑器 ============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+*.sublime-workspace
+
+# ============ Python ============
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============ Node.js ============
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+yarn-error.log*
+
+# ============ 日志和临时文件 ============
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.swp
+
+# ============ 构建产物 ============
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+ MANIFEST
+
+# ============ 测试覆盖率 ============
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+.pytest_cache/
+
+# ============ 环境变量 ============
+.env
+.env.local
+.env.*.local
+secrets.json
+
+# ============ Docker ============
+.docker/
+
+# ============ IDE 配置 ============
+.history/
+.notes/
+
+# ============ 数据文件（按需忽略） ============
+# 原始采集数据（已在 .github/workflows 中处理）
+# raw_data/
+# collected_apis/

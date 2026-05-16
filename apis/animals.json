@@ -1,0 +1,2235 @@
+{
+  "id": "animals",
+  "name": "Animals",
+  "display_name": "Animals",
+  "api_count": 84,
+  "apis": [
+    {
+      "name": "Cache Horse",
+      "url": "https://dev.publicapis.dev/resource/cache-horse/16806ad4-37e4-4eab-b7b0-692fee545dc0",
+      "description": "Combine/batch & cache multiple HTTP requests to save on API quotas, speed up & simplify your app",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "animals",
+        "development"
+      ],
+      "status": "active",
+      "id": "animals_cache_horse",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Pusher Beams",
+      "url": "https://pusher.com/beams",
+      "description": "Push notifications for Android & iOS",
+      "category": "animals",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "animals",
+        "development"
+      ],
+      "status": "active",
+      "id": "animals_pusher_beams",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Cache Horse",
+      "url": "https://cache.horse",
+      "description": "Combine/batch & cache multiple HTTP requests to save on API quotas, speed up & simplify your app",
+      "category": "animals",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "animals",
+        "development"
+      ],
+      "status": "active",
+      "id": "animals_cache_horse_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Repetiti**",
+      "url": "https://developers.repetiti.com",
+      "description": "Repetiti 3d Printer Management Service, access and control 3d Printers easily.",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "animals",
+        "shopping"
+      ],
+      "status": "active",
+      "id": "animals_repetiti",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Animal Crossing: New Horizons",
+      "url": "http://acnhapi.com/",
+      "description": "API for critters, fossils, art, music, furniture and villagers",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "animals",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "animals_animal_crossing_new_horizons",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Zoom",
+      "url": "https://dev.publicapis.dev/resource/zoom/6dae1691-7acf-43ca-87cb-eaa953d565c1",
+      "description": "Video communication, web conferencing, chat, and webinars",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "dev.publicapis.dev",
+      "tags": [
+        "animals",
+        "video"
+      ],
+      "status": "active",
+      "id": "animals_zoom",
+      "https_inferred": true,
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 70,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Disqus",
+      "url": "https://disqus.com/api/docs/auth/",
+      "description": "Communicate with Disqus data",
+      "category": "animals",
+      "auth": "`OAuth`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "animals",
+        "social"
+      ],
+      "status": "active",
+      "id": "animals_disqus",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Zoom",
+      "url": "https://developers.zoom.us/docs/api",
+      "description": "Video communication, web conferencing, chat, and webinars",
+      "category": "animals",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "animals",
+        "social"
+      ],
+      "status": "active",
+      "id": "animals_zoom_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Icon Horse",
+      "url": "https://icon.horse",
+      "description": "Favicons for any website, with fallbacks",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "animals",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "animals_icon_horse",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Icon Horse",
+      "url": "https://icon.horse/usage",
+      "description": "Favicons for any website, with fallbacks",
+      "category": "animals",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "animals",
+        "art-design"
+      ],
+      "status": "active",
+      "id": "animals_icon_horse_2",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "configcat.com",
+      "url": "https://api.apis.guru/v2/specs/configcat.com/v1/openapi.json",
+      "description": "configcat.com - API service at api.apis.guru",
+      "category": "animals",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_configcat_com",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "cycat.org",
+      "url": "https://api.apis.guru/v2/specs/cycat.org/0.9/swagger.json",
+      "description": "CyCAT - The Cybersecurity Resource Catalogue public API services.",
+      "category": "animals",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_cycat_org",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "fisheye.local",
+      "url": "https://api.apis.guru/v2/specs/fisheye.local/1.0.0/swagger.json",
+      "description": "fisheye.local - API service at api.apis.guru",
+      "category": "animals",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_fisheye_local",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "fraudlabspro.com:sms-verification",
+      "url": "https://api.apis.guru/v2/specs/fraudlabspro.com/sms-verification/1.0/openapi.json",
+      "description": "fraudlabspro.com:sms-verification - API service at api.apis.guru",
+      "category": "animals",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_fraudlabspro_com_sms_verification",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "hetras-certification.net:hotel",
+      "url": "https://api.apis.guru/v2/specs/hetras-certification.net/hotel/v0/swagger.json",
+      "description": "hetras-certification.net:hotel - API service at api.apis.guru",
+      "category": "animals",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_hetras_certification_net_hotel",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "link.fish",
+      "url": "https://api.apis.guru/v2/specs/link.fish/2018-07-05/swagger.json",
+      "description": "API to easily extract data from websites. # Base URL All URLs referenced in the documentation have the following base: ``` https://api.link.fish ``` The REST API is only served over HTTPS. To",
+      "category": "animals",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_link_fish",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "ote-godaddy.com:certificates",
+      "url": "https://api.apis.guru/v2/specs/ote-godaddy.com/certificates/1.0.0/openapi.json",
+      "description": "ote-godaddy.com:certificates - API service at api.apis.guru",
+      "category": "animals",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_ote_godaddy_com_certificates",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "AdoptAPet",
+      "url": "https://www.adoptapet.com/public/apis/pet_list.html",
+      "description": "Resource to help get pets adopted",
+      "category": "animals",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_adoptapet",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Axolotl",
+      "url": "https://theaxolotlapi.netlify.app/",
+      "description": "Collection of axolotl pictures and facts",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_axolotl",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Cat Facts",
+      "url": "https://alexwohlbruck.github.io/cat-facts/",
+      "description": "Daily cat facts",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "animals",
+        "other"
+      ],
+      "status": "active",
+      "id": "animals_cat_facts",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "HTTP Cat",
+      "url": "https://http.cat/",
+      "description": "Cat for every HTTP Status",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_http_cat",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Movebank",
+      "url": "https://github.com/movebank/movebank-api-doc",
+      "description": "Movement and Migration data of animals",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "animals",
+        "other"
+      ],
+      "status": "active",
+      "id": "animals_movebank",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Petfinder",
+      "url": "https://www.petfinder.com/developers/",
+      "description": "Petfinder is dedicated to helping pets find homes, another resource to get pets adopted",
+      "category": "animals",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "animals",
+        "other"
+      ],
+      "status": "active",
+      "id": "animals_petfinder",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis",
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "RescueGroups",
+      "url": "https://userguide.rescuegroups.org/display/APIDG/API+Developers+Guide+Home",
+      "description": "Adoption",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "animals",
+        "other"
+      ],
+      "status": "active",
+      "id": "animals_rescuegroups",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Shibe.Online",
+      "url": "http://shibe.online/",
+      "description": "Random pictures of Shiba Inu, cats or birds",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_shibe_online",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "The Dog",
+      "url": "https://thedogapi.com/",
+      "description": "A public service all about Dogs, free to use when making your fancy new App, Website or Service",
+      "category": "animals",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_the_dog",
+      "sources": [
+        "public-apis",
+        "keploy/public-apis-collection",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "xeno-canto",
+      "url": "https://xeno-canto.org/explore/api",
+      "description": "Bird recordings",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_xeno_canto",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Zoo Animals",
+      "url": "https://zoo-animal-api.herokuapp.com/",
+      "description": "Facts and pictures of zoo animals",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_zoo_animals",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Dog API",
+      "url": "https://dog.ceo/dog-api/",
+      "description": "<details><summary>Collection of dog images by breed</summary>Get random dog images, images by breed, and breed information for pet applications or fun projects.</details>",
+      "category": "animals",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_dog_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Cat API",
+      "url": "https://thecatapi.com/",
+      "description": "<details><summary>Cat images, facts, and breed information</summary>Access thousands of cat images, breed data, and fun cat facts for pet-related applications.</details>",
+      "category": "animals",
+      "auth": "Optional",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_cat_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Shibe Online API",
+      "url": "http://shibe.online/",
+      "description": "<details><summary>Random pictures of shibes, cats, and birds</summary>Great for pet-themed apps and generating cute animal images randomly.</details>",
+      "category": "animals",
+      "auth": "None",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_shibe_online_api",
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B",
+      "https_inferred": true
+    },
+    {
+      "name": "Dog API",
+      "url": "https://dogapi.dog",
+      "description": "Fun facts on dog breeds and groups",
+      "category": "animals",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "animals",
+        "other"
+      ],
+      "status": "active",
+      "id": "animals_dog_api_2",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "HTTPCat",
+      "url": "https://http.cat/",
+      "description": "Cat for every HTTP Status",
+      "category": "animals",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "animals",
+        "other"
+      ],
+      "status": "active",
+      "id": "animals_httpcat",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Open Dog Registry",
+      "url": "https://registry.dog/",
+      "description": "Adoption",
+      "category": "animals",
+      "auth": "`OAuth`",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "animals",
+        "other"
+      ],
+      "status": "active",
+      "id": "animals_open_dog_registry",
+      "sources": [
+        "public-api-lists/public-api-lists",
+        "github.com/public-api-lists/public-api-lists"
+      ],
+      "quality": {
+        "score": 80,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 80,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Dogs",
+      "url": "https://dogapi.dog/docs/api-v2",
+      "description": "Random facts and breed information about dogs",
+      "category": "animals",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_dogs",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "owo",
+      "url": "https://owo.vc/api",
+      "description": "A simple link obfuscator/shortener",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "animals",
+        "url-shorteners"
+      ],
+      "status": "active",
+      "id": "animals_owo",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "WhatPulse",
+      "url": "https://developer.whatpulse.org/#web-api",
+      "description": "Small application that measures your keyboard/mouse usage",
+      "category": "animals",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "animals",
+        "tracking"
+      ],
+      "status": "active",
+      "id": "animals_whatpulse",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "shared-row",
+      "url": "https://github.com/d-wasserman/shared-row",
+      "description": "A specification for right-of-way (ROW) for a SharedStreets Reference.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": "OAuth",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "animals_shared_row"
+    },
+    {
+      "name": "CyCAT.org",
+      "url": "https://api.cycat.org/",
+      "description": "`none`",
+      "source": "jaegeral/security-apis",
+      "status": "active",
+      "auth": "Yes",
+      "https": "[Link!](https://api.cycat.org/)",
+      "cors": "Free - OpenAPI",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "quality_score": 86,
+      "quality_grade": "A",
+      "quality": {
+        "score": 86,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "animals_cycat_org_2"
+    },
+    {
+      "name": "ByPassCors",
+      "url": "https://bypasscors.porsilapongo.cl/",
+      "description": "Crea una solicitud http la cual incluye los encabezados CORS en la respuesta con el fin de bypasear y/o saltar los bloqueos de extraccion de datos.~ [DEPRECATED]",
+      "source": "juanbrujo/listado-apis-publicas-en-chile",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "animals_bypasscors"
+    },
+    {
+      "name": "OpenCat",
+      "url": "https://opencat.app/",
+      "description": "OpenCat - API service at opencat.app",
+      "source": "reorx/awesome-chatgpt-api",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "quality_score": 60,
+      "quality_grade": "C",
+      "quality": {
+        "score": 60,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "animals_opencat"
+    },
+    {
+      "name": "HTTP Cat",
+      "url": "https://http.cat/",
+      "description": "Cat for every HTTP Status",
+      "source": "Correia-jpv/fucking-public-apis",
+      "status": "active",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "quality_score": 76,
+      "quality_grade": "B",
+      "quality": {
+        "score": 76,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "animals_http_cat_2"
+    },
+    {
+      "name": "Prompeteer.ai",
+      "url": "https://prompeteer.ai",
+      "description": "Link",
+      "source": "foss42/awesome-generative-ai-apis",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "quality_score": 71,
+      "quality_grade": "B",
+      "quality": {
+        "score": 71,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "animals_prompeteer_ai"
+    },
+    {
+      "name": "RescueGroups",
+      "url": "https://publicapis.io/rescuegroups-api",
+      "description": "Adoption.",
+      "source": "publicapis.io",
+      "status": "active",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 62,
+      "quality_grade": "C",
+      "quality": {
+        "score": 62,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "animals_rescuegroups_2"
+    },
+    {
+      "name": "Cat Facts",
+      "url": "https://tools-collection.net/apis-list/cat-facts",
+      "description": "Daily cat facts! 🐱",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 69,
+      "quality_grade": "C",
+      "quality": {
+        "score": 69,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "animals_cat_facts_2"
+    },
+    {
+      "name": "Dogs",
+      "url": "https://tools-collection.net/apis-list/dogs",
+      "description": "Over 20,000 images of dogs programmaticaly accessible by over 120 breeds",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "animals_dogs_2"
+    },
+    {
+      "name": "Petfinder",
+      "url": "https://tools-collection.net/apis-list/petfinder",
+      "description": "The Petfinder API (Application Programming Interface) allows you to access the Petfinder database of hundreds of thousands of pets ready for adoption and over ten thousand animal welfare organizations",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "animals_petfinder_2"
+    },
+    {
+      "name": "RescueGroups",
+      "url": "https://tools-collection.net/apis-list/rescuegroups",
+      "description": "org APIs Not all adoptable pet data APIs are made equal",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 78,
+      "quality_grade": "B",
+      "quality": {
+        "score": 78,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "animals_rescuegroups_3"
+    },
+    {
+      "name": "Shibe.Online",
+      "url": "https://tools-collection.net/apis-list/shibe-online",
+      "description": "In this day and age, everyone and their dog has an API",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 78,
+      "quality_grade": "B",
+      "quality": {
+        "score": 78,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "animals_shibe_online_2"
+    },
+    {
+      "name": "Help",
+      "url": "https://theaxolotlapi.netlify.app",
+      "description": "Help pets get adopted",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 65,
+      "quality_grade": "C",
+      "quality": {
+        "score": 65,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "animals_help"
+    },
+    {
+      "name": "Axolotl",
+      "url": "https://www.visualcrossing.com/weather-api",
+      "description": "Axolotl pictures and facts",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 66,
+      "quality_grade": "C",
+      "quality": {
+        "score": 66,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "animals_axolotl_2"
+    },
+    {
+      "name": "Zoo",
+      "url": "https://zoo-animal-api.herokuapp.com",
+      "description": "Zoo animal facts and pictures",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "animals",
+      "tags": [
+        "animals"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 67,
+      "quality_grade": "C",
+      "quality": {
+        "score": 67,
+        "grade": "C",
+        "max_score": 100
+      },
+      "id": "animals_zoo"
+    },
+    {
+      "name": "Hive Moderation",
+      "url": "https://docs.thehive.ai/",
+      "description": "Visual and text content moderation with custom categories",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_hive_moderation",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "RescueGroups.org",
+      "url": "https://rescuegroups.org/services/adoptable-pet-data-api/",
+      "description": "Adoptable pet search by zip, distance, breed, age",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_rescuegroups_org",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ntfy",
+      "url": "https://ntfy.sh/",
+      "description": "Open-source pub-sub notifications — zero auth for public topics",
+      "category": "animals",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_ntfy",
+      "quality": {
+        "score": 79,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 79,
+      "quality_grade": "B"
+    },
+    {
+      "name": "iNaturalist API",
+      "url": "https://api.inaturalist.org/v1/docs/",
+      "description": "Wildlife and species observations and identification",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_inaturalist_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "FishWatch API",
+      "url": "https://www.fishwatch.gov/api-tos",
+      "description": "NOAA sustainable seafood species data",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_fishwatch_api",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Pl@ntNet API",
+      "url": "https://my.plantnet.org/",
+      "description": "AI plant identification from photos with 35K+ species",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_pl_ntnet_api",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "US Fish & Wildlife API",
+      "url": "https://ecos.fws.gov/ServCatServices/servcat/v4/documentation/servcat-api.html",
+      "description": "Conservation and wildlife management records",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_us_fish_wildlife_api",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "TrailAPI",
+      "url": "https://rapidapi.com/trailapi/api/trailapi",
+      "description": "Outdoor recreation locations and fishing spots",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_trailapi",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Aquarium API",
+      "url": "https://aquariumapi.com/wp/",
+      "description": "Catalog of aquarium data for 1,000+ freshwater species with care requirements",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_aquarium_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "SeaLifeBase API",
+      "url": "https://fishbaseapi.docs.apiary.io/",
+      "description": "Data on nearly 200,000 non-finfish aquatic species paralleling FishBase",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_sealifebase_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Perenual Plant ID API",
+      "url": "https://perenual.com/docs/identify/api",
+      "description": "Image-based plant identification for 40,000+ species with disease detection",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_perenual_plant_id_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Fishial.AI API",
+      "url": "https://docs.fishial.ai/api",
+      "description": "AI fish species identification for 426+ species from photos",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_fishial_ai_api",
+      "quality": {
+        "score": 67,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 67,
+      "quality_grade": "C"
+    },
+    {
+      "name": "GBIF Occurrence API",
+      "url": "https://techdocs.gbif.org/en/openapi/v1/occurrence",
+      "description": "Track commercial fish species distribution and migration",
+      "category": "animals",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_gbif_occurrence_api",
+      "quality": {
+        "score": 79,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 79,
+      "quality_grade": "B"
+    },
+    {
+      "name": "TheCatAPI",
+      "url": "https://docs.thecatapi.com/api-reference",
+      "description": "60k+ cat images with breed info, ML analysis, and favorites",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_thecatapi",
+      "quality": {
+        "score": 72,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 72,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PetRescue API",
+      "url": "https://www.petrescue.com.au/api/docs",
+      "description": "Australian pet rescue REST API for adoptable pet listings and shelters",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_petrescue_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Xeno-canto API",
+      "url": "https://xeno-canto.org/",
+      "description": "REST API for wildlife sound recordings including exotic bird and animal calls",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_xeno_canto_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "APES National Exotics Database",
+      "url": "https://ned.apes.org.uk/",
+      "description": "UK database for registration, welfare, and management of exotic pet species",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_apes_national_exotics_database",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Merlin Bird ID",
+      "url": "https://merlin.allaboutbirds.org/",
+      "description": "Cornell Lab bird identification platform powered by eBird with raptor identification tools",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_merlin_bird_id",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Avibase - Bird Checklists",
+      "url": "https://avibase.bsc-eoc.org/",
+      "description": "Taxonomic database for world birds with checklists including all raptor species",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_avibase_bird_checklists",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "rfishbase (R Interface)",
+      "url": "https://docs.ropensci.org/rfishbase/",
+      "description": "Programmatic R interface to FishBase data with 30,000+ species profiles",
+      "category": "animals",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_rfishbase_r_interface",
+      "quality": {
+        "score": 89,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 89,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Reef Life Survey API",
+      "url": "https://reeflifesurvey.com/",
+      "description": "Underwater visual census data for marine and reef fish species worldwide",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_reef_life_survey_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "NOAA Fisheries NEMIS API",
+      "url": "https://apps-nefsc.fisheries.noaa.gov/NEMIS/",
+      "description": "Northeast fisheries species data with OpenAPI v3 specification",
+      "category": "animals",
+      "auth": "none",
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_noaa_fisheries_nemis_api",
+      "quality": {
+        "score": 84,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 14
+        }
+      },
+      "quality_score": 84,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Aquadiction Fish Database",
+      "url": "https://aquadiction.world/",
+      "description": "Aquarium fish marketplace and database with 1,100+ species profiles",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_aquadiction_fish_database",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "NOAA Recreational Fishing Data",
+      "url": "https://www.fisheries.noaa.gov/data-tools/recreational-fisheries-statistics-queries",
+      "description": "Marine recreational catch, effort, and participation statistics via MRIP",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_noaa_recreational_fishing_data",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CITES Illegal Trade Database",
+      "url": "https://citesdata.un.org/",
+      "description": "Database tracking illegal wildlife trade seizures and confiscations by country",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_cites_illegal_trade_database",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PlantNet Identification API",
+      "url": "https://my.plantnet.org/",
+      "description": "AI plant identification API covering 77,748 species with image-based recognition",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_plantnet_identification_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Plant.id by Kindwise",
+      "url": "https://web.plant.id/plant-identification-api/",
+      "description": "AI plant identification from images with 93% accuracy across 35,000+ species and disease detection",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_plant_id_by_kindwise",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "PlantNet API",
+      "url": "https://my.plantnet.org/",
+      "description": "AI-powered plant identification covering 77,748 species in 60 languages with confidence scoring",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_plantnet_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "iNaturalist API",
+      "url": "https://www.inaturalist.org/pages/api+reference",
+      "description": "Community-driven species observation data with plant identification and geographic distribution records",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_inaturalist_api_2",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "CITES Checklist",
+      "url": "https://checklist.cites.org/",
+      "description": "Official CITES checklist of species regulated under international wildlife trade agreements",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_cites_checklist",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    },
+    {
+      "name": "ECOS FWS Data Services",
+      "url": "https://ecos.fws.gov/ecp/services",
+      "description": "U.S. Fish & Wildlife Service REST API for endangered species data, critical habitat, and ESA listings",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_ecos_fws_data_services",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 77,
+      "quality_grade": "B"
+    },
+    {
+      "name": "RescueGroups API",
+      "url": "https://rescuegroups.org/services/adoptable-pet-data-api/",
+      "description": "Live adoptable pet data with radius searches, breed filters, and shelter contact info since 2006",
+      "category": "animals",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "joshephan/awesome-agent-apis",
+      "tags": [
+        "animals"
+      ],
+      "status": "active",
+      "id": "animals_rescuegroups_api",
+      "quality": {
+        "score": 82,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 7
+        }
+      },
+      "quality_score": 82,
+      "quality_grade": "B"
+    }
+  ]
+}

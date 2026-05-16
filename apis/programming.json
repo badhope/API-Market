@@ -1,0 +1,923 @@
+{
+  "id": "programming",
+  "name": "Programming",
+  "display_name": "Programming",
+  "api_count": 34,
+  "apis": [
+    {
+      "name": "azure.com:apimanagement-apimpolicysnippets",
+      "url": "https://api.apis.guru/v2/specs/azure.com/apimanagement-apimpolicysnippets/2019-01-01/swagger.json",
+      "description": "Web API for TL mobile and web app",
+      "category": "programming",
+      "auth": "apiKey",
+      "https": true,
+      "cors": null,
+      "source": "apis.guru",
+      "tags": [
+        "programming",
+        "development"
+      ],
+      "status": "active",
+      "id": "programming_azure_com_apimanagement_apimpolicysnippets",
+      "quality": {
+        "score": 68,
+        "max_score": 100,
+        "grade": "C",
+        "details": {
+          "description_quality": "missing",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 68,
+      "quality_grade": "C"
+    },
+    {
+      "name": "Official Joke API",
+      "url": "https://official-joke-api.appspot.com/",
+      "description": "Short general and programming jokes.",
+      "category": "programming",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "programming",
+        "development",
+        "entertainment"
+      ],
+      "status": "active",
+      "id": "programming_official_joke_api",
+      "sources": [
+        "keploy/public-apis-collection",
+        "marcelscruz/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Codex",
+      "url": "https://github.com/Jaagrav/CodeX",
+      "description": "Online Compiler for Various Languages",
+      "category": "programming",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "programming",
+        "development"
+      ],
+      "status": "active",
+      "id": "programming_codex",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Lua Decompiler",
+      "url": "https://lua-decompiler.ferib.dev/",
+      "description": "Online Lua 5.1 Decompiler",
+      "category": "programming",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "programming",
+        "development"
+      ],
+      "status": "active",
+      "id": "programming_lua_decompiler",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Open Page Rank",
+      "url": "https://www.domcop.com/openpagerank/",
+      "description": "API for calculating and comparing metrics of different websites using Page Rank algorithm",
+      "category": "programming",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "programming",
+        "development"
+      ],
+      "status": "active",
+      "id": "programming_open_page_rank",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Wandbox",
+      "url": "https://github.com/melpon/wandbox/blob/master/kennel2/API.rst",
+      "description": "Code compiler supporting 35+ languages mentioned at wandbox.org",
+      "category": "programming",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "programming",
+        "development"
+      ],
+      "status": "active",
+      "id": "programming_wandbox",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Wandbox",
+      "url": "https://github.com/melpon/wandbox/blob/master/kennel/API.md",
+      "description": "Code compiler supporting 35+ languages mentioned at wandbox.org",
+      "category": "programming",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "programming",
+        "development"
+      ],
+      "status": "active",
+      "id": "programming_wandbox_2",
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Congress.gov API**",
+      "url": "https://api.congress.gov",
+      "description": "The beta Congress.gov Application Programming Interface (API) provides a method for Congress and the public to view, retrieve, and re-use machine-readable data from collections available on Congress.g",
+      "category": "programming",
+      "auth": null,
+      "https": true,
+      "cors": true,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "programming",
+        "government"
+      ],
+      "status": "active",
+      "id": "programming_congress_gov_api",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A",
+      "cors_inferred": true
+    },
+    {
+      "name": "WolframAlpha",
+      "url": "https://products.wolframalpha.com/api/",
+      "description": "Provides specific answers to questions using data and algorithms",
+      "category": "programming",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "programming",
+        "machine-learning"
+      ],
+      "status": "active",
+      "id": "programming_wolframalpha",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Geek-Jokes",
+      "url": "https://github.com/sameerkumar18/geek-joke-api",
+      "description": "Fetch a random geeky/programming related joke for use in all sorts of applications",
+      "category": "programming",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "programming",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "programming_geek_jokes",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "JokeAPI",
+      "url": "https://sv443.net/jokeapi/v2/",
+      "description": "Programming, Miscellaneous and Dark Jokes",
+      "category": "programming",
+      "auth": "No",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "programming",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "programming_jokeapi",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Warface (non-official)",
+      "url": "https://api.wfstats.cf",
+      "description": "Official API proxy with better data structure and more features",
+      "category": "programming",
+      "auth": "No",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "programming",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "programming_warface_non_official",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Jokes",
+      "url": "https://github.com/15Dkatz/official_joke_api",
+      "description": "Programming and general jokes",
+      "category": "programming",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "programming",
+        "games-comics"
+      ],
+      "status": "active",
+      "id": "programming_jokes",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bybit",
+      "url": "https://bybit-exchange.github.io/docs/linear/#t-introduction",
+      "description": "Cryptocurrency data feed and algorithmic trading",
+      "category": "programming",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "programming",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "programming_bybit",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "FTX",
+      "url": "https://docs.ftx.com/",
+      "description": "Complete REST, websocket, and FTX APIs to suit your algorithmic trading needs",
+      "category": "programming",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": true,
+      "source": "public-apis",
+      "tags": [
+        "programming",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "programming_ftx",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Bybit",
+      "url": "https://bybit-exchange.github.io/docs",
+      "description": "Cryptocurrency data feed and algorithmic trading",
+      "category": "programming",
+      "auth": "`apiKey`",
+      "https": "Yes",
+      "cors": "Unknown",
+      "source": "marcelscruz/public-apis",
+      "tags": [
+        "programming",
+        "cryptocurrency"
+      ],
+      "status": "active",
+      "id": "programming_bybit_2",
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Smart Image Enhancement API",
+      "url": "https://apilayer.com/marketplace/image_enhancement-api",
+      "description": "Performs image upscaling by adding detail to images through multiple super-resolution algorithms",
+      "category": "programming",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "programming",
+        "documents"
+      ],
+      "status": "active",
+      "id": "programming_smart_image_enhancement_api",
+      "sources": [
+        "public-apis",
+        "public-apis/public-apis"
+      ],
+      "quality": {
+        "score": 95,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 95,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**SVN**",
+      "url": "https://subversion.apache.org/docs/api/1.8/",
+      "description": "Collection of modular libraries written in the C programming language.",
+      "category": "programming",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "programming",
+        "dictionaries"
+      ],
+      "status": "active",
+      "id": "programming_svn",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Programming Quotes",
+      "url": "https://programming-quotesapi.vercel.app/",
+      "description": "An api which generates quotes from programmers",
+      "category": "programming",
+      "auth": "No",
+      "https": "Yes",
+      "cors": "Yes",
+      "source": "public-api-lists/public-api-lists",
+      "tags": [
+        "programming",
+        "personality"
+      ],
+      "status": "active",
+      "id": "programming_programming_quotes",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "**Temboo SDK**",
+      "url": "https://temboo.com/download",
+      "description": "This platform acts as a layer on top of third-party APIs, using code snippets to trigger complex processes that run through their cloud platform.",
+      "category": "programming",
+      "auth": null,
+      "https": true,
+      "cors": null,
+      "source": "n0shake/Public-APIs",
+      "tags": [
+        "programming",
+        "iot"
+      ],
+      "status": "active",
+      "id": "programming_temboo_sdk",
+      "https_inferred": true,
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "grade": "B",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 10
+        }
+      },
+      "quality_score": 75,
+      "quality_grade": "B"
+    },
+    {
+      "name": "Judge0 CE",
+      "url": "https://ce.judge0.com/",
+      "description": "Online code execution system",
+      "category": "programming",
+      "auth": "`apiKey`",
+      "https": true,
+      "cors": false,
+      "source": "public-apis",
+      "tags": [
+        "programming"
+      ],
+      "status": "active",
+      "id": "programming_judge0_ce",
+      "sources": [
+        "public-apis",
+        "toddmotto/public-apis"
+      ],
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "basic",
+          "metadata_completeness": 30
+        }
+      },
+      "quality_score": 85,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://api.stackexchange.com/",
+      "description": "<details><summary>Programming Q&A data from Stack Overflow</summary>Access questions, answers, and programming knowledge from the largest developer community.</details>",
+      "category": "programming",
+      "auth": "None/API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "programming"
+      ],
+      "status": "active",
+      "id": "programming_stack_overflow",
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "Judge0",
+      "url": "https://judge0.com/docs",
+      "description": "<details><summary>Online code execution and compiling API</summary>Execute and evaluate code in multiple programming languages, ideal for building online compilers, coding challenges, and auto-graders",
+      "category": "programming",
+      "auth": "API Key",
+      "https": true,
+      "cors": null,
+      "source": "keploy/public-apis-collection",
+      "tags": [
+        "programming"
+      ],
+      "status": "active",
+      "id": "programming_judge0",
+      "sources": [
+        "keploy/public-apis-collection"
+      ],
+      "https_inferred": true,
+      "quality": {
+        "score": 90,
+        "max_score": 100,
+        "grade": "A",
+        "details": {
+          "description_quality": "good",
+          "metadata_completeness": 20
+        }
+      },
+      "quality_score": 90,
+      "quality_grade": "A"
+    },
+    {
+      "name": "RRRR Rapid Real-time Routing",
+      "url": "https://github.com/bliksemlabs/rrrr",
+      "description": "RRRR (usually pronounced R4) is a C-language implementation of the RAPTOR public transit routing algorithm.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "programming",
+      "tags": [
+        "programming"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "programming_rrrr_rapid_real_time_routing"
+    },
+    {
+      "name": "TIDES",
+      "url": "https://github.com/TIDES-transit/TIDES",
+      "description": "Transit ITS Data Exchange Specification (TIDES) is a proposed effort to create standard data structures, APIs, and data management tools for historical transit ITS data including AVL, APC and AFC Data",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "programming",
+      "tags": [
+        "programming"
+      ],
+      "auth": "OAuth",
+      "quality_score": 95,
+      "quality_grade": "A",
+      "quality": {
+        "score": 95,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "programming_tides"
+    },
+    {
+      "name": "Linked Connections",
+      "url": "http://linkedconnections.org/",
+      "description": "An open-source, scalable intermodal route planning engine, which allows clients to execute the route planning algorithm (as opposed to the server). Uses GTFS data.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "programming",
+      "tags": [
+        "programming"
+      ],
+      "auth": null,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "programming_linked_connections"
+    },
+    {
+      "name": "Transitland",
+      "url": "https://transit.land/",
+      "description": "Community editable list of many transit agency GTFS datasets. Also provides an API to access the data as JSON/GeoJSON and a playground to try out the data.",
+      "source": "MobilityData/awesome-transit",
+      "status": "active",
+      "https": "",
+      "cors": "",
+      "category": "programming",
+      "tags": [
+        "programming"
+      ],
+      "auth": null,
+      "quality_score": 85,
+      "quality_grade": "A",
+      "quality": {
+        "score": 85,
+        "grade": "A",
+        "max_score": 100
+      },
+      "id": "programming_transitland"
+    },
+    {
+      "name": "Temboo SDK",
+      "url": "https://temboo.com/download",
+      "description": "This platform acts as a layer on top of third-party APIs, using code snippets to trigger complex processes that run through their cloud platform.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "programming",
+      "tags": [
+        "programming"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 75,
+      "quality_grade": "B",
+      "quality": {
+        "score": 75,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "programming_temboo_sdk_2"
+    },
+    {
+      "name": "Congress.gov API",
+      "url": "https://api.congress.gov",
+      "description": "The beta Congress.gov Application Programming Interface (API) provides a method for Congress and the public to view, retrieve, and re-use machine-readable data from collections available on Congress.g",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "programming",
+      "tags": [
+        "programming"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "programming_congress_gov_api_2"
+    },
+    {
+      "name": "SVN",
+      "url": "https://subversion.apache.org/docs/api/1.8/",
+      "description": "Collection of modular libraries written in the C programming language.",
+      "source": "github:n0shake/Public-APIs",
+      "status": "active",
+      "category": "programming",
+      "tags": [
+        "programming"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "programming_svn_2"
+    },
+    {
+      "name": "Judge0 API",
+      "url": "https://tools-collection.net/apis-list/judge0-api",
+      "description": "Judge0 is a robust, scalable, and open-source online code execution system that can be used to build a wide range of applications that need online code execution features",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "programming",
+      "tags": [
+        "programming"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "programming_judge0_api"
+    },
+    {
+      "name": "PDFmyURL",
+      "url": "https://tools-collection.net/apis-list/pdfmyurl",
+      "description": "Easily Convert URLs / Webpages or HTML to PDF in any Programming Language or on the Command Line",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "programming",
+      "tags": [
+        "programming"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "programming_pdfmyurl"
+    },
+    {
+      "name": "NHTSA",
+      "url": "https://tools-collection.net/apis-list/nhtsa",
+      "description": "Catalog Vehicle Listing (vPIC) Application Programming Interface (API) provides different ways to gather information on Vehicles and their specifications",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "programming",
+      "tags": [
+        "programming"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "programming_nhtsa"
+    },
+    {
+      "name": "Temboo SDK",
+      "url": "https://tools-collection.net/apis-list/temboo-sdk",
+      "description": "This platform acts as a layer on top of third-party APIs, using code snippets to trigger complex processes that run through their cloud platform",
+      "source": "github_round3_raw.json",
+      "status": "active",
+      "category": "programming",
+      "tags": [
+        "programming"
+      ],
+      "auth": null,
+      "https": true,
+      "quality_score": 80,
+      "quality_grade": "B",
+      "quality": {
+        "score": 80,
+        "grade": "B",
+        "max_score": 100
+      },
+      "id": "programming_temboo_sdk_3"
+    }
+  ]
+}
