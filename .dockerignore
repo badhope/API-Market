@@ -1,49 +1,34 @@
-# ========================================
-# API-Market Docker Ignore
-# ========================================
-
-# Git
-.git
-.gitignore
-
-# Python
-__pycache__
-*.pyc
-*.pyo
-*.pyd
-.Python
+__pycache__/
+*.py[cod]
 *.so
-*.egg
-*.egg-info
-dist
-build
-
-# 虚拟环境
-venv
-.venv
-env
-ENV
-
-# IDE
-.vscode
-.idea
-*.swp
-*.swo
-
-# 测试
-.pytest_cache
+.Python
+venv/
+ENV/
+.venv/
+pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+dist/
+build/
+*.egg-info/
+.git/
+.gitignore
+.env
+.env.local
+*.md
+LICENSE
+docker/
+!docker/nginx.conf
+.vscode/
+.idea/
+.history/
+htmlcov/
 .coverage
-htmlcov
-.tox
-
-# 日志
-*.log
-logs
-
-# 文档（可选）
-docs/*.md
-
-# 临时文件
-tmp
-temp
-*.tmp
+.coverage.*
+backend/tests/
+scripts/tests/
+apis/
+data/
+!data/api_market.db
+!data/.gitkeep

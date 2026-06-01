@@ -1,39 +1,52 @@
-# ========================================
-# API-Market Docker Compose 配置
-# ========================================
-
-version: '3.8'
-
 services:
-  api-market:
-    build: .
-    container_name: api-market
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: api-market:5.0.0
+    container_name: api-market-api
     ports:
       - "8080:8080"
     environment:
-      - PYTHONUNBUFFERED=1
+      - APP_ENV=production
+      - DEBUG=false
+      - DATABASE_URL=sqlite+aiosqlite:///./data/api_market.db
+      - RATE_LIMIT_PER_MINUTE=600
     volumes:
-      # 挂载数据卷（可选，用于持久化）
-      - ./api-database.json:/app/api-database.json:ro
-      - ./search-index.json:/app/search-index.json:ro
+      - api_data:/app/data
     restart: unless-stopped
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8080/api/health"]
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8080/api/health')"]
       interval: 30s
-      timeout: 10s
+      timeout: 5s
       retries: 3
-      start_period: 5s
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: "512M"
+        reservations:
+          cpus: "0.5"
+          memory: "256M"
 
-  # 可选：Nginx 反向代理
   nginx:
-    image: nginx:alpine
+    image: nginx:1.27-alpine
     container_name: api-market-nginx
     ports:
       - "80:80"
     volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./docker/nginx.conf:/etc/nginx/nginx.conf:ro
     depends_on:
-      - api-market
+      api:
+        condition: service_healthy
     restart: unless-stopped
-    profiles:
-      - production
+    deploy:
+      resources:
+        limits:
+          cpus: "0.5"
+          memory: "128M"
+
+volumes:
+  api_data:
+    driver: local

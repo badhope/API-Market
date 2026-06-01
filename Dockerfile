@@ -1,37 +1,38 @@
-# ========================================
-# API-Market Docker 镜像
-# ========================================
+FROM python:3.12-slim AS builder
 
-FROM python:3.11-slim
+RUN pip install --no-cache-dir poetry && \
+    python -m venv /opt/venv
 
-# 标签信息
-LABEL maintainer="API-Market Team"
-LABEL description="全网规模化公开API集合"
-LABEL version="4.0.0"
+ENV PATH="/opt/venv/bin:$PATH"
 
-# 工作目录
+COPY pyproject.toml ./
+RUN pip install --no-cache-dir fastapi uvicorn[standard] pydantic pydantic-settings \
+    sqlalchemy[asyncio] aiosqlite httpx tenacity python-dotenv structlog slowapi python-multipart
+
+FROM python:3.12-slim AS runtime
+
+RUN groupadd -r appuser -g 1000 && \
+    useradd -r -u 1000 -g appuser -m -d /app appuser
+
+COPY --from=builder /opt/venv /opt/venv
+
+ENV PATH="/opt/venv/bin:$PATH"
+ENV PYTHONPATH=/app
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
+
 WORKDIR /app
 
-# 安装系统依赖
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    curl \
-    && rm -rf /var/lib/apt/lists/*
+RUN mkdir -p /app/data && chown -R appuser:appuser /app
 
-# 复制依赖文件
-COPY scripts/requirements.txt ./scripts/
+COPY --chown=appuser:appuser backend/ /app/
+COPY --chown=appuser:appuser data/api_market.db /app/data/api_market.db
 
-# 安装 Python 依赖
-RUN pip install --no-cache-dir -r scripts/requirements.txt
+USER appuser
 
-# 复制项目文件
-COPY . .
-
-# 暴露端口
 EXPOSE 8080
 
-# 健康检查
-HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD curl -f http://localhost:8080/api/health || exit 1
+HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
+    CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:8080/api/health')" || exit 1
 
-# 启动命令
-CMD ["python3", "server.py"]
+CMD ["uvicorn", "api_market.main:app", "--host", "0.0.0.0", "--port", "8080", "--workers", "2"]
