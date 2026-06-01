@@ -1,0 +1,74 @@
+name: Privacy Guard
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  scan-secrets:
+    name: Scan for leaked secrets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Scan working tree for GitHub tokens
+        run: |
+          if grep -rE "ghp_[A-Za-z0-9]{36}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
+            echo "::error::Found GitHub personal access token in working tree"
+            exit 1
+          fi
+          if grep -rE "gho_[A-Za-z0-9]{36}|ghu_[A-Za-z0-9]{36}|ghs_[A-Za-z0-9]{36}|ghr_[A-Za-z0-9]{36}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
+            echo "::error::Found GitHub OAuth/user/secret token in working tree"
+            exit 1
+          fi
+          if grep -rE "github_pat_[A-Za-z0-9_]{82}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
+            echo "::error::Found GitHub fine-grained token in working tree"
+            exit 1
+          fi
+          if grep -rE "xox[baprs]-[0-9A-Za-z-]{10,}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
+            echo "::error::Found Slack token in working tree"
+            exit 1
+          fi
+          if grep -rE "sk-[A-Za-z0-9]{32,}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
+            echo "::error::Found OpenAI-style key in working tree"
+            exit 1
+          fi
+          if grep -rE "AKIA[0-9A-Z]{16}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
+            echo "::error::Found AWS access key in working tree"
+            exit 1
+          fi
+          echo "No secrets detected in working tree."
+
+      - name: Scan git history for secrets
+        run: |
+          set -e
+          if git log --all -p | grep -E "ghp_[A-Za-z0-9]{36}"; then
+            echo "::error::Found GitHub token in git history"
+            exit 1
+          fi
+          echo "No secrets detected in git history."
+
+      - name: Verify .env files are gitignored
+        run: |
+          for f in .env .env.local .env.production .env.development backend/.env frontend/.env.local; do
+            if git ls-files --error-unmatch "$f" 2>/dev/null; then
+              echo "::error::$f is tracked by git but should be ignored"
+              exit 1
+            fi
+          done
+          echo "All sensitive .env files are properly gitignored."
+
+      - name: Verify no large data files in git
+        run: |
+          for pattern in "*.db" "*.sqlite" "*.sqlite3" "api-database.json"; do
+            if git ls-files "$pattern" 2>/dev/null | head -1 | grep -q .; then
+              echo "::error::Large data file matching $pattern is tracked by git"
+              git ls-files "$pattern"
+              exit 1
+            fi
+          done
+          echo "No large data files are tracked."
