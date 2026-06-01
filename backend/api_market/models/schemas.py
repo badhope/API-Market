@@ -28,7 +28,7 @@ class ApiSummary(BaseModel):
     updated_at: datetime | None = None
 
     @staticmethod
-    def from_orm_obj(api: Any, include_tags: bool = False) -> ApiSummary:
+    def from_orm_obj(api: Any, include_tags: bool = True) -> ApiSummary:
         return ApiSummary(
             id=api.id,
             name=api.name,

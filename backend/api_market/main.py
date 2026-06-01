@@ -23,8 +23,9 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     from api_market.database import engine
     from api_market.models.api import Base  # noqa: F401
 
-    async with engine.begin() as conn:
-        await conn.run_sync(Base.metadata.create_all)
+    if settings.debug:
+        async with engine.begin() as conn:
+            await conn.run_sync(Base.metadata.create_all)
     yield
     await engine.dispose()
 

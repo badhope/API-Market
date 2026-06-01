@@ -202,15 +202,19 @@ function SearchContent() {
             {t("searchPromptDesc")}
           </p>
           <div className="flex flex-wrap justify-center gap-2">
-            {["weather", "payment", "machine-learning", "music", "news"].map((tag) => (
-              <Link
-                key={tag}
-                href={`/search?q=${tag}`}
-                className="inline-flex items-center rounded-full border px-3 py-1 text-sm bg-muted hover:bg-accent transition-colors"
-              >
-                {tag}
-              </Link>
-            ))}
+            {t("searchTags").split(",").map((tag) => {
+              const trimmed = tag.trim()
+              return (
+                <Link
+                  key={trimmed}
+                  href={`/search?q=${encodeURIComponent(trimmed)}`}
+                  className="inline-flex items-center rounded-full border px-3 py-1 text-sm bg-muted hover:bg-accent transition-colors"
+                  aria-label={`${t("search")}: ${trimmed}`}
+                >
+                  {trimmed}
+                </Link>
+              )
+            })}
           </div>
         </div>
       )}

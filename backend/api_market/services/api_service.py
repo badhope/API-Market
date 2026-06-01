@@ -170,13 +170,13 @@ class ApiService:
         total = count_result.scalar() or 0
 
         if sort_by and sort_by != "relevance":
-            sort_col_name = "a.name"
-            if sort_by == "quality":
-                sort_col_name = "a.quality_score"
-            elif sort_by == "category":
-                sort_col_name = "a.category_id"
-            elif sort_by == "updated":
-                sort_col_name = "a.updated_at"
+            sort_col_map: dict[str, str] = {
+                "name": "a.name",
+                "quality": "a.quality_score",
+                "category": "a.category_id",
+                "updated": "a.updated_at",
+            }
+            sort_col_name = sort_col_map.get(sort_by, "a.name")
 
             sort_dir = "DESC" if order == "desc" else "ASC"
 

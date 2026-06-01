@@ -56,6 +56,11 @@ class CORSMiddlewareFixed(BaseHTTPMiddleware):
         origins = self._settings.cors_origins
         if "*" in origins:
             response.headers["Access-Control-Allow-Origin"] = "*"
+        else:
+            response.headers["Access-Control-Allow-Origin"] = ", ".join(origins)
+            response.headers["Vary"] = "Origin"
         response.headers["Access-Control-Allow-Methods"] = "GET, OPTIONS"
         response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
         response.headers["Access-Control-Max-Age"] = "86400"
+        if "*" not in origins:
+            response.headers["Access-Control-Allow-Credentials"] = "true"

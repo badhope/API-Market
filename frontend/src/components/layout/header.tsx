@@ -102,7 +102,7 @@ export function Header() {
                 size="icon"
                 onClick={toggleLocale}
                 aria-label={t("language")}
-                title={locale === "en" ? "切换中文" : "Switch to English"}
+                title={locale === "en" ? t("switchToZh") : t("switchToEn")}
               >
                 <Languages className="h-5 w-5" />
               </Button>
