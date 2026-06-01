@@ -27,6 +27,7 @@
 - [Quality Scoring](#-quality-scoring)
 - [Data Sources](#-data-sources)
 - [Development](#-development)
+- [Security & Privacy](#-security--privacy)
 - [License](#-license)
 - [中文文档](#-中文文档)
 - [日本語](#-日本語)
@@ -323,6 +324,27 @@ API-Market/
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 All API data is collected from public sources. Please check individual API terms of service before use.
+
+---
+
+## 🔐 Security & Privacy
+
+API-Market is designed to keep your secrets safe.
+
+- **No secrets in the repository**: API keys, tokens, and passwords are read
+  from environment variables only. See `.env.example` for the template.
+- **CI Privacy Guard**: Every push and pull request runs a privacy scan that
+  rejects any commit containing known secret patterns (GitHub PAT, OAuth,
+  Slack, OpenAI, AWS, Google API keys, and private keys).
+- **Gitignored data files**: The 8.7 MB SQLite database and large JSON dumps
+  are excluded from the repository. See `.gitignore`.
+- **No telemetry**: The hosted site does not collect analytics, cookies, or
+  tracking data.
+- **Vulnerability reporting**: See [SECURITY.md](SECURITY.md) for the
+  private disclosure process.
+
+Run `bash scripts/privacy_check.sh` locally before any commit to catch
+secrets before they reach the remote.
 
 ---
 
