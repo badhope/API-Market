@@ -30,7 +30,6 @@ export function CategoryDetailContent() {
   const page = parseInt(searchParams.get("page") || "1", 10)
   const sort = searchParams.get("sort") || "quality"
   const order = searchParams.get("order") || "desc"
-  const isStatic = apiClient.isStaticMode()
 
   const updateParams = useCallback(
     (updates: Record<string, string>) => {
@@ -78,8 +77,6 @@ export function CategoryDetailContent() {
   }
 
   const { category, items } = data
-  const totalCount = data.total ?? items.length
-  const showStaticNote = isStatic && totalCount > items.length
 
   return (
     <div className="container mx-auto px-4 py-8">
@@ -100,15 +97,6 @@ export function CategoryDetailContent() {
           </p>
         </div>
       </div>
-
-      {showStaticNote && (
-        <div className="mb-6 rounded-lg border border-amber-200 bg-amber-50 dark:bg-amber-900/20 dark:border-amber-800 p-4 text-sm">
-          <p className="text-amber-800 dark:text-amber-200">
-            <strong>{t("staticMode")}:</strong>{" "}
-            {t("showingTopN", { count: items.length, total: totalCount })}
-          </p>
-        </div>
-      )}
 
       <div className="flex items-center gap-3 mb-6">
         <Select value={sort} onValueChange={(v) => { if (v) updateParams({ sort: v, page: "1" }) }}>

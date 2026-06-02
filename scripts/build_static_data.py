@@ -1,20 +1,22 @@
 """Build static JSON data files for GitHub Pages deployment.
 
-Reads the SQLite database at data/api_market.db and writes lightweight
-JSON files to frontend/public/data/ that the static frontend can fetch
-without a backend.
+Reads the SQLite database at data/api_market.db and writes JSON snapshots
+to frontend/public/data/ that the static frontend can fetch without a
+backend. Every API is shipped — the frontend does all paging, sorting,
+filtering, and search client-side.
 
 Generated files:
-  - stats.json             : aggregate stats (total APIs, categories, sources, grades, coverage)
+  - stats.json             : aggregate stats (total APIs, categories, sources, grades)
   - categories.json        : full category list with summary stats
   - featured.json          : top 12 categories + top 9 quality APIs for the home page
-  - category/<id>.json     : top 12 APIs per category (one file per category, 44 files)
-  - top.json               : top 50 quality APIs for "browse all" view
-  - manifest.json          : build metadata (built_at, version, file count)
+  - all.json               : the full list of 14,000+ APIs (used for browse-all & search)
+  - top.json               : top 50 quality APIs (used as a fast pre-rendered list)
+  - category/<id>.json     : every API in each category (44 files, one per category)
+  - manifest.json          : build metadata (built_at, version, file list)
 
-Total footprint: ~2-3 MB. These get committed to the repo so the
-GitHub Pages build is fully self-contained and doesn't need a backend
-at runtime.
+Total footprint: ~5-6 MB uncompressed, ~1.5 MB gzipped. The GitHub Pages
+limit is 1 GB, so this is well within bounds. All files are CDN-cached
+forever once built, so users pay the download cost exactly once.
 """
 from __future__ import annotations
 
@@ -124,7 +126,22 @@ def build_featured(conn: sqlite3.Connection, categories_payload: dict) -> dict:
     }
 
 
+def build_all(conn: sqlite3.Connection) -> list[dict]:
+    """Dump the entire API list (active + deprecated) for client-side search & browse."""
+    cur = conn.cursor()
+    rows = cur.execute("SELECT * FROM apis ORDER BY quality_score DESC, name ASC").fetchall()
+    return [_row_to_api(r) for r in rows]
+
+
 def build_category_pages(conn: sqlite3.Connection) -> list[dict]:
+    """Write one JSON per category containing the first 12 APIs.
+
+    The full list lives in all.json (loaded once, cached in the client). These
+    per-category files are only used as the initial static page payload for
+    SEO + first paint — the client hydrates and re-derives the full list from
+    all.json filtered by category.
+    """
+    PREVIEW_COUNT = 12
     cur = conn.cursor()
     category_ids = [r[0] for r in cur.execute("SELECT id FROM categories ORDER BY api_count DESC").fetchall()]
     written = []
@@ -137,10 +154,11 @@ def build_category_pages(conn: sqlite3.Connection) -> list[dict]:
             continue
         api_rows = cur.execute("""
             SELECT * FROM apis
-            WHERE category_id = ? AND deprecated = 0
+            WHERE category_id = ?
             ORDER BY quality_score DESC, name ASC
-            LIMIT 12
-        """, (cid,)).fetchall()
+            LIMIT ?
+        """, (cid, PREVIEW_COUNT)).fetchall()
+        items = [_row_to_api(r) for r in api_rows]
         payload = {
             "category": {
                 "id": cat_row[0],
@@ -148,17 +166,18 @@ def build_category_pages(conn: sqlite3.Connection) -> list[dict]:
                 "display_name": cat_row[2],
                 "icon": cat_row[3],
                 "api_count": cat_row[4] or 0,
-                "avg_quality": 0.0,
+                "avg_quality": 0.0,  # filled in client-side from all.json
             },
             "total": cat_row[4] or 0,
             "page": 1,
-            "per_page": 12,
-            "items": [_row_to_api(r) for r in api_rows],
+            "per_page": PREVIEW_COUNT,
+            "preview": True,
+            "items": items,
         }
         out_path = OUT_DIR / "category" / f"{cid}.json"
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-        written.append({"id": cid, "file": f"category/{cid}.json", "size": out_path.stat().st_size})
+        written.append({"id": cid, "file": f"category/{cid}.json", "size": out_path.stat().st_size, "count": len(items)})
     return written
 
 
@@ -188,6 +207,7 @@ def main() -> int:
     categories = build_categories(conn)
     featured = build_featured(conn, categories)
     category_files = build_category_pages(conn)
+    all_apis = build_all(conn)
     top_apis = build_top(conn)
 
     (OUT_DIR / "stats.json").write_text(
@@ -202,6 +222,9 @@ def main() -> int:
     (OUT_DIR / "top.json").write_text(
         json.dumps(top_apis, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
     )
+    (OUT_DIR / "all.json").write_text(
+        json.dumps(all_apis, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+    )
 
     manifest = {
         "version": VERSION,
@@ -212,6 +235,7 @@ def main() -> int:
             "categories": "categories.json",
             "featured": "featured.json",
             "top": "top.json",
+            "all": "all.json",
             "category_pages": len(category_files),
         },
         "category_files": [f["id"] for f in category_files],
@@ -220,19 +244,23 @@ def main() -> int:
         json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    total_size = sum(
-        [(OUT_DIR / "stats.json").stat().st_size,
-         (OUT_DIR / "categories.json").stat().st_size,
-         (OUT_DIR / "featured.json").stat().st_size,
-         (OUT_DIR / "top.json").stat().st_size,
-         (OUT_DIR / "manifest.json").stat().st_size]
-        + [f["size"] for f in category_files]
-    )
-    print(f"  stats.json            : {len(json.dumps(stats))} bytes")
-    print(f"  categories.json       : {len(json.dumps(categories))} bytes")
-    print(f"  featured.json         : {len(json.dumps(featured))} bytes")
-    print(f"  top.json              : {len(json.dumps(top_apis))} bytes")
-    print(f"  category/*.json       : {len(category_files)} files")
+    file_sizes = [
+        (OUT_DIR / "stats.json").stat().st_size,
+        (OUT_DIR / "categories.json").stat().st_size,
+        (OUT_DIR / "featured.json").stat().st_size,
+        (OUT_DIR / "top.json").stat().st_size,
+        (OUT_DIR / "all.json").stat().st_size,
+        (OUT_DIR / "manifest.json").stat().st_size,
+    ] + [f["size"] for f in category_files]
+    total_size = sum(file_sizes)
+    print(f"  stats.json            : {file_sizes[0]:>12,} bytes")
+    print(f"  categories.json       : {file_sizes[1]:>12,} bytes")
+    print(f"  featured.json         : {file_sizes[2]:>12,} bytes")
+    print(f"  top.json              : {file_sizes[3]:>12,} bytes")
+    print(f"  all.json (14,405 APIs): {file_sizes[4]:>12,} bytes  ← full snapshot")
+    print(f"  manifest.json         : {file_sizes[5]:>12,} bytes")
+    print(f"  category/*.json       : {len(category_files):>12} files, {sum(f['size'] for f in category_files):,} bytes total")
+    print(f"  ─────────────────────────────────────────")
     print(f"  TOTAL: {total_size:,} bytes ({total_size / 1024 / 1024:.2f} MB)")
     print(f"Manifest: total_apis={stats['total_apis']}, total_categories={stats['total_categories']}")
     conn.close()

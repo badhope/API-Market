@@ -1,50 +1,123 @@
 import { DEFAULT_PER_PAGE } from "./constants"
 import type {
   ApiListResponse,
+  ApiSummary,
   CategoryDetailResponse,
   CategoryListResponse,
   HealthResponse,
   SearchResponse,
+  SearchResultItem,
   StatsResponse,
 } from "@/types"
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || ""
 const HAS_REMOTE_API = API_BASE_URL.length > 0
 
+// ---------------------------------------------------------------------------
+// Static (GitHub-Pages-only) helpers
+// ---------------------------------------------------------------------------
+// In static mode the frontend has no backend, so it loads the full 14,405-API
+// snapshot (all.json, ~6.5 MB / ~1.5 MB gzipped) exactly once and then does
+// all paging, sorting, filtering, and full-text search in the browser.
+
+let allApisCache: ApiSummary[] | null = null
+let allApisInflight: Promise<ApiSummary[]> | null = null
+
+async function loadAllApis(): Promise<ApiSummary[]> {
+  if (allApisCache) return allApisCache
+  if (allApisInflight) return allApisInflight
+  allApisInflight = fetch("/data/all.json", { headers: { "Content-Type": "application/json" } })
+    .then((res) => {
+      if (!res.ok) throw new Error(`Static data error: ${res.status} ${res.statusText}`)
+      return res.json() as Promise<ApiSummary[]>
+    })
+    .then((data) => {
+      allApisCache = data
+      return data
+    })
+    .finally(() => {
+      allApisInflight = null
+    })
+  return allApisInflight
+}
+
+function compareValues(a: unknown, b: unknown): number {
+  if (a === null || a === undefined) return 1
+  if (b === null || b === undefined) return -1
+  if (typeof a === "number" && typeof b === "number") return a - b
+  return String(a).localeCompare(String(b))
+}
+
+function sortInPlace<T>(items: T[], sort: string, order: "asc" | "desc"): void {
+  const dir = order === "asc" ? 1 : -1
+  items.sort((a, b) => {
+    const av = (a as Record<string, unknown>)[sort]
+    const bv = (b as Record<string, unknown>)[sort]
+    return dir * compareValues(av, bv)
+  })
+}
+
+function paginate<T>(items: T[], page: number, perPage: number) {
+  const total = items.length
+  const total_pages = Math.max(1, Math.ceil(total / perPage))
+  const safePage = Math.min(Math.max(1, page), total_pages)
+  const start = (safePage - 1) * perPage
+  return { total, page: safePage, per_page: perPage, total_pages, items: items.slice(start, start + perPage) }
+}
+
+// Cheap tokenised full-text search over name + description + tags.
+// Returns a relevance score between 0 and 1.
+function scoreApi(api: ApiSummary, tokens: string[]): number {
+  if (!tokens.length) return 1
+  const name = (api.name || "").toLowerCase()
+  const desc = (api.description || "").toLowerCase()
+  const tags = (api.tags || []).join(" ").toLowerCase()
+  const cat = (api.category_id || "").toLowerCase()
+  let matched = 0
+  let totalWeight = 0
+  for (const t of tokens) {
+    totalWeight += 1
+    if (!t) continue
+    if (name.includes(t)) matched += 1
+    else if (tags.includes(t)) matched += 0.7
+    else if (cat.includes(t)) matched += 0.5
+    else if (desc.includes(t)) matched += 0.4
+  }
+  return totalWeight ? matched / totalWeight : 0
+}
+
+function tokenize(q: string): string[] {
+  return q.toLowerCase().split(/\s+/).map((t) => t.trim()).filter(Boolean)
+}
+
 class ApiClient {
   private async fetchJson<T>(path: string, params?: Record<string, string | number | boolean | undefined>): Promise<T> {
-    if (HAS_REMOTE_API) {
-      const url = new URL(path, API_BASE_URL)
-      if (params) {
-        Object.entries(params).forEach(([key, value]) => {
-          if (value !== undefined && value !== null && value !== "") {
-            url.searchParams.set(key, String(value))
-          }
-        })
-      }
-      const controller = new AbortController()
-      const timeout = setTimeout(() => controller.abort(), 15000)
-      try {
-        const res = await fetch(url.toString(), {
-          headers: { "Content-Type": "application/json" },
-          signal: controller.signal,
-        })
-        if (!res.ok) {
-          throw new Error(`API error: ${res.status} ${res.statusText}`)
+    if (!HAS_REMOTE_API) throw new Error("Static export mode: no remote API configured")
+    const url = new URL(path, API_BASE_URL)
+    if (params) {
+      Object.entries(params).forEach(([key, value]) => {
+        if (value !== undefined && value !== null && value !== "") {
+          url.searchParams.set(key, String(value))
         }
-        return res.json()
-      } finally {
-        clearTimeout(timeout)
-      }
+      })
     }
-    throw new Error("Static export mode: no remote API configured")
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 15000)
+    try {
+      const res = await fetch(url.toString(), {
+        headers: { "Content-Type": "application/json" },
+        signal: controller.signal,
+      })
+      if (!res.ok) throw new Error(`API error: ${res.status} ${res.statusText}`)
+      return res.json()
+    } finally {
+      clearTimeout(timeout)
+    }
   }
 
   private async fetchStatic<T>(path: string): Promise<T> {
     const res = await fetch(path, { headers: { "Content-Type": "application/json" } })
-    if (!res.ok) {
-      throw new Error(`Static data error: ${res.status} ${res.statusText}`)
-    }
+    if (!res.ok) throw new Error(`Static data error: ${res.status} ${res.statusText}`)
     return res.json()
   }
 
@@ -75,20 +148,17 @@ class ApiClient {
         ...params,
       })
     }
-    const featured = await this.fetchStatic<{ top_apis: ApiListResponse["items"] }>("/data/featured.json")
-    return {
-      total: featured.top_apis.length,
-      page: 1,
-      per_page: featured.top_apis.length,
-      total_pages: 1,
-      items: featured.top_apis,
-    }
+    const all = await loadAllApis()
+    let filtered = all.filter((a) => !a.deprecated)
+    if (params?.category) filtered = filtered.filter((a) => a.category_id === params.category)
+    if (params?.grade) filtered = filtered.filter((a) => a.quality_grade === params.grade)
+    if (params?.cors) filtered = filtered.filter((a) => a.cors === true)
+    if (params?.free) filtered = filtered.filter((a) => a.auth === null || a.auth === "")
+    sortInPlace(filtered, params?.sort ?? "quality_score", (params?.order as "asc" | "desc") ?? "desc")
+    return paginate(filtered, params?.page ?? 1, params?.per_page ?? DEFAULT_PER_PAGE)
   }
 
-  async getCategories(params?: {
-    sort?: string
-    order?: string
-  }): Promise<CategoryListResponse> {
+  async getCategories(params?: { sort?: string; order?: string }): Promise<CategoryListResponse> {
     if (HAS_REMOTE_API) return this.fetchJson<CategoryListResponse>("/api/categories", params)
     return this.fetchStatic<CategoryListResponse>("/data/categories.json")
   }
@@ -110,7 +180,38 @@ class ApiClient {
         order: params?.order,
       })
     }
-    return this.fetchStatic<CategoryDetailResponse>(`/data/category/${categoryId}.json`)
+    const all = await loadAllApis()
+    const items = all.filter((a) => a.category_id === categoryId && !a.deprecated)
+    sortInPlace(items, params?.sort ?? "quality_score", (params?.order as "asc" | "desc") ?? "desc")
+    const page = paginate(items, params?.page ?? 1, params?.per_page ?? DEFAULT_PER_PAGE)
+    // Try to load the per-category preview to get authoritative avg_quality +
+    // display_name; fall back to deriving it client-side.
+    let category
+    try {
+      const preview = await this.fetchStatic<{ category: CategoryDetailResponse["category"] }>(
+        `/data/category/${categoryId}.json`
+      )
+      category = preview.category
+    } catch {
+      category = {
+        id: categoryId,
+        name: categoryId,
+        display_name: categoryId,
+        icon: null,
+        api_count: items.length,
+        avg_quality:
+          items.length > 0
+            ? Number((items.reduce((s, a) => s + (a.quality_score || 0), 0) / items.length).toFixed(1))
+            : 0,
+      }
+    }
+    return {
+      category: { ...category, api_count: items.length },
+      total: page.total,
+      page: page.page,
+      per_page: page.per_page,
+      items: page.items,
+    }
   }
 
   async search(params: {
@@ -128,14 +229,24 @@ class ApiClient {
         ...params,
       })
     }
-    return {
-      total: 0,
-      page: 1,
-      per_page: DEFAULT_PER_PAGE,
-      total_pages: 0,
-      items: [],
-      query: params.q,
+    const all = await loadAllApis()
+    const tokens = tokenize(params.q)
+    let pool = all
+    if (params.category) pool = pool.filter((a) => a.category_id === params.category)
+    let scored: SearchResultItem[]
+    if (!tokens.length) {
+      scored = pool.filter((a) => !a.deprecated).map((api) => ({ ...api, relevance_score: 1 }))
+    } else {
+      scored = pool
+        .map((api) => ({ api, score: scoreApi(api, tokens) }))
+        .filter((x) => x.score > 0 && !x.api.deprecated)
+        .map(({ api, score }) => ({ ...api, relevance_score: Number(score.toFixed(3)) }))
     }
+    // Sort: relevance by default when searching, otherwise use user-chosen sort.
+    const sort = params.sort ?? (tokens.length ? "relevance_score" : "quality_score")
+    sortInPlace(scored, sort, (params.order as "asc" | "desc") ?? (tokens.length ? "desc" : "desc"))
+    const paged = paginate(scored, params.page ?? 1, params.per_page ?? DEFAULT_PER_PAGE)
+    return { ...paged, query: params.q }
   }
 
   isStaticMode(): boolean {

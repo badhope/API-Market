@@ -171,12 +171,11 @@ The project supports two deployment modes:
 
 ### Option A: GitHub Pages (Recommended for showcasing)
 
-GitHub Pages hosts only static files. We use the `.github/workflows/pages.yml` workflow
-to build the Next.js app as a static export (`output: 'export'`) and publish it to
-`https://<owner>.github.io/API-Market/`. The data is dumped to JSON at build time
-from the SQLite database, so the homepage, category pages, and top-50 APIs work
-fully offline. Optional: deploy the FastAPI backend to Render for full search and
-per-page filtering across all 14,000+ APIs.
+GitHub Pages hosts only static files. The site ships the **entire 14,000+ API
+database** (6.6 MB `all.json`, ~1.5 MB gzipped) and does all paging, sorting,
+filtering, and full-text search in the browser. No backend required for the
+public site. The FastAPI backend is still useful for headless use — see
+[docs/deploy-render.md](docs/deploy-render.md).
 
 #### 1. One-time setup
 
@@ -190,42 +189,34 @@ No other secrets are required. The workflow uses the default `GITHUB_TOKEN`.
 #### 2. Push to `main`
 
 ```bash
-git add . && git commit -m "feat: enable GitHub Pages"
+git add . && git commit -m "feat: ship to GitHub Pages"
 git push origin main
 ```
 
-The `Deploy to GitHub Pages` workflow runs automatically. Once green, your site
-is live at:
+The `Deploy to GitHub Pages` workflow runs automatically. It will:
+
+1. Read `data/api_market.db` from the repo and dump `frontend/public/data/*.json`
+   (stats, categories, featured, all, top, category/*).
+2. Run `next build` with `STATIC_EXPORT=true` to produce `frontend/out/`.
+3. Publish `frontend/out/` to GitHub Pages.
+
+Once green, your site is live at:
 
 ```
 https://<owner>.github.io/API-Market/
 ```
 
-#### 3. (Optional) Enable backend search
-
-The static site ships pre-rendered category overviews and the top 50 APIs.
-For full search and pagination, deploy the FastAPI backend to any free host
-(Render, Fly.io, Railway, etc.) and set `NEXT_PUBLIC_API_URL` in
-`.github/workflows/pages.yml` before the `npm run build` step:
-
-```yaml
-env:
-  STATIC_EXPORT: "true"
-  NEXT_PUBLIC_API_URL: "https://api-market-backend.onrender.com"
-```
-
-The frontend automatically prefers the live API and falls back to JSON when
-it is unreachable. See [docs/deploy-render.md](docs/deploy-render.md) for a
-step-by-step Render guide.
-
-#### 4. Local preview of the static build
+#### 3. Local preview of the static build
 
 ```bash
 cd frontend
-STATIC_EXPORT=true npm run build
-npx serve out
-# Open http://localhost:3000/API-Market/
+python ../scripts/build_static_data.py   # populate public/data/
+STATIC_EXPORT=true npm run build         # produce out/
+npx serve out                            # serve at http://localhost:3000/API-Market/
 ```
+
+The build output is a fully static folder — you can drop it on any static
+host (S3 + CloudFront, Netlify, Cloudflare Pages, GitHub Pages, etc.).
 
 ### Option B: Full stack (Docker)
 
