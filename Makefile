@@ -23,7 +23,7 @@ install:
 	pip install -e .
 
 dev:
-	pip install -e ".[dev,pipeline,meilisearch]"
+	pip install -e ".[dev,pipeline]"
 
 run:
 	PYTHONPATH=backend uvicorn api_market.main:app --host 0.0.0.0 --port 8080 --reload
@@ -48,7 +48,8 @@ db-reset:
 	PYTHONPATH=backend python scripts/migrate_to_sqlite.py
 
 docker-build:
-	docker build -t api-market:latest .
+	docker build -t api-market:latest -f Dockerfile .
+	docker build -t api-market-frontend:latest -f frontend.Dockerfile .
 
 docker-up:
 	docker compose up -d

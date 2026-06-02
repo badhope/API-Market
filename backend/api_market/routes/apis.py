@@ -1,15 +1,20 @@
 from __future__ import annotations
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
-from sqlalchemy import func, select
-from sqlalchemy.ext.asyncio import AsyncSession
 from slowapi import Limiter
 from slowapi.util import get_remote_address
+from sqlalchemy import func, select
+from sqlalchemy.ext.asyncio import AsyncSession
 
 from api_market.config import get_settings
 from api_market.database import get_db
 from api_market.models.api import Api
-from api_market.models.schemas import ApiListResponse, ApiSummary, CategoryDetailResponse, StatsResponse
+from api_market.models.schemas import (
+    ApiListResponse,
+    ApiSummary,
+    CategoryDetailResponse,
+    StatsResponse,
+)
 from api_market.services.api_service import get_api_service
 
 router = APIRouter(tags=["apis"])
@@ -116,5 +121,6 @@ async def get_category_apis(
         total=total,
         page=page,
         per_page=per_page,
+        total_pages=total_pages,
         items=[ApiSummary.from_orm_obj(a) for a in apis],
     )

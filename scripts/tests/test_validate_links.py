@@ -1,15 +1,16 @@
-# -*- coding: utf-8 -*-
 
 import unittest
 
-from validate.links import find_links_in_text
-from validate.links import check_duplicate_links
-from validate.links import fake_user_agent
-from validate.links import get_host_from_link
-from validate.links import has_cloudflare_protection
+from validate.links import (
+    check_duplicate_links,
+    fake_user_agent,
+    find_links_in_text,
+    get_host_from_link,
+    has_cloudflare_protection,
+)
 
 
-class FakeResponse():
+class FakeResponse:
     def __init__(self, code: int, headers: dict, text: str) -> None:
         self.status_code = code
         self.headers = headers

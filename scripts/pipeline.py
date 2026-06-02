@@ -4,15 +4,10 @@ API-Market 一体化采集、清洗、分类、评分脚本
 整合所有步骤为一个可执行的流水线
 """
 import json
-import re
 import os
-import sys
+import re
 import time
-import asyncio
-import aiohttp
-import ssl
 from collections import defaultdict
-from urllib.parse import urlparse
 
 # ========== 配置 ==========
 OUTPUT_DIR = '/workspace/API-Market'
@@ -167,7 +162,7 @@ def collect_apis_guru():
         req = urllib.request.Request(url, headers={'User-Agent': 'API-Market/2.0'})
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode('utf-8'))
-        
+
         apis = []
         for name, info in data.items():
             versions = info.get('versions', {})
@@ -199,10 +194,10 @@ def collect_github(token=None):
         'n0shake/Public-APIs',
         'keploy/public-apis-collection',
     ]
-    
+
     all_apis = []
     headers = {'Authorization': f'token {token}'} if token else {}
-    
+
     for repo in repos:
         try:
             import urllib.request
@@ -210,7 +205,7 @@ def collect_github(token=None):
             req = urllib.request.Request(url, headers={**headers, 'Accept': 'application/vnd.github.v3.raw'})
             with urllib.request.urlopen(req, timeout=15) as resp:
                 content = resp.read().decode('utf-8', errors='ignore')
-            
+
             apis = []
             for line in content.split('\n'):
                 if line.startswith('| [') and not line.startswith('| ---'):
@@ -231,7 +226,7 @@ def collect_github(token=None):
             print(f"  ✅ {repo}: {len(apis)} APIs")
         except Exception as e:
             print(f"  ⚠️ {repo}: {e}")
-    
+
     # 去重
     seen = set()
     unique = []
@@ -240,7 +235,7 @@ def collect_github(token=None):
         if key not in seen:
             seen.add(key)
             unique.append(api)
-    
+
     print(f"  ✅ GitHub总计: {len(unique)} APIs (去重后)")
     return unique
 
@@ -248,9 +243,9 @@ def collect_github(token=None):
 # ========== Step 3: 合并去重分类 ==========
 def merge_and_classify(guru_apis, github_apis):
     print("\n🔄 [3/4] 合并、去重、分类...")
-    
+
     all_apis = []
-    
+
     # 标准化apis.guru数据
     for api in guru_apis:
         api['auth'] = infer_auth(api['name'], api.get('description', ''), api.get('url', ''))
@@ -260,14 +255,14 @@ def merge_and_classify(guru_apis, github_apis):
         api['tags'] = [api['category']]
         api['status'] = 'active'
         all_apis.append(api)
-    
+
     # 标准化github数据
     for api in github_apis:
         api['category'] = classify_api(api['name'], api.get('description', ''))
         api['tags'] = [api['category']]
         api['status'] = 'active'
         all_apis.append(api)
-    
+
     # 去重
     seen = {}
     for api in sorted(all_apis, key=lambda x: 4 if x.get('source') == 'apis.guru' else 1, reverse=True):
@@ -285,7 +280,7 @@ def merge_and_classify(guru_apis, github_apis):
                 existing['cors'] = api['cors']
         else:
             seen[key] = api.copy()
-    
+
     unique = list(seen.values())
     print(f"  合并: {len(all_apis)} → 去重: {len(unique)}")
     return unique
@@ -294,14 +289,14 @@ def merge_and_classify(guru_apis, github_apis):
 # ========== Step 4: 质量评分 + 生成输出 ==========
 def build_output(apis):
     print("\n📊 [4/4] 质量评分 + 生成输出...")
-    
+
     # 质量评分
     for api in apis:
         score, grade = calculate_quality(api)
         api['quality_score'] = score
         api['quality_grade'] = grade
         api['quality'] = {'score': score, 'grade': grade}
-    
+
     # 按分类分组
     cats = defaultdict(list)
     for api in apis:
@@ -309,7 +304,7 @@ def build_output(apis):
         safe_name = re.sub(r'[^a-z0-9]', '_', api['name'].lower().strip())[:40]
         api['id'] = f"{cat.replace('-','_')}_{safe_name}"
         cats[cat].append(api)
-    
+
     categories = []
     for cid, capis in sorted(cats.items(), key=lambda x: -len(x[1])):
         categories.append({
@@ -319,7 +314,7 @@ def build_output(apis):
             'api_count': len(capis),
             'apis': capis,
         })
-    
+
     database = {
         'metadata': {
             'name': 'API-Market',
@@ -333,7 +328,7 @@ def build_output(apis):
         },
         'categories': categories,
     }
-    
+
     # 搜索索引（加权）
     search_index = []
     for cat in categories:
@@ -351,28 +346,28 @@ def build_output(apis):
                 'quality_score': api.get('quality_score', 0),
                 '_search_text': weighted.lower(),
             })
-    
+
     # 保存
     os.makedirs(APIS_DIR, exist_ok=True)
-    
+
     with open(DB_PATH, 'w', encoding='utf-8') as f:
         json.dump(database, f, indent=2, ensure_ascii=False)
-    
+
     with open(INDEX_PATH, 'w', encoding='utf-8') as f:
         json.dump(search_index, f, indent=2, ensure_ascii=False)
-    
+
     for cat in categories:
         with open(os.path.join(APIS_DIR, f"{cat['id']}.json"), 'w', encoding='utf-8') as f:
             json.dump(cat, f, indent=2, ensure_ascii=False)
-    
+
     # 统计
     grade_dist = defaultdict(int)
     for api in apis:
         grade_dist[api['quality_grade']] += 1
-    
+
     other_count = next((c['api_count'] for c in categories if c['id'] == 'other'), 0)
     has_desc = sum(1 for a in apis if a.get('description') and len(a['description']) > 5)
-    
+
     print(f"  ✅ API总数: {len(apis)}")
     print(f"  ✅ 分类数: {len(categories)}")
     print(f"  ✅ 描述覆盖率: {has_desc}/{len(apis)} ({has_desc/len(apis)*100:.1f}%)")
@@ -382,16 +377,16 @@ def build_output(apis):
 
 def main():
     token = os.environ.get('GITHUB_TOKEN', '')
-    
+
     print("=" * 60)
     print("  API-Market 一体化采集流水线")
     print("=" * 60)
-    
+
     guru = collect_apis_guru()
     github = collect_github(token)
     apis = merge_and_classify(guru, github)
     build_output(apis)
-    
+
     print("\n" + "=" * 60)
     print("  ✨ 流水线执行完成！")
     print("=" * 60)

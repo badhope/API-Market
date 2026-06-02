@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import contextlib
 import json
 from typing import Any
 
@@ -50,19 +51,15 @@ class CacheService:
         redis = await self._ensure_connection()
         if redis is None:
             return
-        try:
+        with contextlib.suppress(Exception):
             await redis.setex(key, ttl, json.dumps(value, default=str))
-        except Exception:
-            pass
 
     async def delete(self, key: str) -> None:
         redis = await self._ensure_connection()
         if redis is None:
             return
-        try:
+        with contextlib.suppress(Exception):
             await redis.delete(key)
-        except Exception:
-            pass
 
     async def flush_pattern(self, pattern: str) -> None:
         redis = await self._ensure_connection()

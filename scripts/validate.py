@@ -144,8 +144,8 @@ def main():
 
     print(f"  📊 数据库加载: {db_load:.1f} ms")
     print(f"  📊 索引加载: {idx_load:.1f} ms")
-    check(db_load < 500, f"数据库加载 < 500ms", 'warning')
-    check(idx_load < 200, f"索引加载 < 200ms", 'warning')
+    check(db_load < 500, "数据库加载 < 500ms", 'warning')
+    check(idx_load < 200, "索引加载 < 200ms", 'warning')
 
     # 总结
     elapsed = time.time() - start_time
@@ -158,7 +158,7 @@ def main():
         print(f"  ⚠️ {len(warnings)} 个警告, 验证通过")
         print(f"  ⏱️ 验证耗时: {elapsed:.2f}s")
     else:
-        print(f"  ✅ 全部验证通过！")
+        print("  ✅ 全部验证通过！")
         print(f"  ⏱️ 验证耗时: {elapsed:.2f}s")
     print(f"{'='*50}")
 

@@ -1,4 +1,2 @@
-# -*- coding: utf-8 -*-
 
-from validate import format
-from validate import links
+from validate import format, links

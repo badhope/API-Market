@@ -6,7 +6,6 @@ from __future__ import annotations
 import json
 import re
 import sqlite3
-import sys
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -99,7 +98,6 @@ def clean_and_validate() -> QualityReport:
         name = row["name"] or ""
         url = row["url"] or ""
         desc = row["description"] or ""
-        cat_id = row["category_id"] or ""
 
         if is_likely_not_api(name, desc):
             non_api_ids.append(api_id)

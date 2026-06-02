@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from collections.abc import Sequence
-
 from sqlalchemy import func, select, text
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -32,12 +30,12 @@ class ApiService:
         auth_count = auth_count_result.scalar() or 0
 
         https_count_result = await self.db.execute(
-            select(func.count(Api.id)).where(Api.https == True)
+            select(func.count(Api.id)).where(Api.https.is_(True))
         )
         https_count = https_count_result.scalar() or 0
 
         cors_count_result = await self.db.execute(
-            select(func.count(Api.id)).where(Api.cors == True)
+            select(func.count(Api.id)).where(Api.cors.is_(True))
         )
         cors_count = cors_count_result.scalar() or 0
 
@@ -92,8 +90,8 @@ class ApiService:
             query = query.where(Api.category_id == category_id)
             count_query = count_query.where(Api.category_id == category_id)
         if cors_only:
-            query = query.where(Api.cors == True)
-            count_query = count_query.where(Api.cors == True)
+            query = query.where(Api.cors.is_(True))
+            count_query = count_query.where(Api.cors.is_(True))
         if free_only:
             query = query.where(Api.auth.is_(None))
             count_query = count_query.where(Api.auth.is_(None))

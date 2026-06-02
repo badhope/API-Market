@@ -1,11 +1,10 @@
 from __future__ import annotations
 
-from contextlib import asynccontextmanager
 from collections.abc import AsyncIterator
+from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.middleware.gzip import GZipMiddleware
-from fastapi.responses import JSONResponse
 
 from api_market.config import get_settings
 from api_market.middleware.logging import (
@@ -21,7 +20,7 @@ settings = get_settings()
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncIterator[None]:
     from api_market.database import engine
-    from api_market.models.api import Base  # noqa: F401
+    from api_market.models.api import Base
 
     if settings.debug:
         async with engine.begin() as conn:

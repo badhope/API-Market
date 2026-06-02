@@ -11,7 +11,6 @@ import time
 from collections import defaultdict
 from dataclasses import dataclass, field
 from pathlib import Path
-from urllib.parse import urlparse
 
 import httpx
 from tenacity import retry, stop_after_attempt, wait_exponential
@@ -338,7 +337,7 @@ async def main() -> None:
             "collected_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
             "total_apis": len(merged),
             "total_categories": len(categories),
-            "categories": {k: v for k, v in sorted(categories.items())},
+            "categories": dict(sorted(categories.items())),
         }, f, indent=2, ensure_ascii=False)
 
     print(f"\n{'=' * 60}")

@@ -92,6 +92,7 @@ class CategoryDetailResponse(BaseModel):
     total: int
     page: int
     per_page: int
+    total_pages: int
     items: list[ApiSummary] = Field(default_factory=list)
 
 

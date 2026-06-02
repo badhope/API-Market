@@ -1,15 +1,13 @@
-# -*- coding: utf-8 -*-
 
+import random
 import re
 import sys
-import random
-from typing import List, Tuple
 
 import requests
 from requests.models import Response
 
 
-def find_links_in_text(text: str) -> List[str]:
+def find_links_in_text(text: str) -> list[str]:
     """Find links in a text and return a list of URLs."""
 
     link_pattern = re.compile(r'((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^\s()<>]+|\(([^\s()<>]+|(\([^\s()<>]+\)))*\))+(?:\(([^\s()<>]+|(\([^\s()<>]+\)))*\)|[^\s`!()\[\]{};:\'\".,<>?«»“”‘’]))')
@@ -23,10 +21,10 @@ def find_links_in_text(text: str) -> List[str]:
     return links
 
 
-def find_links_in_file(filename: str) -> List[str]:
+def find_links_in_file(filename: str) -> list[str]:
     """Find links in a file and return a list of URLs from text file."""
 
-    with open(filename, mode='r', encoding='utf-8') as file:
+    with open(filename, encoding='utf-8') as file:
         readme = file.read()
         index_section = readme.find('## Index')
         if index_section == -1:
@@ -38,7 +36,7 @@ def find_links_in_file(filename: str) -> List[str]:
     return links
 
 
-def check_duplicate_links(links: List[str]) -> Tuple[bool, List]:
+def check_duplicate_links(links: list[str]) -> tuple[bool, list]:
     """Check for duplicated links.
 
     Returns a tuple with True or False and duplicate list.
@@ -149,7 +147,7 @@ def has_cloudflare_protection(resp: Response) -> bool:
     return False
 
 
-def check_if_link_is_working(link: str) -> Tuple[bool, str]:
+def check_if_link_is_working(link: str) -> tuple[bool, str]:
     """Checks if a link is working.
 
     If an error is identified when the request for the link occurs,
@@ -198,7 +196,7 @@ def check_if_link_is_working(link: str) -> Tuple[bool, str]:
     return (has_error, error_message)
 
 
-def check_if_list_of_links_are_working(list_of_links: List[str]) -> List[str]:
+def check_if_list_of_links_are_working(list_of_links: list[str]) -> list[str]:
     error_messages = []
     for link in list_of_links:
         has_error, error_message = check_if_link_is_working(link)
@@ -209,14 +207,14 @@ def check_if_list_of_links_are_working(list_of_links: List[str]) -> List[str]:
     return error_messages
 
 
-def start_duplicate_links_checker(links: List[str]) -> None:
+def start_duplicate_links_checker(links: list[str]) -> None:
 
     print('Checking for duplicate links...')
 
     has_duplicate_link, duplicates_links = check_duplicate_links(links)
 
     if has_duplicate_link:
-        print(f'Found duplicate links:')
+        print('Found duplicate links:')
 
         for duplicate_link in duplicates_links:
             print(duplicate_link)
@@ -226,7 +224,7 @@ def start_duplicate_links_checker(links: List[str]) -> None:
         print('No duplicate links.')
 
 
-def start_links_working_checker(links: List[str]) -> None:
+def start_links_working_checker(links: list[str]) -> None:
 
     print(f'Checking if {len(links)} links are working...')
 

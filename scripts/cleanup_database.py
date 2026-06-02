@@ -40,7 +40,6 @@ import sqlite3
 import sys
 from pathlib import Path
 
-
 CATEGORY_ALIASES: dict[str, str] = {
     "sports": "sports-fitness",
     "vehicle": "transportation",
@@ -58,7 +57,6 @@ CATEGORY_ALIASES: dict[str, str] = {
     "collaboration": "social",
     "telecom": "phone",
     "education": "books",
-    "anti-malware": "security",
     "art-design": "photography",
 }
 

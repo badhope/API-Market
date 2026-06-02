@@ -46,7 +46,7 @@ Built with **FastAPI** (Python), **Next.js 14** (TypeScript/React), and **SQLite
 |---------|----------|
 | 🔍 APIs scattered across hundreds of repositories | ✅ One unified, searchable database |
 | 📊 Inconsistent metadata formats | ✅ Standardized schema with quality scores |
-| 🏷️ Poor categorization | ✅ 60 well-defined categories |
+| 🏷️ Poor categorization | ✅ 44 well-defined categories |
 | 🔒 Unknown API reliability | ✅ Quality scoring system (A-F grades) |
 
 ### What Makes Us Different?
@@ -54,7 +54,7 @@ Built with **FastAPI** (Python), **Next.js 14** (TypeScript/React), and **SQLite
 - **📊 Scale**: 14,000+ APIs from curated sources
 - **🎯 Quality**: Every API is scored and graded (A-F)
 - **🔍 Search**: SQLite FTS5 full-text search with relevance ranking
-- **📁 Categories**: 60 carefully designed categories
+- **📁 Categories**: 44 carefully designed categories
 - **🔄 Auto-Update**: Daily automated data collection via GitHub Actions
 - **🌐 Modern Stack**: FastAPI backend + Next.js 14 frontend + Tailwind CSS
 - **🐳 Docker Ready**: One-command deployment with Nginx reverse proxy
@@ -67,7 +67,7 @@ Built with **FastAPI** (Python), **Next.js 14** (TypeScript/React), and **SQLite
 - 🔍 **Instant Search** — Full-text search with relevance ranking
 - 📊 **Quality Grades** — Know which APIs are reliable (A/B/C/D/F)
 - 🏷️ **Smart Filtering** — Filter by category, grade, CORS, HTTPS
-- 🌐 **i18n Support** — English / Chinese language switching
+- 🌐 **i18n Support** — English / Chinese / Japanese language switching
 - 🌙 **Dark Mode** — Light and dark theme support
 - 📱 **Responsive** — Mobile-first design with Tailwind CSS
 
@@ -100,7 +100,7 @@ Built with **FastAPI** (Python), **Next.js 14** (TypeScript/React), and **SQLite
                                 ┌─────────────────┐
                                 │  SQLite + FTS5   │
                                 │  14,000+ APIs     │
-                                │  60 Categories   │
+                                │  44 Categories   │
                                 └─────────────────┘
 ```
 
@@ -296,7 +296,7 @@ API-Market/
 │   └── src/
 │       ├── app/              # Next.js App Router pages
 │       ├── components/       # React components (shadcn/ui)
-│       ├── i18n/             # EN/ZH translations
+│       ├── i18n/             # EN/ZH/JA translations
 │       └── lib/              # API client, utilities, constants
 ├── pipeline/
 │   └── collector.py          # Async data collection pipeline
@@ -375,8 +375,8 @@ cd frontend && npm run dev             # 启动前端
 - **📊 规模**：14,000+ API，来自多个精选数据源
 - **🎯 质量**：每个 API 都有 0-100 评分和 A-F 等级
 - **🔍 搜索**：SQLite FTS5 全文搜索引擎，支持相关性排序
-- **📁 分类**：60 个精心设计的分类
-- **🌐 国际化**：中英文界面切换
+- **📁 分类**：44 个精心设计的分类
+- **🌐 国际化**：中英日文界面切换
 - **🌙 暗色模式**：明暗主题自动适配
 - **🔄 自动更新**：GitHub Actions 每日自动数据采集
 - **🐳 Docker**：多阶段构建 + Nginx 反向代理，一键部署
@@ -431,8 +431,8 @@ cd frontend && npm run dev             # フロントエンド起動
 - **📊 規模**：14,000以上のAPI、複数の信頼できるソースから収集
 - **🎯 品質**：各APIに0-100のスコアとA-Fグレード
 - **🔍 検索**：SQLite FTS5全文検索エンジン、関連性ランキング対応
-- **📁 カテゴリ**：60の慎重に設計されたカテゴリ
-- **🌐 国際化**：英語・中国語インターフェース切替
+- **📁 カテゴリ**：44の慎重に設計されたカテゴリ
+- **🌐 国際化**：英語・中国語・日本語インターフェース切替
 - **🌙 ダークモード**：ライト/ダークテーマ自動対応
 - **🔄 自動更新**：GitHub Actionsによる毎日の自動データ収集
 - **🐳 Docker**：マルチステージビルド + Nginxリバースプロキシ

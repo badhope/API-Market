@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import json
-import os
 import re
 import sys
 import time
@@ -167,7 +166,7 @@ def main() -> None:
 
     engine = create_engine(f"sqlite:///{DB_PATH}")
 
-    print(f"\n[1/5] Loading legacy JSON...")
+    print("\n[1/5] Loading legacy JSON...")
     with open(LEGACY_DB_PATH, encoding="utf-8") as f:
         legacy_db = json.load(f)
 
@@ -175,7 +174,7 @@ def main() -> None:
     categories_raw = legacy_db["categories"]
     print(f"  Loaded {total_api_count} APIs across {len(categories_raw)} categories")
 
-    print(f"\n[2/5] Creating database schema...")
+    print("\n[2/5] Creating database schema...")
     with engine.begin() as conn:
         conn.execute(text("""
             CREATE TABLE IF NOT EXISTS categories (
@@ -224,7 +223,7 @@ def main() -> None:
             )
         """))
 
-    print(f"[3/5] Migrating categories and APIs...")
+    print("[3/5] Migrating categories and APIs...")
     total_migrated = 0
 
     with Session(engine) as session:
@@ -282,10 +281,7 @@ def main() -> None:
                     cors = None
 
                 tags = api_data.get("tags", [])
-                if isinstance(tags, list):
-                    tags_str = ",".join(str(t) for t in tags)
-                else:
-                    tags_str = ""
+                tags_str = ",".join(str(t) for t in tags) if isinstance(tags, list) else ""
 
                 quality_score = api_data.get("quality_score") or api_data.get("quality", {}).get("score", 0)
                 quality_grade = api_data.get("quality_grade") or api_data.get("quality", {}).get("grade")
@@ -329,7 +325,7 @@ def main() -> None:
 
         session.commit()
 
-    print(f"\n[4/5] Building FTS5 full-text search index...")
+    print("\n[4/5] Building FTS5 full-text search index...")
     with engine.begin() as conn:
         conn.execute(text("""
             INSERT INTO apis_fts(api_id, name, description, category_name, tags)
@@ -339,7 +335,7 @@ def main() -> None:
             LEFT JOIN categories c ON a.category_id = c.id
         """))
 
-    print(f"\n[5/5] Verifying migration...")
+    print("\n[5/5] Verifying migration...")
     with engine.begin() as conn:
         count_result = conn.execute(text("SELECT COUNT(*) FROM apis"))
         actual_count = count_result.scalar()
@@ -353,7 +349,7 @@ def main() -> None:
     db_size_mb = DB_PATH.stat().st_size / 1024 / 1024
 
     print(f"\n{'=' * 60}")
-    print(f"  Migration complete!")
+    print("  Migration complete!")
     print(f"  APIs: {actual_count} (expected: {total_api_count})")
     print(f"  Categories: {actual_cats}")
     print(f"  FTS5 entries: {fts_count}")

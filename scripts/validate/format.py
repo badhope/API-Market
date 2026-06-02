@@ -1,9 +1,7 @@
-# -*- coding: utf-8 -*-
 
 import re
 import sys
 from string import punctuation
-from typing import List, Tuple, Dict
 
 # Temporary replacement
 # The descriptions that contain () at the end must adapt to the new policy later
@@ -24,14 +22,14 @@ num_segments = 5
 min_entries_per_category = 3
 max_description_length = 100
 
-anchor_re = re.compile(anchor + '\s(.+)')
-category_title_in_index_re = re.compile('\*\s\[(.*)\]')
-link_re = re.compile('\[(.+)\]\((http.*)\)')
+anchor_re = re.compile(anchor + r'\s(.+)')
+category_title_in_index_re = re.compile(r'\*\s\[(.*)\]')
+link_re = re.compile(r'\[(.+)\]\((http.*)\)')
 
 # Type aliases
-APIList = List[str]
-Categories = Dict[str, APIList]
-CategoriesLineNumber = Dict[str, int]
+APIList = list[str]
+Categories = dict[str, APIList]
+CategoriesLineNumber = dict[str, int]
 
 
 def error_message(line_number: int, message: str) -> str:
@@ -39,7 +37,7 @@ def error_message(line_number: int, message: str) -> str:
     return f'(L{line:03d}) {message}'
 
 
-def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesLineNumber]:
+def get_categories_content(contents: list[str]) -> tuple[Categories, CategoriesLineNumber]:
 
     categories = {}
     category_line_num = {}
@@ -67,7 +65,7 @@ def get_categories_content(contents: List[str]) -> Tuple[Categories, CategoriesL
     return (categories, category_line_num)
 
 
-def check_alphabetical_order(lines: List[str]) -> List[str]:
+def check_alphabetical_order(lines: list[str]) -> list[str]:
 
     err_msgs = []
 
@@ -76,15 +74,15 @@ def check_alphabetical_order(lines: List[str]) -> List[str]:
     for category, api_list in categories.items():
         if sorted(api_list) != api_list:
             err_msg = error_message(
-                category_line_num[category], 
+                category_line_num[category],
                 f'{category} category is not alphabetical order'
             )
             err_msgs.append(err_msg)
-    
+
     return err_msgs
 
 
-def check_title(line_num: int, raw_title: str) -> List[str]:
+def check_title(line_num: int, raw_title: str) -> list[str]:
 
     err_msgs = []
 
@@ -104,7 +102,7 @@ def check_title(line_num: int, raw_title: str) -> List[str]:
     return err_msgs
 
 
-def check_description(line_num: int, description: str) -> List[str]:
+def check_description(line_num: int, description: str) -> list[str]:
 
     err_msgs = []
 
@@ -122,11 +120,11 @@ def check_description(line_num: int, description: str) -> List[str]:
     if desc_length > max_description_length:
         err_msg = error_message(line_num, f'description should not exceed {max_description_length} characters (currently {desc_length})')
         err_msgs.append(err_msg)
-    
+
     return err_msgs
 
 
-def check_auth(line_num: int, auth: str) -> List[str]:
+def check_auth(line_num: int, auth: str) -> list[str]:
 
     err_msgs = []
 
@@ -138,11 +136,11 @@ def check_auth(line_num: int, auth: str) -> List[str]:
     if auth.replace(backtick, '') not in auth_keys:
         err_msg = error_message(line_num, f'{auth} is not a valid Auth option')
         err_msgs.append(err_msg)
-    
+
     return err_msgs
 
 
-def check_https(line_num: int, https: str) -> List[str]:
+def check_https(line_num: int, https: str) -> list[str]:
 
     err_msgs = []
 
@@ -153,18 +151,18 @@ def check_https(line_num: int, https: str) -> List[str]:
     return err_msgs
 
 
-def check_cors(line_num: int, cors: str) -> List[str]:
+def check_cors(line_num: int, cors: str) -> list[str]:
 
     err_msgs = []
 
     if cors not in cors_keys:
         err_msg = error_message(line_num, f'{cors} is not a valid CORS option')
         err_msgs.append(err_msg)
-    
+
     return err_msgs
 
 
-def check_entry(line_num: int, segments: List[str]) -> List[str]:
+def check_entry(line_num: int, segments: list[str]) -> list[str]:
 
     raw_title = segments[index_title]
     description = segments[index_desc]
@@ -189,7 +187,7 @@ def check_entry(line_num: int, segments: List[str]) -> List[str]:
     return err_msgs
 
 
-def check_file_format(lines: List[str]) -> List[str]:
+def check_file_format(lines: list[str]) -> list[str]:
 
     err_msgs = []
     category_title_in_index = []
@@ -237,23 +235,23 @@ def check_file_format(lines: List[str]) -> List[str]:
             err_msg = error_message(line_num, f'entry does not have all the required columns (have {len(segments)}, need {num_segments})')
             err_msgs.append(err_msg)
             continue
-    
+
         for segment in segments:
             # every line segment should start and end with exactly 1 space
             if len(segment) - len(segment.lstrip()) != 1 or len(segment) - len(segment.rstrip()) != 1:
                 err_msg = error_message(line_num, 'each segment must start and end with exactly 1 space')
                 err_msgs.append(err_msg)
-        
+
         segments = [segment.strip() for segment in segments]
         entry_err_msgs = check_entry(line_num, segments)
         err_msgs.extend(entry_err_msgs)
-    
+
     return err_msgs
 
 
 def main(filename: str) -> None:
 
-    with open(filename, mode='r', encoding='utf-8') as file:
+    with open(filename, encoding='utf-8') as file:
         lines = list(line.rstrip() for line in file)
 
     file_format_err_msgs = check_file_format(lines)
