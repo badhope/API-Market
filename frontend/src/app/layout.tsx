@@ -35,10 +35,17 @@ function LocaleUpdater() {
           (function() {
             try {
               var stored = localStorage.getItem('api-market-locale');
-              if (stored === 'zh' || stored === 'en') {
+              if (stored === 'zh' || stored === 'en' || stored === 'ja') {
                 document.documentElement.lang = stored;
-              } else if (navigator.language.toLowerCase().startsWith('zh')) {
-                document.documentElement.lang = 'zh';
+              } else {
+                var navLang = (navigator.language || 'en').toLowerCase();
+                if (navLang.startsWith('zh')) {
+                  document.documentElement.lang = 'zh';
+                } else if (navLang.startsWith('ja')) {
+                  document.documentElement.lang = 'ja';
+                } else {
+                  document.documentElement.lang = 'en';
+                }
               }
             } catch(e) {}
           })();

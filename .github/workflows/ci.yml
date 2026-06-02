@@ -45,7 +45,7 @@ jobs:
           enable-cache: true
       - run: uv pip install --system -e ".[dev]"
       - name: Run tests
-        run: cd backend && python -m pytest tests/ -v --cov=api_market --cov-report=xml --cov-fail-under=60
+        run: cd backend && python -m pytest tests/ -v --cov=api_market --cov-report=xml --cov-fail-under=70
       - name: Upload coverage
         uses: codecov/codecov-action@v4
         with:

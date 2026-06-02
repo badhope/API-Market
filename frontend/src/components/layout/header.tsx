@@ -50,7 +50,12 @@ export function Header() {
   }, [theme, setTheme])
 
   const toggleLocale = useCallback(() => {
-    setLocale(locale === "en" ? "zh" : "en")
+    const next: Record<typeof locale, typeof locale> = {
+      en: "zh",
+      zh: "ja",
+      ja: "en",
+    }
+    setLocale(next[locale])
   }, [locale, setLocale])
 
   return (
@@ -102,7 +107,13 @@ export function Header() {
                 size="icon"
                 onClick={toggleLocale}
                 aria-label={t("language")}
-                title={locale === "en" ? t("switchToZh") : t("switchToEn")}
+                title={
+                  locale === "en"
+                    ? t("switchToZh")
+                    : locale === "zh"
+                      ? t("switchToJa")
+                      : t("switchToEn")
+                }
               >
                 <Languages className="h-5 w-5" />
               </Button>

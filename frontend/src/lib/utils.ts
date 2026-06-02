@@ -14,7 +14,13 @@ export function formatCount(n: number): string {
 
 export function formatDate(dateStr: string | null, locale?: string): string {
   if (!dateStr) return "N/A"
-  return new Date(dateStr).toLocaleDateString(locale === "zh" ? "zh-CN" : "en-US", {
+  const localeMap: Record<string, string> = {
+    zh: "zh-CN",
+    ja: "ja-JP",
+    en: "en-US",
+  }
+  const intlLocale = localeMap[locale ?? "en"] || "en-US"
+  return new Date(dateStr).toLocaleDateString(intlLocale, {
     year: "numeric",
     month: "short",
     day: "numeric",

@@ -14,9 +14,10 @@ const I18nContext = createContext<I18nContextType | null>(null)
 function getInitialLocale(): Locale {
   if (typeof window === "undefined") return "en"
   const stored = localStorage.getItem("api-market-locale")
-  if (stored === "zh" || stored === "en") return stored
+  if (stored === "zh" || stored === "en" || stored === "ja") return stored
   const browserLang = navigator.language.toLowerCase()
   if (browserLang.startsWith("zh")) return "zh"
+  if (browserLang.startsWith("ja")) return "ja"
   return "en"
 }
 

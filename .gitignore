@@ -54,8 +54,7 @@ quality-report.json
 server.py
 index.html
 apis/
-docs/
-CONTRIBUTING.md
+docs/public-apis-source.md
 
 frontend/.next/
 frontend/out/

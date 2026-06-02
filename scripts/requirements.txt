@@ -1,29 +1,33 @@
-# ========================================
-# API-Market 依赖包
-# ========================================
+# =============================================================================
+# API-Market scripts dependencies
+# =============================================================================
+# This file is kept for compatibility with upstream tooling conventions and
+# the data validation scripts. The main API-Market backend now uses the
+# dependencies pinned in `backend/pyproject.toml` (FastAPI, SQLAlchemy 2.0
+# async, pydantic-settings, etc.). Data collection and validation scripts
+# in this directory use the packages below.
+# =============================================================================
 
-# HTTP 请求
+# HTTP requests (used by validate/links.py and the legacy pipeline)
 requests>=2.27.0
 urllib3>=1.26.0
 
-# 异步 HTTP (可选，用于高性能采集)
+# Async HTTP (used by scripts/pipeline.py and pipeline/collector.py)
 aiohttp>=3.8.0
 aiofiles>=0.8.0
 
-# 数据验证
+# Data validation (used by validate/format.py and validate/links.py)
 jsonschema>=4.0.0
 
-# 测试
-pytest>=7.0.0
-pytest-asyncio>=0.18.0
-pytest-cov>=3.0.0
-
-# 代码质量
-flake8>=4.0.0
-black>=22.0.0
-
-# 类型检查
-mypy>=0.950
-
-# 工具
+# Date parsing
 python-dateutil>=2.8.0
+
+# -----------------------------------------------------------------------
+# The following packages were previously listed here but are no longer
+# used by API-Market (we use ruff instead of flake8/black, and mypy is
+# run via the backend's dev dependencies):
+#   - flake8
+#   - black
+#   - mypy
+#   - pytest / pytest-asyncio / pytest-cov
+# -----------------------------------------------------------------------
