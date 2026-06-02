@@ -3,27 +3,25 @@ FROM python:3.12-slim AS runtime
 RUN groupadd -r appuser -g 1000 && \
     useradd -r -u 1000 -g appuser -m -d /app appuser
 
-RUN pip install --no-cache-dir \
-    fastapi==0.115.0 \
-    uvicorn[standard]==0.32.0 \
-    pydantic==2.9.0 \
-    pydantic-settings==2.5.0 \
-    sqlalchemy[asyncio]==2.0.35 \
-    aiosqlite==0.20.0 \
-    httpx==0.27.2 \
-    tenacity==9.0.0 \
-    python-dotenv==1.0.1 \
-    structlog==24.4.0 \
-    slowapi==0.1.9 \
-    python-multipart==0.0.10 \
-    redis==5.0.8
+# System deps for SQLite FTS5 + asyncpg
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        gcc libffi-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install the package itself. This installs everything declared in
+# pyproject.toml and resolves transitive deps from PyPI. Single source of
+# truth for versions: never re-pin anything in this file.
+COPY --chown=appuser:appuser pyproject.toml README.md LICENSE* /app/
+WORKDIR /app
+RUN pip install --no-cache-dir .
+
+# Drop build deps to slim the image
+RUN apt-get purge -y --auto-remove gcc libffi-dev
 
 ENV PYTHONPATH=/app/backend \
     PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     APP_ENV=production
-
-WORKDIR /app
 
 RUN mkdir -p /app/data && chown -R appuser:appuser /app
 

@@ -69,9 +69,7 @@ def merge_category_duplicates(conn: sqlite3.Connection) -> dict[str, int]:
     for old_id, new_id in CATEGORY_ALIASES.items():
         if old_id == new_id:
             continue
-        cur = conn.execute(
-            "SELECT COUNT(*) FROM apis WHERE category_id = ?", (old_id,)
-        )
+        cur = conn.execute("SELECT COUNT(*) FROM apis WHERE category_id = ?", (old_id,))
         n = cur.fetchone()[0]
         if n == 0:
             moved[old_id] = 0

@@ -64,5 +64,8 @@ docs/public-apis-source.md
 frontend/.next/
 frontend/out/
 
+# TypeScript incremental build cache
+*.tsbuildinfo
+
 *.db-shm
 *.db-wal

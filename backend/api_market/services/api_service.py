@@ -1,58 +1,64 @@
 from __future__ import annotations
 
+from typing import Any
+
 from sqlalchemy import func, select, text
 from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.orm import InstrumentedAttribute
+from sqlalchemy.sql import ColumnElement
 
 from api_market.models.api import Api, Category
+
+SearchItem = dict[str, Any]
+SortableColumn = InstrumentedAttribute[Any] | ColumnElement[Any]
 
 
 class ApiService:
     def __init__(self, db: AsyncSession) -> None:
         self.db = db
 
-    async def get_stats(self) -> dict:
+    async def get_stats(self) -> dict[str, Any]:
         total_apis_result = await self.db.execute(select(func.count(Api.id)))
-        total_apis = total_apis_result.scalar() or 0
+        total_apis: int = total_apis_result.scalar() or 0
 
         total_cats_result = await self.db.execute(select(func.count(Category.id)))
-        total_cats = total_cats_result.scalar() or 0
+        total_cats: int = total_cats_result.scalar() or 0
 
         grade_result = await self.db.execute(
             select(Api.quality_grade, func.count(Api.id))
             .where(Api.quality_grade.isnot(None))
             .group_by(Api.quality_grade)
         )
-        grade_dist = {row[0]: row[1] for row in grade_result.all() if row[0]}
+        grade_dist: dict[str, int] = {row[0]: row[1] for row in grade_result.all() if row[0]}
 
         auth_count_result = await self.db.execute(
             select(func.count(Api.id)).where(Api.auth.isnot(None))
         )
-        auth_count = auth_count_result.scalar() or 0
+        auth_count: int = auth_count_result.scalar() or 0
 
         https_count_result = await self.db.execute(
             select(func.count(Api.id)).where(Api.https.is_(True))
         )
-        https_count = https_count_result.scalar() or 0
+        https_count: int = https_count_result.scalar() or 0
 
         cors_count_result = await self.db.execute(
             select(func.count(Api.id)).where(Api.cors.is_(True))
         )
-        cors_count = cors_count_result.scalar() or 0
+        cors_count: int = cors_count_result.scalar() or 0
 
         desc_count_result = await self.db.execute(
-            select(func.count(Api.id)).where(Api.description.isnot(None))
+            select(func.count(Api.id))
+            .where(Api.description.isnot(None))
             .where(func.length(Api.description) > 5)
         )
-        desc_count = desc_count_result.scalar() or 0
+        desc_count: int = desc_count_result.scalar() or 0
 
         sources_result = await self.db.execute(
             select(Api.source).where(Api.source.isnot(None)).distinct()
         )
-        sources = [row[0] for row in sources_result.all() if row[0]]
+        sources: list[str] = [row[0] for row in sources_result.all() if row[0]]
 
-        result = await self.db.execute(
-            select(func.max(Api.updated_at))
-        )
+        result = await self.db.execute(select(func.max(Api.updated_at)))
         last_updated = result.scalar()
 
         return {
@@ -96,7 +102,7 @@ class ApiService:
             query = query.where(Api.auth.is_(None))
             count_query = count_query.where(Api.auth.is_(None))
 
-        sort_column = Api.name
+        sort_column: SortableColumn = Api.name
         if sort_by == "quality":
             sort_column = Api.quality_score
         elif sort_by == "category":
@@ -110,7 +116,7 @@ class ApiService:
             query = query.order_by(sort_column.asc())
 
         total_result = await self.db.execute(count_query)
-        total = total_result.scalar() or 0
+        total: int = total_result.scalar() or 0
 
         offset = max(0, (page - 1) * per_page)
         query = query.offset(offset).limit(per_page)
@@ -127,12 +133,9 @@ class ApiService:
     ) -> list[Category]:
         query = select(Category)
 
-        if sort_by == "api_count":
-            col = Category.api_count
-        elif sort_by == "name":
+        col: SortableColumn = Category.api_count
+        if sort_by == "name":
             col = Category.name
-        else:
-            col = Category.api_count
 
         if order == "desc":
             query = query.order_by(col.desc())
@@ -143,9 +146,7 @@ class ApiService:
         return list(result.scalars().all())
 
     async def get_category(self, category_id: str) -> Category | None:
-        result = await self.db.execute(
-            select(Category).where(Category.id == category_id)
-        )
+        result = await self.db.execute(select(Category).where(Category.id == category_id))
         return result.scalar_one_or_none()
 
     async def search(
@@ -156,7 +157,7 @@ class ApiService:
         category_id: str | None = None,
         sort_by: str = "relevance",
         order: str = "asc",
-    ) -> tuple[list[dict], int]:
+    ) -> tuple[list[SearchItem], int]:
         safe_query = query_text.replace('"', '""')
 
         count_sql = text("""
@@ -165,7 +166,7 @@ class ApiService:
             WHERE apis_fts MATCH :q
         """)
         count_result = await self.db.execute(count_sql, {"q": safe_query})
-        total = count_result.scalar() or 0
+        total: int = count_result.scalar() or 0
 
         if sort_by and sort_by != "relevance":
             sort_col_map: dict[str, str] = {
@@ -195,11 +196,11 @@ class ApiService:
                 LIMIT :lim OFFSET :off
             """)
             offset = max(0, (page - 1) * per_page)
-            params: dict[str, object] = {"q": safe_query, "lim": per_page, "off": offset}
+            params: dict[str, Any] = {"q": safe_query, "lim": per_page, "off": offset}
             if category_id:
                 params["cat"] = category_id
             result = await self.db.execute(sort_sql, params)
-            items = [self._row_to_search_item(row) for row in result.fetchall()]
+            items: list[SearchItem] = [self._row_to_search_item(row) for row in result.fetchall()]
             return items, total
 
         if category_id:
@@ -226,21 +227,21 @@ class ApiService:
             {"q": safe_query, "limit": fetch_count, "offset": fetch_offset},
         )
 
-        items: list[dict] = []
+        filtered: list[SearchItem] = []
         for row in result.fetchall():
             item = self._row_to_search_item(row)
             if category_id and item["category_id"] != category_id:
                 continue
-            items.append(item)
-            if len(items) >= per_page:
+            filtered.append(item)
+            if len(filtered) >= per_page:
                 break
 
         if category_id:
             total = await self._count_matching_category(safe_query, category_id)
 
-        return items, total
+        return filtered, total
 
-    def _row_to_search_item(self, row) -> dict:
+    def _row_to_search_item(self, row: Any) -> SearchItem:
         return {
             "id": row[0],
             "name": row[1],

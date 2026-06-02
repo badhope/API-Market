@@ -4,19 +4,20 @@ import asyncio
 import os
 import sqlite3
 import tempfile
-from collections.abc import AsyncGenerator
+from collections.abc import AsyncGenerator, Generator
 from pathlib import Path
 
 import pytest
 from httpx import ASGITransport, AsyncClient
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
+from sqlalchemy.ext.asyncio.engine import AsyncEngine
 
 TEST_DATA_DIR = Path(tempfile.mkdtemp())
 TEST_DB_PATH = TEST_DATA_DIR / "test_api_market.db"
 
 
 @pytest.fixture(scope="session")
-def event_loop():
+def event_loop() -> Generator[asyncio.AbstractEventLoop, None, None]:
     loop = asyncio.new_event_loop()
     yield loop
     loop.close()
@@ -97,7 +98,7 @@ def test_db_path() -> str:
 
 
 @pytest.fixture
-async def test_engine(test_db_path: str):
+async def test_engine(test_db_path: str) -> AsyncGenerator[AsyncEngine, None]:
     engine = create_async_engine(
         f"sqlite+aiosqlite:///{test_db_path}",
         echo=False,
@@ -107,7 +108,7 @@ async def test_engine(test_db_path: str):
 
 
 @pytest.fixture
-async def db_session(test_engine) -> AsyncGenerator[AsyncSession, None]:
+async def db_session(test_engine: AsyncEngine) -> AsyncGenerator[AsyncSession, None]:
     async_session_factory = async_sessionmaker(
         test_engine,
         class_=AsyncSession,

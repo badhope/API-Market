@@ -176,7 +176,8 @@ def main() -> None:
 
     print("\n[2/5] Creating database schema...")
     with engine.begin() as conn:
-        conn.execute(text("""
+        conn.execute(
+            text("""
             CREATE TABLE IF NOT EXISTS categories (
                 id TEXT PRIMARY KEY,
                 name TEXT NOT NULL,
@@ -184,8 +185,10 @@ def main() -> None:
                 icon TEXT,
                 api_count INTEGER DEFAULT 0
             )
-        """))
-        conn.execute(text("""
+        """)
+        )
+        conn.execute(
+            text("""
             CREATE TABLE IF NOT EXISTS apis (
                 id TEXT PRIMARY KEY,
                 name TEXT NOT NULL,
@@ -206,13 +209,15 @@ def main() -> None:
                 created_at TEXT DEFAULT (datetime('now')),
                 updated_at TEXT DEFAULT (datetime('now'))
             )
-        """))
+        """)
+        )
         conn.execute(text("CREATE INDEX IF NOT EXISTS idx_apis_name ON apis(name)"))
         conn.execute(text("CREATE INDEX IF NOT EXISTS idx_apis_category ON apis(category_id)"))
         conn.execute(text("CREATE INDEX IF NOT EXISTS idx_apis_quality ON apis(quality_score)"))
         conn.execute(text("CREATE INDEX IF NOT EXISTS idx_apis_deprecated ON apis(deprecated)"))
 
-        conn.execute(text("""
+        conn.execute(
+            text("""
             CREATE VIRTUAL TABLE IF NOT EXISTS apis_fts USING fts5(
                 api_id UNINDEXED,
                 name,
@@ -221,7 +226,8 @@ def main() -> None:
                 tags,
                 tokenize='porter unicode61'
             )
-        """))
+        """)
+        )
 
     print("[3/5] Migrating categories and APIs...")
     total_migrated = 0
@@ -283,8 +289,12 @@ def main() -> None:
                 tags = api_data.get("tags", [])
                 tags_str = ",".join(str(t) for t in tags) if isinstance(tags, list) else ""
 
-                quality_score = api_data.get("quality_score") or api_data.get("quality", {}).get("score", 0)
-                quality_grade = api_data.get("quality_grade") or api_data.get("quality", {}).get("grade")
+                quality_score = api_data.get("quality_score") or api_data.get("quality", {}).get(
+                    "score", 0
+                )
+                quality_grade = api_data.get("quality_grade") or api_data.get("quality", {}).get(
+                    "grade"
+                )
 
                 source = api_data.get("source", "")
                 if isinstance(source, list):
@@ -327,13 +337,15 @@ def main() -> None:
 
     print("\n[4/5] Building FTS5 full-text search index...")
     with engine.begin() as conn:
-        conn.execute(text("""
+        conn.execute(
+            text("""
             INSERT INTO apis_fts(api_id, name, description, category_name, tags)
             SELECT a.id, a.name, COALESCE(a.description, ''),
                    COALESCE(c.name, ''), COALESCE(a.tags, '')
             FROM apis a
             LEFT JOIN categories c ON a.category_id = c.id
-        """))
+        """)
+        )
 
     print("\n[5/5] Verifying migration...")
     with engine.begin() as conn:

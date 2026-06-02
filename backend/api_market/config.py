@@ -3,6 +3,7 @@ from __future__ import annotations
 from functools import lru_cache
 from pathlib import Path
 
+from pydantic import model_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -40,6 +41,18 @@ class Settings(BaseSettings):
     @property
     def data_dir(self) -> Path:
         return Path(__file__).resolve().parents[2] / "data"
+
+    @model_validator(mode="after")
+    def _validate_production_safety(self) -> Settings:
+        # Wildcard CORS in production is a security risk: any origin can
+        # read responses. Force operators to set an explicit allowlist.
+        if self.app_env == "production" and "*" in self.cors_origins:
+            raise ValueError(
+                "cors_origins must not contain '*' when app_env='production'. "
+                "Set CORS_ORIGINS to a comma-separated allowlist, e.g. "
+                "CORS_ORIGINS=https://your-domain.example"
+            )
+        return self
 
 
 @lru_cache

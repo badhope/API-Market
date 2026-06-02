@@ -13,14 +13,19 @@ from api_market.models.schemas import (
     ApiListResponse,
     ApiSummary,
     CategoryDetailResponse,
+    CategorySummary,
     StatsResponse,
 )
 from api_market.services.api_service import get_api_service
+from api_market.services.cache_service import get_cache
 
 router = APIRouter(tags=["apis"])
 settings = get_settings()
 
 limiter = Limiter(key_func=get_remote_address)
+
+STATS_CACHE_KEY = "api_market:stats:v1"
+STATS_CACHE_TTL = 300  # 5 min — the homepage reads this on every visit
 
 
 @router.get("/api/stats", response_model=StatsResponse)
@@ -29,8 +34,14 @@ async def get_stats(
     request: Request,
     db: AsyncSession = Depends(get_db),
 ) -> StatsResponse:
+    cache = get_cache()
+    cached = await cache.get(STATS_CACHE_KEY)
+    if cached is not None:
+        return StatsResponse(**cached)
+
     service = get_api_service(db)
     stats = await service.get_stats()
+    await cache.set(STATS_CACHE_KEY, stats, ttl=STATS_CACHE_TTL)
     return StatsResponse(**stats)
 
 
@@ -61,8 +72,8 @@ async def list_apis(
         order=order,
         grade=grade,
         category_id=category,
-        cors_only=cors,
-        free_only=free,
+        cors_only=bool(cors) if cors is not None else False,
+        free_only=bool(free) if free is not None else False,
     )
     total_pages = (total + per_page - 1) // per_page if total > 0 else 0
     return ApiListResponse(
@@ -110,14 +121,14 @@ async def get_category_apis(
     avg_quality = round(float(avg), 1) if avg else 0.0
 
     return CategoryDetailResponse(
-        category={
-            "id": category.id,
-            "name": category.name,
-            "display_name": category.display_name,
-            "icon": category.icon,
-            "api_count": category.api_count,
-            "avg_quality": avg_quality,
-        },
+        category=CategorySummary(
+            id=category.id,
+            name=category.name,
+            display_name=category.display_name,
+            icon=category.icon,
+            api_count=category.api_count,
+            avg_quality=avg_quality,
+        ),
         total=total,
         page=page,
         per_page=per_page,

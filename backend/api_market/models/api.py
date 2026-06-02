@@ -7,6 +7,8 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from api_market.database import Base
 
+__all__ = ["Api", "Base", "Category"]
+
 
 class Category(Base):
     __tablename__ = "categories"

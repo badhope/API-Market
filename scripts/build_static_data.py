@@ -18,12 +18,13 @@ Total footprint: ~5-6 MB uncompressed, ~1.5 MB gzipped. The GitHub Pages
 limit is 1 GB, so this is well within bounds. All files are CDN-cached
 forever once built, so users pay the download cost exactly once.
 """
+
 from __future__ import annotations
 
 import json
 import sqlite3
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -62,10 +63,14 @@ def build_stats(conn: sqlite3.Connection) -> dict:
         "SELECT quality_grade, COUNT(*) FROM apis "
         "WHERE quality_grade IS NOT NULL GROUP BY quality_grade"
     ).fetchall()
-    grade_distribution = {g: c for g, c in grade_rows}
-    sources = [r[0] for r in cur.execute(
-        "SELECT DISTINCT source FROM apis WHERE source IS NOT NULL ORDER BY source"
-    ).fetchall() if r[0]]
+    grade_distribution = dict(grade_rows)
+    sources = [
+        r[0]
+        for r in cur.execute(
+            "SELECT DISTINCT source FROM apis WHERE source IS NOT NULL ORDER BY source"
+        ).fetchall()
+        if r[0]
+    ]
     auth_count = cur.execute("SELECT COUNT(*) FROM apis WHERE auth IS NOT NULL").fetchone()[0]
     https_count = cur.execute("SELECT COUNT(*) FROM apis WHERE https = 1").fetchone()[0]
     cors_count = cur.execute("SELECT COUNT(*) FROM apis WHERE cors = 1").fetchone()[0]
@@ -141,9 +146,11 @@ def build_category_pages(conn: sqlite3.Connection) -> list[dict]:
     SEO + first paint — the client hydrates and re-derives the full list from
     all.json filtered by category.
     """
-    PREVIEW_COUNT = 12
+    preview_count = 12
     cur = conn.cursor()
-    category_ids = [r[0] for r in cur.execute("SELECT id FROM categories ORDER BY api_count DESC").fetchall()]
+    category_ids = [
+        r[0] for r in cur.execute("SELECT id FROM categories ORDER BY api_count DESC").fetchall()
+    ]
     written = []
     for cid in category_ids:
         cat_row = cur.execute(
@@ -152,12 +159,15 @@ def build_category_pages(conn: sqlite3.Connection) -> list[dict]:
         ).fetchone()
         if not cat_row:
             continue
-        api_rows = cur.execute("""
+        api_rows = cur.execute(
+            """
             SELECT * FROM apis
             WHERE category_id = ?
             ORDER BY quality_score DESC, name ASC
             LIMIT ?
-        """, (cid, PREVIEW_COUNT)).fetchall()
+        """,
+            (cid, preview_count),
+        ).fetchall()
         items = [_row_to_api(r) for r in api_rows]
         payload = {
             "category": {
@@ -170,14 +180,23 @@ def build_category_pages(conn: sqlite3.Connection) -> list[dict]:
             },
             "total": cat_row[4] or 0,
             "page": 1,
-            "per_page": PREVIEW_COUNT,
+            "per_page": preview_count,
             "preview": True,
             "items": items,
         }
         out_path = OUT_DIR / "category" / f"{cid}.json"
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-        written.append({"id": cid, "file": f"category/{cid}.json", "size": out_path.stat().st_size, "count": len(items)})
+        out_path.write_text(
+            json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+        )
+        written.append(
+            {
+                "id": cid,
+                "file": f"category/{cid}.json",
+                "size": out_path.stat().st_size,
+                "count": len(items),
+            }
+        )
     return written
 
 
@@ -228,7 +247,7 @@ def main() -> int:
 
     manifest = {
         "version": VERSION,
-        "built_at": datetime.now(timezone.utc).isoformat(),
+        "built_at": datetime.now(UTC).isoformat(),
         "stats": {k: stats[k] for k in ("total_apis", "total_categories") if k in stats},
         "files": {
             "stats": "stats.json",
@@ -259,10 +278,14 @@ def main() -> int:
     print(f"  top.json              : {file_sizes[3]:>12,} bytes")
     print(f"  all.json (14,405 APIs): {file_sizes[4]:>12,} bytes  ← full snapshot")
     print(f"  manifest.json         : {file_sizes[5]:>12,} bytes")
-    print(f"  category/*.json       : {len(category_files):>12} files, {sum(f['size'] for f in category_files):,} bytes total")
-    print(f"  ─────────────────────────────────────────")
+    print(
+        f"  category/*.json       : {len(category_files):>12} files, {sum(f['size'] for f in category_files):,} bytes total"
+    )
+    print("  ─────────────────────────────────────────")
     print(f"  TOTAL: {total_size:,} bytes ({total_size / 1024 / 1024:.2f} MB)")
-    print(f"Manifest: total_apis={stats['total_apis']}, total_categories={stats['total_categories']}")
+    print(
+        f"Manifest: total_apis={stats['total_apis']}, total_categories={stats['total_categories']}"
+    )
     conn.close()
     return 0
 

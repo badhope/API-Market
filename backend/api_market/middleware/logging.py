@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 import time
-from collections.abc import Callable
+from collections.abc import Awaitable, Callable
 
 from fastapi import Request, Response
 from starlette.middleware.base import BaseHTTPMiddleware
@@ -9,13 +9,15 @@ from starlette.types import ASGIApp
 
 from api_market.config import get_settings
 
+NextRequest = Callable[[Request], Awaitable[Response]]
+
 
 class SlowRequestMiddleware(BaseHTTPMiddleware):
     def __init__(self, app: ASGIApp, threshold_ms: int = 200) -> None:
         super().__init__(app)
         self.threshold_ms = threshold_ms
 
-    async def dispatch(self, request: Request, call_next: Callable) -> Response:
+    async def dispatch(self, request: Request, call_next: NextRequest) -> Response:
         start = time.monotonic()
         response = await call_next(request)
         elapsed_ms = (time.monotonic() - start) * 1000
@@ -25,15 +27,13 @@ class SlowRequestMiddleware(BaseHTTPMiddleware):
 
 
 class SecurityHeadersMiddleware(BaseHTTPMiddleware):
-    async def dispatch(self, request: Request, call_next: Callable) -> Response:
+    async def dispatch(self, request: Request, call_next: NextRequest) -> Response:
         response = await call_next(request)
         response.headers["X-Content-Type-Options"] = "nosniff"
         response.headers["X-Frame-Options"] = "DENY"
         response.headers["X-XSS-Protection"] = "1; mode=block"
         response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
-        response.headers["Permissions-Policy"] = (
-            "camera=(), microphone=(), geolocation=()"
-        )
+        response.headers["Permissions-Policy"] = "camera=(), microphone=(), geolocation=()"
         return response
 
 
@@ -42,7 +42,7 @@ class CORSMiddlewareFixed(BaseHTTPMiddleware):
         super().__init__(app)
         self._settings = get_settings()
 
-    async def dispatch(self, request: Request, call_next: Callable) -> Response:
+    async def dispatch(self, request: Request, call_next: NextRequest) -> Response:
         if request.method == "OPTIONS":
             response = Response(status_code=200)
             self._set_cors_headers(response)
