@@ -180,8 +180,12 @@ public site. The FastAPI backend is still useful for headless use — see
 #### 1. One-time setup
 
 ```bash
-# In the GitHub repo: Settings → Pages → Source → "GitHub Actions"
-# (This is required so the workflow can publish to Pages.)
+# In the GitHub repo: Settings → Pages → Source → "Deploy from a branch"
+# Then: Branch → "gh-pages" / (root) → Save
+#
+# (The workflow creates the gh-pages branch on its first run, so you may
+# need to wait a minute after the first commit for it to appear in the
+# branch dropdown.)
 ```
 
 No other secrets are required. The workflow uses the default `GITHUB_TOKEN`.

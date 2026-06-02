@@ -10,9 +10,7 @@ concurrency:
   cancel-in-progress: true
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 jobs:
   build:
@@ -29,16 +27,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
-
-      - name: Install Python dependencies
-        run: |
-          python -m pip install --upgrade pip
-          # build_static_data.py only uses the stdlib sqlite3 module, so we
-          # don't need aiosqlite / FastAPI / etc. here.
-          echo "Python stdlib only — no pip install required."
 
       - name: Dump static data from SQLite
+        # build_static_data.py only uses the stdlib sqlite3 module, so we
+        # don't need aiosqlite / FastAPI / etc. here.
         run: |
           mkdir -p frontend/public/data
           python scripts/build_static_data.py
@@ -64,20 +56,21 @@ jobs:
       - name: Add .nojekyll (bypass Jekyll processing)
         run: touch frontend/out/.nojekyll
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Create CNAME placeholder (delete if you don't use a custom domain)
+        run: |
+          if [ -n "$PAGES_CNAME" ]; then
+            echo "$PAGES_CNAME" > frontend/out/CNAME
+          fi
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: frontend/out
-
-  deploy:
-    name: Deploy to GitHub Pages
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./frontend/out
+          publish_branch: gh-pages
+          # Keep the gh-pages branch history short
+          force_orphan: true
+          # Quiet noisy diffs
+          enable_jekyll: false
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
