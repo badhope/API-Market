@@ -20,9 +20,9 @@ jobs:
         with:
           enable-cache: true
       - name: Install ruff
-        run: uv pip install ruff
-      - run: ruff check backend/ pipeline/ scripts/
-      - run: ruff format --check backend/ pipeline/ scripts/
+        run: uv tool install ruff
+      - run: uv tool run ruff check backend/ pipeline/ scripts/
+      - run: uv tool run ruff format --check backend/ pipeline/ scripts/
 
   typecheck:
     name: Type Check
