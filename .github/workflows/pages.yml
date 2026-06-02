@@ -47,7 +47,19 @@ jobs:
             python scripts/migrate_to_sqlite.py
           else
             mkdir -p data
-            echo "WARNING: no cache hit and no api-database.json; build_static_data.py will use whatever is in data/." >&2
+            echo "WARNING: no cache hit and no api-database.json; creating empty schema DB." >&2
+            python -c "
+import sqlite3, os
+conn = sqlite3.connect('data/api_market.db')
+conn.executescript('''
+  CREATE TABLE IF NOT EXISTS categories (id TEXT PRIMARY KEY, name TEXT NOT NULL, display_name TEXT NOT NULL, icon TEXT, api_count INTEGER DEFAULT 0);
+  CREATE TABLE IF NOT EXISTS apis (id TEXT PRIMARY KEY, name TEXT NOT NULL, url TEXT NOT NULL, description TEXT DEFAULT '''', category_id TEXT NOT NULL REFERENCES categories(id), auth TEXT, https BOOLEAN, cors BOOLEAN, source TEXT, source_url TEXT, quality_score INTEGER DEFAULT 0, quality_grade TEXT, tags TEXT, status TEXT DEFAULT ''active'', deprecated BOOLEAN DEFAULT 0, last_verified TEXT, created_at TEXT, updated_at TEXT);
+  CREATE VIRTUAL TABLE IF NOT EXISTS apis_fts USING fts5(api_id UNINDEXED, name, description, category_name, tags, tokenize=''porter unicode61'');
+''')
+conn.commit()
+conn.close()
+print('Created empty schema DB (0 APIs)')
+"
           fi
 
       - name: Dump static data from SQLite
