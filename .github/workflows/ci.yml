@@ -6,11 +6,11 @@ on:
   pull_request:
     branches: [main]
 
-# CodeQL needs `security-events: read` to publish results; `contents: read` is
-# the safe default for everything else.
+# CodeQL needs `security-events: write` to upload SARIF results;
+# `contents: read` is the safe default for everything else.
 permissions:
   contents: read
-  security-events: read
+  security-events: write
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
