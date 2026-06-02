@@ -49,6 +49,7 @@ data/*
 data/*.db
 data/*.db-shm
 data/*.db-wal
+!data/api_market.db
 data/quality_report.json
 
 docker/volumes/
