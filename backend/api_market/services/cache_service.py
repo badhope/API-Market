@@ -13,10 +13,10 @@ settings = get_settings()
 
 class CacheService:
     def __init__(self) -> None:
-        self._redis: aioredis.Redis | None = None
+        self._redis: aioredis.Redis[Any] | None = None
         self._enabled = bool(settings.redis_url)
 
-    async def _ensure_connection(self) -> aioredis.Redis | None:
+    async def _ensure_connection(self) -> aioredis.Redis[Any] | None:
         if not self._enabled:
             return None
         if self._redis is None:

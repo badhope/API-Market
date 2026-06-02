@@ -27,6 +27,7 @@ dependencies = [
     "pydantic>=2.9.0",
     "pydantic-settings>=2.6.0",
     "sqlalchemy[asyncio]>=2.0.35",
+    "aiosqlite>=0.20.0",
     "redis>=5.2.0",
     "python-dotenv>=1.0.1",
     "slowapi>=0.1.9",
