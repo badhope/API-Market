@@ -16,7 +16,6 @@ build/
 .gitignore
 .env
 .env.local
-*.md
 LICENSE
 docker/
 !docker/nginx.conf
@@ -30,5 +29,10 @@ backend/tests/
 scripts/tests/
 apis/
 data/
-!data/api_market.db
 !data/.gitkeep
+
+# The Dockerfile explicitly copies a few markdown / license files (used by
+# `pip install .` for the long_description / classifier metadata), so we
+# keep them in the build context.
+!README.md
+!pyproject.toml

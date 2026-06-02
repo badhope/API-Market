@@ -26,7 +26,15 @@ ENV PYTHONPATH=/app/backend \
 RUN mkdir -p /app/data && chown -R appuser:appuser /app
 
 COPY --chown=appuser:appuser backend/ /app/backend/
-COPY --chown=appuser:appuser data/api_market.db /app/data/api_market.db
+
+# data/api_market.db is generated at runtime / on the host (see
+# `make db-init` or scripts/migrate_to_sqlite.py). The SQLite file is
+# gitignored, so we don't COPY it into the image — bundling a stale
+# snapshot into every layer would break rollbacks and inflate the image by
+# ~10MB. In docker-compose the database is provided through the `api_data`
+# volume; in CI the file is created by the host before `docker compose up`.
+# We still copy data/.gitkeep so the target directory exists.
+COPY --chown=appuser:appuser data/.gitkeep /app/data/.gitkeep
 
 USER appuser
 

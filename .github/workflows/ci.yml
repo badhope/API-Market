@@ -6,6 +6,12 @@ on:
   pull_request:
     branches: [main]
 
+# CodeQL needs `security-events: read` to publish results; `contents: read` is
+# the safe default for everything else.
+permissions:
+  contents: read
+  security-events: read
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
