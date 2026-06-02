@@ -43,8 +43,13 @@ Desktop.ini
 *~
 .history/
 
-data/
+data/*
 !data/.gitkeep
+!data/collected/
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/quality_report.json
 
 docker/volumes/
 
