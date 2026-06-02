@@ -28,6 +28,28 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Restore cached SQLite database
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: data/api_market.db
+          key: api-market-db-v1
+          restore-keys: |
+            api-market-db-
+
+      - name: Rebuild SQLite database (cache miss)
+        # The DB is gitignored (it ships in the GitHub Pages bundle, not the
+        # repo). On a cold cache we fall back to running the migration
+        # script from the legacy JSON snapshot if one is available locally.
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          if [ -f api-database.json ]; then
+            python scripts/migrate_to_sqlite.py
+          else
+            mkdir -p data
+            echo "WARNING: no cache hit and no api-database.json; build_static_data.py will use whatever is in data/." >&2
+          fi
+
       - name: Dump static data from SQLite
         # build_static_data.py only uses the stdlib sqlite3 module, so we
         # don't need aiosqlite / FastAPI / etc. here.

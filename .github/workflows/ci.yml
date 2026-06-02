@@ -19,7 +19,8 @@ jobs:
       - uses: astral-sh/setup-uv@v3
         with:
           enable-cache: true
-      - run: uv pip install --system ruff
+      - name: Install ruff
+        run: uv pip install ruff
       - run: ruff check backend/ pipeline/ scripts/
       - run: ruff format --check backend/ pipeline/ scripts/
 
@@ -31,8 +32,9 @@ jobs:
       - uses: astral-sh/setup-uv@v3
         with:
           enable-cache: true
-      - run: uv pip install --system -e ".[dev]"
-      - run: mypy backend/api_market/ --config-file pyproject.toml
+      - name: Install dev dependencies
+        run: uv sync --extra dev
+      - run: uv run mypy backend/api_market/ --config-file pyproject.toml
 
   test:
     name: Tests
@@ -43,9 +45,10 @@ jobs:
       - uses: astral-sh/setup-uv@v3
         with:
           enable-cache: true
-      - run: uv pip install --system -e ".[dev]"
+      - name: Install dev dependencies
+        run: uv sync --extra dev
       - name: Run tests
-        run: cd backend && python -m pytest tests/ -v --cov=api_market --cov-report=xml --cov-fail-under=70
+        run: uv run --directory backend pytest tests/ -v --cov=api_market --cov-report=xml --cov-fail-under=70
       - name: Upload coverage
         uses: codecov/codecov-action@v4
         with:
