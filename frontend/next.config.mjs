@@ -1,17 +1,25 @@
 /** @type {import('next').NextConfig} */
+const isExport = process.env.STATIC_EXPORT === "true"
+
 const nextConfig = {
-  output: "standalone",
+  output: isExport ? "export" : "standalone",
+  basePath: isExport ? "/API-Market" : "",
+  trailingSlash: isExport,
   images: {
-    remotePatterns: [],
+    unoptimized: true,
   },
-  async rewrites() {
-    return [
-      {
-        source: "/api/:path*",
-        destination: `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080"}/api/:path*`,
-      },
-    ]
-  },
+  ...(isExport
+    ? {}
+    : {
+        async rewrites() {
+          return [
+            {
+              source: "/api/:path*",
+              destination: `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080"}/api/:path*`,
+            },
+          ]
+        },
+      }),
 }
 
 export default nextConfig

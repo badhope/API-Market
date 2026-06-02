@@ -8,46 +8,54 @@ import type {
   StatsResponse,
 } from "@/types"
 
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || ""
+const HAS_REMOTE_API = API_BASE_URL.length > 0
+
 class ApiClient {
-  private getBaseUrl(): string {
-    if (typeof window !== "undefined") {
-      return window.location.origin
+  private async fetchJson<T>(path: string, params?: Record<string, string | number | boolean | undefined>): Promise<T> {
+    if (HAS_REMOTE_API) {
+      const url = new URL(path, API_BASE_URL)
+      if (params) {
+        Object.entries(params).forEach(([key, value]) => {
+          if (value !== undefined && value !== null && value !== "") {
+            url.searchParams.set(key, String(value))
+          }
+        })
+      }
+      const controller = new AbortController()
+      const timeout = setTimeout(() => controller.abort(), 15000)
+      try {
+        const res = await fetch(url.toString(), {
+          headers: { "Content-Type": "application/json" },
+          signal: controller.signal,
+        })
+        if (!res.ok) {
+          throw new Error(`API error: ${res.status} ${res.statusText}`)
+        }
+        return res.json()
+      } finally {
+        clearTimeout(timeout)
+      }
     }
-    return ""
+    throw new Error("Static export mode: no remote API configured")
   }
 
-  private async fetchJson<T>(path: string, params?: Record<string, string | number | boolean | undefined>): Promise<T> {
-    const baseUrl = this.getBaseUrl()
-    const url = baseUrl ? new URL(path, baseUrl) : new URL(path, "http://localhost")
-    if (params) {
-      Object.entries(params).forEach(([key, value]) => {
-        if (value !== undefined && value !== null && value !== "") {
-          url.searchParams.set(key, String(value))
-        }
-      })
+  private async fetchStatic<T>(path: string): Promise<T> {
+    const res = await fetch(path, { headers: { "Content-Type": "application/json" } })
+    if (!res.ok) {
+      throw new Error(`Static data error: ${res.status} ${res.statusText}`)
     }
-    const controller = new AbortController()
-    const timeout = setTimeout(() => controller.abort(), 15000)
-    try {
-      const res = await fetch(url.toString(), {
-        headers: { "Content-Type": "application/json" },
-        signal: controller.signal,
-      })
-      if (!res.ok) {
-        throw new Error(`API error: ${res.status} ${res.statusText}`)
-      }
-      return res.json()
-    } finally {
-      clearTimeout(timeout)
-    }
+    return res.json()
   }
 
   async getHealth(): Promise<HealthResponse> {
-    return this.fetchJson<HealthResponse>("/api/health")
+    if (HAS_REMOTE_API) return this.fetchJson<HealthResponse>("/api/health")
+    return { status: "static", version: "5.0.0", uptime: 0 }
   }
 
   async getStats(): Promise<StatsResponse> {
-    return this.fetchJson<StatsResponse>("/api/stats")
+    if (HAS_REMOTE_API) return this.fetchJson<StatsResponse>("/api/stats")
+    return this.fetchStatic<StatsResponse>("/data/stats.json")
   }
 
   async getApis(params?: {
@@ -60,18 +68,29 @@ class ApiClient {
     cors?: boolean
     free?: boolean
   }): Promise<ApiListResponse> {
-    return this.fetchJson<ApiListResponse>("/api", {
-      page: params?.page ?? 1,
-      per_page: params?.per_page ?? DEFAULT_PER_PAGE,
-      ...params,
-    })
+    if (HAS_REMOTE_API) {
+      return this.fetchJson<ApiListResponse>("/api", {
+        page: params?.page ?? 1,
+        per_page: params?.per_page ?? DEFAULT_PER_PAGE,
+        ...params,
+      })
+    }
+    const featured = await this.fetchStatic<{ top_apis: ApiListResponse["items"] }>("/data/featured.json")
+    return {
+      total: featured.top_apis.length,
+      page: 1,
+      per_page: featured.top_apis.length,
+      total_pages: 1,
+      items: featured.top_apis,
+    }
   }
 
   async getCategories(params?: {
     sort?: string
     order?: string
   }): Promise<CategoryListResponse> {
-    return this.fetchJson<CategoryListResponse>("/api/categories", params)
+    if (HAS_REMOTE_API) return this.fetchJson<CategoryListResponse>("/api/categories", params)
+    return this.fetchStatic<CategoryListResponse>("/data/categories.json")
   }
 
   async getCategoryApis(
@@ -83,12 +102,15 @@ class ApiClient {
       order?: string
     }
   ): Promise<CategoryDetailResponse> {
-    return this.fetchJson<CategoryDetailResponse>(`/api/category/${categoryId}`, {
-      page: params?.page ?? 1,
-      per_page: params?.per_page ?? DEFAULT_PER_PAGE,
-      sort: params?.sort,
-      order: params?.order,
-    })
+    if (HAS_REMOTE_API) {
+      return this.fetchJson<CategoryDetailResponse>(`/api/category/${categoryId}`, {
+        page: params?.page ?? 1,
+        per_page: params?.per_page ?? DEFAULT_PER_PAGE,
+        sort: params?.sort,
+        order: params?.order,
+      })
+    }
+    return this.fetchStatic<CategoryDetailResponse>(`/data/category/${categoryId}.json`)
   }
 
   async search(params: {
@@ -99,11 +121,25 @@ class ApiClient {
     sort?: string
     order?: string
   }): Promise<SearchResponse> {
-    return this.fetchJson<SearchResponse>("/api/search", {
-      page: params.page ?? 1,
-      per_page: params.per_page ?? DEFAULT_PER_PAGE,
-      ...params,
-    })
+    if (HAS_REMOTE_API) {
+      return this.fetchJson<SearchResponse>("/api/search", {
+        page: params.page ?? 1,
+        per_page: params.per_page ?? DEFAULT_PER_PAGE,
+        ...params,
+      })
+    }
+    return {
+      total: 0,
+      page: 1,
+      per_page: DEFAULT_PER_PAGE,
+      total_pages: 0,
+      items: [],
+      query: params.q,
+    }
+  }
+
+  isStaticMode(): boolean {
+    return !HAS_REMOTE_API
   }
 }
 

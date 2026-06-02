@@ -115,6 +115,9 @@ export const translations = {
       goToPrevious: "Go to previous page",
       goToNext: "Go to next page",
       pageIndicator: "Page {page} of {totalPages}",
+      staticMode: "Static mode",
+      showingTopN:
+        "Showing top {count} of {total} APIs in this category. The full list is available when the backend is deployed.",
     },
   },
   ja: {
@@ -232,6 +235,9 @@ export const translations = {
       goToPrevious: "前のページへ",
       goToNext: "次のページへ",
       pageIndicator: "第 {page} ページ / 全 {totalPages} ページ",
+      staticMode: "静的モード",
+      showingTopN:
+        "このカテゴリの先頭 {count} 件 / 全 {total} 件を表示しています。全件表示にはバックエンドをデプロイしてください。",
     },
   },
   zh: {
@@ -348,6 +354,9 @@ export const translations = {
       goToPrevious: "上一页",
       goToNext: "下一页",
       pageIndicator: "第 {page} 页 / 共 {totalPages} 页",
+      staticMode: "静态模式",
+      showingTopN:
+        "当前仅显示前 {count} 个 / 共 {total} 个 API。完整列表需要在部署后端服务后浏览。",
     },
   },
 } as const

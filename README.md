@@ -23,6 +23,7 @@
 - [Key Features](#-key-features)
 - [Architecture](#-architecture)
 - [Quick Start](#-quick-start)
+- [Deployment](#-deployment)
 - [API Reference](#-api-reference)
 - [Quality Scoring](#-quality-scoring)
 - [Data Sources](#-data-sources)
@@ -156,6 +157,89 @@ curl "http://localhost:8080/api/search?q=weather"
 curl "http://localhost:8080/api/stats"
 curl "http://localhost:8080/api/categories"
 ```
+
+---
+
+## 🌍 Deployment
+
+The project supports two deployment modes:
+
+| Mode | Use Case | Hosting |
+|------|----------|---------|
+| **Full stack (Docker)** | Self-hosted with backend + frontend | VPS, your own server |
+| **Static (GitHub Pages)** | Public, free, no-server deployment | GitHub Pages + Render (backend) |
+
+### Option A: GitHub Pages (Recommended for showcasing)
+
+GitHub Pages hosts only static files. We use the `.github/workflows/pages.yml` workflow
+to build the Next.js app as a static export (`output: 'export'`) and publish it to
+`https://<owner>.github.io/API-Market/`. The data is dumped to JSON at build time
+from the SQLite database, so the homepage, category pages, and top-50 APIs work
+fully offline. Optional: deploy the FastAPI backend to Render for full search and
+per-page filtering across all 14,000+ APIs.
+
+#### 1. One-time setup
+
+```bash
+# In the GitHub repo: Settings → Pages → Source → "GitHub Actions"
+# (This is required so the workflow can publish to Pages.)
+```
+
+No other secrets are required. The workflow uses the default `GITHUB_TOKEN`.
+
+#### 2. Push to `main`
+
+```bash
+git add . && git commit -m "feat: enable GitHub Pages"
+git push origin main
+```
+
+The `Deploy to GitHub Pages` workflow runs automatically. Once green, your site
+is live at:
+
+```
+https://<owner>.github.io/API-Market/
+```
+
+#### 3. (Optional) Enable backend search
+
+The static site ships pre-rendered category overviews and the top 50 APIs.
+For full search and pagination, deploy the FastAPI backend to any free host
+(Render, Fly.io, Railway, etc.) and set `NEXT_PUBLIC_API_URL` in
+`.github/workflows/pages.yml` before the `npm run build` step:
+
+```yaml
+env:
+  STATIC_EXPORT: "true"
+  NEXT_PUBLIC_API_URL: "https://api-market-backend.onrender.com"
+```
+
+The frontend automatically prefers the live API and falls back to JSON when
+it is unreachable. See [docs/deploy-render.md](docs/deploy-render.md) for a
+step-by-step Render guide.
+
+#### 4. Local preview of the static build
+
+```bash
+cd frontend
+STATIC_EXPORT=true npm run build
+npx serve out
+# Open http://localhost:3000/API-Market/
+```
+
+### Option B: Full stack (Docker)
+
+```bash
+git clone https://github.com/badhope/API-Market.git
+cd API-Market
+cp .env.example .env
+docker compose up -d
+# Open http://localhost
+```
+
+The Docker setup includes a multi-stage build for the frontend (Next.js
+standalone output behind Nginx) plus the FastAPI backend. See
+[`docker-compose.yml`](docker-compose.yml) for the full stack.
 
 ---
 

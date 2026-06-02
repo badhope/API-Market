@@ -6,7 +6,7 @@ import { translations, type Locale, type TranslationKey } from "./translations"
 interface I18nContextType {
   locale: Locale
   setLocale: (locale: Locale) => void
-  t: (key: TranslationKey) => string
+  t: (key: TranslationKey, params?: Record<string, string | number>) => string
 }
 
 const I18nContext = createContext<I18nContextType | null>(null)
@@ -37,8 +37,15 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const t = useCallback(
-    (key: TranslationKey): string => {
-      return translations[locale]?.common?.[key] || translations.en.common[key] || key
+    (key: TranslationKey, params?: Record<string, string | number>): string => {
+      let value: string =
+        translations[locale]?.common?.[key] || translations.en.common[key] || key
+      if (params) {
+        for (const [k, v] of Object.entries(params)) {
+          value = value.replace(new RegExp(`\\{${k}\\}`, "g"), String(v))
+        }
+      }
+      return value
     },
     [locale]
   )
