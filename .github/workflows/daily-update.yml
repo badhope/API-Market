@@ -11,6 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
 
+    # peter-evans/create-pull-request pushes commits and opens a PR
+    # on the same data/daily-update branch. GITHUB_TOKEN is
+    # read-only by default, so we must opt into contents:write and
+    # pull-requests:write or the action fails with 403.
+    permissions:
+      contents: write
+      pull-requests: write
+
     steps:
       - uses: actions/checkout@v4
 
