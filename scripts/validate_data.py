@@ -64,10 +64,7 @@ def is_likely_not_api(name: str, description: str) -> bool:
 def normalize_url(url: str) -> str:
     url = url.strip().rstrip("/")
     if url and not url.startswith("http"):
-        if url.startswith("www."):
-            url = f"https://{url}"
-        else:
-            url = f"https://{url}"
+        url = f"https://{url}"
     return url
 
 
@@ -163,8 +160,8 @@ def clean_and_validate() -> QualityReport:
         "removed_duplicates": report.removed_duplicates,
         "issues": report.issues[:50],
     }
-    with open(report_path, "w") as f:
-        json.dump(report_data, f, indent=2)
+    with open(report_path, "w", encoding="utf-8") as f:
+        json.dump(report_data, f, indent=2, ensure_ascii=False)
 
     conn.close()
 

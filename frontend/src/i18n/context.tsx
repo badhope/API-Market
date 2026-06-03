@@ -42,7 +42,11 @@ export function I18nProvider({ children }: { children: ReactNode }) {
         translations[locale]?.common?.[key] || translations.en.common[key] || key
       if (params) {
         for (const [k, v] of Object.entries(params)) {
-          value = value.replace(new RegExp(`\\{${k}\\}`, "g"), String(v))
+          // Replace via a function callback so `$&`, `$'`, `` $` `` and `$$`
+          // in the supplied value are treated as literal text instead of
+          // special replacement patterns (String.prototype.replace would
+          // otherwise re-interpret them and corrupt the output).
+          value = value.replace(new RegExp(`\\{${k}\\}`, "g"), () => String(v))
         }
       }
       return value

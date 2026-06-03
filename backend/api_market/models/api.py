@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import UTC, datetime
 
 from sqlalchemy import Boolean, DateTime, ForeignKey, Integer, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
@@ -8,6 +8,11 @@ from sqlalchemy.orm import Mapped, mapped_column, relationship
 from api_market.database import Base
 
 __all__ = ["Api", "Base", "Category"]
+
+
+def _utcnow() -> datetime:
+    """Timezone-aware UTC now. SQLAlchemy stores it as naive ISO text in SQLite."""
+    return datetime.now(UTC).replace(tzinfo=None)
 
 
 class Category(Base):
@@ -46,9 +51,9 @@ class Api(Base):
     status: Mapped[str] = mapped_column(String(16), default="active")
     deprecated: Mapped[bool] = mapped_column(Boolean, default=False, index=True)
     last_verified: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
-    created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+    created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
     updated_at: Mapped[datetime] = mapped_column(
-        DateTime, default=datetime.utcnow, onupdate=datetime.utcnow
+        DateTime, default=_utcnow, onupdate=_utcnow
     )
 
     category_rel = relationship("Category", back_populates="apis")
