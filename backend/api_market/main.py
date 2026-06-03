@@ -59,7 +59,7 @@ async def _validation_exception_handler(request: Request, exc: Exception) -> JSO
         for err in errs
     ]
     return JSONResponse(
-        status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+        status_code=status.HTTP_422_UNPROCESSABLE_CONTENT,
         content=_error_payload(
             "validation_error", "request body or query failed validation", fields=fields
         ),

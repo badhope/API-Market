@@ -4,12 +4,13 @@
 from __future__ import annotations
 
 import asyncio
+import hashlib
 import json
 import os
 import re
-import time
 from collections import defaultdict
 from dataclasses import dataclass, field
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
@@ -647,8 +648,11 @@ async def main() -> None:
 
     categories: defaultdict[str, list[dict[str, Any]]] = defaultdict(list)
     for entry in merged:
-        safe_name = re.sub(r"[^a-z0-9]", "_", entry.name.lower().strip())[:40]
-        api_id = f"{entry.category}_{safe_name}"
+        safe_name = re.sub(r"[^a-z0-9]", "_", entry.name.lower().strip())[:40] or "api"
+        # Hash suffix avoids collisions when two entries in the same category
+        # normalize to the same safe_name (e.g. identical titles or all-symbol names).
+        digest = hashlib.sha1(f"{entry.url}|{entry.name}".encode()).hexdigest()[:6]
+        api_id = f"{entry.category}_{safe_name}_{digest}"
         categories[entry.category].append(
             {
                 "id": api_id,
@@ -673,7 +677,7 @@ async def main() -> None:
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(
             {
-                "collected_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                "collected_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "total_apis": len(merged),
                 "total_categories": len(categories),
                 "categories": dict(sorted(categories.items())),

@@ -6,8 +6,8 @@ from __future__ import annotations
 import json
 import re
 import sqlite3
-import time
 from dataclasses import dataclass, field
+from datetime import UTC, datetime
 from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parents[1] / "data"
@@ -115,8 +115,7 @@ def clean_and_validate() -> QualityReport:
             update_batch.append(("UPDATE apis SET url = ? WHERE id = ?", cleaned_url, api_id))
 
     for sql, *params in update_batch:
-        if isinstance(sql, str):
-            conn.execute(sql, params)
+        conn.execute(sql, params)
 
     for api_id in non_api_ids:
         conn.execute("UPDATE apis SET status = 'flagged', deprecated = 1 WHERE id = ?", (api_id,))
@@ -149,7 +148,7 @@ def clean_and_validate() -> QualityReport:
 
     report_path = DATA_DIR / "quality_report.json"
     report_data = {
-        "generated_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        "generated_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "total_original": report.total_checked,
         "total_active": db_count,
         "fts_entries": fts_count,

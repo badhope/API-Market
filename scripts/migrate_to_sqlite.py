@@ -6,7 +6,7 @@ from __future__ import annotations
 import json
 import re
 import sys
-import time
+from datetime import UTC, datetime
 from pathlib import Path
 
 from sqlalchemy import create_engine, text
@@ -349,7 +349,7 @@ def main() -> None:
                         "tags": tags_str,
                         "status": api_data.get("status", "active"),
                         "deprecated": 1 if api_data.get("status") == "deprecated" else 0,
-                        "updated_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                        "updated_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
                     },
                 )
                 total_migrated += 1
