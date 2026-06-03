@@ -20,7 +20,12 @@ export function formatDate(dateStr: string | null, locale?: string): string {
     en: "en-US",
   }
   const intlLocale = localeMap[locale ?? "en"] || "en-US"
-  return new Date(dateStr).toLocaleDateString(intlLocale, {
+  // Backend stores naive ISO text (UTC). Without `Z` (or an explicit
+  // offset) `new Date(...)` parses the string as local time, which
+  // shifts the rendered day by ±1 for users outside UTC. Normalise
+  // here so all callers get a consistent UTC interpretation.
+  const normalised = /Z$|[+-]\d{2}:?\d{2}$/.test(dateStr) ? dateStr : `${dateStr}Z`
+  return new Date(normalised).toLocaleDateString(intlLocale, {
     year: "numeric",
     month: "short",
     day: "numeric",

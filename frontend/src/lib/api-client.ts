@@ -59,10 +59,21 @@ function sortInPlace<T>(items: T[], sort: string, order: "asc" | "desc"): void {
 
 function paginate<T>(items: T[], page: number, perPage: number) {
   const total = items.length
-  const total_pages = Math.max(1, Math.ceil(total / perPage))
-  const safePage = Math.min(Math.max(1, page), total_pages)
+  // Match the backend's `total_pages` formula exactly (returns 0 on an
+  // empty result set). The previous `Math.max(1, ...)` produced a page
+  // count of 1 for empty data, which made the frontend pager render
+  // "Page 1 of 1" with no items — confusing and inconsistent with the
+  // live API.
+  const total_pages = total > 0 ? Math.ceil(total / perPage) : 0
+  const safePage = total_pages === 0 ? 1 : Math.min(Math.max(1, page), total_pages)
   const start = (safePage - 1) * perPage
-  return { total, page: safePage, per_page: perPage, total_pages, items: items.slice(start, start + perPage) }
+  return {
+    total,
+    page: safePage,
+    per_page: perPage,
+    total_pages,
+    items: items.slice(start, start + perPage),
+  }
 }
 
 // Cheap tokenised full-text search over name + description + tags.
@@ -123,7 +134,17 @@ class ApiClient {
 
   async getHealth(): Promise<HealthResponse> {
     if (HAS_REMOTE_API) return this.fetchJson<HealthResponse>("/api/health")
-    return { status: "static", version: "5.0.0", uptime: 0 }
+    // Static-mode version comes from the build manifest so we don't have
+    // to keep `version` in lockstep between scripts/build_static_data.py
+    // and the frontend.
+    try {
+      const manifest = await this.fetchStatic<{ version: string; built_at: string }>(
+        "/data/manifest.json"
+      )
+      return { status: "static", version: manifest.version, uptime: 0 }
+    } catch {
+      return { status: "static", version: "unknown", uptime: 0 }
+    }
   }
 
   async getStats(): Promise<StatsResponse> {

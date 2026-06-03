@@ -1,5 +1,3 @@
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080"
-
 export const DEFAULT_PER_PAGE = 20
 export const MAX_PER_PAGE = 100
 
