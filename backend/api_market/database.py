@@ -18,7 +18,10 @@ if not _db_path.parent.exists():
 engine = create_async_engine(
     settings.database_url,
     echo=False,
-    pool_pre_ping=True,
+    # `pool_pre_ping` issues a round-trip per checkout; with aiosqlite's
+    # single-connection pool that becomes an extra SQLite call on every
+    # request. SQLite reports connection errors synchronously instead of
+    # via a stale-socket check, so the ping is pure overhead here.
     connect_args={"check_same_thread": False} if "sqlite" in settings.database_url else {},
 )
 
@@ -27,6 +30,10 @@ engine = create_async_engine(
 def _set_sqlite_pragma(dbapi_connection, connection_record):  # type: ignore[no-untyped-def]
     cursor = dbapi_connection.cursor()
     cursor.execute("PRAGMA journal_mode=WAL")
+    # WAL is durable enough for our use case (read-heavy public directory)
+    # and ~2-3x faster than FULL on write-heavy paths like the daily
+    # import.
+    cursor.execute("PRAGMA synchronous=NORMAL")
     cursor.execute("PRAGMA foreign_keys=ON")
     cursor.execute("PRAGMA busy_timeout=5000")
     cursor.close()

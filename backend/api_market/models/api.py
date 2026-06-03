@@ -24,7 +24,11 @@ class Category(Base):
     icon: Mapped[str | None] = mapped_column(String(16), nullable=True)
     api_count: Mapped[int] = mapped_column(Integer, default=0)
 
-    apis = relationship("Api", back_populates="category_rel", lazy="selectin")
+    # `noload` because no endpoint ever needs the full API list alongside
+    # the category — the listing routes page over apis filtered by
+    # category_id, and a default `selectin` here would force every
+    # `GET /api/categories` to materialise all 14k rows in memory.
+    apis = relationship("Api", back_populates="category_rel", lazy="noload")
 
     def __repr__(self) -> str:
         return f"<Category id={self.id} name={self.name}>"
@@ -45,18 +49,23 @@ class Api(Base):
     cors: Mapped[bool | None] = mapped_column(Boolean, nullable=True)
     source: Mapped[str | None] = mapped_column(String(256), nullable=True)
     source_url: Mapped[str | None] = mapped_column(String(1024), nullable=True)
-    quality_score: Mapped[int] = mapped_column(Integer, default=0)
+    # `quality_score` is used both for filtering (>= some threshold) and
+    # sorting; the index makes `ORDER BY quality_score DESC` skip the
+    # full table scan that would otherwise dominate list-queries.
+    quality_score: Mapped[int] = mapped_column(Integer, default=0, index=True)
     quality_grade: Mapped[str | None] = mapped_column(String(2), nullable=True)
     tags: Mapped[str | None] = mapped_column(Text, nullable=True)
     status: Mapped[str] = mapped_column(String(16), default="active")
     deprecated: Mapped[bool] = mapped_column(Boolean, default=False, index=True)
     last_verified: Mapped[datetime | None] = mapped_column(DateTime, nullable=True)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=_utcnow)
+    # `updated_at` is in the default sort path for both `list_apis` and
+    # `search`; the index keeps `ORDER BY updated_at DESC LIMIT n` cheap.
     updated_at: Mapped[datetime] = mapped_column(
-        DateTime, default=_utcnow, onupdate=_utcnow
+        DateTime, default=_utcnow, onupdate=_utcnow, index=True
     )
 
-    category_rel = relationship("Category", back_populates="apis")
+    category_rel = relationship("Category", back_populates="apis", lazy="noload")
 
     def __repr__(self) -> str:
         return f"<Api id={self.id} name={self.name}>"
