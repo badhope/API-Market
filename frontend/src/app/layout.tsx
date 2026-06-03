@@ -71,7 +71,15 @@ export default function RootLayout({
             <Suspense fallback={<div className="h-16 border-b" />}>
               <Header />
             </Suspense>
-            <main className="flex-1">{children}</main>
+            <a
+              href="#main-content"
+              className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-primary focus:px-3 focus:py-2 focus:text-sm focus:text-primary-foreground"
+            >
+              Skip to main content
+            </a>
+            <main id="main-content" className="flex-1">
+              {children}
+            </main>
             <Footer />
           </div>
         </Providers>

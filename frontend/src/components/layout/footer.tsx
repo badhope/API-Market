@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { Heart } from "lucide-react"
+import { useEffect, useState } from "react"
 import { useTranslation } from "@/i18n/context"
 import { SOURCE_LINKS } from "@/lib/constants"
 
@@ -20,6 +21,14 @@ function GithubIcon({ className }: { className?: string }) {
 
 export function Footer() {
   const { t } = useTranslation()
+  // `new Date().getFullYear()` at module / render time is server-vs-client
+  // dependent: a footer built at 23:59 UTC on Dec 31 vs opened at 00:01
+  // on Jan 1 in another timezone hydrates with mismatched text. Pin the
+  // year to the client clock after mount instead.
+  const [year, setYear] = useState<number | null>(null)
+  useEffect(() => {
+    setYear(new Date().getFullYear())
+  }, [])
 
   return (
     <footer className="border-t bg-muted/30">
@@ -76,7 +85,7 @@ export function Footer() {
         </div>
         <div className="mt-8 pt-8 border-t flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} {t("siteName")}. {t("copyright")}
+            &copy; {year ?? new Date().getFullYear()} {t("siteName")}. {t("copyright")}
           </p>
           <p className="text-xs text-muted-foreground flex items-center gap-1">
             {t("builtWith")} <Heart className="h-3 w-3 text-red-500 fill-red-500" /> {t("using")}
