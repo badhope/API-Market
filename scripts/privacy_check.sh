@@ -66,8 +66,9 @@ echo ""
 
 # 3. Check for large data files
 echo "[3/5] Checking for large data files..."
+# data/api_market.db is intentionally tracked (Pages needs it). The other
+# large data files should remain gitignored.
 LARGE_PATTERNS=(
-  '\.db$'
   '\.sqlite$'
   '\.sqlite3$'
   'api-database\.json$'
@@ -78,11 +79,11 @@ for pattern in "${LARGE_PATTERNS[@]}"; do
   if [ -n "$HITS" ]; then
     echo -e "${RED}  ✗ Large data file being committed:${NC}"
     echo "$HITS" | sed 's/^/    /'
-    echo -e "  ${YELLOW}→ Add to .gitignore; SQLite DB is 8.7MB${NC}"
+    echo -e "  ${YELLOW}→ Add to .gitignore${NC}"
     ERRORS=$((ERRORS + 1))
   fi
 done
-if [ $ERRORS -eq 0 ] || [ -z "$ENV_FILES" ]; then
+if [ $ERRORS -eq 0 ]; then
   echo -e "  ${GREEN}✓${NC} No large data files."
 fi
 echo ""

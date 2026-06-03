@@ -17,30 +17,44 @@ jobs:
 
       - name: Scan working tree for GitHub tokens
         run: |
-          if grep -rE "ghp_[A-Za-z0-9]{36}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
-            echo "::error::Found GitHub personal access token in working tree"
-            exit 1
-          fi
-          if grep -rE "gho_[A-Za-z0-9]{36}|ghu_[A-Za-z0-9]{36}|ghs_[A-Za-z0-9]{36}|ghr_[A-Za-z0-9]{36}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
-            echo "::error::Found GitHub OAuth/user/secret token in working tree"
-            exit 1
-          fi
-          if grep -rE "github_pat_[A-Za-z0-9_]{82}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
-            echo "::error::Found GitHub fine-grained token in working tree"
-            exit 1
-          fi
-          if grep -rE "xox[baprs]-[0-9A-Za-z-]{10,}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
-            echo "::error::Found Slack token in working tree"
-            exit 1
-          fi
-          if grep -rE "sk-[A-Za-z0-9]{32,}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
-            echo "::error::Found OpenAI-style key in working tree"
-            exit 1
-          fi
-          if grep -rE "AKIA[0-9A-Z]{16}" --include="*.{ts,tsx,js,jsx,py,json,md,yaml,yml,toml,env,sh}" .; then
-            echo "::error::Found AWS access key in working tree"
-            exit 1
-          fi
+          # Exclude binary / generated / vendored content from the secret scan.
+          EXCLUDES=(
+            --exclude-dir=.git
+            --exclude-dir=node_modules
+            --exclude-dir=.venv
+            --exclude-dir=dist
+            --exclude-dir=build
+            --exclude-dir=.next
+            --exclude-dir=.mypy_cache
+            --exclude-dir=.ruff_cache
+            --exclude="*.db"
+            --exclude="*.db-shm"
+            --exclude="*.db-wal"
+            --exclude="*.png"
+            --exclude="*.jpg"
+            --exclude="*.svg"
+            --exclude="*.ico"
+            --exclude="*.woff*"
+            --exclude="uv.lock"
+          )
+          for regex in \
+            "ghp_[A-Za-z0-9]{36}" \
+            "gho_[A-Za-z0-9]{36}|ghu_[A-Za-z0-9]{36}|ghs_[A-Za-z0-9]{36}|ghr_[A-Za-z0-9]{36}" \
+            "github_pat_[A-Za-z0-9_]{82}" \
+            "xox[baprs]-[0-9A-Za-z-]{10,}" \
+            "sk-[A-Za-z0-9]{32,}" \
+            "AKIA[0-9A-Z]{16}"; do
+            HITS=$(grep -rE "$regex" "${EXCLUDES[@]}" \
+              --include="*.ts" --include="*.tsx" --include="*.js" --include="*.jsx" \
+              --include="*.py" --include="*.json" --include="*.md" \
+              --include="*.yaml" --include="*.yml" --include="*.toml" \
+              --include="*.env" --include="*.sh" . 2>/dev/null || true)
+            if [ -n "$HITS" ]; then
+              echo "::error::Found secret pattern $regex:"
+              echo "$HITS"
+              exit 1
+            fi
+          done
           echo "No secrets detected in working tree."
 
       - name: Scan git history for secrets
@@ -64,11 +78,15 @@ jobs:
 
       - name: Verify no large data files in git
         run: |
-          for pattern in "*.db" "*.sqlite" "*.sqlite3" "api-database.json"; do
-            if git ls-files "$pattern" 2>/dev/null | head -1 | grep -q .; then
-              echo "::error::Large data file matching $pattern is tracked by git"
-              git ls-files "$pattern"
+          # data/api_market.db is intentionally tracked (Pages deploy reads it).
+          # Everything else (raw JSON snapshots, alternative SQLite layouts)
+          # must stay gitignored.
+          for pattern in "*.sqlite" "*.sqlite3" "api-database.json" "search-index.json"; do
+            HITS=$(git ls-files "$pattern" 2>/dev/null || true)
+            if [ -n "$HITS" ]; then
+              echo "::error::Large data file matching $pattern is tracked by git:"
+              echo "$HITS"
               exit 1
             fi
           done
-          echo "No large data files are tracked."
+          echo "No untracked large data files."

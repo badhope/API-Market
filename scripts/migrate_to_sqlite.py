@@ -149,6 +149,31 @@ def sanitize_id(text: str) -> str:
     return safe[:120]
 
 
+# Schemes we accept for `url` and `source_url`. Everything else (most
+# importantly `javascript:` / `data:` / `vbscript:` / `file:`) is rejected so
+# downstream `<a href>` rendering cannot become an XSS vector even if a
+# scraped payload makes it past the upstream sources.
+_ALLOWED_URL_SCHEMES = frozenset({"http", "https"})
+
+
+def sanitize_url(raw: object) -> str:
+    """Return a safe http(s):// URL, or "" if the input is missing/malicious."""
+    if not isinstance(raw, str):
+        return ""
+    candidate = raw.strip()
+    if not candidate:
+        return ""
+    # urlparse is case-insensitive on the scheme; lowercase for the check.
+    lowered = candidate.lower()
+    if not (lowered.startswith("http://") or lowered.startswith("https://")):
+        return ""
+    # Reject embedded whitespace / control characters that some browsers
+    # accept as scheme terminators (`java\tscript:`).
+    if any(ch.isspace() or ord(ch) < 0x20 for ch in candidate):
+        return ""
+    return candidate
+
+
 def main() -> None:
     print("=" * 60)
     print("  API-Market Data Migration: JSON -> SQLite + FTS5")
@@ -312,7 +337,7 @@ def main() -> None:
                     {
                         "id": api_id,
                         "name": api_data.get("name", "Unknown"),
-                        "url": api_data.get("url", ""),
+                        "url": sanitize_url(api_data.get("url", "")),
                         "description": description,
                         "category_id": cat_id,
                         "auth": auth,

@@ -3,20 +3,15 @@ FROM python:3.12-slim AS runtime
 RUN groupadd -r appuser -g 1000 && \
     useradd -r -u 1000 -g appuser -m -d /app appuser
 
-# System deps for SQLite FTS5 + asyncpg
-RUN apt-get update && apt-get install -y --no-install-recommends \
-        gcc libffi-dev \
-    && rm -rf /var/lib/apt/lists/*
-
 # Install the package itself. This installs everything declared in
-# pyproject.toml and resolves transitive deps from PyPI. Single source of
-# truth for versions: never re-pin anything in this file.
+# pyproject.toml and resolves transitive deps from PyPI. Single source
+# of truth for versions: never re-pin anything in this file.
+# All declared deps (fastapi, pydantic, slowapi, redis, asyncpg,
+# aiosqlite, uvicorn) ship as manylinux/musllinux wheels, so no
+# gcc/libffi-dev toolchain is needed in the image.
 COPY --chown=appuser:appuser pyproject.toml README.md LICENSE* /app/
 WORKDIR /app
 RUN pip install --no-cache-dir .
-
-# Drop build deps to slim the image
-RUN apt-get purge -y --auto-remove gcc libffi-dev
 
 ENV PYTHONPATH=/app/backend \
     PYTHONUNBUFFERED=1 \

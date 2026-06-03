@@ -1,21 +1,18 @@
 from __future__ import annotations
 
 from fastapi import APIRouter, Depends, Query, Request
-from slowapi import Limiter
-from slowapi.util import get_remote_address
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from api_market.config import get_settings
 from api_market.database import get_db
+from api_market.limiter import limiter
 from api_market.models.api import Api
 from api_market.models.schemas import CategoryListResponse, CategorySummary
 from api_market.services.api_service import get_api_service
 
 router = APIRouter(tags=["categories"])
 settings = get_settings()
-
-limiter = Limiter(key_func=get_remote_address)
 
 
 @router.get("/api/categories", response_model=CategoryListResponse)

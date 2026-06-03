@@ -4,7 +4,7 @@ import Link from "next/link"
 import { ExternalLink, Shield, Globe, Key } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
-import { cn, getGradeColor, getCategoryIcon } from "@/lib/utils"
+import { cn, getGradeColor, getCategoryIcon, safeHref } from "@/lib/utils"
 import { useTranslation } from "@/i18n/context"
 import type { ApiSummary } from "@/types"
 
@@ -17,6 +17,7 @@ interface ApiCardProps {
 export function ApiCard({ api, showCategory = true, categoryName }: ApiCardProps) {
   const { t } = useTranslation()
   const displayName = categoryName || api.category_id
+  const href = safeHref(api.url)
 
   return (
     <Card className="group transition-all duration-200 hover:shadow-md hover:border-primary/30">
@@ -44,15 +45,24 @@ export function ApiCard({ api, showCategory = true, categoryName }: ApiCardProps
               </Link>
             )}
           </div>
-          <a
-            href={api.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="shrink-0 text-muted-foreground hover:text-foreground transition-colors"
-            aria-label={`${t("visitApi")} ${api.name}`}
-          >
-            <ExternalLink className="h-4 w-4" />
-          </a>
+          {href ? (
+            <a
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="shrink-0 text-muted-foreground hover:text-foreground transition-colors"
+              aria-label={`${t("visitApi")} ${api.name}`}
+            >
+              <ExternalLink className="h-4 w-4" />
+            </a>
+          ) : (
+            <span
+              className="shrink-0 text-muted-foreground/30 cursor-not-allowed"
+              aria-label={t("visitApi")}
+            >
+              <ExternalLink className="h-4 w-4" />
+            </span>
+          )}
         </div>
 
         {api.description ? (

@@ -67,6 +67,3 @@ frontend/out/
 
 # TypeScript incremental build cache
 *.tsbuildinfo
-
-*.db-shm
-*.db-wal

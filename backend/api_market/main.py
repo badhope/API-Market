@@ -3,10 +3,14 @@ from __future__ import annotations
 from collections.abc import AsyncIterator
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.gzip import GZipMiddleware
+from fastapi.responses import JSONResponse
+from slowapi import _rate_limit_exceeded_handler
+from slowapi.errors import RateLimitExceeded
 
 from api_market.config import get_settings
+from api_market.limiter import limiter
 from api_market.middleware.logging import (
     CORSMiddlewareFixed,
     SecurityHeadersMiddleware,
@@ -15,6 +19,11 @@ from api_market.middleware.logging import (
 from api_market.routes import apis, categories, health, search
 
 settings = get_settings()
+
+
+async def _on_rate_limit(request: Request, exc: Exception) -> JSONResponse:
+    """Adapter so slowapi's handler matches Starlette's expected signature."""
+    return _rate_limit_exceeded_handler(request, exc)  # type: ignore[arg-type, return-value]
 
 
 @asynccontextmanager
@@ -38,6 +47,12 @@ def create_app() -> FastAPI:
         redoc_url="/redoc" if settings.debug else None,
         lifespan=lifespan,
     )
+
+    # slowapi requires the shared Limiter to be exposed on
+    # `app.state.limiter` for `@limiter.limit(...)` decorators on
+    # route handlers to actually enforce the configured quota.
+    app.state.limiter = limiter
+    app.add_exception_handler(RateLimitExceeded, _on_rate_limit)
 
     app.add_middleware(SecurityHeadersMiddleware)
     app.add_middleware(CORSMiddlewareFixed)

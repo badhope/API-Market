@@ -42,3 +42,23 @@ export function getGradeColor(grade: string | null): string {
 export function getCategoryIcon(categoryId: string): string {
   return CATEGORY_ICONS[categoryId] || "📦"
 }
+
+/**
+ * Return the URL if it is safe to render in an `href` (http or https), or
+ * `null` otherwise. Use this whenever we bind a string from the database to
+ * `<a href={…}>` so a malicious or scraped `javascript:` / `data:` payload
+ * cannot turn into XSS.
+ */
+export function safeHref(raw: string | null | undefined): string | null {
+  if (!raw) return null
+  const trimmed = raw.trim()
+  if (!trimmed) return null
+  // Reject any control / whitespace character that some browsers treat as a
+  // scheme terminator (`java\tscript:`, `java\nscript:`, etc.).
+  if (/[\s\x00-\x1f]/.test(trimmed)) return null
+  const lower = trimmed.toLowerCase()
+  if (lower.startsWith("http://") || lower.startsWith("https://")) {
+    return trimmed
+  }
+  return null
+}

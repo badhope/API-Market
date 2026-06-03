@@ -1,13 +1,12 @@
 from __future__ import annotations
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request
-from slowapi import Limiter
-from slowapi.util import get_remote_address
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from api_market.config import get_settings
 from api_market.database import get_db
+from api_market.limiter import limiter
 from api_market.models.api import Api
 from api_market.models.schemas import (
     ApiListResponse,
@@ -21,8 +20,6 @@ from api_market.services.cache_service import get_cache
 
 router = APIRouter(tags=["apis"])
 settings = get_settings()
-
-limiter = Limiter(key_func=get_remote_address)
 
 STATS_CACHE_KEY = "api_market:stats:v1"
 STATS_CACHE_TTL = 300  # 5 min — the homepage reads this on every visit
