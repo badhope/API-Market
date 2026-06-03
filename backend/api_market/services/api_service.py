@@ -147,8 +147,9 @@ class ApiService:
         return result.scalar_one_or_none()
 
     @staticmethod
-    def _escape_fts5(query_text: str) -> str:
-        """Return a safe FTS5 MATCH expression.
+    def _escape_fts5(query_text: str) -> str | None:
+        """Return a safe FTS5 MATCH expression, or None if the query is
+        effectively empty after sanitisation.
 
         Failure modes we have to handle:
           1. FTS5 syntax characters (`*`, `:`, `(`, `)`, `^`, `+`, `-`)
@@ -159,12 +160,17 @@ class ApiService:
 
         Wrapping the (sanitised) query in double quotes makes FTS5
         treat it as a phrase-literal string; the operator characters
-        inside are inert.
+        inside are inert. If sanitisation leaves nothing but whitespace
+        we return None so the caller can short-circuit with an empty
+        result instead of raising a FTS5 syntax error.
         """
         sanitised = query_text
         for ch in '"*():^+-':
             sanitised = sanitised.replace(ch, " ")
-        return f'"{sanitised.strip()}"'
+        phrase = sanitised.strip()
+        if not phrase:
+            return None
+        return f'"{phrase}"'
 
     async def search(
         self,
@@ -176,6 +182,11 @@ class ApiService:
         order: str = "asc",
     ) -> tuple[list[SearchItem], int]:
         safe_query = self._escape_fts5(query_text)
+        if safe_query is None:
+            # Query is all FTS5 operators / whitespace — there is no
+            # sensible MATCH expression, so short-circuit with an empty
+            # result instead of asking SQLite to parse a syntax error.
+            return [], 0
 
         count_sql = text("""
             SELECT COUNT(*)
