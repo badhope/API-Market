@@ -26,10 +26,10 @@ dev:
 	pip install -e ".[dev,pipeline]"
 
 run:
-	PYTHONPATH=backend uvicorn api_market.main:app --host 0.0.0.0 --port 8080 --reload
+	uv run -- uvicorn api_market.main:app --app-dir backend --host 0.0.0.0 --port 8080 --reload
 
 test:
-	cd backend && python -m pytest tests/ -v
+	cd backend && uv run --extra dev pytest tests/ -v
 
 lint:
 	ruff check backend/ pipeline/ scripts/
@@ -38,14 +38,14 @@ format:
 	ruff format backend/ pipeline/ scripts/
 
 typecheck:
-	mypy backend/api_market/
+	mypy --config-file pyproject.toml backend/api_market/
 
 db-init:
-	PYTHONPATH=backend python scripts/migrate_to_sqlite.py
+	uv run --no-project python scripts/migrate_to_sqlite.py
 
 db-reset:
 	rm -f data/api_market.db
-	PYTHONPATH=backend python scripts/migrate_to_sqlite.py
+	uv run --no-project python scripts/migrate_to_sqlite.py
 
 docker-build:
 	docker build -t api-market:latest -f Dockerfile .

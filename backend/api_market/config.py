@@ -25,9 +25,6 @@ class Settings(BaseSettings):
     database_url: str = "sqlite+aiosqlite:///./data/api_market.db"
     redis_url: str = "redis://localhost:6379/0"
 
-    meilisearch_host: str = "http://localhost:7700"
-    meilisearch_api_key: str = "masterKey"
-
     rate_limit_per_minute: int = 600
     rate_limit_search_per_minute: int = 120
 
@@ -35,8 +32,9 @@ class Settings(BaseSettings):
 
     log_level: str = "INFO"
 
+    # Optional token for the GitHub-source collector. Unauthenticated
+    # rate limit (60 req/h) is enough for the daily pipeline.
     github_token: str = ""
-    openai_api_key: str = ""
 
     @property
     def data_dir(self) -> Path:

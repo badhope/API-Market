@@ -49,16 +49,28 @@ card) but the same image works on Fly.io, Railway, or any Docker host.
 ## 4. Persistent disk for the SQLite DB
 
 Render's free tier restarts the service on every deploy and wipes the
-filesystem. To keep the SQLite database:
+filesystem. The FastAPI service in this repo is configured to look for
+the database at the path the `DATABASE_URL` env var points to (default
+`sqlite+aiosqlite:///./data/api_market.db`). To keep state across
+restarts, point `DATABASE_URL` at a path on a Render persistent disk:
 
 1. After the first deploy, go to **Disks** → **Add Disk**.
 2. Name: `api-market-data`, Mount Path: `/data`, Size: `1 GB` (free).
-3. Add an env var `DATA_DIR=/data` so the app writes the DB to the disk.
+3. Set `DATABASE_URL=sqlite+aiosqlite:////data/api_market.db` so the
+   DB lives on the disk.
 4. Redeploy.
 
-If you skip the disk, the service will rebuild the DB from the bundled
-`data/collected/pipeline_output.json` on every boot, which is fine for a
-demo but means new data only appears after a GitHub push.
+The `data/api_market.db` file that's tracked in the repo can be copied
+into the volume once to seed it (`render shell` → `cp ...`). After
+that, the daily-update workflow on GitHub writes new data back via PR
+and you'll re-deploy to pick it up.
+
+If you skip the disk, the service still starts, but the SQLite
+database on the persistent volume (`/data/api_market.db`) is empty
+— there's no migration code that re-imports the bundled JSON dump
+on boot. Wire up the disk, or copy the `data/api_market.db` that
+ships in the repo into the volume once and let the app keep it
+warmed in the page cache.
 
 ## 5. Verify
 

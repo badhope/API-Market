@@ -146,6 +146,26 @@ class ApiService:
         result = await self.db.execute(select(Category).where(Category.id == category_id))
         return result.scalar_one_or_none()
 
+    @staticmethod
+    def _escape_fts5(query_text: str) -> str:
+        """Return a safe FTS5 MATCH expression.
+
+        Failure modes we have to handle:
+          1. FTS5 syntax characters (`*`, `:`, `(`, `)`, `^`, `+`, `-`)
+             would be parsed as operators. A bare `*` raises a syntax
+             error; `foo:5` is parsed as `column:term`.
+          2. Double quotes would let the user close the literal and run
+             arbitrary FTS5 syntax.
+
+        Wrapping the (sanitised) query in double quotes makes FTS5
+        treat it as a phrase-literal string; the operator characters
+        inside are inert.
+        """
+        sanitised = query_text
+        for ch in '"*():^+-':
+            sanitised = sanitised.replace(ch, " ")
+        return f'"{sanitised.strip()}"'
+
     async def search(
         self,
         query_text: str,
@@ -155,7 +175,7 @@ class ApiService:
         sort_by: str = "relevance",
         order: str = "asc",
     ) -> tuple[list[SearchItem], int]:
-        safe_query = query_text.replace('"', '""')
+        safe_query = self._escape_fts5(query_text)
 
         count_sql = text("""
             SELECT COUNT(*)

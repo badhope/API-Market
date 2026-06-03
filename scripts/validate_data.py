@@ -58,9 +58,7 @@ def is_likely_not_api(name: str, description: str) -> bool:
         return True
     if NON_API_PATTERNS.search(description):
         return True
-    if re.match(r"^https?://", name):
-        return True
-    return False
+    return bool(re.match(r"^https?://", name))
 
 
 def normalize_url(url: str) -> str:
