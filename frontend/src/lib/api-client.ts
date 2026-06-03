@@ -13,6 +13,14 @@ import type {
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || ""
 const HAS_REMOTE_API = API_BASE_URL.length > 0
 
+// GitHub Pages project pages are served under `<owner>.github.io/<repo>`,
+// so the deployed app's effective root is `/<repo>` rather than `/`.
+// The Next.js config puts that into `basePath` for `<Link>` / asset
+// rewriting, but **raw `fetch()` calls do not get the prefix** — they
+// resolve against the document origin and 404. Mirror the config so
+// every static-data fetch below hits the right path.
+const BASE_PATH = (process.env.NEXT_PUBLIC_BASE_PATH || "/API-Market").replace(/\/+$/, "")
+
 // ---------------------------------------------------------------------------
 // Static (GitHub-Pages-only) helpers
 // ---------------------------------------------------------------------------
@@ -127,7 +135,10 @@ class ApiClient {
   }
 
   private async fetchStatic<T>(path: string): Promise<T> {
-    const res = await fetch(path, { headers: { "Content-Type": "application/json" } })
+    // `path` is expected to start with `/data/...`. Prepend `BASE_PATH`
+    // so it resolves to `/<repo>/data/...` on GitHub Pages project sites.
+    const url = path.startsWith(BASE_PATH) || path.startsWith("http") ? path : `${BASE_PATH}${path}`
+    const res = await fetch(url, { headers: { "Content-Type": "application/json" } })
     if (!res.ok) throw new Error(`Static data error: ${res.status} ${res.statusText}`)
     return res.json()
   }
