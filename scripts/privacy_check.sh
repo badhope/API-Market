@@ -13,7 +13,7 @@ NC='\033[0m'
 ERRORS=0
 WARNINGS=0
 
-echo "🔒 Privacy Guard: Scanning for secrets before commit..."
+echo "Privacy Guard: Scanning for secrets before commit..."
 echo ""
 
 # 1. Scan staged files for known secret patterns

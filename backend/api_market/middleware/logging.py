@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import logging
 import time
+import uuid
 from collections.abc import Awaitable, Callable
 
 from fastapi import Request, Response
@@ -10,6 +12,8 @@ from starlette.types import ASGIApp
 from api_market.config import get_settings
 
 NextRequest = Callable[[Request], Awaitable[Response]]
+
+_log = logging.getLogger("api_market.request")
 
 
 class SlowRequestMiddleware(BaseHTTPMiddleware):
@@ -21,8 +25,10 @@ class SlowRequestMiddleware(BaseHTTPMiddleware):
         start = time.monotonic()
         response = await call_next(request)
         elapsed_ms = (time.monotonic() - start) * 1000
-
+        # Avoid breaking clients/proxies that strip it on the way back.
         response.headers["X-Response-Time-Ms"] = f"{elapsed_ms:.0f}"
+        if elapsed_ms >= self.threshold_ms:
+            _log.warning("slow request: %s %s %.0fms", request.method, request.url.path, elapsed_ms)
         return response
 
 
@@ -34,6 +40,19 @@ class SecurityHeadersMiddleware(BaseHTTPMiddleware):
         response.headers["X-XSS-Protection"] = "1; mode=block"
         response.headers["Referrer-Policy"] = "strict-origin-when-cross-origin"
         response.headers["Permissions-Policy"] = "camera=(), microphone=(), geolocation=()"
+        return response
+
+
+class RequestIdMiddleware(BaseHTTPMiddleware):
+    """Propagate a per-request id so logs and downstream 5xx responses can be correlated."""
+
+    HEADER = "X-Request-Id"
+
+    async def dispatch(self, request: Request, call_next: NextRequest) -> Response:
+        rid = request.headers.get(self.HEADER) or uuid.uuid4().hex
+        request.state.request_id = rid
+        response = await call_next(request)
+        response.headers[self.HEADER] = rid
         return response
 
 

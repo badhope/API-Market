@@ -18,61 +18,58 @@ class ApiService:
         self.db = db
 
     async def get_stats(self) -> dict[str, Any]:
-        total_apis_result = await self.db.execute(select(func.count(Api.id)))
-        total_apis: int = total_apis_result.scalar() or 0
+        # SQLAlchemy AsyncSession is single-connection, so we have to
+        # issue the queries serially. Three queries: aggregate row,
+        # grade histogram, distinct sources. Each is cheap on indexed
+        # columns; the whole thing finishes in a few ms on SQLite.
+        agg_sql = text("""
+            SELECT
+                COUNT(*) AS total,
+                COUNT(quality_grade) AS with_grade,
+                COUNT(auth) AS with_auth,
+                COALESCE(SUM(https), 0) AS https_count,
+                COALESCE(SUM(cors), 0) AS cors_count,
+                MAX(updated_at) AS last_updated
+            FROM apis
+        """)
+        grade_sql = text("""
+            SELECT quality_grade, COUNT(*) AS cnt
+            FROM apis
+            WHERE quality_grade IS NOT NULL
+            GROUP BY quality_grade
+        """)
+        desc_sql = text("""
+            SELECT COUNT(*) FROM apis
+            WHERE description IS NOT NULL AND LENGTH(description) > 5
+        """)
+        src_sql = text("SELECT DISTINCT source FROM apis WHERE source IS NOT NULL")
+        cat_sql = select(func.count(Category.id))
 
-        total_cats_result = await self.db.execute(select(func.count(Category.id)))
-        total_cats: int = total_cats_result.scalar() or 0
+        agg = (await self.db.execute(agg_sql)).one()
+        grades = (await self.db.execute(grade_sql)).all()
+        desc = (await self.db.execute(desc_sql)).scalar()
+        sources_rows = (await self.db.execute(src_sql)).all()
+        cats = (await self.db.execute(cat_sql)).scalar()
 
-        grade_result = await self.db.execute(
-            select(Api.quality_grade, func.count(Api.id))
-            .where(Api.quality_grade.isnot(None))
-            .group_by(Api.quality_grade)
-        )
-        grade_dist: dict[str, int] = {row[0]: row[1] for row in grade_result.all() if row[0]}
-
-        auth_count_result = await self.db.execute(
-            select(func.count(Api.id)).where(Api.auth.isnot(None))
-        )
-        auth_count: int = auth_count_result.scalar() or 0
-
-        https_count_result = await self.db.execute(
-            select(func.count(Api.id)).where(Api.https.is_(True))
-        )
-        https_count: int = https_count_result.scalar() or 0
-
-        cors_count_result = await self.db.execute(
-            select(func.count(Api.id)).where(Api.cors.is_(True))
-        )
-        cors_count: int = cors_count_result.scalar() or 0
-
-        desc_count_result = await self.db.execute(
-            select(func.count(Api.id))
-            .where(Api.description.isnot(None))
-            .where(func.length(Api.description) > 5)
-        )
-        desc_count: int = desc_count_result.scalar() or 0
-
-        sources_result = await self.db.execute(
-            select(Api.source).where(Api.source.isnot(None)).distinct()
-        )
-        sources: list[str] = [row[0] for row in sources_result.all() if row[0]]
-
-        result = await self.db.execute(select(func.max(Api.updated_at)))
-        last_updated = result.scalar()
+        grade_dist: dict[str, int] = {r[0]: int(r[1]) for r in grades if r[0] is not None}
+        sources = sorted(r[0] for r in sources_rows if r[0])
+        # SQLite returns the column as a str when stored as TEXT; let
+        # both str and datetime pass through unchanged.
+        lu = agg.last_updated
+        last_updated_iso = lu if isinstance(lu, str) else (lu.isoformat() if lu else None)
 
         return {
-            "total_apis": total_apis,
-            "total_categories": total_cats,
+            "total_apis": int(agg.total or 0),
+            "total_categories": int(cats or 0),
             "sources": sources,
             "grade_distribution": grade_dist,
             "metadata_coverage": {
-                "auth": auth_count,
-                "https": https_count,
-                "cors": cors_count,
-                "description": desc_count,
+                "auth": int(agg.with_auth or 0),
+                "https": int(agg.https_count or 0),
+                "cors": int(agg.cors_count or 0),
+                "description": int(desc or 0),
             },
-            "last_updated": last_updated.isoformat() if last_updated else None,
+            "last_updated": last_updated_iso,
         }
 
     async def list_apis(

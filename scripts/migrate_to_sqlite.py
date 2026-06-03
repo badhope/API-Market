@@ -360,7 +360,7 @@ def main() -> None:
 
         session.commit()
 
-    print("\n[4/5] Building FTS5 full-text search index...")
+    print("Building FTS5 index...")
     with engine.begin() as conn:
         conn.execute(
             text("""
@@ -372,7 +372,7 @@ def main() -> None:
         """)
         )
 
-    print("\n[5/5] Verifying migration...")
+    print("Verifying migration...")
     with engine.begin() as conn:
         count_result = conn.execute(text("SELECT COUNT(*) FROM apis"))
         actual_count = count_result.scalar()
@@ -385,17 +385,13 @@ def main() -> None:
 
     db_size_mb = DB_PATH.stat().st_size / 1024 / 1024
 
-    print(f"\n{'=' * 60}")
-    print("  Migration complete!")
-    print(f"  APIs: {actual_count} (expected: {total_api_count})")
-    print(f"  Categories: {actual_cats}")
-    print(f"  FTS5 entries: {fts_count}")
-    print(f"  Database size: {db_size_mb:.2f} MB")
-    print(f"  Path: {DB_PATH}")
-    print(f"{'=' * 60}")
+    print(
+        f"\nMigration complete: {actual_count} APIs, {actual_cats} categories, "
+        f"{fts_count} FTS entries, {db_size_mb:.2f} MB at {DB_PATH}"
+    )
 
     if actual_count != total_api_count:
-        print(f"\n  WARNING: API count mismatch! ({actual_count} vs {total_api_count})")
+        print(f"WARNING: API count mismatch ({actual_count} vs {total_api_count})")
 
     engine.dispose()
 

@@ -182,9 +182,6 @@ def clean_and_validate() -> QualityReport:
 
 
 def main() -> None:
-    print("=" * 60)
-    print("  API-Market Data Quality Validator v5.0")
-    print("=" * 60)
     clean_and_validate()
 
 

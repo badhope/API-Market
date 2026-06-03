@@ -66,9 +66,6 @@ extend-exclude = [
     "__pycache__",
     "migrations",
     "node_modules",
-    "scripts/validate",
-    "scripts/validate.py",
-    "scripts/pipeline.py",
     "scripts/validate_data.py",
 ]
 
