@@ -76,7 +76,7 @@ frontend/        Next.js 14 app, App Router, Tailwind v4
 pipeline/        Async collector (httpx + tenacity)
 scripts/         Data migration, validation, build_static_data
 docker/          nginx.conf for the compose stack
-data/            SQLite database (tracked; 8.7 MB) + .gitkeep for collected/
+data/            SQLite database (tracked; ~9.7 MB) + .gitkeep for collected/
 ```
 
 ## Development

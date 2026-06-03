@@ -36,9 +36,11 @@ jobs:
             api-market-db-
 
       - name: Rebuild SQLite database (cache miss)
-        # The DB is gitignored (it ships in the GitHub Pages bundle, not the
-        # repo). On a cold cache we fall back to running the migration
-        # script from the legacy JSON snapshot if one is available locally.
+        # The DB is tracked in the repo (so a fresh clone has data
+        # immediately) and also cached at the Actions level so the
+        # Pages build doesn't have to refetch it. On a cold cache we
+        # fall back to running the migration script from a legacy JSON
+        # snapshot if one is available locally.
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
           if [ -f api-database.json ]; then

@@ -97,17 +97,21 @@ def clean_and_validate() -> QualityReport:
         if is_likely_not_api(name, desc):
             non_api_ids.append(api_id)
             report.flagged_non_api += 1
-            report.issues.append({
-                "id": api_id,
-                "name": name,
-                "issue": "likely_not_api",
-            })
+            report.issues.append(
+                {
+                    "id": api_id,
+                    "name": name,
+                    "issue": "likely_not_api",
+                }
+            )
             continue
 
         cleaned_desc = clean_description(desc)
         if cleaned_desc != desc:
             report.fixed_descriptions += 1
-            update_batch.append(("UPDATE apis SET description = ? WHERE id = ?", cleaned_desc, api_id))
+            update_batch.append(
+                ("UPDATE apis SET description = ? WHERE id = ?", cleaned_desc, api_id)
+            )
 
         cleaned_url = normalize_url(url)
         if cleaned_url != url:
@@ -140,9 +144,7 @@ def clean_and_validate() -> QualityReport:
     conn.commit()
 
     fts_count = conn.execute("SELECT COUNT(*) FROM apis_fts").fetchone()[0]
-    db_count = conn.execute(
-        "SELECT COUNT(*) FROM apis WHERE deprecated = 0"
-    ).fetchone()[0]
+    db_count = conn.execute("SELECT COUNT(*) FROM apis WHERE deprecated = 0").fetchone()[0]
 
     report.cleaned = report.flagged_non_api + report.fixed_descriptions
 
