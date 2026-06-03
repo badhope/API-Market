@@ -34,7 +34,11 @@ let allApisInflight: Promise<ApiSummary[]> | null = null
 async function loadAllApis(): Promise<ApiSummary[]> {
   if (allApisCache) return allApisCache
   if (allApisInflight) return allApisInflight
-  allApisInflight = fetch("/data/all.json", { headers: { "Content-Type": "application/json" } })
+  // IMPORTANT: must use the same BASE_PATH prefix as `fetchStatic` below,
+  // otherwise on GitHub Pages the URL resolves to `/data/all.json` (404)
+  // instead of `/<repo>/data/all.json`.
+  const url = `${BASE_PATH}/data/all.json`
+  allApisInflight = fetch(url, { headers: { "Content-Type": "application/json" } })
     .then((res) => {
       if (!res.ok) throw new Error(`Static data error: ${res.status} ${res.statusText}`)
       return res.json() as Promise<ApiSummary[]>
