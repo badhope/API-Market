@@ -51,6 +51,10 @@ pipeline = [
     "aiofiles>=24.1.0",
     "lxml>=5.3.0",
     "beautifulsoup4>=4.12.0",
+    # collector.py also imports httpx + tenacity at module load, so
+    # they must be declared here (dev's httpx is a separate group).
+    "httpx>=0.27.0",
+    "tenacity>=9.0.0",
 ]
 
 [tool.ruff]
