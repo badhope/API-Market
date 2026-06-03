@@ -53,7 +53,15 @@ echo ""
 
 # 2. Check for .env files being committed
 echo "[2/5] Checking for .env files (should be gitignored)..."
-ENV_FILES=$(echo "$STAGED_FILES" | grep -E '(^|/)\.env(\.|$)' || true)
+# `.env.example` / `.env.sample` / `.env.template` are documentation
+# templates and *should* be tracked. Everything else under the `.env*`
+# umbrella is a leak waiting to happen.
+ENV_FILES=$(
+  echo "$STAGED_FILES" \
+    | grep -E '(^|/)\.env(\.|$)' \
+    | grep -vE '\.env\.(example|sample|template)$' \
+    || true
+)
 if [ -n "$ENV_FILES" ]; then
   echo -e "${RED}  ✗ .env files are being committed (security risk):${NC}"
   echo "$ENV_FILES" | sed 's/^/    /'
