@@ -9,7 +9,10 @@ from api_market.models.schemas import HealthResponse
 
 router = APIRouter(tags=["health"])
 
-_start_time = time.time()
+# `monotonic` is wall-clock-independent: if the host runs NTP and the
+# clock jumps backwards, `time.time() - _start_time` can briefly go
+# negative. `monotonic` is what uptime should measure.
+_start_time = time.monotonic()
 
 
 @router.get("/api/health", response_model=HealthResponse)
@@ -18,5 +21,5 @@ async def health_check() -> HealthResponse:
     return HealthResponse(
         status="ok",
         version=settings.app_version,
-        uptime=round(time.time() - _start_time, 1),
+        uptime=round(time.monotonic() - _start_time, 1),
     )

@@ -115,7 +115,7 @@ async def get_category_apis(
         select(func.avg(Api.quality_score)).where(Api.category_id == category_id)
     )
     avg = avg_result.scalar()
-    avg_quality = round(float(avg), 1) if avg else 0.0
+    avg_quality = round(float(avg), 1) if avg is not None else 0.0
 
     return CategoryDetailResponse(
         category=CategorySummary(

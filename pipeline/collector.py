@@ -511,6 +511,16 @@ async def collect_apis_guru(client: httpx.AsyncClient) -> list[ApiEntry]:
     return entries
 
 
+@retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=15))
+async def _fetch_github_readme(client: httpx.AsyncClient, url: str, headers: dict[str, str]) -> str:
+    """Wrap the readme GET in a retry so transient 5xx/rate-limits don't
+    drop an entire upstream source on a single bad request.
+    """
+    resp = await client.get(url, headers=headers, timeout=20)
+    resp.raise_for_status()
+    return resp.text
+
+
 async def collect_github_repo(
     client: httpx.AsyncClient, repo: str, token: str = ""
 ) -> list[ApiEntry]:
@@ -521,9 +531,7 @@ async def collect_github_repo(
 
     try:
         url = f"https://api.github.com/repos/{repo}/readme"
-        resp = await client.get(url, headers=headers, timeout=20)
-        resp.raise_for_status()
-        content = resp.text
+        content = await _fetch_github_readme(client, url, headers)
     except Exception:
         return []
 
