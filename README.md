@@ -1,5 +1,7 @@
 # API-Market
 
+**Languages**: [English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md)
+
 A searchable directory of 14,000+ public HTTP APIs. FastAPI backend, Next.js
 14 frontend, SQLite FTS5 for full-text search. Ships as either a single Docker
 stack or a fully static site on GitHub Pages (no backend needed for browsing).
