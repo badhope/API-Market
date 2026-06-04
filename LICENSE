@@ -1,14 +1,6 @@
 MIT License
 
-Copyright (c) 2022-2026 public-apis and API-Market contributors
-
-This project is a derivative work that aggregates, standardizes, and
-curates public API data from the following open-source projects:
-
-  - public-apis (https://github.com/public-apis/public-apis)
-  - APIs.guru (https://github.com/APIs-guru/openapi-directory)
-  - keploy/public-apis-collection
-    (https://github.com/keploy/public-apis-collection)
+Copyright (c) 2022-2026 API-Market contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
