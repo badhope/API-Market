@@ -5,7 +5,7 @@ import { apiClient } from "@/lib/api-client"
 import { Card, CardContent } from "@/components/ui/card"
 import { Skeleton } from "@/components/ui/skeleton"
 import { Database, FolderTree, Globe, Shield, Key, FileText, Star, ExternalLink } from "lucide-react"
-import { formatCount, formatDate, getGradeColor } from "@/lib/utils"
+import { formatCount, formatDate, getGradeColor, sourceHref } from "@/lib/utils"
 import { useTranslation } from "@/i18n/context"
 import { SOURCE_LINKS } from "@/lib/constants"
 import type { StatsResponse } from "@/types"
@@ -143,7 +143,9 @@ export default function StatsPage() {
       <h2 className="text-xl font-bold mb-4">{t("dataSourcesTitle")}</h2>
       <div className="flex flex-wrap gap-2">
         {data.sources.map((source) => {
-          const href = SOURCE_LINKS[source]
+          // Explicit override first (e.g. public-apis → public-apis/public-apis);
+          // otherwise derive a URL from the source name shape.
+          const href = SOURCE_LINKS[source] ?? sourceHref(source)
           if (href) {
             return (
               <a

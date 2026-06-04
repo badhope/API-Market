@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { ExternalLink, Shield, Globe, Key } from "lucide-react"
+import { ExternalLink, Shield, Globe, Key, Github } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { cn, getGradeColor, getCategoryIcon, safeHref } from "@/lib/utils"
@@ -18,6 +18,12 @@ export function ApiCard({ api, showCategory = true, categoryName }: ApiCardProps
   const { t } = useTranslation()
   const displayName = categoryName || api.category_id
   const href = safeHref(api.url)
+  // `source_url` is filled in by `scripts/build_static_data.py` (mirrors the
+  // `sourceHref` heuristic in `lib/utils.ts`). When present it points at the
+  // GitHub repo / project page that originally listed the API — a separate
+  // affordance from the API's own homepage so users can audit the source.
+  const sourceHref = safeHref(api.source_url)
+  const isGithub = sourceHref?.toLowerCase().includes("github.com") ?? false
 
   return (
     <Card className="group transition-all duration-200 hover:shadow-md hover:border-primary/30">
@@ -45,24 +51,43 @@ export function ApiCard({ api, showCategory = true, categoryName }: ApiCardProps
               </Link>
             )}
           </div>
-          {href ? (
-            <a
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="shrink-0 text-muted-foreground hover:text-foreground transition-colors"
-              aria-label={`${t("visitApi")} ${api.name}`}
-            >
-              <ExternalLink className="h-4 w-4" />
-            </a>
-          ) : (
-            <span
-              className="shrink-0 text-muted-foreground/30 cursor-not-allowed"
-              aria-label={t("visitApi")}
-            >
-              <ExternalLink className="h-4 w-4" />
-            </span>
-          )}
+          <div className="flex items-center gap-1 shrink-0">
+            {sourceHref ? (
+              <a
+                href={sourceHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label={`${t("viewSource")} ${api.source || ""}`.trim()}
+                title={api.source || undefined}
+              >
+                {isGithub ? (
+                  <Github className="h-4 w-4" />
+                ) : (
+                  <ExternalLink className="h-4 w-4" />
+                )}
+              </a>
+            ) : null}
+            {href ? (
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label={`${t("visitApi")} ${api.name}`}
+                title={t("visitApi")}
+              >
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            ) : (
+              <span
+                className="text-muted-foreground/30 cursor-not-allowed"
+                aria-label={t("visitApi")}
+              >
+                <ExternalLink className="h-4 w-4" />
+              </span>
+            )}
+          </div>
         </div>
 
         {api.description ? (

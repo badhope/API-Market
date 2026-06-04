@@ -67,3 +67,56 @@ export function safeHref(raw: string | null | undefined): string | null {
   }
   return null
 }
+
+/**
+ * Best-effort mapping from the raw `source` string we store on each API to
+ * a clickable URL on the public-web Stats page. The collector writes source
+ * in many inconsistent shapes — `Owner/Repo`, `github:Owner/Repo`,
+ * `github.com/Owner/Repo`, bare domains (`apis.guru`), and the occasional
+ * junk filename leaked from a JSON snapshot — so we normalise here instead
+ * of trying to clean the database.
+ *
+ * Returns `null` for anything we cannot prove is a safe http(s) URL.
+ */
+export function sourceHref(raw: string | null | undefined): string | null {
+  if (!raw) return null
+  const s = raw.trim()
+  if (!s) return null
+  if (/[\s\x00-\x1f]/.test(s)) return null
+  // 1. Already a URL.
+  if (/^https?:\/\//i.test(s)) {
+    return safeHref(s)
+  }
+  // 2. Explicit `github:` / `github.com/` prefix.
+  const ghPrefix = s.match(/^github(?:\.com)?[:/](.*)$/i)
+  if (ghPrefix && ghPrefix[1]) {
+    const rest = ghPrefix[1].replace(/^\/+/, "")
+    if (isGithubRepoPath(rest)) return `https://github.com/${rest}`
+    return null
+  }
+  // 3. `owner/repo` (single slash, no scheme) → GitHub repo.
+  if (s.includes("/") && !s.includes(":")) {
+    if (isGithubRepoPath(s)) return `https://github.com/${s}`
+    return null
+  }
+  // 4. Bare domain (e.g. `apis.guru`, `publicapis.io`, `dev.publicapis.dev`).
+  //    Reject things that look like a filename (no TLD, contains a dot in a
+  //    weird position, ends with `.json`, etc.).
+  if (/^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$/i.test(s)) {
+    if (/\.json$/i.test(s)) return null
+    return `https://${s}`
+  }
+  return null
+}
+
+function isGithubRepoPath(s: string): boolean {
+  const parts = s.split("/")
+  if (parts.length !== 2) return false
+  const [owner, repo] = parts
+  if (!owner || !repo) return false
+  // GitHub owner: 1-39 chars, alnum + single hyphens, no leading/trailing hyphen.
+  // GitHub repo: 1-100 chars, alnum + . _ -.
+  const ownerOk = /^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$/.test(owner)
+  const repoOk = /^[A-Za-z0-9._-]{1,100}$/.test(repo)
+  return ownerOk && repoOk
+}

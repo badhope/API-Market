@@ -22,6 +22,7 @@ forever once built, so users pay the download cost exactly once.
 from __future__ import annotations
 
 import json
+import re
 import sqlite3
 import sys
 from datetime import UTC, datetime
@@ -34,6 +35,7 @@ VERSION = "5.0.0"
 
 
 def _row_to_api(row: sqlite3.Row) -> dict:
+    raw_source = row["source"]
     return {
         "id": row["id"],
         "name": row["name"],
@@ -43,7 +45,8 @@ def _row_to_api(row: sqlite3.Row) -> dict:
         "auth": row["auth"],
         "https": bool(row["https"]) if row["https"] is not None else None,
         "cors": bool(row["cors"]) if row["cors"] is not None else None,
-        "source": row["source"],
+        "source": raw_source,
+        "source_url": _derive_source_url(raw_source, row["source_url"]),
         "quality_score": row["quality_score"] or 0,
         "quality_grade": row["quality_grade"],
         "tags": [t.strip() for t in (row["tags"] or "").split(",") if t.strip()],
@@ -53,6 +56,66 @@ def _row_to_api(row: sqlite3.Row) -> dict:
         "created_at": row["created_at"],
         "updated_at": row["updated_at"],
     }
+
+
+# Mirror of `sourceHref` in `frontend/src/lib/utils.ts` — keep these in sync
+# so the static JSON ships the same URL the client would otherwise compute.
+#
+# SOURCE_URL_OVERRIDES covers a few source names that are *not* shaped like
+# `owner/repo` (no slash, no TLD) but the community has long known them by —
+# e.g. `public-apis` → `public-apis/public-apis`. We hardcode them here
+# because the heuristic cannot infer an owner from a bare shorthand.
+SOURCE_URL_OVERRIDES: dict[str, str] = {
+    "public-apis": "https://github.com/public-apis/public-apis",
+    "apis.guru": "https://apis.guru",
+}
+
+
+def _derive_source_url(source: str | None, existing: str | None) -> str | None:
+    if existing and existing.strip():
+        return existing.strip()
+    if not source:
+        return None
+    s = source.strip()
+    if not s:
+        return None
+    if s in SOURCE_URL_OVERRIDES:
+        return SOURCE_URL_OVERRIDES[s]
+    if any(c.isspace() or ord(c) < 0x20 for c in s):
+        return None
+    if s.lower().startswith(("http://", "https://")):
+        return s
+    gh = re.match(r"^github(?:\.com)?[:/](.+)$", s, re.IGNORECASE)
+    if gh and gh.group(1):
+        rest = gh.group(1).lstrip("/")
+        if _is_github_repo_path(rest):
+            return f"https://github.com/{rest}"
+        return None
+    if "/" in s and ":" not in s:
+        if _is_github_repo_path(s):
+            return f"https://github.com/{s}"
+        return None
+    if re.match(
+        r"^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$",
+        s,
+        re.IGNORECASE,
+    ):
+        if s.lower().endswith(".json"):
+            return None
+        return f"https://{s}"
+    return None
+
+
+def _is_github_repo_path(s: str) -> bool:
+    parts = s.split("/")
+    if len(parts) != 2:
+        return False
+    owner, repo = parts
+    if not owner or not repo:
+        return False
+    owner_ok = bool(re.match(r"^[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?$", owner))
+    repo_ok = bool(re.match(r"^[A-Za-z0-9._-]{1,100}$", repo))
+    return owner_ok and repo_ok
 
 
 def build_stats(conn: sqlite3.Connection) -> dict:

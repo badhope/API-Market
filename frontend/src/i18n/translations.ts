@@ -296,6 +296,7 @@ export const translations = {
       toggleTheme: "切换主题",
       toggleMenu: "切换菜单",
       visitApi: "访问",
+      viewSource: "来源",
       filterCategories: "筛选分类...",
       noMatchingCategories: "没有匹配的分类",
       statistics: "统计概览",

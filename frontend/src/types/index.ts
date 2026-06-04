@@ -8,6 +8,7 @@ export interface ApiSummary {
   https: boolean | null
   cors: boolean | null
   source: string | null
+  source_url: string | null
   quality_score: number
   quality_grade: string | null
   tags: string[]
