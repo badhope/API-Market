@@ -190,7 +190,7 @@ export function SearchPageContent() {
             <Select
               value={grade}
               onValueChange={(v) =>
-                updateParams({ grade: v === "__all" ? "" : v })
+                updateParams({ grade: v === "__all" ? "" : (v ?? "") })
               }
             >
               <SelectTrigger className="w-[150px] h-9" aria-label={t("grade")}>
