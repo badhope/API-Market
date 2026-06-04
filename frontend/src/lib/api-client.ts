@@ -258,6 +258,7 @@ class ApiClient {
     category?: string
     sort?: string
     order?: string
+    grade?: string
   }): Promise<SearchResponse> {
     if (HAS_REMOTE_API) {
       return this.fetchJson<SearchResponse>("/api/search", {
@@ -270,6 +271,7 @@ class ApiClient {
     const tokens = tokenize(params.q)
     let pool = all
     if (params.category) pool = pool.filter((a) => a.category_id === params.category)
+    if (params.grade) pool = pool.filter((a) => a.quality_grade === params.grade)
     let scored: SearchResultItem[]
     if (!tokens.length) {
       scored = pool.filter((a) => !a.deprecated).map((api) => ({ ...api, relevance_score: 1 }))
