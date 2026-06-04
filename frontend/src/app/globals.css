@@ -7,6 +7,10 @@
 @theme inline {
   --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
   --font-heading: var(--font-sans);
+  /* Custom breakpoint: 384px. Used for "show extra column on a
+     slightly wider phone, but hide it on the smallest 320–360px
+     viewports." */
+  --breakpoint-xs: 24rem;
 }
 
 :root {
@@ -78,10 +82,57 @@ body {
   color: var(--foreground);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* Prevent iOS Safari from inflating text size when the page is
+     rotated to landscape on a phone. */
+  -webkit-text-size-adjust: 100%;
 }
 
 html {
   scroll-behavior: smooth;
+  /* `overflow-wrap: anywhere` lets the browser break a long URL or
+     domain inside a tight cell (e.g. an API source link) instead of
+     forcing the whole page to scroll horizontally. */
+  overflow-wrap: anywhere;
+  /* `overflow-x: clip` (not `hidden`) prevents the whole page from
+     ever showing a horizontal scrollbar even if some descendant
+     overflows. `clip` is safer than `hidden` because it doesn't
+     establish a scroll container, so `position: sticky` inside
+     <header> still works. */
+  overflow-x: clip;
+}
+
+h1,
+h2,
+h3 {
+  /* Headings get nicely balanced line breaks when they wrap. */
+  text-wrap: balance;
+}
+
+/* Kill the default iOS / Android tap flash on interactive elements
+   (links, buttons, table rows). The website is dense — flashing grey
+   rectangles on every tap is visually noisy. Users get a clear
+   `:hover` (mouse) and `:focus-visible` (keyboard) outline instead. */
+a,
+button,
+[role="button"] {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* `touch-action: manipulation` on the whole viewport tells the
+   browser to skip the 300 ms double-tap-to-zoom delay that
+   pre-iOS-13 / pre-Chrome-32 phones used to add. No behavior change
+   for normal scrolling / pinching. */
+body {
+  touch-action: manipulation;
+}
+
+/* `overflow-x-auto` wrappers around tables get smooth momentum
+   scrolling on iOS and a thin (rather than full-width) scrollbar on
+   desktop. */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
 }
 
 @media (prefers-reduced-motion: reduce) {

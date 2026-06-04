@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
 export default function SearchPage() {
   return (
-    <div className="container mx-auto px-4 py-4 max-w-5xl">
+    <div className="container mx-auto px-3 sm:px-4 py-4 max-w-5xl">
       <TitleRow title="Search APIs" />
       <form
         action={internalHref("/search")}
@@ -33,11 +33,11 @@ export default function SearchPage() {
           name="q"
           placeholder="Search 14,405 APIs by name or description…"
           aria-label="Search APIs"
-          className="flex-1 h-9 rounded border bg-background px-3 text-sm focus:outline-none focus:ring-1 focus:ring-ring"
+          className="flex-1 min-w-0 h-9 rounded border bg-background px-3 text-sm focus:outline-none focus:ring-1 focus:ring-ring"
         />
         <button
           type="submit"
-          className="h-9 px-4 rounded bg-foreground text-background text-sm font-medium"
+          className="h-9 px-3 sm:px-4 rounded bg-foreground text-background text-sm font-medium shrink-0"
         >
           Search
         </button>

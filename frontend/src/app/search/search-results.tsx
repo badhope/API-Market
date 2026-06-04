@@ -11,7 +11,7 @@
 import { useEffect, useMemo, useState } from "react"
 import Link from "next/link"
 
-import { ApiRow, Pager, Statline } from "@/components/wiki/shared"
+import { ApiTable, Pager, Statline } from "@/components/wiki/shared"
 import { BASE_PATH } from "@/lib/links"
 import type { ApiSummary } from "@/types"
 
@@ -215,7 +215,7 @@ export function SearchResults() {
       <form
         action={`${BASE_PATH}/search`}
         method="get"
-        className="flex flex-wrap items-center gap-2 text-sm mb-3 border-b pb-3"
+        className="flex flex-wrap items-center gap-x-2 gap-y-2 text-sm mb-3 border-b pb-3"
       >
         <input type="hidden" name="q" value={query.q} />
         <label className="text-muted-foreground">Filter</label>
@@ -273,24 +273,7 @@ export function SearchResults() {
       </form>
 
       {pageItems.length > 0 ? (
-        <div className="overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="text-left text-xs text-muted-foreground border-b">
-                <th className="py-1.5 pr-3 font-medium">API</th>
-                <th className="py-1.5 pr-3 font-medium">Category</th>
-                <th className="py-1.5 pr-3 font-medium">Auth</th>
-                <th className="py-1.5 pr-3 font-medium">HTTPS</th>
-                <th className="py-1.5 font-medium text-right">Score</th>
-              </tr>
-            </thead>
-            <tbody>
-              {pageItems.map((api) => (
-                <ApiRow key={api.id} api={api} />
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <ApiTable items={pageItems} />
       ) : (
         <p className="text-sm text-muted-foreground py-6">
           No APIs match &ldquo;{query.q}&rdquo;.

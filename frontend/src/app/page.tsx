@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 
-import { TitleRow, ApiRow, Statline } from "@/components/wiki/shared"
+import { ApiTable, Statline, TitleRow } from "@/components/wiki/shared"
 import {
   loadCategories,
   loadFeatured,
@@ -34,7 +34,7 @@ export default async function Home() {
     ? Math.round((gradeA / stats.total_apis) * 100)
     : 0
   return (
-    <div className="container mx-auto px-4 py-4 max-w-5xl">
+    <div className="container mx-auto px-3 sm:px-4 py-4 max-w-5xl">
       <Statline>
         A directory of <strong>{formatCount(stats.total_apis)}</strong>{" "}
         quality-scored public HTTP APIs in <strong>{stats.total_categories}</strong>{" "}
@@ -64,11 +64,11 @@ export default async function Home() {
           name="q"
           placeholder="Search 14,405 APIs by name or description…"
           aria-label="Search APIs"
-          className="flex-1 h-9 rounded border bg-background px-3 text-sm focus:outline-none focus:ring-1 focus:ring-ring"
+          className="flex-1 min-w-0 h-9 rounded border bg-background px-3 text-sm focus:outline-none focus:ring-1 focus:ring-ring"
         />
         <button
           type="submit"
-          className="h-9 px-4 rounded bg-foreground text-background text-sm font-medium"
+          className="h-9 px-3 sm:px-4 rounded bg-foreground text-background text-sm font-medium shrink-0"
         >
           Search
         </button>
@@ -123,24 +123,7 @@ export default async function Home() {
             </Link>
           }
         />
-        <div className="overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="text-left text-xs text-muted-foreground border-b">
-                <th className="py-1.5 pr-3 font-medium">API</th>
-                <th className="py-1.5 pr-3 font-medium">Category</th>
-                <th className="py-1.5 pr-3 font-medium">Auth</th>
-                <th className="py-1.5 pr-3 font-medium">HTTPS</th>
-                <th className="py-1.5 font-medium text-right">Score</th>
-              </tr>
-            </thead>
-            <tbody>
-              {featured.top_apis.map((api) => (
-                <ApiRow key={api.id} api={api} />
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <ApiTable items={featured.top_apis} />
       </section>
     </div>
   )

@@ -1,7 +1,11 @@
-// Server-rendered header. Single line of text links, no decoration, no
-// big search bar (search lives on its own page and in the home-page
-// body). Theme toggle and language switcher are tiny client islands
-// under `HeaderControls`.
+// Server-rendered header. Compact on mobile, full nav on sm: and up.
+//
+// Mobile (< sm): logo + 2 controls + GitHub. Navigation links live on
+// the home page (categories list) and the search page; the user can
+// always reach them in one tap. Hiding the nav text on mobile keeps
+// the header from overflowing on a 320px viewport.
+//
+// Desktop (≥ sm): logo + nav + 2 controls + GitHub, one row.
 import Link from "next/link"
 
 import { HeaderControls } from "./header-controls"
@@ -30,16 +34,19 @@ export async function Header() {
   const locale = await getServerLocale()
   const tr = t[locale]
   return (
-    <header className="border-b bg-background">
-      <div className="container mx-auto flex h-12 items-center justify-between gap-4 px-4 max-w-5xl">
-        <div className="flex items-center gap-5">
+    <header className="border-b bg-background sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-background/80">
+      <div className="container mx-auto flex h-12 items-center justify-between gap-3 sm:gap-4 px-3 sm:px-4 max-w-5xl">
+        <div className="flex items-center gap-3 sm:gap-5 min-w-0">
           <Link
             href="/"
-            className="font-semibold text-base"
+            className="font-semibold text-base whitespace-nowrap shrink-0"
           >
             {tr.siteName}
           </Link>
-          <nav className="flex items-center gap-4 text-sm" aria-label="Primary">
+          <nav
+            className="hidden sm:flex items-center gap-4 text-sm"
+            aria-label="Primary"
+          >
             <Link
               href="/categories"
               className="text-muted-foreground hover:text-foreground hover:underline"
@@ -60,14 +67,14 @@ export async function Header() {
             </Link>
           </nav>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           <HeaderControls />
           <a
             href="https://github.com/badhope/API-Market"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="text-muted-foreground hover:text-foreground"
+            className="text-muted-foreground hover:text-foreground inline-flex items-center justify-center h-9 w-9 sm:h-8 sm:w-8 rounded"
           >
             <GitHubIcon className="h-4 w-4" />
           </a>

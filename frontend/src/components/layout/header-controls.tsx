@@ -25,8 +25,9 @@ function LanguageSwitcher() {
   }, [locale, setLocale])
   if (!mounted) {
     // Reserve the same footprint on the server to avoid CLS once the
-    // controls hydrate.
-    return <div className="h-8 w-8" aria-hidden="true" />
+    // controls hydrate. h-9 (36px) is a comfortable touch target on
+    // mobile while still feeling compact at desktop sizes.
+    return <div className="h-9 w-9" aria-hidden="true" />
   }
   return (
     <Button
@@ -41,7 +42,7 @@ function LanguageSwitcher() {
             ? t("switchToJa")
             : t("switchToEn")
       }
-      className="h-8 w-8"
+      className="h-9 w-9 sm:h-8 sm:w-8"
     >
       <span className="text-xs font-semibold">
         {locale === "en" ? "EN" : locale === "zh" ? "中" : "日"}
@@ -58,7 +59,7 @@ function ThemeToggle() {
     setMounted(true)
   }, [])
   if (!mounted) {
-    return <div className="h-8 w-8" aria-hidden="true" />
+    return <div className="h-9 w-9 sm:h-8 sm:w-8" aria-hidden="true" />
   }
   return (
     <Button
@@ -66,7 +67,7 @@ function ThemeToggle() {
       size="icon"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       aria-label={t("toggleTheme")}
-      className="h-8 w-8"
+      className="h-9 w-9 sm:h-8 sm:w-8"
     >
       {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
     </Button>

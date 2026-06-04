@@ -1,5 +1,6 @@
 // Server-rendered footer. One row of text links, one line of
-// copyright. No big grid, no icons, no newsletter.
+// copyright. Wraps to multiple rows on mobile so the links don't get
+// crushed on a 320px viewport.
 import Link from "next/link"
 
 import { getServerLocale } from "@/i18n/server-locale"
@@ -36,7 +37,7 @@ export async function Footer() {
   const tr = t[locale]
   return (
     <footer className="border-t bg-background text-xs text-muted-foreground">
-      <div className="container mx-auto px-4 py-3 max-w-5xl flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+      <div className="container mx-auto px-3 sm:px-4 py-3 max-w-5xl flex flex-wrap items-center justify-between gap-x-4 gap-y-2">
         <nav className="flex flex-wrap items-center gap-x-3 gap-y-1" aria-label="Footer">
           <Link
             href="/categories"
@@ -65,9 +66,7 @@ export async function Footer() {
             GitHub
           </a>
         </nav>
-        <p>
-          {tr.builtWith} {tr.updatedDaily}
-        </p>
+        <p className="break-words">{tr.builtWith} {tr.updatedDaily}</p>
       </div>
     </footer>
   )

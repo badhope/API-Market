@@ -2,9 +2,9 @@ import type { Metadata } from "next"
 import { promises as fs } from "fs"
 import path from "path"
 
-import { ApiRow, Pager, TitleRow } from "@/components/wiki/shared"
-import { loadCategoryDetail, loadCategories } from "@/lib/data-server"
+import { ApiTable, Pager, TitleRow } from "@/components/wiki/shared"
 import { CATEGORY_ICONS } from "@/lib/constants"
+import { loadCategories, loadCategoryDetail } from "@/lib/data-server"
 import { internalHref } from "@/lib/links"
 import { formatCount } from "@/lib/utils"
 
@@ -65,7 +65,7 @@ export default async function CategoryDetailPage({
   const data = await loadCategoryDetail(slug, { page, perPage, sort, order })
   if (!data) {
     return (
-      <div className="container mx-auto px-4 py-4 max-w-5xl">
+      <div className="container mx-auto px-3 sm:px-4 py-4 max-w-5xl">
         <h1 className="text-xl font-semibold mb-2">Category not found</h1>
         <p className="text-sm text-muted-foreground">
           <a href={internalHref("/categories")} className="underline">
@@ -79,7 +79,7 @@ export default async function CategoryDetailPage({
   const { category, items, total, total_pages } = data
   const icon = CATEGORY_ICONS[slug] || "📦"
   return (
-    <div className="container mx-auto px-4 py-4 max-w-5xl">
+    <div className="container mx-auto px-3 sm:px-4 py-4 max-w-5xl">
       <p className="text-xs text-muted-foreground mb-2">
         <a href={internalHref("/categories")} className="hover:underline">
           ← all categories
@@ -91,8 +91,8 @@ export default async function CategoryDetailPage({
         suffix=" APIs"
         right={
           category.avg_quality > 0 ? (
-            <span className="text-muted-foreground">
-              avg quality <strong>{category.avg_quality.toFixed(0)}</strong>/100
+            <span className="text-muted-foreground text-xs sm:text-sm">
+              avg <strong>{category.avg_quality.toFixed(0)}</strong>/100
             </span>
           ) : null
         }
@@ -101,7 +101,7 @@ export default async function CategoryDetailPage({
       <form
         action={internalHref(`/categories/${slug}`)}
         method="get"
-        className="flex flex-wrap items-center gap-2 text-sm mb-3 border-b pb-3"
+        className="flex flex-wrap items-center gap-x-2 gap-y-2 text-sm mb-3 border-b pb-3"
       >
         <label className="text-muted-foreground">Sort</label>
         <select
@@ -127,30 +127,13 @@ export default async function CategoryDetailPage({
         >
           Apply
         </button>
-        <span className="ml-auto text-xs text-muted-foreground">
+        <span className="basis-full sm:basis-auto sm:ml-auto text-xs text-muted-foreground">
           showing {items.length} of {formatCount(total)}
         </span>
       </form>
 
       {items.length > 0 ? (
-        <div className="overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="text-left text-xs text-muted-foreground border-b">
-                <th className="py-1.5 pr-3 font-medium">API</th>
-                <th className="py-1.5 pr-3 font-medium">Category</th>
-                <th className="py-1.5 pr-3 font-medium">Auth</th>
-                <th className="py-1.5 pr-3 font-medium">HTTPS</th>
-                <th className="py-1.5 font-medium text-right">Score</th>
-              </tr>
-            </thead>
-            <tbody>
-              {items.map((api) => (
-                <ApiRow key={api.id} api={api} />
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <ApiTable items={items} />
       ) : (
         <p className="text-sm text-muted-foreground py-6">No APIs in this category.</p>
       )}

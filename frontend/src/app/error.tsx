@@ -13,9 +13,9 @@ export default function Error({
   const { t } = useTranslation()
 
   return (
-    <div className="container mx-auto px-4 py-20 text-center">
-      <AlertCircle className="h-16 w-16 text-destructive mx-auto mb-6" />
-      <h1 className="text-3xl font-bold mb-2">{t("errorBoundary")}</h1>
+    <div className="container mx-auto px-3 sm:px-4 py-12 sm:py-16 text-center">
+      <AlertCircle className="h-12 w-12 sm:h-16 sm:w-16 text-destructive mx-auto mb-4 sm:mb-6" />
+      <h1 className="text-2xl sm:text-3xl font-bold mb-2 break-words">{t("errorBoundary")}</h1>
       <p className="text-muted-foreground mb-6 max-w-md mx-auto">
         {t("errorBoundaryDesc")}
       </p>
