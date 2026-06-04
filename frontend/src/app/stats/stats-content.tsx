@@ -186,7 +186,6 @@ function GradeDistribution({
   total: number
 }) {
   const grades = ["A", "B", "C", "D", "F"]
-  const totalGraded = grades.reduce((s, g) => s + (distribution[g] || 0), 0)
   return (
     <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 mb-2">
       {grades.map((g) => {

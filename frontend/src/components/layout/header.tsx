@@ -66,7 +66,7 @@ export async function Header() {
           </nav>
         </div>
 
-        <HeaderControls locale={locale} />
+        <HeaderControls />
 
         <div className="flex items-center gap-1">
           <a

@@ -13,10 +13,6 @@ import { Input } from "@/components/ui/input"
 import { useTranslation } from "@/i18n/context"
 import type { Locale } from "@/i18n/translations"
 
-interface HeaderControlsProps {
-  locale: Locale
-}
-
 function LanguageSwitcher() {
   const { t, locale, setLocale } = useTranslation()
   const [mounted, setMounted] = useState(false)
@@ -111,7 +107,7 @@ function HeaderSearchInput() {
   )
 }
 
-export function HeaderControls({ locale: _locale }: HeaderControlsProps) {
+export function HeaderControls() {
   return (
     <>
       <Suspense
