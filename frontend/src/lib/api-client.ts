@@ -246,6 +246,7 @@ class ApiClient {
       total: page.total,
       page: page.page,
       per_page: page.per_page,
+      total_pages: page.total_pages,
       items: page.items,
     }
   }
