@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { ExternalLink, Shield, Globe, Key, Github } from "lucide-react"
+import { ExternalLink, Shield, Globe, Key } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { cn, getGradeColor, getCategoryIcon, safeHref } from "@/lib/utils"
@@ -23,7 +23,6 @@ export function ApiCard({ api, showCategory = true, categoryName }: ApiCardProps
   // GitHub repo / project page that originally listed the API — a separate
   // affordance from the API's own homepage so users can audit the source.
   const sourceHref = safeHref(api.source_url)
-  const isGithub = sourceHref?.toLowerCase().includes("github.com") ?? false
 
   return (
     <Card className="group transition-all duration-200 hover:shadow-md hover:border-primary/30">
@@ -61,11 +60,7 @@ export function ApiCard({ api, showCategory = true, categoryName }: ApiCardProps
                 aria-label={`${t("viewSource")} ${api.source || ""}`.trim()}
                 title={api.source || undefined}
               >
-                {isGithub ? (
-                  <Github className="h-4 w-4" />
-                ) : (
-                  <ExternalLink className="h-4 w-4" />
-                )}
+                <ExternalLink className="h-3.5 w-3.5" />
               </a>
             ) : null}
             {href ? (
