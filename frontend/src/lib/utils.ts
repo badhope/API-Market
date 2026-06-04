@@ -7,8 +7,10 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function formatCount(n: number): string {
-  if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`
-  if (n >= 1000) return `${(n / 1000).toFixed(1)}K`
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)}M`
+  // 4-digit+ numbers look weird as "14.4K" — show the full number.
+  if (n >= 10_000) return n.toLocaleString()
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}K`
   return String(n)
 }
 

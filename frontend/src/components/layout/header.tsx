@@ -1,13 +1,14 @@
-"use client"
-
+// Server-rendered header. All static markup (logo, nav, GitHub link, mobile
+// menu shell) ships in the initial HTML so the page is navigable before
+// React hydrates. The search form, theme toggle, and language switch are
+// isolated into a small client island (`HeaderControls`) — the use of
+// `useSearchParams` inside that island is wrapped in its own <Suspense> so
+// only that subtree bails out to client rendering, not the whole header.
 import Link from "next/link"
-import { useRouter, useSearchParams } from "next/navigation"
-import { useTheme } from "next-themes"
-import { Search, Sun, Moon, Menu, X, Database, Languages } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { useState, useCallback, useEffect } from "react"
-import { useTranslation } from "@/i18n/context"
+import { Database } from "lucide-react"
+import { HeaderControls } from "./header-controls"
+import { MobileMenu } from "./mobile-menu"
+import { getServerLocale } from "@/i18n/server-locale"
 
 function GitHubIcon({ className }: { className?: string }) {
   return (
@@ -17,116 +18,57 @@ function GitHubIcon({ className }: { className?: string }) {
   )
 }
 
-export function Header() {
-  const { theme, setTheme } = useTheme()
-  const { t, locale, setLocale } = useTranslation()
-  const router = useRouter()
-  const searchParams = useSearchParams()
-  const [searchValue, setSearchValue] = useState(searchParams.get("q") || "")
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [mounted, setMounted] = useState(false)
+const t = {
+  en: {
+    siteName: "API-Market",
+    categories: "Categories",
+    stats: "Statistics",
+    search: "Search",
+  },
+  zh: {
+    siteName: "API 市场",
+    categories: "分类",
+    stats: "统计",
+    search: "搜索",
+  },
+  ja: {
+    siteName: "API マーケット",
+    categories: "カテゴリ",
+    stats: "統計",
+    search: "検索",
+  },
+} as const
 
-  useEffect(() => {
-    setMounted(true)
-  }, [])
-
-  useEffect(() => {
-    setSearchValue(searchParams.get("q") || "")
-  }, [searchParams])
-
-  const handleSearch = useCallback(
-    (e: React.FormEvent) => {
-      e.preventDefault()
-      const trimmed = searchValue.trim()
-      if (trimmed) {
-        router.push(`/search?q=${encodeURIComponent(trimmed)}`)
-      }
-    },
-    [searchValue, router]
-  )
-
-  const toggleTheme = useCallback(() => {
-    setTheme(theme === "dark" ? "light" : "dark")
-  }, [theme, setTheme])
-
-  const toggleLocale = useCallback(() => {
-    const next: Record<typeof locale, typeof locale> = {
-      en: "zh",
-      zh: "ja",
-      ja: "en",
-    }
-    setLocale(next[locale])
-  }, [locale, setLocale])
-
+export async function Header() {
+  const locale = await getServerLocale()
+  const tr = t[locale]
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center gap-2">
           <Link href="/" className="flex items-center gap-2 font-bold text-xl">
             <Database className="h-6 w-6 text-primary" />
-            <span className="hidden sm:inline">{t("siteName")}</span>
+            <span className="hidden sm:inline">{tr.siteName}</span>
           </Link>
-          <nav className="hidden md:flex items-center gap-6 ml-8">
+          <nav className="hidden md:flex items-center gap-6 ml-8" aria-label="Primary">
             <Link
               href="/categories"
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
-              {t("categories")}
+              {tr.categories}
             </Link>
             <Link
               href="/stats"
               className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
             >
-              {t("stats")}
+              {tr.stats}
             </Link>
           </nav>
         </div>
 
-        <form onSubmit={handleSearch} className="hidden md:flex items-center gap-2 flex-1 max-w-md mx-4">
-          <div className="relative w-full">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-            <Input
-              type="search"
-              placeholder={t("searchPlaceholder")}
-              value={searchValue}
-              onChange={(e) => setSearchValue(e.target.value)}
-              className="pl-9 pr-4 h-9"
-              aria-label={t("search")}
-            />
-          </div>
-          <Button type="submit" size="sm" variant="default">
-            {t("search")}
-          </Button>
-        </form>
+        <HeaderControls locale={locale} />
 
         <div className="flex items-center gap-1">
-          {mounted && (
-            <>
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={toggleLocale}
-                aria-label={t("language")}
-                title={
-                  locale === "en"
-                    ? t("switchToZh")
-                    : locale === "zh"
-                      ? t("switchToJa")
-                      : t("switchToEn")
-                }
-              >
-                <Languages className="h-5 w-5" />
-              </Button>
-              <Button
-                variant="ghost"
-                size="icon"
-                onClick={toggleTheme}
-                aria-label={t("toggleTheme")}
-              >
-                {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-              </Button>
-            </>
-          )}
           <a
             href="https://github.com/badhope/API-Market"
             target="_blank"
@@ -136,51 +78,9 @@ export function Header() {
           >
             <GitHubIcon className="h-5 w-5" />
           </a>
-          <Button
-            variant="ghost"
-            size="icon"
-            className="md:hidden"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            aria-label={t("toggleMenu")}
-          >
-            {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-          </Button>
+          <MobileMenu locale={locale} />
         </div>
       </div>
-
-      {mobileMenuOpen && (
-        <div className="md:hidden border-t bg-background px-4 py-4 space-y-4">
-          <form onSubmit={handleSearch} className="flex gap-2">
-            <Input
-              type="search"
-              placeholder={t("searchPlaceholder")}
-              value={searchValue}
-              onChange={(e) => setSearchValue(e.target.value)}
-              className="h-9"
-              aria-label={t("search")}
-            />
-            <Button type="submit" size="sm">
-              <Search className="h-4 w-4" />
-            </Button>
-          </form>
-          <nav className="flex flex-col gap-3">
-            <Link
-              href="/categories"
-              className="text-sm font-medium text-muted-foreground"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              {t("categories")}
-            </Link>
-            <Link
-              href="/stats"
-              className="text-sm font-medium text-muted-foreground"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              {t("stats")}
-            </Link>
-          </nav>
-        </div>
-      )}
     </header>
   )
 }
