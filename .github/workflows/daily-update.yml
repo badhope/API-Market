@@ -63,7 +63,7 @@ jobs:
 
       - name: Create Pull Request
         if: steps.check_changes.outputs.changes == 'true'
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "data: daily API collection update (${{ steps.check_changes.outputs.api_count }} APIs)"
