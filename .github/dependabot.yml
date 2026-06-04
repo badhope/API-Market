@@ -1,0 +1,61 @@
+version: 2
+
+# Track three ecosystems in one config. PRs are grouped by ecosystem
+# (via the labels below) so a noisy npm wave doesn't drown out a single
+# pip PR. `open-pull-requests-limit` caps the open PR flood; dependabot
+# will close the oldest when the cap is hit.
+updates:
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "npm"
+      - "security"
+    # Transitive runtime deps (postcss, glob, etc.) are the bulk of the
+    # `npm audit` findings we see; dependabot groups them so reviewers
+    # can see what's actually changing.
+    groups:
+      next-ecosystem:
+        patterns:
+          - "next"
+          - "@next/*"
+          - "eslint-config-next"
+      build-tools:
+        patterns:
+          - "postcss"
+          - "autoprefixer"
+          - "tailwindcss"
+          - "@tailwindcss/*"
+
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "tuesday"
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "python"
+      - "security"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+    open-pull-requests-limit: 3
+    labels:
+      - "dependencies"
+      - "ci"
+    groups:
+      actions:
+        patterns:
+          - "actions/*"
+          - "github/*"
+          - "docker/*"
+          - "astral-sh/*"
+          - "codecov/*"

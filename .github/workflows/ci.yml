@@ -63,7 +63,7 @@ jobs:
           fail_ci_if_error: false
 
   security:
-    name: Security Scan
+    name: Security Scan (CodeQL)
     runs-on: ubuntu-latest
     needs: [lint]
     steps:
@@ -71,10 +71,20 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:
-          languages: python
+          # Scan both the Python backend and the Next.js frontend.
+          # `security-extended` adds queries beyond the default
+          # `security-and-quality` set — these catch things like
+          # clear-text credentials and path-injection sinks that the
+          # default pack would miss.
+          languages: python, javascript, typescript
           queries: security-extended
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
+        with:
+          # The frontend is a TS/JSX project under frontend/src;
+          # without this filter CodeQL still walks the whole tree but
+          # the results tab will be much cleaner.
+          paths: backend/, frontend/src/, pipeline/, scripts/
 
   docker:
     name: Docker Build
