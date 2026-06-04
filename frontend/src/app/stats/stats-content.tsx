@@ -75,7 +75,18 @@ export function StatsPageContent() {
         />
         <Stat
           icon={<Star className="h-5 w-5 text-amber-500" />}
-          value={formatCount(data.avg_quality_score?.toFixed(0) ? Number(data.avg_quality_score.toFixed(0)) : 0)}
+          value={(() => {
+            const dist = data.grade_distribution ?? {}
+            const total = Object.values(dist).reduce((a, b) => a + b, 0)
+            if (!total) return "—"
+            const score =
+              (dist.A ?? 0) * 95 +
+              (dist.B ?? 0) * 85 +
+              (dist.C ?? 0) * 75 +
+              (dist.D ?? 0) * 60 +
+              (dist.F ?? 0) * 40
+            return Math.round(score / total).toString()
+          })()}
           label={t("avgQuality")}
         />
         <Stat
