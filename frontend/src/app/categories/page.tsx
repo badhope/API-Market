@@ -1,33 +1,59 @@
 import type { Metadata } from "next"
-import { CategoryBrowser } from "./category-grid"
+import Link from "next/link"
+
+import { TitleRow, Statline } from "@/components/wiki/shared"
+import { loadCategories } from "@/lib/data-server"
+import { formatCount, getCategoryIcon } from "@/lib/utils"
 
 export const metadata: Metadata = {
   title: "API Categories",
   description:
-    "Browse 14,000+ public APIs by category. Each category is quality-scored across 5 dimensions and regularly updated.",
-  openGraph: {
-    title: "API Categories | API-Market",
-    description: "Browse 14,000+ public APIs by category.",
-  },
-  alternates: {
-    canonical: "/categories",
-  },
+    "All 44 API categories. Each list shows the number of APIs and the average quality score for that category.",
+  alternates: { canonical: "/categories" },
 }
 
-export default function CategoriesPage() {
+export default async function CategoriesPage() {
+  const data = await loadCategories()
+  const totalApis = data.items.reduce((sum, c) => sum + c.api_count, 0)
   return (
-    <div className="container mx-auto px-4 py-8">
-      <div className="text-center mb-10 max-w-2xl mx-auto">
-        <h1 className="text-3xl md:text-4xl font-bold mb-3 tracking-tight">
-          API Categories
-        </h1>
-        <p className="text-muted-foreground">
-          Browse 14,000+ public APIs organised into 60+ categories. Every API is
-          quality-scored across five dimensions: HTTPS support, CORS, auth,
-          description completeness, and recency.
-        </p>
-      </div>
-      <CategoryBrowser />
+    <div className="container mx-auto px-4 py-4 max-w-5xl">
+      <Statline>
+        All <strong>{data.items.length}</strong> categories.{" "}
+        <strong>{formatCount(totalApis)}</strong> APIs total.
+      </Statline>
+      <TitleRow
+        title="Categories"
+        count={data.items.length}
+        right={
+          <span className="text-xs text-muted-foreground">
+            sorted by API count, descending
+          </span>
+        }
+      />
+      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8">
+        {data.items.map((cat) => (
+          <li
+            key={cat.id}
+            className="flex items-baseline justify-between gap-3 border-b py-1.5 text-sm"
+          >
+            <Link
+              href={`/categories/${cat.id}`}
+              className="flex-1 truncate hover:underline"
+            >
+              <span className="mr-1.5" aria-hidden="true">
+                {getCategoryIcon(cat.id)}
+              </span>
+              {cat.display_name}
+            </Link>
+            <span className="text-xs text-muted-foreground tabular-nums shrink-0">
+              {formatCount(cat.api_count)} APIs
+            </span>
+            <span className="text-xs text-muted-foreground tabular-nums shrink-0 w-12 text-right">
+              {cat.avg_quality > 0 ? `${cat.avg_quality.toFixed(0)}/100` : "—"}
+            </span>
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }

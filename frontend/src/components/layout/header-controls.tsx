@@ -1,15 +1,15 @@
 "use client"
 
-// Tiny client island for the bits of the header that actually need
-// browser-only state: the search form (uses useSearchParams so it MUST
-// live in a <Suspense>), the theme toggle, and the language switcher.
-// Everything else is server-rendered in `header.tsx`.
-import { Suspense, useCallback, useEffect, useState } from "react"
-import { useRouter, useSearchParams } from "next/navigation"
+// Tiny client island for the bits of the header that need
+// browser-only state: the theme toggle and the language switcher.
+// Everything else is server-rendered in `header.tsx`. (We dropped the
+// header search input — the search box lives on the home and search
+// pages, where it gets to be the first thing the user sees.)
+import { useCallback, useEffect, useState } from "react"
 import { useTheme } from "next-themes"
-import { Search, Sun, Moon, Languages } from "lucide-react"
+import { Languages, Moon, Sun } from "lucide-react"
+
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
 import { useTranslation } from "@/i18n/context"
 import type { Locale } from "@/i18n/translations"
 
@@ -35,10 +35,17 @@ function LanguageSwitcher() {
       onClick={toggleLocale}
       aria-label={t("language")}
       title={
-        locale === "en" ? t("switchToZh") : locale === "zh" ? t("switchToJa") : t("switchToEn")
+        locale === "en"
+          ? t("switchToZh")
+          : locale === "zh"
+            ? t("switchToJa")
+            : t("switchToEn")
       }
+      className="h-8 w-8"
     >
-      <Languages className="h-5 w-5" />
+      <span className="text-xs font-semibold">
+        {locale === "en" ? "EN" : locale === "zh" ? "中" : "日"}
+      </span>
     </Button>
   )
 }
@@ -59,71 +66,23 @@ function ThemeToggle() {
       size="icon"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
       aria-label={t("toggleTheme")}
+      className="h-8 w-8"
     >
-      {theme === "dark" ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+      {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
     </Button>
-  )
-}
-
-function HeaderSearchInput() {
-  const router = useRouter()
-  const searchParams = useSearchParams()
-  const { t } = useTranslation()
-  const [value, setValue] = useState(() => searchParams.get("q") || "")
-
-  useEffect(() => {
-    setValue(searchParams.get("q") || "")
-  }, [searchParams])
-
-  const onSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    const trimmed = value.trim()
-    if (trimmed) router.push(`/search?q=${encodeURIComponent(trimmed)}`)
-  }
-
-  return (
-    <form
-      onSubmit={onSubmit}
-      className="hidden md:flex items-center gap-2 flex-1 max-w-md mx-4"
-      role="search"
-    >
-      <div className="relative w-full">
-        <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-        <Input
-          type="search"
-          name="q"
-          placeholder={t("searchPlaceholder")}
-          value={value}
-          onChange={(e) => setValue(e.target.value)}
-          className="pl-9 pr-4 h-9 appearance-none [&::-webkit-search-cancel-button]:hidden"
-          aria-label={t("search")}
-          autoComplete="off"
-        />
-      </div>
-      <Button type="submit" size="sm">
-        {t("search")}
-      </Button>
-    </form>
   )
 }
 
 export function HeaderControls() {
   return (
-    <>
-      <Suspense
-        fallback={
-          <div className="hidden md:flex items-center gap-2 flex-1 max-w-md mx-4" aria-hidden="true">
-            <div className="h-9 w-full rounded-md bg-muted/50" />
-            <div className="h-9 w-16 rounded-md bg-muted/50" />
-          </div>
-        }
-      >
-        <HeaderSearchInput />
-      </Suspense>
-      <div className="flex items-center gap-1">
-        <LanguageSwitcher />
-        <ThemeToggle />
-      </div>
-    </>
+    <div className="flex items-center gap-1">
+      <LanguageSwitcher />
+      <ThemeToggle />
+    </div>
   )
 }
+
+// `Languages` is imported above to make it easy to swap to a globe icon
+// later without re-touching this file's JSX. Re-export to keep the
+// import list in `header.tsx` clean even if the export isn't used.
+export { Languages }
