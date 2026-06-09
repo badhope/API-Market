@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software in academic work, please cite it using the
+  metadata below.
+title: API-Market
+authors:
+  - family-names: badhope
+    given-names: badhope
+    alias: badhope
+    orcid: https://orcid.org/0000-0000-0000-0000
+identifiers:
+  - type: url
+    value: https://github.com/badhope/API-Market
+license: MIT
+type: software
+url: https://github.com/badhope/API-Market
+repository-code: https://github.com/badhope/API-Market
+keywords:
+  - open-source, software
+abstract: >-
+  🌐 A comprehensive collection of 14,000+ public APIs - Unified, Standardized, Searchable
