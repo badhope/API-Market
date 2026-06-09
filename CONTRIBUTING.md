@@ -1,64 +1,46 @@
-# Contributing to API-Market
+# Contributing
 
-Thank you for your interest in API-Market! This document explains how to
-contribute to the project.
+Want to send a PR? Cool. Here's the flow.
 
-## Project Overview
+## Before you start
 
-API-Market is a curated, quality-scored directory of public APIs. Data is
-aggregated from the following upstream sources and refreshed daily:
+- **Open an issue first** if the change is non-trivial. I don't want you
+  to spend a weekend on something I'd have asked you to do differently.
+- Read the code that's already there. I try to keep it boring and
+  consistent. If you're adding a new pattern, it should fit.
+- Look at the README for how to install / run / test. Use the lockfile
+  that's checked in; don't regenerate it.
 
-- [public-apis/public-apis](https://github.com/public-apis/public-apis)
-- [APIs-guru/openapi-directory](https://github.com/APIs-guru/openapi-directory)
-- [keploy/public-apis-collection](https://github.com/keploy/public-apis-collection)
+## Local checks
 
-## How to Contribute
+Run whatever the project has: `pnpm test`, `pytest`, `cargo test`, etc.
+If linter / formatter configs are checked in, run them too. CI will
+catch what you missed, but a green push is faster than a red one.
 
-### Reporting a data issue
+## Commit messages
 
-If an API entry is wrong, missing, or outdated, please **open an issue**
-with the API name and a link to the upstream source. The daily-update
-workflow will pick up changes from upstream repositories.
+I don't enforce Conventional Commits. Subject, blank line, body, done.
+If a commit fixes an issue, mention the issue number. Don't bother with
+emoji or "WIP" prefixes.
 
-### Improving the platform
+## Pull requests
 
-- **Bug fixes & features**: open a Pull Request against `main`.
-- **Frontend**: `frontend/src/` (Next.js 14, TypeScript, Tailwind v4)
-- **Backend**: `backend/api_market/` (FastAPI, SQLAlchemy 2.0 async)
-- **Pipeline**: `pipeline/collector.py`
+- Fill the PR template. One paragraph in the body is fine; screenshots
+  help for UI.
+- Keep the diff small. Squash before merging unless the history matters.
+- I'll review roughly in order of arrival. If CI is green and the change
+  does what the description says, I'll merge. I might push back on
+  architecture; that's not personal.
+- Don't commit secrets, generated build output, large binaries, or
+  someone else's code without a license.
 
-Before submitting a PR, please run:
+## What I won't merge
 
-```bash
-make format
-make lint
-make typecheck
-make test
-```
-
-## Development Setup
-
-```bash
-# Install dependencies
-make dev
-
-# Initialize the database
-make db-init
-
-# Start the backend
-make run
-
-# Start the frontend (in another terminal)
-cd frontend && npm install && npm run dev
-```
-
-## Coding Conventions
-
-- Python: ruff format + ruff lint + mypy strict (see `pyproject.toml`)
-- TypeScript: ESLint + Prettier (see `frontend/.eslintrc.json`)
-- Commit messages: `type: short description` (e.g. `fix: ...`, `feat: ...`)
+- Drive-by refactors that don't fix a real problem.
+- New dependencies for trivial reasons.
+- Anything that breaks the existing API without a heads-up first.
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under
-the MIT License. See [LICENSE](./LICENSE) for details.
+By contributing, you agree your contribution is licensed under the same
+license as the rest of the project. See [`LICENSE`](./LICENSE).
