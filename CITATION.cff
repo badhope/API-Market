@@ -7,7 +7,6 @@ authors:
   - family-names: badhope
     given-names: badhope
     alias: badhope
-    orcid: https://orcid.org/0000-0000-0000-0000
 identifiers:
   - type: url
     value: https://github.com/badhope/API-Market
@@ -16,6 +15,15 @@ type: software
 url: https://github.com/badhope/API-Market
 repository-code: https://github.com/badhope/API-Market
 keywords:
-  - open-source, software
+  - api
+  - api-directory
+  - docker
+  - fastapi
+  - fts5
+  - full-text-search
+  - github-pages
+  - nextjs
+  - open-data
+  - public-apis
 abstract: >-
-  🌐 A comprehensive collection of 14,000+ public APIs - Unified, Standardized, Searchable
+  14,000+ public APIs in one searchable catalog. FastAPI backend, Next.js 14 frontend, SQLite FTS5 for full-text search. Ship as one Docker stack or as a static GitHub Pages site (with the JSON dump).
