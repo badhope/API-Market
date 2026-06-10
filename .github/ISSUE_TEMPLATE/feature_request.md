@@ -1,35 +1,25 @@
 ---
 name: Feature request
-about: Suggest an improvement to the platform, the site, or the data
-title: "[feature] "
-labels: ["enhancement", "needs-triage"]
-assignees: []
+about: Suggest an idea
+title: "[feat] "
+labels: enhancement
+assignees: badhope
 ---
 
-## Summary
+## Problem
 
-One-paragraph description of the feature.
-
-## Motivation
-
-What problem does this solve? Who is it for? Is there a workaround
-today?
+<!-- What's the underlying problem or gap? -->
 
 ## Proposed solution
 
-How would you like this to work? Mockups / ASCII sketches / example
-URLs are very welcome.
+<!-- Describe the feature you'd like. -->
 
 ## Alternatives considered
 
-Other approaches you've thought about, and why you prefer the one
-above.
+<!-- Other ways you thought about solving this. -->
 
-## Scope
+## Willingness to contribute
 
-- [ ] Frontend only (`frontend/src/`)
-- [ ] Backend only (`backend/api_market/`)
-- [ ] Data pipeline (`pipeline/collector.py` / `scripts/`)
-- [ ] Static export / GitHub Pages deployment
-- [ ] Documentation / translations
-- [ ] Not sure — happy to discuss
+- [ ] I would submit a PR for this
+- [ ] I would test a PR for this
+- [ ] I would only discuss / design
