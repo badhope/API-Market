@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software in academic work, please cite it using the
+  metadata below.
+title: API-Market
+authors:
+  - family-names: badhope
+    given-names: badhope
+    alias: badhope
+identifiers:
+  - type: url
+    value: https://github.com/badhope/API-Market
+license: MIT
+type: software
+url: https://github.com/badhope/API-Market
+repository-code: https://github.com/badhope/API-Market
+keywords:
+  - api
+  - api-directory
+  - docker
+  - fastapi
+  - fts5
+  - full-text-search
+  - github-pages
+  - nextjs
+  - open-data
+  - public-apis
+abstract: >-
+  14,000+ public APIs in one searchable catalog. FastAPI backend, Next.js 14 frontend, SQLite FTS5 for full-text search. Ship as one Docker stack or as a static GitHub Pages site (with the JSON dump).

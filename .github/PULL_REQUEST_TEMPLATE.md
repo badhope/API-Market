@@ -1,42 +1,27 @@
-## Summary
+## What
 
-One or two sentences. Why this change exists. Fixes #issue (if any).
+<!-- One line: what this PR does -->
 
-## What changed
+## Why
 
-- Bullet list of user-visible changes.
-- Note any new env vars, dependencies, or migration steps.
-- Mention the resulting commit on `main` if the PR is stacked.
+<!-- The reason. What problem does this fix / what value does it add? -->
 
-## Verification
+## How
 
-Local checks I ran (the CI runs the same set — see [ci.yml](.github/workflows/ci.yml)):
+<!-- Approach, breaking changes, anything weird you did -->
 
-```bash
-make format       # ruff format
-make lint         # ruff + ESLint
-make typecheck    # mypy strict
-make test         # pytest
-```
+## Tested
 
-For frontend-only changes:
+<!-- How you tested. If you didn't, say so and tell me why -->
 
-```bash
-cd frontend
-npm run lint
-npm run typecheck
-npm run build      # catches any Next.js-specific breakage
-```
+## Checklist
 
-## Deployment / data impact
+- [ ] I have read [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+- [ ] Tests pass locally (and CI is green)
+- [ ] I didn't add any new linter / typecheck warnings
+- [ ] I didn't commit any secrets, build output, or large binaries
+- [ ] I added a `CHANGELOG.md` entry under "Unreleased" if it matters
 
-- [ ] No impact on the deployed site
-- [ ] Impact on the deployed site (explain below)
-- [ ] Touches `data/api_market.db` — needs `make db-reset` and a re-deploy
-- [ ] Touches `frontend/public/data/*` — will re-trigger `pages.yml`
+## Screenshots / Logs
 
-## Privacy checklist
-
-- [ ] No `.env` / secrets / tokens added
-- [ ] No new tracked files larger than 1 MB
-- [ ] `privacy-guard` workflow expected to pass
+<!-- Drag in images for UI changes. Paste (redacted) logs for runtime changes. -->

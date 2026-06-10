@@ -1,8 +1,10 @@
 # Code of Conduct
 
-This project follows the [Contributor Covenant](https://www.contributor-covenant.org/),
-version 2.1. The full text is reproduced at
-[contributor-covenant.org/version/2/1/code_of_conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
+Be a grown-up. Disagreements are fine; disrespect isn't.
 
-In short: be civil, assume good faith, and keep discussion on-topic. Maintainers
-may remove or edit contributions that fall short of those expectations.
+If someone's being awful, open a private security advisory on this repo
+and I'll handle it. If it's me being awful, you can email me via the
+address in `CITATION.cff` (or my profile page, if there isn't one).
+
+Adapted — and shortened — from the
+[Contributor Covenant, v2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).
