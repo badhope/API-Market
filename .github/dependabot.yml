@@ -1,61 +1,64 @@
 version: 2
 
-# Track three ecosystems in one config. PRs are grouped by ecosystem
-# (via the labels below) so a noisy npm wave doesn't drown out a single
-# pip PR. `open-pull-requests-limit` caps the open PR flood; dependabot
-# will close the oldest when the cap is hit.
-updates:
-  - package-ecosystem: "npm"
-    directory: "/frontend"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-    open-pull-requests-limit: 5
-    labels:
-      - "dependencies"
-      - "npm"
-      - "security"
-    # Transitive runtime deps (postcss, glob, etc.) are the bulk of the
-    # `npm audit` findings we see; dependabot groups them so reviewers
-    # can see what's actually changing.
-    groups:
-      next-ecosystem:
-        patterns:
-          - "next"
-          - "@next/*"
-          - "eslint-config-next"
-      build-tools:
-        patterns:
-          - "postcss"
-          - "autoprefixer"
-          - "tailwindcss"
-          - "@tailwindcss/*"
+# Dependabot configuration
+# - Single weekly schedule
+# - Auto-rebase to keep PRs current
+# - Production/development groups for clean batched PRs
 
+updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "tuesday"
-    open-pull-requests-limit: 5
+      day: "monday"
+    open-pull-requests-limit: 10
     labels:
       - "dependencies"
       - "python"
-      - "security"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    rebase-strategy: "auto"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+      development-dependencies:
+        dependency-type: "development"
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+      - "docker"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    rebase-strategy: "auto"
+    groups:
+      production-dependencies:
+        dependency-type: "production"
+      development-dependencies:
+        dependency-type: "development"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "wednesday"
-    open-pull-requests-limit: 3
+      day: "monday"
+    open-pull-requests-limit: 10
     labels:
       - "dependencies"
       - "ci"
+    commit-message:
+      prefix: "ci"
+      include: "scope"
+    rebase-strategy: "auto"
     groups:
-      actions:
-        patterns:
-          - "actions/*"
-          - "github/*"
-          - "docker/*"
-          - "astral-sh/*"
-          - "codecov/*"
+      production-dependencies:
+        dependency-type: "production"
+      development-dependencies:
+        dependency-type: "development"
