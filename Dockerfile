@@ -1,4 +1,4 @@
-FROM python:3.12-slim AS runtime
+FROM python:3.14-slim AS runtime
 
 RUN groupadd -r appuser -g 1000 && \
     useradd -r -u 1000 -g appuser -m -d /app appuser
