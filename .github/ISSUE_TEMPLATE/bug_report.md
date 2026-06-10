@@ -1,38 +1,40 @@
 ---
 name: Bug report
-about: Something on the deployed site or in the data is broken
+about: Something is broken
 title: "[bug] "
-labels: ["bug", "needs-triage"]
-assignees: []
+labels: bug
+assignees: badhope
 ---
 
-## What happened
+## Describe the bug
 
-A clear, one-sentence description of the bug.
+<!-- A clear and concise description of what the bug is. -->
 
-## Steps to reproduce
+## To reproduce
 
-1. Go to '…'
-2. Click on '…'
-3. See '…'
+```bash
+# Minimal reproduction steps
+```
 
 ## Expected behaviour
 
-What you expected to happen.
+<!-- What you expected to happen. -->
 
 ## Actual behaviour
 
-What actually happened. Include screenshots / copy-pasted error text /
-relevant snippets from the browser dev-tools console or Network tab.
+<!-- What actually happened. Include stack traces, error messages,
+screenshots. -->
 
 ## Environment
 
-- Page URL (e.g. `https://badhope.github.io/API-Market/stats/`)
-- Browser + version
-- Device (desktop / mobile, OS)
-- Does the issue reproduce in a private / incognito window?
+- OS: <!-- e.g. macOS 14.4 -->
+- Runtime version: <!-- e.g. Node 20.11, Python 3.11 -->
+- Package version: <!-- git rev-parse HEAD, or npm/pip version -->
+- Date observed: <!-- 2026-06-10 -->
 
-## Possible cause
+## Severity
 
-Optional — if you've already traced the problem to a file, route, or
-query parameter, mention it here.
+- [ ] Blocker — production is down
+- [ ] High — feature unusable
+- [ ] Medium — workaround exists
+- [ ] Low — cosmetic
