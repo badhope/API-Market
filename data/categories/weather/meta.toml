@@ -1,0 +1,6 @@
+[meta]
+id = "weather"
+display_name = "Weather"
+icon = "wea"
+blurb = ""
+order = 51

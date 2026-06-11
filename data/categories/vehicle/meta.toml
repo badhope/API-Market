@@ -1,0 +1,6 @@
+[meta]
+id = "vehicle"
+display_name = "Vehicle"
+icon = "veh"
+blurb = ""
+order = 49

@@ -1,0 +1,6 @@
+[meta]
+id = "jobs"
+display_name = "Jobs"
+icon = "job"
+blurb = ""
+order = 28

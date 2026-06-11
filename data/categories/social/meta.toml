@@ -1,0 +1,6 @@
+[meta]
+id = "social"
+display_name = "Social"
+icon = "soc"
+blurb = ""
+order = 42

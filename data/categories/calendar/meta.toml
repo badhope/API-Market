@@ -1,0 +1,6 @@
+[meta]
+id = "calendar"
+display_name = "Calendar"
+icon = "cal"
+blurb = ""
+order = 9
