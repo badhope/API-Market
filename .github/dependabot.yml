@@ -6,34 +6,15 @@ version: 2
 # - Production/development groups for clean batched PRs
 
 updates:
-  - package-ecosystem: "pip"
-    directory: "/"
+  - package-ecosystem: "npm"
+    directory: "/frontend"
     schedule:
       interval: "weekly"
       day: "monday"
     open-pull-requests-limit: 10
     labels:
       - "dependencies"
-      - "python"
-    commit-message:
-      prefix: "chore(deps)"
-      include: "scope"
-    rebase-strategy: "auto"
-    groups:
-      production-dependencies:
-        dependency-type: "production"
-      development-dependencies:
-        dependency-type: "development"
-
-  - package-ecosystem: "docker"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-      day: "monday"
-    open-pull-requests-limit: 10
-    labels:
-      - "dependencies"
-      - "docker"
+      - "npm"
     commit-message:
       prefix: "chore(deps)"
       include: "scope"
@@ -49,7 +30,7 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 5
     labels:
       - "dependencies"
       - "ci"
@@ -57,8 +38,3 @@ updates:
       prefix: "ci"
       include: "scope"
     rebase-strategy: "auto"
-    groups:
-      production-dependencies:
-        dependency-type: "production"
-      development-dependencies:
-        dependency-type: "development"

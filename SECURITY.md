@@ -1,9 +1,7 @@
 # Security
 
 Found a hole? **Don't file a public issue.** Open a private security
-advisory or email me (the address is in `CITATION.cff` if there's one;
-otherwise it's on my profile page). I prefer the advisory form because
-GitHub handles the disclosure timeline.
+advisory instead. GitHub handles the disclosure timeline cleanly.
 
 What I'll do:
 
@@ -13,23 +11,27 @@ What I'll do:
 - Credit you in the advisory if you want it. Say "anonymous" if you don't.
 
 I follow responsible disclosure: please keep the report private until I
-publish a fix and (if needed) a CVE / advisory. I won't sue you for
-security research done in good faith, and I won't go after security
-researchers for things that are obviously bugs.
-
-## What I patch
-
-Only the latest commit on `main`. I don't backport. If you're on an
-older version, the right fix is to upgrade.
+publish a fix and (if needed) a CVE / advisory.
 
 ## In scope
 
 - Code in this repository.
-- Official container images and release artifacts that came from this
-  repo (when they exist).
+- The build pipeline that produces the deployed static site.
 
 ## Out of scope
 
-- Third-party dependencies. Report upstream unless I pinned and shipped
-  a vulnerable version myself.
+- Third-party APIs indexed in `data/`. Those are public endpoints
+  catalogued for discovery; report issues to their operators.
 - Scanners, social engineering, DoS, or "you used a default port".
+
+## Attack surface
+
+This project is a static export deployed to GitHub Pages. There is no
+backend, no database, no server-side execution. The only inputs a
+visitor can supply are URL parameters (search query) and the contents
+of the JSON files shipped in `frontend/public/data/`. The latter are
+generated at build time from Zod-validated input under `data/`.
+
+A bad record in `data/` cannot execute code in the browser — it
+appears as escaped text in the rendered output. The build will reject
+malformed records before they ever reach production.

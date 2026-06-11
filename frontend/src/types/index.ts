@@ -1,33 +1,21 @@
-export interface ApiSummary {
-  id: string
-  name: string
-  url: string
-  description: string | null
-  category_id: string
-  auth: string | null
-  https: boolean | null
-  cors: boolean | null
-  source: string | null
-  source_url: string | null
-  quality_score: number
-  quality_grade: string | null
-  tags: string[]
-  status: string
-  deprecated: boolean
-  last_verified: string | null
-  created_at: string | null
-  updated_at: string | null
-}
+/**
+ * Backward-compatible type re-exports. The authoritative type lives in
+ * `src/schemas/api.ts` (Zod-derived) and `src/schemas/category.ts`;
+ * this file just keeps the old `@/types` paths working so individual
+ * pages and components don't have to chase imports.
+ */
+import type { ApiView } from "@/schemas"
 
-export interface SearchResultItem extends ApiSummary {
-  relevance_score: number
-}
+export type ApiSummary = ApiView
+export type SearchResultItem = ApiView & { relevance_score: number }
 
 export interface CategorySummary {
   id: string
   name: string
   display_name: string
   icon: string | null
+  blurb?: string
+  order?: number
   api_count: number
   avg_quality: number
 }

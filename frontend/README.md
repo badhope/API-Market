@@ -1,38 +1,53 @@
 # Frontend
 
-Next.js 14 (App Router) client for API-Market. Renders either as a standalone
-SSR app talking to the FastAPI backend, or as a static export served from
-GitHub Pages (no backend required — see `pages.yml`).
+Next.js 16 (App Router) static site for API-Market. Reads the JSON
+snapshots committed under `public/data/`. No backend at any point in
+the build or run cycle.
 
 ## Setup
 
 ```bash
-pnpm install
-cp .env.example .env.local        # adjust NEXT_PUBLIC_API_URL if needed
-pnpm dev                          # http://localhost:3000
+npm install --legacy-peer-deps
+npm run build:data    # regenerate public/data/* from data/categories/*
+npm run dev           # http://localhost:3000
 ```
+
+The `build:data` step is also wired as a `prebuild` hook, so
+`npm run build` regenerates data automatically.
 
 ## Layout
 
 ```
 src/
-  app/            App Router pages: home, search, categories, stats
-  components/     api/, category/, home/, layout/, ui/
-  i18n/           EN / ZH translation strings
-  lib/            API client, constants, small utilities
-  types/          shared interfaces
-```
+  app/                 App Router pages: home, search, categories, stats, api/[id]
+  components/
+    codex/             the design system ("Editorial Codex")
+    layout/            header, footer, providers
+  schemas/             Zod contracts (api, category)
+  lib/                 data-server, search (Orama), format, code-gen, links
+  types/               backward-compatible re-exports of the schema types
+  scripts/             (one level up) build-data.ts
 
-The home page and search page can run from either the live API or the
-pre-baked JSON files in `public/data/`. The static export sets
-`NEXT_PUBLIC_STATIC_EXPORT=1` (see `next.config.mjs`) and `pages.yml` writes
-those JSON files from `data/api_market.db` at build time.
+public/data/           generated at build time; committed for local dev
+```
 
 ## Build
 
 ```bash
-pnpm build           # SSR build → .next/
-STATIC_EXPORT=1 pnpm build   # static export → out/   (used by Pages)
+npm run build               # = build:data + next build → .next/
+STATIC_EXPORT=true npm run build   # static export → out/  (used by Pages)
 ```
 
-`pnpm lint` and `pnpm exec tsc --noEmit` are the only checks; CI runs them.
+The Pages workflow sets `STATIC_EXPORT=true` automatically. The
+`out/` directory is the deployed artifact; it's pushed to the
+`gh-pages` branch by `actions-gh-pages`.
+
+## Checks
+
+```bash
+npm run lint         # ESLint
+npm run typecheck    # tsc --noEmit
+```
+
+CI runs both. See the [main README](../README.md) for the full project
+overview and the data-contribution guide.
