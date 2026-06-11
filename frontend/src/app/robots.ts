@@ -1,5 +1,9 @@
 import type { MetadataRoute } from "next"
 
+// Next.js 16 requires this for static export; without it the build
+// fails with "export const dynamic not configured on /robots.txt".
+export const dynamic = "force-static"
+
 // Same env-overridable origin as sitemap.ts; see the comment there.
 const baseUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://badhope.github.io/API-Market").replace(/\/+$/, "")
 

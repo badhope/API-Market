@@ -1,42 +1,41 @@
 import type { Metadata, Viewport } from "next"
-import localFont from "next/font/local"
+import { Fraunces, JetBrains_Mono } from "next/font/google"
 import { Providers } from "@/components/providers"
+import { CommandPaletteRoot } from "@/components/codex/command-palette-root"
 import { Header } from "@/components/layout/header"
 import { Footer } from "@/components/layout/footer"
 import "./globals.css"
 
-// Geist (variable) + Geist Mono shipped in `src/app/fonts/`. We use the
-// local file instead of `next/font/google` so the build is hermetic and
-// the Pages deploy does not pull fonts from Google's CDN at runtime.
-const geist = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-sans",
+/**
+ * Display serif. Variable axes we use via globals.css:
+ *   - opsz (optical size) 14..144
+ *   - SOFT (softness)      0..100
+ *   - WONK (alt-g)         0/1
+ * The display title on the home page sets `opsz:144, SOFT:20` to
+ * get the chunky magazine-letter look; body text uses `opsz:24,
+ * SOFT:50` for a softer reading feel.
+ */
+const fraunces = Fraunces({
+  subsets: ["latin"],
   display: "swap",
-  fallback: [
-    "ui-sans-serif",
-    "system-ui",
-    "-apple-system",
-    "Segoe UI",
-    "Roboto",
-    "Helvetica Neue",
-    "Arial",
-    "sans-serif",
-  ],
+  variable: "--font-fraunces",
+  axes: ["opsz", "SOFT", "WONK"],
 })
 
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-mono",
+const jetbrains = JetBrains_Mono({
+  subsets: ["latin"],
   display: "swap",
+  variable: "--font-jetbrains",
+  weight: ["400", "500", "600"],
 })
 
 export const viewport: Viewport = {
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "oklch(0.145 0 0)" },
-  ],
   width: "device-width",
   initialScale: 1,
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#F4EFE6" },
+    { media: "(prefers-color-scheme: dark)",  color: "#0E0E0C" },
+  ],
 }
 
 export const metadata: Metadata = {
@@ -44,86 +43,54 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_SITE_URL || "https://badhope.github.io/API-Market"
   ),
   title: {
-    default: "API-Market — Discover 14,000+ Public APIs",
-    template: "%s | API-Market",
+    default: "API-Market — The Codex",
+    template: "%s · API-Market",
   },
   description:
-    "A comprehensive, quality-scored directory of 14,000+ public APIs. Browse by category, search across 5 quality dimensions, and find the perfect API for your next project.",
-  keywords: [
-    "public APIs",
-    "API directory",
-    "REST API",
-    "free APIs",
-    "API marketplace",
-    "OpenAPI",
-    "JSON API",
-  ],
+    "A curated, quality-scored directory of public APIs. Every record is hand-reviewed, free to read.",
+  keywords: ["public APIs", "API directory", "open data", "OpenAPI"],
   authors: [{ name: "API-Market", url: "https://github.com/badhope/API-Market" }],
   creator: "API-Market",
   publisher: "API-Market",
-  formatDetection: { email: false, address: false, telephone: false },
   openGraph: {
     type: "website",
-    locale: "en_US",
-    alternateLocale: ["zh_CN", "ja_JP"],
-    title: "API-Market — Discover 14,000+ Public APIs",
+    title: "API-Market — The Codex",
     description:
-      "A comprehensive, quality-scored directory of 14,000+ public APIs from across the internet.",
+      "A curated, quality-scored directory of public APIs.",
     siteName: "API-Market",
   },
   twitter: {
     card: "summary_large_image",
-    title: "API-Market — Discover 14,000+ Public APIs",
-    description: "A quality-scored directory of 14,000+ public APIs.",
-    creator: "@badhope",
+    title: "API-Market — The Codex",
+    description: "A curated, quality-scored directory of public APIs.",
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: { index: true, follow: true, "max-image-preview": "large" },
-  },
-}
-
-// Tiny synchronous `<html lang>` updater that runs before any framework JS.
-// Mirrors the I18nProvider's initial state ("en") so there's no FOUC of
-// mismatched language attributes during hydration.
-function LocaleBoot() {
-  return (
-    <script
-      dangerouslySetInnerHTML={{
-        __html: `(function(){try{var s=localStorage.getItem('api-market-locale');var l=((s==='zh'||s==='ja'||s==='en')?s:((navigator.language||'en').toLowerCase().indexOf('zh')===0?'zh':((navigator.language||'en').toLowerCase().indexOf('ja')===0?'ja':'en')));document.documentElement.lang=l;}catch(e){document.documentElement.lang='en';}})();`,
-      }}
-    />
-  )
+  robots: { index: true, follow: true },
 }
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <head>
-        <LocaleBoot />
-      </head>
-      <body
-        className={`${geist.variable} ${geistMono.variable} font-sans antialiased`}
-      >
+    <html
+      lang="en"
+      suppressHydrationWarning
+      data-scroll-behavior="smooth"
+      className={`${fraunces.variable} ${jetbrains.variable}`}
+    >
+      <body>
         <Providers>
-          <div className="relative flex min-h-screen flex-col bg-background text-foreground">
-            <Header />
-            <a
-              href="#main-content"
-              className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:rounded-md focus:bg-primary focus:px-3 focus:py-2 focus:text-sm focus:text-primary-foreground focus:shadow-lg"
-            >
-              Skip to main content
-            </a>
-            <main id="main-content" className="flex-1">
-              {children}
-            </main>
-            <Footer />
-          </div>
+          <a
+            href="#main"
+            className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:bg-[var(--paper)] focus:px-3 focus:py-2 focus:text-[var(--ink)] focus:font-mono focus:text-[0.75rem] focus:uppercase focus:tracking-[0.14em] focus:border focus:border-[var(--accent)]"
+          >
+            Skip to content
+          </a>
+          <Header />
+          <main id="main" className="min-h-[calc(100vh-4rem)]">
+            {children}
+          </main>
+          <Footer />
+          <CommandPaletteRoot />
         </Providers>
       </body>
     </html>

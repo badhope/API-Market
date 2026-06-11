@@ -1,48 +1,28 @@
 import type { Metadata } from "next"
-
-import { TitleRow } from "@/components/wiki/shared"
-import { internalHref } from "@/lib/links"
-
-import { SearchResults } from "./search-results"
-
-// The search is a client island. The page itself is a thin shell that
-// renders the title + the search form; the result list is computed in
-// the browser from `public/data/all.json` so the static export works
-// without per-query HTML pre-rendering.
-export const dynamic = "force-static"
+import { Suspense } from "react"
+import { SearchExplorer } from "@/components/codex/search-explorer"
 
 export const metadata: Metadata = {
-  title: "Search APIs",
-  description:
-    "Search 14,000+ public APIs by name, description, or category.",
-  alternates: { canonical: "/search" },
+  title: "Search",
+  description: "Search 14,000+ public APIs by name, tag, or category.",
 }
 
 export default function SearchPage() {
   return (
-    <div className="container mx-auto px-3 sm:px-4 py-4 max-w-5xl">
-      <TitleRow title="Search APIs" />
-      <form
-        action={internalHref("/search")}
-        method="get"
-        className="flex gap-2 mb-4"
-        role="search"
-      >
-        <input
-          type="search"
-          name="q"
-          placeholder="Search 14,405 APIs by name or description…"
-          aria-label="Search APIs"
-          className="flex-1 min-w-0 h-9 rounded border bg-background px-3 text-sm focus:outline-none focus:ring-1 focus:ring-ring"
-        />
-        <button
-          type="submit"
-          className="h-9 px-3 sm:px-4 rounded bg-foreground text-background text-sm font-medium shrink-0"
-        >
-          Search
-        </button>
-      </form>
-      <SearchResults />
+    <div className="mx-auto max-w-[1320px] px-6 sm:px-10">
+      <header className="pt-16 sm:pt-24 pb-10">
+        <p className="eyebrow mb-6">Search</p>
+        <h1 className="font-serif text-[clamp(2.5rem,6vw,4.25rem)] leading-[0.98] tracking-[-0.03em] font-medium max-w-[18ch]">
+          Look up an <em className="italic">api</em>.
+        </h1>
+        <p className="mt-6 font-serif text-[1.0625rem] leading-[1.65] text-[var(--ink-soft)] max-w-[60ch]">
+          Type a name, a tag, a category — or paste a fragment of a URL.
+          Use the keys to navigate.
+        </p>
+      </header>
+      <Suspense>
+        <SearchExplorer />
+      </Suspense>
     </div>
   )
 }
