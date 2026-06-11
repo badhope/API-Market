@@ -1,87 +1,26 @@
-name: Deploy to GitHub Pages
+name: CI
 
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 concurrency:
-  group: pages-${{ github.ref }}
+  group: ci-${{ github.ref }}
   cancel-in-progress: true
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  build:
-    name: Build Static Site
+  lint:
+    name: Lint
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
-
-      - name: Restore cached SQLite database
-        id: cache
-        uses: actions/cache@v5
-        with:
-          path: data/api_market.db
-          key: api-market-db-v1
-          restore-keys: |
-            api-market-db-
-
-      - name: Rebuild SQLite database (cache miss)
-        # The DB is tracked in the repo (so a fresh clone has data
-        # immediately) and also cached at the Actions level so the
-        # Pages build doesn't have to refetch it. On a cold cache we
-        # fall back to running the migration script from a legacy JSON
-        # snapshot if one is available locally.
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          if [ -f api-database.json ]; then
-            python scripts/migrate_to_sqlite.py
-          else
-            mkdir -p data
-            echo "WARNING: no cache hit and no api-database.json; creating empty schema DB." >&2
-            python << 'PYEOF'
-          import sqlite3
-          conn = sqlite3.connect('data/api_market.db')
-          conn.executescript('''
-            CREATE TABLE IF NOT EXISTS categories (
-              id TEXT PRIMARY KEY, name TEXT NOT NULL,
-              display_name TEXT NOT NULL, icon TEXT, api_count INTEGER DEFAULT 0
-            );
-            CREATE TABLE IF NOT EXISTS apis (
-              id TEXT PRIMARY KEY, name TEXT NOT NULL, url TEXT NOT NULL,
-              description TEXT DEFAULT '', category_id TEXT NOT NULL,
-              auth TEXT, https BOOLEAN, cors BOOLEAN,
-              source TEXT, source_url TEXT, quality_score INTEGER DEFAULT 0,
-              quality_grade TEXT, tags TEXT, status TEXT DEFAULT 'active',
-              deprecated BOOLEAN DEFAULT 0, last_verified TEXT,
-              created_at TEXT, updated_at TEXT
-            );
-            CREATE VIRTUAL TABLE IF NOT EXISTS apis_fts USING fts5(
-              api_id UNINDEXED, name, description, category_name, tags,
-              tokenize='porter unicode61'
-            );
-          ''')
-          conn.commit()
-          conn.close()
-          print('Created empty schema DB (0 APIs)')
-          PYEOF
-          fi
-
-      - name: Dump static data from SQLite
-        # build_static_data.py only uses the stdlib sqlite3 module, so we
-        # don't need aiosqlite / FastAPI / etc. here.
-        run: |
-          mkdir -p frontend/public/data
-          python scripts/build_static_data.py
 
       - name: Set up Node.js
         uses: actions/setup-node@v6
@@ -92,13 +31,83 @@ jobs:
 
       - name: Install Node dependencies
         working-directory: frontend
-        run: npm ci
+        run: npm ci --no-audit --no-fund
+
+      - name: Type-check
+        working-directory: frontend
+        run: npm run typecheck
+
+      - name: ESLint
+        working-directory: frontend
+        run: npm run lint
+
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install Node dependencies
+        working-directory: frontend
+        run: npm ci --no-audit --no-fund
+
+      - name: Build static data (so the integration test sees a real fixture)
+        working-directory: frontend
+        run: npm run build:data
+
+      - name: Run unit + integration tests
+        working-directory: frontend
+        run: npm test
+
+      - name: Run tests with coverage thresholds
+        working-directory: frontend
+        run: npm run test:coverage
+
+      - name: Upload coverage report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: frontend/coverage
+          retention-days: 14
+
+  build:
+    name: Build Static Site
+    needs: [lint, test]
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install Node dependencies
+        working-directory: frontend
+        run: npm ci --no-audit --no-fund
+
+      - name: Build static data
+        working-directory: frontend
+        run: npm run build:data
 
       - name: Build static export
         working-directory: frontend
         env:
           STATIC_EXPORT: "true"
-          NEXT_PUBLIC_API_URL: ""
         run: npm run build
 
       - name: Add .nojekyll (bypass Jekyll processing)
@@ -116,9 +125,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./frontend/out
           publish_branch: gh-pages
-          # Keep the gh-pages branch history short
           force_orphan: true
-          # Quiet noisy diffs
           enable_jekyll: false
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
