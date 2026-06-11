@@ -1,5 +1,8 @@
 import type { MetadataRoute } from "next"
 
+// Next.js 16 requires this for static export.
+export const dynamic = "force-static"
+
 // Allow the deployer to override the canonical origin at build time. Falls
 // back to the default GitHub Pages URL for a project page (`<owner>.github.io/<repo>`).
 // For custom domains, set NEXT_PUBLIC_SITE_URL in the deploy environment.
