@@ -1,103 +1,136 @@
 # API-Market
 
+[![Deploy Pages](https://github.com/badhope/API-Market/actions/workflows/pages.yml/badge.svg)](https://github.com/badhope/API-Market/actions/workflows/pages.yml)
+[![Validate](https://github.com/badhope/API-Market/actions/workflows/daily-update.yml/badge.svg)](https://github.com/badhope/API-Market/actions/workflows/daily-update.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **言語**: [English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md)
 
-14,000+ の公開 HTTP API を検索可能なディレクトリ。FastAPI バックエンド、
-Next.js 14 フロントエンド、SQLite FTS5 による全文検索。単一の Docker
-スタックとしても、GitHub Pages 上の完全な静的サイトとしてもデプロイ
-できます(閲覧時にバックエンドは不要)。
+厳選された公開 API のディレクトリを、高速な静的サイトとして提供します。
+バックエンドなし、Cookie なし、トラッキングなし、ビルドサーバーなし。
+プロジェクト全体は git 内のテキストファイルと、GitHub Pages 上の静的エクスポートだけです。
 
-## 概要
+## これは何
 
-- 厳選された公開 API リスト(public-apis、APIs.guru など)を、
-  FTS5 インデックスを備えた単一の SQLite データベースに集約。
-- ヘッドレス利用向けの REST API:一覧、フィルタ、ページネーション、
-  全文検索を提供。
-- カタログ全体の静的 JSON ダンプをデプロイ時に `frontend/public/data/`
-  にビルドするため、GitHub Pages のビルドはブラウザ内で検索と
-  ページネーションを行い、サーバーコストはゼロ。
+API を検索できるインデックス —— 機能、呼び出し方、認証方式、本当に使う価値があるかどうか。
+HTTPS、CORS、説明、ソースといった品質シグナルで A〜F のグレードを付けます。
+プレーンな JSON Lines と小さな TypeScript ビルドスクリプトから生成されます。
 
-## クイックスタート
+**公開サイト**：<https://badhope.github.io/API-Market/>
 
-Docker(完全スタック、Nginx リバースプロキシ込み):
+## レイアウト
+
+```
+data/
+  sources.json              上流ソース登録（表示名、ライセンス）
+  categories/<id>/
+    meta.toml               display_name、blurb、icon
+    apis.jsonl              1 行 1 API、ビルド時に Zod 検証
+
+frontend/
+  src/
+    app/                    Next.js 16 App Router
+    components/codex/       デザインシステム（"Editorial Codex"）
+    schemas/                Zod データ契約（唯一の真実）
+    lib/                    データ、検索、フォーマッタ
+    scripts/build-data.ts   テキスト → 静的 JSON + Orama 索引
+  public/data/              ビルド成果物（ローカル開発用にコミット）
+
+.github/workflows/
+  pages.yml                 main への push でビルド＆デプロイ
+  daily-update.yml          data/ を触る PR で検証
+```
+
+これだけ。`backend/` なし、`docker/` なし、`scripts/` なし。
+以前運用していた 14,000 件の API カタログは引退し、キュレーション + コントリビューター駆動の方式に切り替えました —— 後述の「API の追加」を参照。
+
+## ローカル実行
 
 ```bash
-git clone https://github.com/badhope/API-Market
-cd API-Market
-cp .env.example .env
-docker compose up -d
-# http://localhost
+cd frontend
+npm install --legacy-peer-deps
+npm run build:data    # data/ から public/data/*.json を生成
+npm run dev           # http://localhost:3000
 ```
 
-ローカル開発(バックエンドのみ):
+1 ステップ 1 コマンド。ビルドスクリプトは `prebuild` フックで配線されているので、`npm run build` で自動的にデータが再生成されます。
 
-```bash
-uv sync --extra dev                  # または: pip install -e ".[dev,pipeline]"
-make db-init                          # 初回のみ: data/api_market.db をビルド
-make run                              # uvicorn を :8080 で起動
-```
-
-ローカル開発(フロントエンド):
-
-```bash
-cd frontend && pnpm install && pnpm dev
-# http://localhost:3000
-```
-
-## GitHub Pages へのデプロイ
-
-`pages.yml` は `main` へのプッシュごとに静的サイトをビルドし、
-`gh-pages` ブランチへデプロイします。ビルドには `data/api_market.db`
-のチェックインが必要(されています)、`frontend/public/data/*.json` と
-`frontend/out/` を生成します。それ以外の準備は不要です。
-
-## API
-
-| メソッド | パス                         | 説明                                           |
-|----------|------------------------------|------------------------------------------------|
-| GET      | `/api`                       | 一覧、ページネーション、ソート、grade/CORS 絞込 |
-| GET      | `/api/search?q=`             | FTS5 検索、関連度順                            |
-| GET      | `/api/categories`            | api_count と平均品質を含むカテゴリ             |
-| GET      | `/api/category/{id}`         | 単一カテゴリの API                             |
-| GET      | `/api/stats`                 | 集計統計(5 分キャッシュ)                       |
-| GET      | `/api/health`                | `{status, version, uptime}`                    |
-
-`DEBUG=true` のとき `/docs` で OpenAPI ドキュメントを参照できます。
-
-## データ
-
-- 44 カテゴリ、約 14,000 API。品質スコアリングは 0-100(A-F)で、
-  いくつかのシグナル(説明長、https、cors、ソース)に基づく
-  ヒューリスティックです。保証ではなく、おおよその指標です。
-- 日次更新パイプラインが `.github/workflows/daily-update.yml` 経由で
-  UTC 06:30 に実行され、新しいデータセットを検証し、変更があれば
-  PR を作成します。
-
-## プロジェクト構成
+## データが git からページになるまで
 
 ```
-backend/         FastAPI サービス(api_market パッケージ + テスト)
-frontend/        Next.js 14 アプリ、App Router、Tailwind v4
-pipeline/        非同期コレクター(httpx + tenacity)
-scripts/         データ移行、検証、build_static_data
-docker/          compose スタック用 nginx.conf
-data/            SQLite データベース(追跡対象、約 9.7 MB)+ collected/.gitkeep
+  data/categories/<id>/apis.jsonl
+            │
+            │  Zod が全行を検証
+            ▼
+  frontend/scripts/build-data.ts
+            │
+            ├─► stats.json / categories.json / featured.json
+            ├─► top.json / all.json / category/<id>.json
+            └─► orama.json（事前ビルド済み Orama 検索索引）
+            │
+            │  next build が public/data/* を拾う
+            ▼
+  frontend/out/    （静的エクスポート）
+            │
+            ▼
+  gh-pages ブランチ
 ```
 
-## 開発
+検索はブラウザ側で、事前ビルドされた Orama 索引に対して実行されます。サーバーなし、FTS5 なし、SQL なし —— WASM 化された Orama エンジンが全文検索、誤字許容、ファセット、言語別ステミングを担当（クライアントサイド・オンデマンド）。
 
-```bash
-make all              # ruff + mypy + pytest
-make db-reset         # 新規 JSON ダンプから SQLite を再構築
+## API の追加
+
+最もクリーンなコントリビューション：`data/categories/<id>/apis.jsonl` を編集し、1 行追加して PR を作成します。例：
+
+```jsonl
+{"id":"open-meteo","name":"Open-Meteo","url":"https://api.open-meteo.com/v1/forecast","description":"Free weather forecast API for any location. No API key required.","auth":"none","https":true,"cors":true,"source":"open-meteo","tags":"forecast,free,no-key,global","quality_score":95,"quality_grade":"A","last_verified":"2026-06-01"}
 ```
 
-`backend/` は strict mypy、`backend/ pipeline/ scripts/` は ruff format + lint
-を適用。`backend/tests/` に公開 API サーフェスをカバーする 13 個の
-テストがあります。
+フィールド仕様は [`frontend/src/schemas/api.ts`](frontend/src/schemas/api.ts) にあります。
+不正なレコード（誤った URL スキーム、不明なグレード、不正な tag 形式など）は PR 上で正確なエラーとともに拒否されます。
+
+### 新しいカテゴリの追加
+
+1. `mkdir -p data/categories/<kebab-id>`
+2. `data/categories/<id>/meta.toml` を作成：
+   ```toml
+   [meta]
+   id = "music"
+   display_name = "Music"
+   icon = "mus"
+   blurb = "Streaming, metadata, lyrics, and audio analysis."
+   order = 5
+   ```
+3. `data/categories/<id>/apis.jsonl` を、最低 1 レコードで作成。
+4. PR を開く。CI がビルドを走らせ、静的サイトに新しい章が自動で追加されます。
+
+## 品質スコアリング
+
+ヒューリスティック、高速、透明。スコアは 0〜100 の数値と A〜F の字母。
+編集者は `quality_grade` を直接指定可能。未指定なら `quality_score` から派生。
+考えすぎないで —— これはヒントであり、契約ではありません。
+
+ビルドスクリプトがいくつかの不変条件を強制し、残りを派生します：
+
+- `tags` はソースではカンマ区切り文字列、出力では `string[]` に分割（UI 期待値と一致）
+- `category_id` はディレクトリ名から暗黙に決まる。冗長だが schema が安全のために保持
+- `source_url` 未指定時はソース登録表にフォールバック
+- `created_at` / `updated_at` はビルド時にスタンプ
+
+## 技術スタック
+
+- **Next.js 16**（App Router、Turbopack、静的エクスポート）
+- **TypeScript 5** strict
+- **Tailwind v4**（新 `@theme` ディレクティブ、手書きデザイントークン）
+- **Zod 3**（ランタイム + コンパイル時データ契約）
+- **Orama 3**（ブラウザ WASM 検索）
+- **smol-toml**（カテゴリメタデータ解析）
+- **tsx**（TS ビルドスクリプトを別途コンパイルせず実行）
+
+Python ゼロ。Docker ゼロ。ランタイムサービスゼロ。
 
 ## ライセンス
 
-MIT。詳細は [LICENSE](LICENSE) を参照。
+MIT。[LICENSE](LICENSE) を参照。
 
-API データは公開ソースから集約しています。商用利用の前には各提供者
-の利用規約を確認してください。
+API データは公開ソースから集約しています。商用利用前に各プロバイダーの利用規約を確認してください。

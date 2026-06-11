@@ -1,38 +1,67 @@
 # Changelog
 
-All notable changes to API-Market. Newest first.
+All notable changes to this project are recorded here. Versions follow
+[Semantic Versioning](https://semver.org/).
 
-## 5.0.0 — 2026-06-04
+## [6.0.0] — 2026-06-11
 
-Initial public release.
+### Removed
 
-**Highlights**
-- 14,405 public APIs across 44 categories, quality-scored A–F.
-- FTS5-powered search with safe-query escaping and per-IP rate limits.
-- FastAPI backend with strict CORS, security headers, request-id
-  correlation, and a `{error, detail}`-shaped error contract.
-- Next.js 14 frontend that builds to a **pure static export** — the
-  public site at <https://badhope.github.io/API-Market/> serves the
-  full dataset to the browser with no runtime server.
-- Docker Compose stack (FastAPI + Nginx) for self-hosters.
-- Daily upstream-data refresh (06:30 UTC) that opens a PR if the
-  dataset changes.
-- Tri-lingual documentation: English (default), 中文, 日本語, with
-  in-README language switcher.
+- Entire Python backend (`backend/`, ~2000 lines). FastAPI, SQLAlchemy,
+  Pydantic, slowapi, Redis caching, the whole thing. None of it
+  shipped in the GitHub Pages build, which is the only supported
+  deploy target.
+- `data/api_market.db` (SQLite + FTS5). Replaced by text files in
+  `data/categories/<id>/`.
+- `scripts/migrate_to_sqlite.py`, `scripts/cleanup_database.py`,
+  `scripts/validate_data.py`, `pipeline/collector.py`.
+- Dockerfile, docker-compose, `docs/deploy-render.md`, `Makefile`,
+  `pyproject.toml`, `uv.lock`, `.python-version`, `.gitleaks.toml`.
+- `daily-update.yml` cron pipeline (was a Python collector).
+  Replaced by an on-PR `Validate Data` workflow.
 
-**Security & privacy**
-- `privacy-guard` workflow scans every push and PR for leaked tokens,
-  .env files, and oversized data blobs.
-- `security-audit` workflow runs `npm audit` + `pip-audit` weekly and
-  fails on `critical` findings.
-- CodeQL scans both Python and JavaScript / TypeScript under
-  `security-extended` rules.
-- Dependabot opens weekly PRs for npm, pip, and GitHub Actions.
-- `data/api_market.db` (~9.3 MB) is the only large tracked file; all
-  other large artefacts stay gitignored.
+### Added
 
-**Housekeeping**
-- Standard MIT License + `NOTICE` file for upstream attribution.
-- `CHANGELOG`, `CONTRIBUTING`, `CODE_OF_CONDUCT`, `SECURITY` in place.
-- Issue templates for bug reports, feature requests, and data issues.
-- PR template aligned with the project's `make all` checks.
+- `frontend/scripts/build-data.ts` — single-file TypeScript build
+  that reads `data/categories/*/apis.jsonl`, validates each record
+  with Zod, emits `frontend/public/data/*.json` and a pre-built
+  Orama search index. No database. No Python.
+- `frontend/src/schemas/{api,category}.ts` — Zod contracts as the
+  single source of truth for record shape. Frontend imports the
+  inferred types directly.
+- `data/categories/<id>/meta.toml` — per-category metadata
+  (display name, icon, blurb, sort order).
+- `data/categories/<id>/apis.jsonl` — per-category record list, one
+  API per line, JSON Lines, Git-diff friendly.
+- Client-side search via `@orama/orama` (WASM in-browser, with a
+  pre-built `orama.json` index so first ⌘K is a fetch, not a
+  rebuild).
+- New CI jobs: `Lint & Typecheck`, `Build (data + frontend)`,
+  `Security Scan (CodeQL)`. CodeQL scope narrowed to `frontend/src/`
+  since there's no Python surface left.
+
+### Changed
+
+- Build pipeline is now **Node only**. Two commands:
+  `npm run build:data && next build`. No `uv`, no `pip`, no `docker`.
+- `pages.yml` is ~60% smaller: it just runs the Node build, exports
+  the static site, and pushes to `gh-pages`.
+- `frontend/src/lib/search.ts` rewrote on top of Orama; old
+  tokenize/rankApis scoring removed.
+- `frontend/src/lib/data-server.ts` simplified to read
+  pre-sorted/pre-paginated JSON snapshots directly off disk.
+- Data format on the wire: `all.json` / `top.json` are now flat
+  arrays (was `{ items, total, page, ... }` for compatibility with
+  the old FastAPI paginated response).
+
+## [5.0.1] — 2026-05-XX
+
+- Frontend redesign: new "Editorial Codex" aesthetic — paper,
+  serif, hairline rules, vermillion accent.
+- Removed dead `frontend/src/components/ui/*` and
+  `frontend/src/components/wiki/shared.tsx`.
+- README rewritten in English / Chinese / Japanese.
+
+## [5.0.0] — 2026-04-XX
+
+- FastAPI backend, Next.js frontend, daily-update cron.
