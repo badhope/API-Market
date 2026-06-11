@@ -1,0 +1,6 @@
+[meta]
+id = "currency-exchange"
+display_name = "Currency Exchange"
+icon = "ce"
+blurb = ""
+order = 13

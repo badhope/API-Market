@@ -1,0 +1,6 @@
+[meta]
+id = "email"
+display_name = "Email"
+icon = "ema"
+blurb = ""
+order = 18

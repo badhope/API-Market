@@ -1,0 +1,6 @@
+[meta]
+id = "personality"
+display_name = "Personality"
+icon = "per"
+blurb = ""
+order = 35

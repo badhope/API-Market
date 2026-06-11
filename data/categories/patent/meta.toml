@@ -1,0 +1,6 @@
+[meta]
+id = "patent"
+display_name = "Patent"
+icon = "pat"
+blurb = ""
+order = 34

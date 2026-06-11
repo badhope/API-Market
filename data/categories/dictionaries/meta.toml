@@ -1,0 +1,6 @@
+[meta]
+id = "dictionaries"
+display_name = "Dictionaries"
+icon = "dic"
+blurb = ""
+order = 16

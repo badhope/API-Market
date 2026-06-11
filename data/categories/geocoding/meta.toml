@@ -1,0 +1,6 @@
+[meta]
+id = "geocoding"
+display_name = "Geocoding"
+icon = "geo"
+blurb = ""
+order = 25

@@ -1,0 +1,6 @@
+[meta]
+id = "continuous-integration"
+display_name = "Continuous Integration"
+icon = "ci"
+blurb = ""
+order = 11

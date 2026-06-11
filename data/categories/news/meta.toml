@@ -1,0 +1,6 @@
+[meta]
+id = "news"
+display_name = "News"
+icon = "new"
+blurb = ""
+order = 31

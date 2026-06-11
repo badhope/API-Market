@@ -1,0 +1,6 @@
+[meta]
+id = "finance"
+display_name = "Finance"
+icon = "fin"
+blurb = ""
+order = 22

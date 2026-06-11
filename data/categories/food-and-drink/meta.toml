@@ -1,0 +1,6 @@
+[meta]
+id = "food-and-drink"
+display_name = "Food & Drink"
+icon = "fd"
+blurb = ""
+order = 23
