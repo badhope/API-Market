@@ -105,6 +105,29 @@ npm run dev           # http://localhost:3000
 3. 创建 `data/categories/<id>/apis.jsonl`，至少一条记录。
 4. 开 PR。CI 跑构建，静态站点自动获得新章节。
 
+## 从 public-apis 同步
+
+本目录建立在
+[public-apis](https://github.com/public-apis/public-apis) 上游目录之上。
+导入脚本位于 [`frontend/scripts/import/`](frontend/scripts/import/)，
+把上游 README 转成和手写一样的 `data/categories/**/apis.jsonl` —— Zod 校验每条记录、
+分数确定性派生、未知分类自动创建 `meta.toml`。
+
+本地运行（写入 `data/`）：
+
+```bash
+cd frontend
+npm run import:public-apis           # 拉取并写入
+npm run import:public-apis:dry      # 只打印 diff，不写入
+```
+
+工作流 [`.github/workflows/sync-upstream.yml`](.github/workflows/sync-upstream.yml)
+每周一 06:00 UTC（可手动触发）跑同一条命令，然后开带 diff 的 PR。
+审阅者可以合并或关闭 —— 数据始终在 git 里，从不绕过 review。
+
+如需让某个分类不被 importer 触碰，把它的 `id` 加到
+`data/.import-ignore`（每行一个）。
+
 ## 质量评分
 
 启发式、快速、透明。分数 0–100、字母 A–F。
@@ -117,6 +140,27 @@ npm run dev           # http://localhost:3000
 - `category_id` 由目录名隐含；在文件中冗余但 schema 保留以保安全
 - `source_url` 未给时回退到源注册表
 - `created_at` / `updated_at` 在构建时盖戳
+
+## 质量门
+
+CI 在每个 PR 上跑五道门，都不依赖网络服务 —— 全部针对静态构建跑：
+
+```bash
+cd frontend
+npm run lint          # ESLint flat config, 0 警告
+npm run typecheck     # tsc --noEmit, 0 错误
+npm test              # Vitest, 104 个测试
+npm run test:coverage # Vitest v8 coverage (>= 90% lines)
+npm run build         # next build → out/ (静态导出)
+```
+
+四个 Playwright 脚本在 [`frontend/scripts/`](frontend/scripts/)：
+
+- `e2e-smoke.mjs` — 每个视口走遍所有页面
+- `a11y-audit.mjs` — axe-core 4.10, AA pass
+- `deep-smoke.mjs` — 长文本 / CJK / a11y 边界用例
+- `visual-click.mjs` — 视觉审查 + 自动化点击截图
+  (6 页 × 3 视口 × hover/click 截图，约 120 帧)
 
 ## 技术栈
 
