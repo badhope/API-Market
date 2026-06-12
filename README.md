@@ -6,16 +6,22 @@
 
 **Languages**: [English](README.md) · [中文](README.zh.md) · [日本語](README.ja.md)
 
-A curated directory of public APIs, presented as a fast static site. No
+A curated directory of **free public APIs**, presented as a fast static site. No
 backend, no cookies, no tracking, no build server. The whole thing is
 text files in git and a static export on GitHub Pages.
 
 ## What is it
 
-A searchable index of public APIs — what it does, how to call it, what
+A searchable index of **free public APIs** — what it does, how to call it, what
 the auth model is, and whether it's worth your time. A–F grade on a
-handful of quality signals (HTTPS, CORS, description, source). Built
+hand-ful of quality signals (HTTPS, CORS, description, source). Built
 from plain JSON Lines and a small TypeScript build script.
+
+**What makes us different from RapidAPI?**
+Every API listed here is **truly free** — no sign-up walls, no API key
+marketplaces, no middleman taking a cut. We aggregate from open-source
+directories (public-apis, saxi.ai, publicapis.dev, apilist.fun) and
+score them so you can find what you need fast.
 
 **Live**: <https://badhope.github.io/API-Market/>
 
@@ -113,31 +119,37 @@ The build will reject the PR with a precise error if anything is off
 4. Open a PR. CI runs the build and the static site gets a new chapter
    automatically.
 
-## Syncing from public-apis
+## Syncing from multiple sources
 
-The directory is built on top of the
-[public-apis](https://github.com/public-apis/public-apis) upstream
-catalog. The importer lives at
-[`frontend/scripts/import/`](frontend/scripts/import/) and turns the
-upstream README into the same `data/categories/**/apis.jsonl` shape
-that hand-edits use — Zod validates every record, scores are derived
-deterministically, and unknown categories auto-create their `meta.toml`.
+The directory is built on top of multiple upstream catalogs. The importer lives at [`frontend/scripts/import/`](frontend/scripts/import/) and supports multiple sources:
 
-Run it locally (writes to `data/`):
+- **public-apis** (GitHub) — 1,500+ APIs from the community-maintained list
+- **saxi.ai** — 1,500+ APIs with AI/agent focus (when available)
+- **publicapis.dev** — curated directory (when API endpoint is available)
+- **apilist.fun** — beautifully designed directory (when API endpoint is available)
+
+Run the multi-source importer locally (writes to `data/`):
 
 ```bash
 cd frontend
-npm run import:public-apis           # fetch + write
+npm run import:all           # fetch from all sources + write
+npm run import:all:dry      # print diff without writing
+```
+
+Or import from a single source:
+
+```bash
+npm run import:public-apis           # fetch from public-apis only
 npm run import:public-apis:dry      # print diff without writing
 ```
 
-The workflow [`.github/workflows/sync-upstream.yml`](.github/workflows/sync-upstream.yml)
-runs the same command on a weekly schedule (Mon 06:00 UTC) and on
-manual dispatch, then opens a PR with the diff. Reviewers can merge
-or close — the data is always in git, never bypasses review.
+The importer turns upstream data into the same `data/categories/**/apis.jsonl` shape that hand-edits use — Zod validates every record, scores are derived deterministically, and unknown categories auto-create their `meta.toml`.
 
-To stop a category from being touched by the importer, add its `id`
-to `data/.import-ignore` (one per line).
+The workflow [`.github/workflows/sync-upstream.yml`](.github/workflows/sync-upstream.yml) runs the same command on a weekly schedule (Mon 06:00 UTC) and on manual dispatch, then opens a PR with the diff. Reviewers can merge or close — the data is always in git, never bypasses review.
+
+To stop a category from being touched by the importer, add its `id` to `data/.import-ignore` (one per line).
+
+**Note**: Some sources (saxi.ai, publicapis.dev, apilist.fun) may not expose public API endpoints. The importer gracefully handles failures and continues with available sources.
 
 ## Quality scoring
 

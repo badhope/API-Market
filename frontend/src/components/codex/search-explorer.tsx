@@ -13,12 +13,14 @@ import { CategoryTag } from "./category-tag"
 import { internalHref } from "@/lib/links"
 
 type GradeFilter = "all" | "A" | "B" | "C" | "D" | "F"
+type AuthFilter = "all" | "none" | "apiKey" | "oauth2" | "xAuth"
 
 export function SearchExplorer() {
   const params = useSearchParams()
   const router = useRouter()
   const [q, setQ] = useState(params.get("q") ?? "")
   const [grade, setGrade] = useState<GradeFilter>("all")
+  const [auth, setAuth] = useState<AuthFilter>("all")
   const [cats, setCats] = useState<CategorySummary[] | null>(null)
   const [hits, setHits] = useState<SearchHit[] | null>(null)
   const [loading, setLoading] = useState(true)
@@ -56,9 +58,12 @@ export function SearchExplorer() {
 
   const results = useMemo<ApiSummary[]>(() => {
     if (!hits) return []
-    const list = grade === "all" ? hits : hits.filter((h) => h.api.quality_grade === grade)
+    let list = grade === "all" ? hits : hits.filter((h) => h.api.quality_grade === grade)
+    if (auth !== "all") {
+      list = list.filter((h) => h.api.auth === auth)
+    }
     return list.map((h) => h.api)
-  }, [hits, grade])
+  }, [hits, grade, auth])
 
   const catHits = useMemo(() => {
     if (!cats || !tokens.length) return []
@@ -116,6 +121,22 @@ export function SearchExplorer() {
               style={g === grade && g !== "all" ? { color: `var(--grade-${g.toLowerCase()})` } : undefined}
             >
               {g === "all" ? "All grades" : `Grade ${g}`}
+            </button>
+          ))}
+          <span className="mx-2 text-[var(--ink-faint)]">|</span>
+          {(["all", "none", "apiKey", "oauth2", "xAuth"] as const).map((a) => (
+            <button
+              key={a}
+              type="button"
+              onClick={() => setAuth(a)}
+              className={
+                "px-3 h-10 inline-flex items-center font-mono text-[0.6875rem] tracking-[0.14em] uppercase border " +
+                (a === auth
+                  ? "border-[var(--ink)] text-[var(--ink)] bg-[var(--ink)] text-[var(--paper)]"
+                  : "border-[var(--rule)] text-[var(--ink-mute)] hover:text-[var(--ink)]")
+              }
+            >
+              {a === "all" ? "All auth" : a === "none" ? "No auth" : a === "apiKey" ? "API Key" : a === "oauth2" ? "OAuth" : "Custom"}
             </button>
           ))}
           <span className="ml-auto font-mono text-[0.6875rem] tracking-[0.14em] uppercase text-[var(--ink-mute)]">

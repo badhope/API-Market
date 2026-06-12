@@ -8,6 +8,8 @@
     "build:data": "tsx scripts/build-data.ts",
     "import:public-apis": "tsx scripts/import/run.ts",
     "import:public-apis:dry": "tsx scripts/import/run.ts --dry-run",
+    "import:all": "tsx scripts/import/run-all.ts",
+    "import:all:dry": "tsx scripts/import/run-all.ts --dry-run",
     "prebuild": "npm run build:data",
     "build": "next build",
     "start": "next start",

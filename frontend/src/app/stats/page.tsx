@@ -82,7 +82,7 @@ export default async function StatsPage() {
       </section>
 
       <p className="mt-12 font-mono text-[0.625rem] tracking-[0.18em] uppercase text-[var(--ink-faint)] text-center">
-        ◇ &nbsp; API-Market · v5 · last refresh {formatDate(stats.last_updated)} &nbsp; ◇
+        ◇ &nbsp; API-Market · v6 · last refresh {formatDate(stats.last_updated)} &nbsp; ◇
       </p>
     </div>
   )
