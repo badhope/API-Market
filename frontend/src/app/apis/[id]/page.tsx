@@ -28,9 +28,26 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params
+  const items = await loadAllApis()
+  const api = items.find((a) => a.id === id)
+  
+  if (!api) {
+    return {
+      title: "API Not Found",
+      description: "The requested API could not be found.",
+    }
+  }
+  
+  const authInfo = api.auth === "none" ? "No authentication required" : 
+                   api.auth === "apiKey" ? "API key required" :
+                   api.auth === "oauth2" ? "OAuth 2.0 required" :
+                   api.auth === "xAuth" ? "Custom authentication required" : "Authentication required"
+  
+  const freeInfo = api.auth === "none" ? "Completely free, no sign-up needed" : "Free tier available"
+  
   return {
-    title: id,
-    description: `Details for the ${id} API.`,
+    title: `${api.name} - Free Public API`,
+    description: `${api.description || api.name} - ${freeInfo}. ${authInfo}. Category: ${api.category_id}. Quality grade: ${api.quality_grade}.`,
   }
 }
 
@@ -204,6 +221,54 @@ export default async function ApiDetailPage({ params }: Props) {
           {/* Code samples */}
           <p className="eyebrow mt-16 mb-6">How to call</p>
           <CodeTabs samples={samplesObj} />
+
+          {/* Free usage guide */}
+          <div className="mt-16 p-6 border border-[var(--rule)] bg-[var(--paper-cool)]">
+            <p className="eyebrow mb-4 flex items-center gap-2">
+              <span className="size-1.5 rounded-full bg-[var(--accent)]" />
+              Free to use
+            </p>
+            <p className="font-serif text-[1rem] leading-[1.6] text-[var(--ink-soft)]">
+              {api.auth === "none" ? (
+                <>
+                  <strong className="text-[var(--ink)]">No sign-up required.</strong> You can start calling this API immediately. No API key, no registration, no credit card. Just copy the code above and run it.
+                </>
+              ) : (
+                <>
+                  <strong className="text-[var(--ink)]">Free tier available.</strong> This API requires {api.auth === "apiKey" ? "an API key" : api.auth === "oauth2" ? "OAuth authentication" : "authentication"}, but offers a free tier. Visit the{" "}
+                  {isExternal && (
+                    <a
+                      href={href!}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[var(--accent)] hover:underline"
+                    >
+                      official documentation
+                    </a>
+                  )}{" "}
+                  to sign up and get your credentials.
+                </>
+              )}
+            </p>
+            <div className="mt-4 grid grid-cols-2 gap-4 font-mono text-[0.75rem]">
+              <div>
+                <p className="text-[var(--ink-mute)] uppercase tracking-wider mb-1">Auth</p>
+                <p className="text-[var(--ink)]">{api.auth || "none"}</p>
+              </div>
+              <div>
+                <p className="text-[var(--ink-mute)] uppercase tracking-wider mb-1">HTTPS</p>
+                <p className="text-[var(--ink)]">{api.https === true ? "yes" : api.https === false ? "no" : "—"}</p>
+              </div>
+              <div>
+                <p className="text-[var(--ink-mute)] uppercase tracking-wider mb-1">CORS</p>
+                <p className="text-[var(--ink)]">{api.cors === true ? "yes" : api.cors === false ? "no" : "unknown"}</p>
+              </div>
+              <div>
+                <p className="text-[var(--ink-mute)] uppercase tracking-wider mb-1">Quality</p>
+                <p className="text-[var(--ink)]">Grade {api.quality_grade} ({api.quality_score}/100)</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* RIGHT: related */}

@@ -39,16 +39,17 @@ export default async function HomePage() {
           <div>
             <p className="eyebrow mb-6 flex items-center gap-2">
               <span className="size-1.5 rounded-full bg-[var(--accent)]" />
-              A curated codex of public APIs
+              A curated codex of free public APIs
             </p>
             <h1 className="display font-serif text-[var(--ink)]">
               Discover <em className="italic-display">the</em> codex.
             </h1>
             <p className="mt-8 font-serif text-[1.125rem] leading-[1.6] text-[var(--ink-soft)] max-w-[42ch]">
-              Fourteen thousand public APIs, gathered from forty-plus
-              independent directories, deduplicated and scored
-              <em className="italic"> A through F</em> — to help you
-              spend less time hunting and more time shipping.
+              Free public APIs, gathered from independent open-source
+              directories, deduplicated and scored
+              <em className="italic"> A through F</em> — no sign-up,
+              no API key, no middleman. Just open endpoints you can
+              call right now.
             </p>
 
             <div className="mt-12 max-w-[560px]">
@@ -57,15 +58,15 @@ export default async function HomePage() {
           </div>
 
           <aside className="lg:pt-8">
-            <p className="eyebrow mb-4">Editor’s note</p>
+            <p className="eyebrow mb-4">Editor's note</p>
             <p className="font-serif text-[1.0625rem] leading-[1.65] text-[var(--ink-soft)] max-w-[36ch]">
               <em className="italic-display">An API is a sentence in
-              someone else’s grammar.</em> We collect them, weigh them,
-              and bind them between covers — so a future you, six
-              months from now, can find them again.
+              someone else's grammar.</em> We collect the free ones —
+              no sign-up, no API key, no marketplace middleman —
+              weigh them, and bind them between covers.
             </p>
             <p className="mt-6 font-mono text-[0.6875rem] tracking-[0.14em] uppercase text-[var(--ink-mute)]">
-              — Vol. V · {new Date(stats.last_updated ?? Date.now()).toLocaleDateString("en-GB", { year: "numeric", month: "long" })}
+              — Vol. VI · {new Date(stats.last_updated ?? Date.now()).toLocaleDateString("en-GB", { year: "numeric", month: "long" })}
             </p>
           </aside>
         </div>

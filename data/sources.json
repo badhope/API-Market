@@ -32,6 +32,27 @@
       "url": "https://docs.github.com/en/rest",
       "license": "MIT",
       "tier": "A"
+    },
+    {
+      "id": "saxi-ai",
+      "name": "saxi.ai",
+      "url": "https://saxi.ai",
+      "license": "MIT",
+      "tier": "B"
+    },
+    {
+      "id": "publicapis-dev",
+      "name": "publicapis.dev",
+      "url": "https://publicapis.dev",
+      "license": "MIT",
+      "tier": "B"
+    },
+    {
+      "id": "apilist-fun",
+      "name": "apilist.fun",
+      "url": "https://apilist.fun",
+      "license": "MIT",
+      "tier": "B"
     }
   ]
 }
