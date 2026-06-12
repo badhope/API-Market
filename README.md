@@ -113,6 +113,32 @@ The build will reject the PR with a precise error if anything is off
 4. Open a PR. CI runs the build and the static site gets a new chapter
    automatically.
 
+## Syncing from public-apis
+
+The directory is built on top of the
+[public-apis](https://github.com/public-apis/public-apis) upstream
+catalog. The importer lives at
+[`frontend/scripts/import/`](frontend/scripts/import/) and turns the
+upstream README into the same `data/categories/**/apis.jsonl` shape
+that hand-edits use — Zod validates every record, scores are derived
+deterministically, and unknown categories auto-create their `meta.toml`.
+
+Run it locally (writes to `data/`):
+
+```bash
+cd frontend
+npm run import:public-apis           # fetch + write
+npm run import:public-apis:dry      # print diff without writing
+```
+
+The workflow [`.github/workflows/sync-upstream.yml`](.github/workflows/sync-upstream.yml)
+runs the same command on a weekly schedule (Mon 06:00 UTC) and on
+manual dispatch, then opens a PR with the diff. Reviewers can merge
+or close — the data is always in git, never bypasses review.
+
+To stop a category from being touched by the importer, add its `id`
+to `data/.import-ignore` (one per line).
+
 ## Quality scoring
 
 Heuristic, fast, transparent. The score is a number 0–100 and a
@@ -128,6 +154,28 @@ The build script enforces a few invariants and derives the rest:
   file but kept in the schema for safety
 - `source_url` falls back to the source registry when not given
 - `created_at` / `updated_at` are stamped at build time
+
+## Quality gates
+
+The CI runs five gates on every PR. None of them require a network
+service — everything runs against the static build.
+
+```bash
+cd frontend
+npm run lint          # ESLint flat config, 0 warnings
+npm run typecheck     # tsc --noEmit, 0 errors
+npm test              # Vitest, 104 tests
+npm run test:coverage # Vitest with v8 coverage (>= 90% lines)
+npm run build         # next build → out/ (static export)
+```
+
+Four Playwright scripts live in [`frontend/scripts/`](frontend/scripts/):
+
+- `e2e-smoke.mjs` — clicks through every page on every viewport
+- `a11y-audit.mjs` — axe-core 4.10, AA pass
+- `deep-smoke.mjs` — long-text / CJK / a11y boundary cases
+- `visual-click.mjs` — visual review with automated click capture
+  (6 pages × 3 viewports × hover/click screenshots, ~120 frames)
 
 ## Stack
 

@@ -104,6 +104,32 @@ npm run dev           # http://localhost:3000
 3. `data/categories/<id>/apis.jsonl` を、最低 1 レコードで作成。
 4. PR を開く。CI がビルドを走らせ、静的サイトに新しい章が自動で追加されます。
 
+## public-apis からの同期
+
+本ディレクトリは
+[public-apis](https://github.com/public-apis/public-apis) アップストリームの
+カタログを土台としています。インポーターは
+[`frontend/scripts/import/`](frontend/scripts/import/) にあり、
+アップストリームの README を手編集と同じ
+`data/categories/**/apis.jsonl` 形式に変換します —— 全レコードを Zod が検証し、
+スコアは決定論的に派生、未定義カテゴリは `meta.toml` を自動生成します。
+
+ローカル実行（`data/` に書き込み）：
+
+```bash
+cd frontend
+npm run import:public-apis           # 取得して書き出し
+npm run import:public-apis:dry      # 書き出さず diff だけ表示
+```
+
+ワークフロー [`.github/workflows/sync-upstream.yml`](.github/workflows/sync-upstream.yml)
+が同じコマンドを毎週月曜 06:00 UTC（手動トリガー可）に実行し、diff 付き PR を
+開きます。レビュアーはマージもクローズも自由 —— データは常に git 内にあり、
+レビューをバイパスすることはありません。
+
+特定カテゴリをインポーターの操作対象から外したい場合、
+`data/.import-ignore` に `id` を 1 行ずつ追加してください。
+
 ## 品質スコアリング
 
 ヒューリスティック、高速、透明。スコアは 0〜100 の数値と A〜F の字母。
@@ -116,6 +142,28 @@ npm run dev           # http://localhost:3000
 - `category_id` はディレクトリ名から暗黙に決まる。冗長だが schema が安全のために保持
 - `source_url` 未指定時はソース登録表にフォールバック
 - `created_at` / `updated_at` はビルド時にスタンプ
+
+## 品質ゲート
+
+CI は PR ごとに 5 つのゲートを走らせます。ネットワークサービスは不要で、
+すべて静的ビルドに対して実行されます。
+
+```bash
+cd frontend
+npm run lint          # ESLint flat config、警告 0
+npm run typecheck     # tsc --noEmit、エラー 0
+npm test              # Vitest、104 テスト
+npm run test:coverage # Vitest v8 カバレッジ（>= 90% lines）
+npm run build         # next build → out/（静的エクスポート）
+```
+
+4 つの Playwright スクリプトが [`frontend/scripts/`](frontend/scripts/) にあります：
+
+- `e2e-smoke.mjs` — 全ページを全ビューポートでクリック
+- `a11y-audit.mjs` — axe-core 4.10、AA 合格
+- `deep-smoke.mjs` — 長文 / CJK / a11y 境界ケース
+- `visual-click.mjs` — ビジュアルレビュー + 自動クリックキャプチャ
+  （6 ページ × 3 ビューポート × hover/click スクリーンショット、約 120 フレーム）
 
 ## 技術スタック
 
