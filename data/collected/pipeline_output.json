@@ -1,6 +1,6 @@
 {
-  "collected_at": "2026-06-09T10:07:49Z",
-  "total_apis": 5346,
+  "collected_at": "2026-06-13T09:41:50Z",
+  "total_apis": 5358,
   "total_categories": 35,
   "categories": {
     "animals": [
@@ -25647,20 +25647,6 @@
         "tags": []
       },
       {
-        "id": "development_ogli_082a4a",
-        "name": "Ogli",
-        "url": "https://app.ogli.sh",
-        "description": "Generate short links like any other shortener but with custom OG/meta tags for perfect previews. Ideal for SPAs, apps, and anyone who wants control over what gets shared.",
-        "category": "development",
-        "auth": "apiKey",
-        "https": true,
-        "cors": true,
-        "source": "marcelscruz/public-apis",
-        "quality_score": 95,
-        "quality_grade": "A",
-        "tags": []
-      },
-      {
         "id": "development_carsxe_1f5df1",
         "name": "CarsXE",
         "url": "https://api.carsxe.com/",
@@ -31049,6 +31035,20 @@
         "cors": null,
         "source": "apis.guru",
         "quality_score": 80,
+        "quality_grade": "B",
+        "tags": []
+      },
+      {
+        "id": "documents_filestack_9614fb",
+        "name": "Filestack",
+        "url": "https://www.filestack.com/signup-start/",
+        "description": "Powerful API to upload, transform & deliver any file into your app",
+        "category": "documents",
+        "auth": "[<img src=\"https://run.pstmn.io/button.svg\" alt=\"Run In Postman\" style=\"width: 128px; height: 32px;\">](www.postman.com/filestack-wolfpack/filestack/overview?sideView=agentMode)",
+        "https": null,
+        "cors": null,
+        "source": "public-apis/public-apis",
+        "quality_score": 75,
         "quality_grade": "B",
         "tags": []
       },
@@ -39613,6 +39613,20 @@
         "tags": []
       },
       {
+        "id": "email_pick_an_agency_5c9f46",
+        "name": "Pick an Agency",
+        "url": "https://www.pickanagency.com/developers",
+        "description": "Search 47,000+ marketing agencies by service, location and rating",
+        "category": "email",
+        "auth": null,
+        "https": true,
+        "cors": true,
+        "source": "public-apis/public-apis",
+        "quality_score": 85,
+        "quality_grade": "A",
+        "tags": []
+      },
+      {
         "id": "email_signaliz_781610",
         "name": "Signaliz",
         "url": "https://signaliz.docs.buildwithfern.com/signaliz-api-public-docs/introduction",
@@ -43791,6 +43805,20 @@
         "tags": []
       },
       {
+        "id": "finance_hyperliquid_market_data_7e0778",
+        "name": "Hyperliquid Market Data",
+        "url": "https://rapidapi.com/theliminalguy/api/hyperliquid-market-data-oi-funding-open-interest",
+        "description": "Hyperliquid open interest, funding and cross-venue predicted rates per coin",
+        "category": "finance",
+        "auth": "apiKey",
+        "https": true,
+        "cors": true,
+        "source": "public-apis/public-apis",
+        "quality_score": 100,
+        "quality_grade": "A",
+        "tags": []
+      },
+      {
         "id": "finance_nomics_ee5566",
         "name": "Nomics",
         "url": "https://nomics.com/docs/",
@@ -44193,6 +44221,20 @@
         "cors": null,
         "source": "public-apis/public-apis",
         "quality_score": 85,
+        "quality_grade": "A",
+        "tags": []
+      },
+      {
+        "id": "finance_k_data_gate_bda6e9",
+        "name": "K-Data Gate",
+        "url": "https://kdata-gate.vercel.app/docs",
+        "description": "Korean market data: K-beauty/K-food products, Naver trends, stocks, real estate, weather",
+        "category": "finance",
+        "auth": "apiKey",
+        "https": true,
+        "cors": null,
+        "source": "public-apis/public-apis",
+        "quality_score": 90,
         "quality_grade": "A",
         "tags": []
       },
@@ -44993,6 +45035,20 @@
         "cors": null,
         "source": "public-apis/public-apis",
         "quality_score": 85,
+        "quality_grade": "A",
+        "tags": []
+      },
+      {
+        "id": "food_your_move___nutrition_api_a39591",
+        "name": "Your Move - Nutrition API",
+        "url": "https://ymove.app/nutrition-api",
+        "description": "A complete nutrition API. Search foods, get nutrition facts and values. Generate meal plans and look up packaged products from 180+ countries worldwide.",
+        "category": "food",
+        "auth": "apiKey",
+        "https": true,
+        "cors": true,
+        "source": "marcelscruz/public-apis",
+        "quality_score": 95,
         "quality_grade": "A",
         "tags": []
       },
@@ -46357,6 +46413,20 @@
         "tags": []
       },
       {
+        "id": "geocoding_ip_api_io_dcb30a",
+        "name": "IP-API.io",
+        "url": "https://ip-api.io",
+        "description": "IP geolocation with VPN/proxy/Tor detection, reputation and risk score",
+        "category": "geocoding",
+        "auth": "apiKey",
+        "https": true,
+        "cors": true,
+        "source": "public-apis/public-apis",
+        "quality_score": 95,
+        "quality_grade": "A",
+        "tags": []
+      },
+      {
         "id": "geocoding_ip_geolocation_224ff7",
         "name": "IP Geolocation",
         "url": "https://www.abstractapi.com/ip-geolocation-api",
@@ -46480,6 +46550,20 @@
         "source": "public-apis/public-apis",
         "quality_score": 82,
         "quality_grade": "B",
+        "tags": []
+      },
+      {
+        "id": "geocoding_latlng_03f668",
+        "name": "LatLng",
+        "url": "https://www.latlng.work/docs",
+        "description": "Geocoding, reverse geocoding, places, and static maps",
+        "category": "geocoding",
+        "auth": null,
+        "https": true,
+        "cors": true,
+        "source": "public-apis/public-apis",
+        "quality_score": 88,
+        "quality_grade": "A",
         "tags": []
       },
       {
@@ -49847,10 +49931,10 @@
         "tags": []
       },
       {
-        "id": "health_video_exercise__nutrition___recipe_api___1ce31a",
-        "name": "Video Exercise, Nutrition & Recipe API - ymove.app",
+        "id": "health_your_move___exercise_api_e2d8ba",
+        "name": "Your Move - Exercise API",
         "url": "https://ymove.app/exercise-api",
-        "description": "One Workout API for: Exercise Videos, Program Generation, Nutritional info & Posture Analysis",
+        "description": "The complete exercise library and fitness API for your app. 698+ professional HD exercise videos with workout generation and program builder.",
         "category": "health",
         "auth": "apiKey",
         "https": true,
@@ -52795,6 +52879,20 @@
         "tags": []
       },
       {
+        "id": "news_cure_cancer_with_ai_1a9e98",
+        "name": "Cure Cancer With AI",
+        "url": "https://www.curecancerwithai.com/developers",
+        "description": "Oncology research, clinical trials, FDA approvals, news, and MAMMAL predictions",
+        "category": "news",
+        "auth": "apiKey",
+        "https": true,
+        "cors": false,
+        "source": "public-apis/public-apis",
+        "quality_score": 95,
+        "quality_grade": "A",
+        "tags": []
+      },
+      {
         "id": "news_tensorfeed_3d60f7",
         "name": "TensorFeed",
         "url": "https://tensorfeed.ai/developers",
@@ -52931,6 +53029,20 @@
         "cors": null,
         "source": "public-apis/public-apis",
         "quality_score": 90,
+        "quality_grade": "A",
+        "tags": []
+      },
+      {
+        "id": "news_noozra_f915fc",
+        "name": "Noozra",
+        "url": "https://noozra.com/api",
+        "description": "Free news headlines from 200+ curated RSS sources",
+        "category": "news",
+        "auth": null,
+        "https": true,
+        "cors": true,
+        "source": "public-apis/public-apis",
+        "quality_score": 87,
         "quality_grade": "A",
         "tags": []
       },
@@ -61987,6 +62099,20 @@
         "tags": []
       },
       {
+        "id": "phone_veriroute_intel_7476b4",
+        "name": "VeriRoute Intel",
+        "url": "https://verirouteintel.com",
+        "description": "CNAM caller ID, carrier/LRN lookup and spam scoring for North American phone numbers",
+        "category": "phone",
+        "auth": "apiKey",
+        "https": true,
+        "cors": null,
+        "source": "public-apis/public-apis",
+        "quality_score": 85,
+        "quality_grade": "A",
+        "tags": []
+      },
+      {
         "id": "phone_iseven__humor__eed49a",
         "name": "isEven (humor)",
         "url": "https://isevenapi.xyz/",
@@ -64317,6 +64443,20 @@
         "name": "Brand.dev",
         "url": "https://www.brand.dev/",
         "description": "API to personalize your product with logos, colors, and company info from any domain",
+        "category": "photography",
+        "auth": "apiKey",
+        "https": true,
+        "cors": true,
+        "source": "marcelscruz/public-apis",
+        "quality_score": 95,
+        "quality_grade": "A",
+        "tags": []
+      },
+      {
+        "id": "photography_datpaq_1abb66",
+        "name": "DATPAQ",
+        "url": "https://datpaq.com",
+        "description": "Developer-first APIs. Enterprise-ready infrastructure. Sampla data, avatars, image processing and a lot more.",
         "category": "photography",
         "auth": "apiKey",
         "https": true,
@@ -73023,6 +73163,20 @@
         "tags": []
       },
       {
+        "id": "url-shorteners_linkly_3fc712",
+        "name": "Linkly",
+        "url": "https://linklyhq.com/url-shortener-api",
+        "description": "URL shortener API with branded domains, click tracking, smart redirects, and webhooks",
+        "category": "url-shorteners",
+        "auth": "apiKey",
+        "https": true,
+        "cors": true,
+        "source": "marcelscruz/public-apis",
+        "quality_score": 95,
+        "quality_grade": "A",
+        "tags": []
+      },
+      {
         "id": "url-shorteners_manyapis_com_ce01cd",
         "name": "Manyapis.com",
         "url": "https://manyapis.com/products/short-url",
@@ -74144,6 +74298,20 @@
         "source": "public-apis/public-apis",
         "quality_score": 78,
         "quality_grade": "B",
+        "tags": []
+      },
+      {
+        "id": "weather_infranode_1e9563",
+        "name": "InfraNode",
+        "url": "https://infranode.dev",
+        "description": "Unified German city open data: weather, air quality, EV chargers, transit, demographics",
+        "category": "weather",
+        "auth": "apiKey",
+        "https": true,
+        "cors": null,
+        "source": "public-apis/public-apis",
+        "quality_score": 85,
+        "quality_grade": "A",
         "tags": []
       },
       {
