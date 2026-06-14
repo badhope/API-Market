@@ -26,7 +26,7 @@ export function HairlineBar({ value, max, label, count, className }: HairlineBar
       )}
       <div className="relative h-px bg-[var(--rule)]">
         <div
-          className="absolute top-0 left-0 h-px bg-[var(--ink)]"
+          className="absolute top-0 left-0 h-px bg-[var(--ink)] transition-all duration-700 ease-out"
           style={{ width: `${pct}%` }}
         />
       </div>

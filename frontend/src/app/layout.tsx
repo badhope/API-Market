@@ -47,8 +47,24 @@ export const metadata: Metadata = {
     template: "%s · API-Market",
   },
   description:
-    "A curated, quality-scored directory of public APIs. Every record is hand-reviewed, free to read.",
-  keywords: ["public APIs", "API directory", "open data", "OpenAPI"],
+    "A curated, quality-scored directory of 1,548+ free public APIs. Every record is hand-reviewed, tested, and ready to use. No sign-up, no API key, no middleman. Browse APIs across 51 categories from weather to machine learning.",
+  keywords: [
+    "public APIs",
+    "API directory",
+    "open data",
+    "OpenAPI",
+    "free APIs",
+    "no authentication APIs",
+    "REST APIs",
+    "API catalog",
+    "developer resources",
+    "API documentation",
+    "free public APIs",
+    "API marketplace",
+    "open source APIs",
+    "API testing",
+    "API quality score",
+  ],
   authors: [{ name: "API-Market", url: "https://github.com/badhope/API-Market" }],
   creator: "API-Market",
   publisher: "API-Market",
@@ -56,15 +72,30 @@ export const metadata: Metadata = {
     type: "website",
     title: "API-Market — The Codex",
     description:
-      "A curated, quality-scored directory of public APIs.",
+      "A curated, quality-scored directory of 1,548+ free public APIs. Every record is hand-reviewed and ready to use.",
     siteName: "API-Market",
+    locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: "API-Market — The Codex",
-    description: "A curated, quality-scored directory of public APIs.",
+    description: "A curated, quality-scored directory of 1,548+ free public APIs.",
+    creator: "@API_Market",
   },
-  robots: { index: true, follow: true },
+  robots: { 
+    index: true, 
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    canonical: "./",
+  },
 }
 
 export default function RootLayout({
