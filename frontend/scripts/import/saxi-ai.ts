@@ -8,11 +8,11 @@
  * Source: https://saxi.ai / https://github.com/alexander-schneider/saxi.ai
  */
 /* eslint-disable no-console -- CLI importer */
-import { mkdir, readFile, writeFile } from "node:fs/promises"
+import { mkdir, writeFile } from "node:fs/promises"
 import { dirname, join } from "node:path"
 
-import { score, type ScoredApi } from "./score"
-import { groupByCategory, writeCategories } from "./write"
+import type { ScoredApi } from "./score"
+import { writeCategories } from "./write"
 import { slugifyCategory } from "./public-apis"
 
 const SOURCE_URL = "https://saxi.ai"
@@ -66,7 +66,7 @@ export async function fetchSaxiAi(): Promise<SaxiApiEntry[]> {
           return data
         }
       }
-    } catch (err) {
+    } catch {
       // Try next URL
       continue
     }

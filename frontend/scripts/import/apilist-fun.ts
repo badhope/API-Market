@@ -67,7 +67,7 @@ export async function fetchApilistFun(): Promise<ApilistFunEntry[]> {
           return data
         }
       }
-    } catch (err) {
+    } catch {
       // Try next endpoint
       continue
     }
