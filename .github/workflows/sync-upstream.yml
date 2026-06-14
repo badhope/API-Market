@@ -44,7 +44,7 @@ jobs:
         run: npm run import:public-apis
 
       - name: Open a PR with the diff
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: chore/sync-public-apis
           title: "chore(data): sync public-apis snapshot"
