@@ -11,7 +11,6 @@
  *   pnpm tsx scripts/import/run-all.ts [--data <out-dir>] [--dry-run]
  */
 /* eslint-disable no-console -- CLI importer */
-import { mkdir, readFile, writeFile } from "node:fs/promises"
 import { dirname, join, relative } from "node:path"
 import { fileURLToPath } from "node:url"
 

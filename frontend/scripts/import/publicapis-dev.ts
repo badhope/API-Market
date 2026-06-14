@@ -66,7 +66,7 @@ export async function fetchPublicApisDev(): Promise<PublicApisDevEntry[]> {
           return data
         }
       }
-    } catch (err) {
+    } catch {
       // Try next endpoint
       continue
     }
