@@ -1,7 +1,6 @@
 "use client"
 
-import { useEffect, useState } from "react"
-import { CommandPalette } from "./command-palette"
+import { useEffect, useState, lazy, Suspense } from "react"
 
 /**
  * Custom event name. Buttons that need to open the palette (e.g. the
@@ -11,6 +10,12 @@ import { CommandPalette } from "./command-palette"
  * the intent is "open the palette", not "pretend the user typed ⌘K".
  */
 export const OPEN_PALETTE_EVENT = "apimarket:open-palette"
+
+// Lazy load the CommandPalette component to reduce initial bundle size
+// The search functionality (Orama) is only loaded when the palette opens
+const CommandPalette = lazy(() => 
+  import("./command-palette").then(module => ({ default: module.CommandPalette }))
+)
 
 /**
  * Listens for the ⌘K / Ctrl-K global shortcut and toggles the
@@ -51,5 +56,9 @@ export function CommandPaletteRoot() {
     }
   }, [open])
 
-  return <CommandPalette open={open} onOpenChange={setOpen} />
+  return (
+    <Suspense fallback={null}>
+      <CommandPalette open={open} onOpenChange={setOpen} />
+    </Suspense>
+  )
 }

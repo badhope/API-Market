@@ -21,7 +21,30 @@ export default async function HomePage() {
   const gradeTotal =
     Object.values(stats.grade_distribution).reduce((a, b) => a + b, 0) || 1
 
+  // JSON-LD structured data for homepage
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "API-Market",
+    "alternateName": "The Codex",
+    "url": process.env.NEXT_PUBLIC_SITE_URL || "https://badhope.github.io/API-Market",
+    "description": "A curated, quality-scored directory of free public APIs",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": `${process.env.NEXT_PUBLIC_SITE_URL || "https://badhope.github.io/API-Market"}/search?q={search_term_string}`
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <div className="mx-auto max-w-[1320px] px-6 sm:px-10">
 
       {/* ─── HERO ────────────────────────────────────────────── */}
@@ -34,47 +57,48 @@ export default async function HomePage() {
           className="absolute inset-0 -z-10 paper-noise opacity-[0.18] mix-blend-multiply"
           aria-hidden="true"
         />
+        
+        {/* Animated gradient orbs */}
+        <div className="absolute top-20 -left-40 w-80 h-80 bg-[var(--accent)]/10 rounded-full blur-3xl animate-pulse-slow" aria-hidden="true" />
+        <div className="absolute top-40 -right-40 w-96 h-96 bg-[var(--accent)]/5 rounded-full blur-3xl animate-pulse-slow-delayed" aria-hidden="true" />
 
         <div className="grid gap-12 lg:grid-cols-[1.4fr_1fr] lg:gap-20">
-          <div>
+          <div className="animate-fade-in">
             <p className="eyebrow mb-6 flex items-center gap-2">
-              <span className="size-1.5 rounded-full bg-[var(--accent)]" />
-              A curated codex of free public APIs
+              <span className="size-1.5 rounded-full bg-[var(--accent)] animate-pulse" />
+              Free public APIs, curated and scored
             </p>
-            <h1 className="display font-serif text-[var(--ink)]">
-              Discover <em className="italic-display">the</em> codex.
+            <h1 className="display font-serif text-[var(--ink)] animate-fade-in-up">
+              Find the right API.
             </h1>
-            <p className="mt-8 font-serif text-[1.125rem] leading-[1.6] text-[var(--ink-soft)] max-w-[42ch]">
-              Free public APIs, gathered from independent open-source
-              directories, deduplicated and scored
-              <em className="italic"> A through F</em> — no sign-up,
-              no API key, no middleman. Just open endpoints you can
-              call right now.
+            <p className="mt-8 font-serif text-[1.125rem] leading-[1.6] text-[var(--ink-soft)] max-w-[42ch] animate-fade-in-up-delayed">
+              Browse 1,548 free public APIs across 51 categories.
+              Each one is tested, scored, and ready to use — no sign-up,
+              no API key, no middleman.
             </p>
 
-            <div className="mt-12 max-w-[560px]">
+            <div className="mt-12 max-w-[560px] animate-fade-in-up-delayed-2">
               <HomeSearch />
             </div>
           </div>
 
-          <aside className="lg:pt-8">
-            <p className="eyebrow mb-4">Editor's note</p>
+          <aside className="lg:pt-8 animate-fade-in-right">
+            <p className="eyebrow mb-4">About this project</p>
             <p className="font-serif text-[1.0625rem] leading-[1.65] text-[var(--ink-soft)] max-w-[36ch]">
-              <em className="italic-display">An API is a sentence in
-              someone else's grammar.</em> We collect the free ones —
-              no sign-up, no API key, no marketplace middleman —
-              weigh them, and bind them between covers.
+              We collect free public APIs from open-source directories,
+              test each one, and score them A through F. No sign-up
+              required for most — just copy the code and go.
             </p>
             <p className="mt-6 font-mono text-[0.6875rem] tracking-[0.14em] uppercase text-[var(--ink-mute)]">
-              — Vol. VI · {new Date(stats.last_updated ?? Date.now()).toLocaleDateString("en-GB", { year: "numeric", month: "long" })}
+              Last updated · {new Date(stats.last_updated ?? Date.now()).toLocaleDateString("en-GB", { year: "numeric", month: "long" })}
             </p>
           </aside>
         </div>
       </section>
 
       {/* ─── STATS STRIP ─────────────────────────────────────── */}
-      <section className="py-16 border-t border-[var(--rule)]">
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-y-10">
+      <section className="py-12 sm:py-16 border-t border-[var(--rule)]">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-x-6 gap-y-8 sm:gap-y-10">
           <StatBlock value={formatCount(stats.total_apis)} label="Public APIs" />
           <StatBlock value={String(stats.total_categories)} label="Categories" />
           <StatBlock value={String(stats.sources.length)} label="Upstream sources" />
@@ -92,7 +116,7 @@ export default async function HomePage() {
         title="The current shelf."
         meta={`${topApis.length} of ${formatCount(stats.total_apis)}`}
       >
-        <ol className="border-t border-[var(--rule)]">
+        <ol className="border-t border-[var(--rule)] stagger-children">
           {topApis.map((api, i) => (
             <li key={api.id}>
               <ApiCard api={api} index={i + 1} total={topApis.length} />
@@ -113,7 +137,7 @@ export default async function HomePage() {
       <Section
         index={2}
         eyebrow="Browse by domain"
-        title="A directory, by chapter."
+        title="A directory, by domain."
         meta={`${categories.items.length} total`}
       >
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-[var(--rule)] border border-[var(--rule)]">
@@ -211,6 +235,7 @@ export default async function HomePage() {
         <Hairline />
       </div>
     </div>
+    </>
   )
 }
 
