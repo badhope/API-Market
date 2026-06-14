@@ -1,59 +1,156 @@
-# Contributing
+# Contributing to API-Market
 
-A short guide for humans who want to send a PR.
+Thanks for your interest in contributing! This guide will help you get started.
 
-## Flow
+## How to Contribute
 
-1. **Open an issue first** for non-trivial changes. I don't want you
-   to spend a Saturday on something I would have asked you to do
-   differently.
-2. Fork, branch, edit, push, open the PR.
-3. CI runs `npm run build:data` and `npm run build`. A bad record
-   fails the build with the line number.
-4. Merge after one review (or two, for anything touching schemas or
-   the search pipeline).
+### 1. Adding or updating an API
 
-## Editing data
+The easiest way to contribute is to add or update API data directly.
 
-The catalog lives in `data/categories/<id>/apis.jsonl`. One API per
-line. The full schema is in
-[`frontend/src/schemas/api.ts`](frontend/src/schemas/api.ts). Common
-mistakes:
+**Step 1: Find the right category**
 
-- URL not starting with `http://` or `https://` → rejected
-- `quality_grade` not in `A B C D F` → rejected
-- `last_verified` not `YYYY-MM-DD` → rejected
-- `tags` not comma-separated → silently empty (not rejected, fix it
-  before the PR)
+Browse `data/categories/` to find the appropriate category. Each category has:
+- `meta.toml` — category metadata
+- `apis.jsonl` — API records (one per line)
 
-To verify your edit before pushing:
+**Step 2: Edit the JSONL file**
+
+Open `data/categories/<category-id>/apis.jsonl` and add or update a record:
+
+```json
+{"id":"example-api","name":"Example API","url":"https://api.example.com","description":"A brief description of what this API does","category_id":"example-category","auth":"none","https":true,"cors":true,"source":"manual","tags":"example,test","quality_score":85,"quality_grade":"B","status":"active","deprecated":false,"last_verified":"2026-01-15"}
+```
+
+**Required fields:**
+- `id` — unique identifier (kebab-case, lowercase)
+- `name` — display name
+- `url` — API homepage or documentation URL
+- `description` — brief description (aim for 80+ characters)
+- `category_id` — must match the directory name
+- `auth` — "none", "apiKey", "oauth2", or "xAuth"
+- `https` — boolean (true if HTTPS is supported)
+- `quality_score` — 0-100
+- `quality_grade` — "A", "B", "C", "D", or "F"
+
+**Optional fields:**
+- `cors` — boolean or "unknown"
+- `source` — source ID (e.g., "public-apis", "manual")
+- `source_url` — upstream URL
+- `tags` — comma-separated string
+- `status` — "active" or "inactive"
+- `deprecated` — boolean
+- `last_verified` — ISO date string (YYYY-MM-DD)
+
+**Step 3: Validate locally**
 
 ```bash
 cd frontend
 npm run build:data
-# If the output says "read N/N API records across M categories" you're
-# good. If it errors, fix the offending line and try again.
 ```
 
-## Editing the schema
+This will validate your changes and rebuild the static JSON files.
 
-The Zod schema is the contract. If you add a field, also update
-`toApiView()` in the same file so consumers see it. If the field is
-shown in the UI, add a row in the meta table on `app/api/[id]/page.tsx`.
+**Step 4: Submit a PR**
 
-## Style
+Commit your changes and open a pull request. The CI will run validation automatically.
 
-- Plain English. No emoji, no AI-flavoured prose.
-- One sentence per line where it helps reviewers.
-- Don't add dependencies without explaining why.
-- Don't refactor surrounding code in a feature PR.
+### 2. Adding a new category
 
-## Commit messages
+If you want to add APIs that don't fit existing categories:
 
-Subject, blank line, body. No "feat:" or "fix:" prefixes. If the
-commit closes an issue, write `Closes #N` in the body.
+**Step 1: Create the category directory**
 
-## License
+```bash
+mkdir -p data/categories/your-category-id
+```
 
-By contributing, you agree your contribution is licensed under the
-same MIT terms as the rest of the project. See [`LICENSE`](./LICENSE).
+**Step 2: Create meta.toml**
+
+```toml
+[meta]
+id = "your-category-id"
+display_name = "Your Category Name"
+icon = "ycn"
+blurb = "A brief description of this category."
+order = 52
+```
+
+**Step 3: Create apis.jsonl**
+
+Add at least one API record (see above).
+
+**Step 4: Validate and submit**
+
+```bash
+cd frontend
+npm run build:data
+```
+
+Then commit and open a PR.
+
+### 3. Improving the frontend
+
+The frontend is a Next.js 16 static site with TypeScript and Tailwind CSS.
+
+**Setup:**
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+**Common tasks:**
+- Add a new page: Create `src/app/<route>/page.tsx`
+- Add a component: Create `src/components/<name>.tsx`
+- Update styles: Edit `src/app/globals.css` or component-level CSS
+
+**Testing:**
+
+```bash
+npm test              # Run unit tests
+npm run typecheck     # Check TypeScript types
+npm run lint          # Check code style
+npm run build         # Build for production
+```
+
+### 4. Improving the data pipeline
+
+The data pipeline lives in `frontend/scripts/`:
+- `build-data.ts` — builds static JSON from JSONL
+- `import/run.ts` — imports from upstream sources
+- `import/saxi-ai.ts` — saxi.ai importer
+- `import/publicapis-dev.ts` — publicapis.dev importer
+- `import/apilist-fun.ts` — apilist.fun importer
+
+To add a new importer:
+1. Create `frontend/scripts/import/<source>.ts`
+2. Implement the `import<Source>()` function
+3. Add it to `run.ts`
+4. Test with `npm run import:<source>`
+
+## Code Style
+
+- **TypeScript** — strict mode, no `any`
+- **ESLint** — follow the config in `frontend/eslint.config.mjs`
+- **Prettier** — 2 spaces, double quotes, trailing commas
+- **Commit messages** — follow [Conventional Commits](https://www.conventionalcommits.org/)
+
+## Review Process
+
+1. Open a PR with a clear description of what you changed and why
+2. CI will run validation automatically
+3. A maintainer will review your changes
+4. Once approved, your PR will be merged
+
+## Questions?
+
+Open an issue or reach out in the discussions.
+
+---
+
+**Quick links:**
+- [Data format guide](data/README.md)
+- [API schema](frontend/src/schemas/api.ts)
+- [Category schema](frontend/src/schemas/category.ts)

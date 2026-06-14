@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { notFound } from "next/navigation"
+import dynamic from "next/dynamic"
 import { ExternalLink } from "lucide-react"
 import { internalHref, safeHref } from "@/lib/links"
 import { loadAllApis } from "@/lib/data-server"
@@ -8,10 +9,13 @@ import { CATEGORY_TAG_FOR } from "@/lib/constants"
 import { formatDate } from "@/lib/format"
 import { codeSamples } from "@/lib/code-gen"
 import { GradeBadge } from "@/components/codex/grade-badge"
-import { CodeTabs } from "@/components/codex/code-tabs"
 import { Hairline } from "@/components/codex/hairline"
 import { MetaRow, MetaLabel, MetaValue } from "@/components/codex/meta"
 import { ApiCard } from "@/components/codex/api-card"
+
+const CodeTabs = dynamic(() => import("@/components/codex/code-tabs").then(mod => ({ default: mod.CodeTabs })), {
+  loading: () => <div className="animate-pulse h-48 bg-[var(--paper-deep)] rounded" />
+})
 
 interface Props {
   params: Promise<{ id: string }>
@@ -78,10 +82,33 @@ export default async function ApiDetailPage({ params }: Props) {
   const href = safeHref(api.url)
   const isExternal = href?.startsWith("http")
 
+  // JSON-LD structured data for API detail page
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebAPI",
+    "name": api.name,
+    "description": api.description || api.name,
+    "url": `${process.env.NEXT_PUBLIC_SITE_URL || "https://badhope.github.io/API-Market"}/apis/${api.id}`,
+    "category": CATEGORY_TAG_FOR(api.category_id),
+    "documentation": api.url,
+    "termsOfService": api.auth === "none" ? "No authentication required" : `${api.auth} authentication required`,
+    "additionalType": "REST API",
+    "potentialAction": {
+      "@type": "Action",
+      "name": "Call API",
+      "target": api.url
+    }
+  }
+
   return (
-    <div className="mx-auto max-w-[1320px] px-6 sm:px-10">
-      <header className="pt-16 sm:pt-24 pb-10">
-        <p className="eyebrow mb-6 flex items-center gap-2">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className="mx-auto max-w-[1320px] px-6 sm:px-10">
+      <header className="pt-16 sm:pt-24 pb-10 animate-fade-in">
+        <p className="eyebrow mb-6 flex items-center gap-2 animate-fade-in-up">
           <span>API</span>
           <span aria-hidden="true">·</span>
           <Link
@@ -93,7 +120,7 @@ export default async function ApiDetailPage({ params }: Props) {
         </p>
 
         <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
-          <div>
+          <div className="animate-fade-in-up-delayed">
             <h1 className="font-serif text-[clamp(2.5rem,6.5vw,5rem)] leading-[0.96] tracking-[-0.03em] font-medium">
               {api.name}.
             </h1>
@@ -103,7 +130,7 @@ export default async function ApiDetailPage({ params }: Props) {
               </p>
             )}
           </div>
-          <div className="flex flex-col items-end gap-3">
+          <div className="flex flex-col items-end gap-3 animate-fade-in-right">
             <GradeBadge grade={api.quality_grade} score={api.quality_score} size="md" />
             {isExternal && (
               <a
@@ -223,7 +250,7 @@ export default async function ApiDetailPage({ params }: Props) {
           <CodeTabs samples={samplesObj} />
 
           {/* Free usage guide */}
-          <div className="mt-16 p-6 border border-[var(--rule)] bg-[var(--paper-cool)]">
+          <div className="mt-16 p-6 border border-[var(--rule)] bg-[var(--paper-soft)]/40">
             <p className="eyebrow mb-4 flex items-center gap-2">
               <span className="size-1.5 rounded-full bg-[var(--accent)]" />
               Free to use
@@ -273,10 +300,10 @@ export default async function ApiDetailPage({ params }: Props) {
 
         {/* RIGHT: related */}
         <aside>
-          <p className="eyebrow mb-6">In the same chapter</p>
+          <p className="eyebrow mb-6">Related APIs</p>
           {related.length === 0 ? (
             <p className="font-serif text-[1.0625rem] text-[var(--ink-mute)]">
-              The only entry in this chapter.
+              No other APIs in this category.
             </p>
           ) : (
             <ol className="border-t border-[var(--rule)]">
@@ -297,5 +324,6 @@ export default async function ApiDetailPage({ params }: Props) {
         </aside>
       </div>
     </div>
+    </>
   )
 }

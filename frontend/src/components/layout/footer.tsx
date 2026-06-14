@@ -9,7 +9,7 @@ export function Footer() {
       <div className="mx-auto max-w-[1320px] px-6 sm:px-10 py-16">
         <Hairline className="mb-12" />
 
-        <div className="grid gap-12 md:grid-cols-[1.5fr_1fr_1fr_1fr]">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
           <div>
             <p className="font-serif text-[1.5rem] tracking-[-0.015em] leading-snug max-w-[28ch]">
               <em className="italic-display not-italic font-normal">A small,</em>{" "}
