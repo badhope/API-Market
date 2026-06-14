@@ -1,151 +1,109 @@
 import type { Metadata } from "next"
-import Link from "next/link"
-
-import { Statline, TitleRow } from "@/components/wiki/shared"
 import { loadStats } from "@/lib/data-server"
-import { formatCount } from "@/lib/utils"
+import { formatCount, formatDate, roman } from "@/lib/format"
+import { Hairline } from "@/components/codex/hairline"
+import { HairlineBar } from "@/components/codex/hairline-bar"
+import { RingMeter } from "@/components/codex/ring-meter"
 
 export const metadata: Metadata = {
   title: "Statistics",
-  description:
-    "Quality grade distribution, metadata coverage, and the upstream data sources that feed API-Market.",
-  alternates: { canonical: "/stats" },
+  description: "Grade distribution, metadata coverage, and upstream sources for the API codex.",
 }
 
 export default async function StatsPage() {
-  const data = await loadStats()
-  const total = data.total_apis
-  const gradePct = (n: number) =>
-    total ? `${((n / total) * 100).toFixed(1)}%` : "0.0%"
+  const stats = await loadStats()
+  const gradeOrder = ["A", "B", "C", "D", "F"]
+  const gradeMax = Math.max(...gradeOrder.map((g) => stats.grade_distribution[g] ?? 0), 1)
+  const gradeTotal = gradeOrder.reduce((acc, g) => acc + (stats.grade_distribution[g] ?? 0), 0)
+  const cov = stats.metadata_coverage
+
   return (
-    <div className="container mx-auto px-3 sm:px-4 py-4 max-w-5xl">
-      <Statline>
-        Updated <strong>{data.last_updated}</strong> · <strong>{total.toLocaleString()}</strong> APIs across{" "}
-        <strong>{data.total_categories}</strong> categories
-      </Statline>
+    <div className="mx-auto max-w-[1320px] px-6 sm:px-10">
+      <header className="pt-16 sm:pt-24 pb-12">
+        <p className="eyebrow mb-6">{roman(1).padStart(2, "0")}. · In numbers</p>
+        <h1 className="font-serif text-[clamp(2.5rem,6vw,4.5rem)] leading-[0.98] tracking-[-0.03em] font-medium max-w-[18ch]">
+          The codex, by the numbers.
+        </h1>
+        <p className="mt-6 font-serif text-[1.0625rem] leading-[1.65] text-[var(--ink-soft)] max-w-[60ch]">
+          A summary of what the directory contains, how it’s graded, and
+          where it came from. Last refreshed{" "}
+          <em className="italic">{formatDate(stats.last_updated)}</em>.
+        </p>
+      </header>
 
-      <TitleRow title="Quality grade distribution" />
-      <div className="overflow-x-auto">
-        <table className="w-full text-sm mb-6">
-          <thead>
-            <tr className="text-left text-xs text-muted-foreground border-b">
-              <th className="py-1.5 pr-2 sm:pr-3 font-medium">Grade</th>
-              <th className="py-1.5 pr-2 sm:pr-3 font-medium text-right">Count</th>
-              <th className="py-1.5 pr-2 sm:pr-3 font-medium text-right hidden sm:table-cell">% of total</th>
-              <th className="py-1.5 font-medium">Bar</th>
-            </tr>
-          </thead>
-          <tbody>
-            {(["A", "B", "C", "D", "F"] as const).map((g) => {
-              const n = data.grade_distribution[g] ?? 0
-              return (
-                <tr key={g} className="border-b last:border-0">
-                  <td className="py-1.5 pr-2 sm:pr-3 font-bold w-10">{g}</td>
-                  <td className="py-1.5 pr-2 sm:pr-3 text-right tabular-nums">
-                    {n.toLocaleString()}
-                  </td>
-                  <td className="py-1.5 pr-2 sm:pr-3 text-right tabular-nums text-muted-foreground hidden sm:table-cell">
-                    {gradePct(n)}
-                  </td>
-                  <td className="py-1.5 min-w-[120px]">
-                    <div className="flex items-center gap-2">
-                      <div className="h-3 bg-muted rounded overflow-hidden flex-1">
-                        <div
-                          className="h-full bg-foreground/70"
-                          style={{
-                            width: total ? `${(n / total) * 100}%` : "0%",
-                          }}
-                        />
-                      </div>
-                      <span className="tabular-nums w-12 sm:hidden text-right text-xs text-muted-foreground">
-                        {gradePct(n)}
-                      </span>
-                    </div>
-                  </td>
-                </tr>
-              )
-            })}
-          </tbody>
-        </table>
-      </div>
+      <Hairline className="mb-2" />
 
-      <TitleRow title="Metadata coverage" />
-      <div className="overflow-x-auto">
-        <table className="w-full text-sm mb-6">
-          <tbody>
-            {[
-              { key: "https" as const, label: "HTTPS" },
-              { key: "cors" as const, label: "CORS" },
-              { key: "auth" as const, label: "Auth" },
-              { key: "description" as const, label: "Description" },
-            ].map((row) => {
-              const n = data.metadata_coverage[row.key] ?? 0
-              return (
-                <tr key={row.key} className="border-b last:border-0">
-                  <td className="py-1.5 pr-2 sm:pr-3 sm:w-40 font-medium">{row.label}</td>
-                  <td className="py-1.5 pr-2 sm:pr-3 tabular-nums text-muted-foreground sm:w-32 text-right">
-                    <span className="sm:hidden">{gradePct(n)}</span>
-                    <span className="hidden sm:inline">
-                      {formatCount(n)} / {total.toLocaleString()}
-                    </span>
-                  </td>
-                  <td className="py-1.5 min-w-[140px]">
-                    <div className="flex items-center gap-2">
-                      <div className="h-3 bg-muted rounded overflow-hidden flex-1">
-                        <div
-                          className="h-full bg-foreground/70"
-                          style={{
-                            width: total ? `${(n / total) * 100}%` : "0%",
-                          }}
-                        />
-                      </div>
-                      <span className="tabular-nums w-14 text-right text-xs sm:text-sm">
-                        {gradePct(n)}
-                      </span>
-                    </div>
-                  </td>
-                </tr>
-              )
-            })}
-          </tbody>
-        </table>
-      </div>
+      {/* ─── Big numbers ─────────────────────────────────── */}
+      <section className="grid grid-cols-2 sm:grid-cols-4 gap-y-12 py-16 border-b border-[var(--rule)]">
+        <BigNumber value={formatCount(stats.total_apis)} label="Public APIs" />
+        <BigNumber value={String(stats.total_categories)} label="Categories" />
+        <BigNumber value={String(stats.sources.length)} label="Upstream sources" />
+        <BigNumber value={String(gradeTotal)} label="Scored entries" />
+      </section>
 
-      <TitleRow
-        title="Data sources"
-        count={data.sources.length}
-        suffix=" upstream"
-      />
-      <p className="text-xs text-muted-foreground mb-2 break-words">
-        Aggregated by the{" "}
-        <Link
-          href="https://github.com/badhope/API-Market/blob/main/.github/workflows/daily-update.yml"
-          className="underline break-all"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          daily data-refresh workflow
-        </Link>
-        . Upstream data is MIT-licensed where applicable — see the NOTICE file for attribution.
+      {/* ─── Grade distribution ──────────────────────────── */}
+      <section className="py-16 border-b border-[var(--rule)]">
+        <p className="eyebrow mb-8">Distribution by grade</p>
+        <div>
+          {gradeOrder.map((g) => (
+            <HairlineBar
+              key={g}
+              value={stats.grade_distribution[g] ?? 0}
+              max={gradeMax}
+              label={`Grade ${g}`}
+              count={formatCount(stats.grade_distribution[g] ?? 0)}
+            />
+          ))}
+        </div>
+      </section>
+
+      {/* ─── Metadata coverage ───────────────────────────── */}
+      <section className="py-16 border-b border-[var(--rule)]">
+        <p className="eyebrow mb-8">Metadata coverage</p>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-12">
+          <CoverageRing value={cov.https} label="HTTPS only" />
+          <CoverageRing value={cov.cors} label="CORS known" />
+          <CoverageRing value={cov.auth} label="Auth known" />
+          <CoverageRing value={cov.description} label="Described" />
+        </div>
+      </section>
+
+      {/* ─── Sources ─────────────────────────────────────── */}
+      <section className="py-16">
+        <p className="eyebrow mb-8">Upstream sources</p>
+        <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-3 font-serif text-[1.0625rem]">
+          {stats.sources.map((s) => (
+            <li key={s} className="flex items-baseline gap-3 py-1.5 border-b border-[var(--rule)]">
+              <span className="font-mono text-[0.6875rem] tracking-[0.14em] uppercase text-[var(--ink-faint)]">↳</span>
+              <span className="text-[var(--ink-soft)]">{s}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <p className="mt-12 font-mono text-[0.625rem] tracking-[0.18em] uppercase text-[var(--ink-faint)] text-center">
+        ◇ &nbsp; API-Market · v6 · last refresh {formatDate(stats.last_updated)} &nbsp; ◇
       </p>
-      <ul className="text-sm grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6">
-        {data.sources.map((src) => (
-          <li key={src} className="border-b py-1 min-w-0">
-            <a
-              href={
-                /^https?:/.test(src)
-                  ? src
-                  : `https://github.com/${src.replace(/^github:/, "")}`
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:underline truncate block"
-            >
-              {src}
-            </a>
-          </li>
-        ))}
-      </ul>
+    </div>
+  )
+}
+
+function BigNumber({ value, label }: { value: string; label: string }) {
+  return (
+    <div>
+      <p className="font-serif text-[clamp(2.5rem,5vw,3.75rem)] leading-[0.95] tracking-[-0.03em] tabular-nums text-[var(--ink)]">
+        {value}
+      </p>
+      <p className="mt-2 eyebrow">{label}</p>
+    </div>
+  )
+}
+
+function CoverageRing({ value, label }: { value: number; label: string }) {
+  return (
+    <div className="flex items-center gap-4">
+      <RingMeter value={value} size={72} stroke={2} />
+      <p className="eyebrow max-w-[14ch]">{label}</p>
     </div>
   )
 }

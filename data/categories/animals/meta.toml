@@ -1,0 +1,6 @@
+[meta]
+id = "animals"
+display_name = "Animals"
+icon = "ani"
+blurb = ""
+order = 1

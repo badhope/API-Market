@@ -1,25 +1,17 @@
-import Link from "next/link"
+import { Hairline } from "@/components/codex/hairline"
 
 export default function NotFound() {
   return (
-    <div className="container mx-auto px-3 sm:px-4 py-8 sm:py-12 max-w-3xl text-center">
-      <p className="text-5xl sm:text-6xl font-bold text-muted-foreground mb-2">404</p>
-      <h1 className="text-lg sm:text-xl font-semibold mb-3">Page not found</h1>
-      <p className="text-sm text-muted-foreground mb-6">
-        The page or API you&rsquo;re looking for doesn&rsquo;t exist or has
-        been moved. The catalog is dynamic — try a fresh search.
+    <div className="mx-auto max-w-[1320px] px-6 sm:px-10 py-32 text-center">
+      <Hairline className="max-w-xs mx-auto mb-12" />
+      <p className="eyebrow mb-6 text-[var(--ink-mute)]">404 · Out of stock</p>
+      <h1 className="font-serif text-[clamp(2.5rem,6vw,4rem)] leading-[0.95] tracking-[-0.03em] font-medium">
+        Not in the codex.
+      </h1>
+      <p className="mt-6 font-serif text-[1.0625rem] text-[var(--ink-soft)] max-w-md mx-auto">
+        That entry isn’t in our directory — at least, not under the name
+        you tried. Try the search.
       </p>
-      <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 text-sm">
-        <Link href="/" className="underline hover:no-underline">
-          Home
-        </Link>
-        <Link href="/categories" className="underline hover:no-underline">
-          Categories
-        </Link>
-        <Link href="/search" className="underline hover:no-underline">
-          Search
-        </Link>
-      </div>
     </div>
   )
 }

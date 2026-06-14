@@ -11,10 +11,6 @@
 *.cmd           text eol=crlf
 *.ps1           text eol=crlf
 
-# Python: enforce LF.
-*.py            text eol=lf
-*.pyi           text eol=lf
-
 # JS/TS/Web: enforce LF.
 *.js            text eol=lf
 *.cjs           text eol=lf
@@ -61,10 +57,6 @@ pnpm-lock.yaml  -text
 package-lock.json -text
 yarn.lock       -text
 Cargo.lock      -text
-poetry.lock     -text
-uv.lock         -text
-composer.lock   -text
-Gemfile.lock    -text
 
 # Binary files: do not diff.
 *.png           binary
@@ -93,7 +85,7 @@ Gemfile.lock    -text
 *.flac          binary
 *.ogg           binary
 
-# Linguist overrides: mark vendored / generated / docs correctly.
+# Linguist overrides
 docs/*          linguist-documentation
 CHANGELOG.md    linguist-documentation
 CONTRIBUTING.md  linguist-documentation
@@ -103,8 +95,6 @@ LICENSE         linguist-vendored
 .github/        linguist-documentation
 *.min.js        linguist-generated
 *.min.css       linguist-generated
-*_pb2.py        linguist-generated
-*_pb2_grpc.py   linguist-generated
 /dist/          linguist-generated
 /build/         linguist-generated
 /node_modules/  linguist-vendored

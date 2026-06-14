@@ -1,84 +1,203 @@
-// Server-rendered header. Compact on mobile, full nav on sm: and up.
-//
-// Mobile (< sm): logo + 2 controls + GitHub. Navigation links live on
-// the home page (categories list) and the search page; the user can
-// always reach them in one tap. Hiding the nav text on mobile keeps
-// the header from overflowing on a 320px viewport.
-//
-// Desktop (≥ sm): logo + nav + 2 controls + GitHub, one row.
+"use client"
+
 import Link from "next/link"
+import { useEffect, useState } from "react"
+import { Moon, Sun, Search, Menu, X } from "lucide-react"
+import { useTheme } from "next-themes"
+import { cn } from "@/lib/cn"
+import { internalHref } from "@/lib/links"
+import { OPEN_PALETTE_EVENT } from "@/components/codex/command-palette-root"
 
-import { HeaderControls } from "./header-controls"
-import { getServerLocale } from "@/i18n/server-locale"
+const NAV = [
+  { href: "/categories", label: "Categories" },
+  { href: "/search", label: "Search" },
+  { href: "/stats", label: "Statistics" },
+] as const
 
-function GitHubIcon({ className }: { className?: string }) {
+/**
+ * Site header. Desktop: full nav + a search trigger that opens the
+ * command palette. Mobile (< md): collapses nav into a slide-down
+ * panel toggled by a hamburger button. The panel also includes the
+ * theme toggle and the search shortcut so everything stays
+ * single-tap on a phone.
+ */
+export function Header() {
+  const { resolvedTheme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
+  useEffect(() => setMounted(true), [])
+  const isDark = mounted ? resolvedTheme === "dark" : false
+
+  // Close the mobile menu on any hash navigation or resize past the
+  // desktop breakpoint, so it doesn't get stuck open while rotating
+  // the device.
+  useEffect(() => {
+    if (!menuOpen) return
+    const onResize = () => {
+      if (window.innerWidth >= 768) setMenuOpen(false)
+    }
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setMenuOpen(false)
+    }
+    window.addEventListener("resize", onResize)
+    window.addEventListener("keydown", onKey)
+    return () => {
+      window.removeEventListener("resize", onResize)
+      window.removeEventListener("keydown", onKey)
+    }
+  }, [menuOpen])
+
+  const openPalette = () => {
+    window.dispatchEvent(new Event(OPEN_PALETTE_EVENT))
+  }
+
   return (
-    <svg
-      className={className}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      aria-hidden="true"
+    <header
+      className={cn(
+        "sticky top-0 z-40 border-b border-[var(--rule)]",
+        "bg-[color-mix(in_oklch,var(--paper)_92%,transparent)]",
+        "backdrop-blur-md",
+      )}
     >
-      <path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
-    </svg>
-  )
-}
+      <div className="mx-auto max-w-[1320px] px-6 sm:px-10 h-16 flex items-center justify-between gap-6">
+        {/* Brand */}
+        <Link
+          href={internalHref("/")}
+          className="flex items-baseline gap-2 shrink-0"
+          aria-label="API-Market — Home"
+          onClick={() => setMenuOpen(false)}
+        >
+          <span className="font-serif text-[1.25rem] tracking-[-0.02em] font-medium">
+            API-Market
+          </span>
+          <span className="hidden sm:inline font-mono text-[0.625rem] tracking-[0.18em] uppercase text-[var(--ink-mute)]">
+            The Codex
+          </span>
+        </Link>
 
-const t = {
-  en: { siteName: "API-Market", categories: "Categories", stats: "Statistics", search: "Search" },
-  zh: { siteName: "API 市场", categories: "分类", stats: "统计", search: "搜索" },
-  ja: { siteName: "API マーケット", categories: "カテゴリ", stats: "統計", search: "検索" },
-} as const
+        {/* Desktop nav */}
+        <nav
+          className="hidden md:flex items-center font-mono text-[0.6875rem] tracking-[0.14em] uppercase text-[var(--ink-mute)]"
+          aria-label="Primary"
+        >
+          {NAV.map((n) => (
+            <Link
+              key={n.href}
+              href={internalHref(n.href)}
+              className="hover:text-[var(--ink)] px-3 py-2.5"
+            >
+              {n.label}
+            </Link>
+          ))}
+        </nav>
 
-export async function Header() {
-  const locale = await getServerLocale()
-  const tr = t[locale]
-  return (
-    <header className="border-b bg-background sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-background/80">
-      <div className="container mx-auto flex h-12 items-center justify-between gap-3 sm:gap-4 px-3 sm:px-4 max-w-5xl">
-        <div className="flex items-center gap-3 sm:gap-5 min-w-0">
-          <Link
-            href="/"
-            className="font-semibold text-base whitespace-nowrap shrink-0"
+        {/* Tools */}
+        <div className="flex items-center gap-1.5">
+          <button
+            type="button"
+            onClick={openPalette}
+            aria-label="Open search (⌘K)"
+            className="hidden sm:inline-flex items-center gap-2 px-3 h-10 border border-[var(--rule)] text-[var(--ink-mute)] hover:text-[var(--ink)] hover:border-[var(--ink-faint)] transition-colors"
           >
-            {tr.siteName}
-          </Link>
-          <nav
-            className="hidden sm:flex items-center gap-4 text-sm"
-            aria-label="Primary"
+            <Search className="size-3.5" aria-hidden="true" />
+            <span className="font-mono text-[0.6875rem] tracking-[0.12em] uppercase">
+              Search
+            </span>
+            <kbd className="ml-1 font-mono text-[0.625rem] tracking-[0.12em] opacity-60">
+              ⌘K
+            </kbd>
+          </button>
+
+          {/* Mobile-only search shortcut */}
+          <button
+            type="button"
+            onClick={openPalette}
+            aria-label="Open search"
+            className="sm:hidden inline-flex items-center justify-center size-10 text-[var(--ink-mute)] hover:text-[var(--ink)] transition-colors"
           >
-            <Link
-              href="/categories"
-              className="text-muted-foreground hover:text-foreground hover:underline"
-            >
-              {tr.categories}
-            </Link>
-            <Link
-              href="/search"
-              className="text-muted-foreground hover:text-foreground hover:underline"
-            >
-              {tr.search}
-            </Link>
-            <Link
-              href="/stats"
-              className="text-muted-foreground hover:text-foreground hover:underline"
-            >
-              {tr.stats}
-            </Link>
-          </nav>
-        </div>
-        <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
-          <HeaderControls />
+            <Search className="size-4" aria-hidden="true" />
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setTheme(isDark ? "light" : "dark")}
+            aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"}
+            className="inline-flex items-center justify-center size-10 text-[var(--ink-mute)] hover:text-[var(--ink)] transition-colors"
+          >
+            {isDark ? (
+              <Sun className="size-4" aria-hidden="true" />
+            ) : (
+              <Moon className="size-4" aria-hidden="true" />
+            )}
+          </button>
+
           <a
             href="https://github.com/badhope/API-Market"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="GitHub"
-            className="text-muted-foreground hover:text-foreground inline-flex items-center justify-center h-9 w-9 sm:h-8 sm:w-8 rounded"
+            aria-label="View source on GitHub"
+            className="hidden sm:inline-flex items-center justify-center size-10 text-[var(--ink-mute)] hover:text-[var(--ink)] transition-colors"
           >
-            <GitHubIcon className="h-4 w-4" />
+            <svg
+              className="size-4"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M12 .3a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.7-1.4-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.4 3.6 1 .1-.8.4-1.4.8-1.7-2.7-.3-5.5-1.3-5.5-6 0-1.3.5-2.4 1.3-3.2-.1-.3-.6-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.7 1.7.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.2 0 4.7-2.8 5.7-5.5 6 .4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .3" />
+            </svg>
           </a>
+
+          {/* Mobile hamburger */}
+          <button
+            type="button"
+            onClick={() => setMenuOpen((v) => !v)}
+            aria-label={menuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={menuOpen}
+            aria-controls="mobile-menu"
+            className="md:hidden inline-flex items-center justify-center size-10 text-[var(--ink-mute)] hover:text-[var(--ink)] transition-colors"
+          >
+            {menuOpen ? (
+              <X className="size-4" aria-hidden="true" />
+            ) : (
+              <Menu className="size-4" aria-hidden="true" />
+            )}
+          </button>
         </div>
+      </div>
+
+      {/* Mobile menu panel */}
+      <div
+        id="mobile-menu"
+        className={cn(
+          "md:hidden border-t border-[var(--rule)] overflow-hidden",
+          "transition-[max-height,opacity] duration-200 ease-out",
+          menuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0",
+        )}
+      >
+        <nav
+          className="px-6 sm:px-10 py-4 flex flex-col gap-1"
+          aria-label="Mobile primary"
+        >
+          {NAV.map((n) => (
+            <Link
+              key={n.href}
+              href={internalHref(n.href)}
+              onClick={() => setMenuOpen(false)}
+              className="font-mono text-[0.75rem] tracking-[0.14em] uppercase text-[var(--ink-mute)] hover:text-[var(--ink)] py-2.5 border-b border-[var(--rule)]"
+            >
+              {n.label}
+            </Link>
+          ))}
+          <a
+            href="https://github.com/badhope/API-Market"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-mono text-[0.75rem] tracking-[0.14em] uppercase text-[var(--ink-mute)] hover:text-[var(--ink)] py-2.5"
+          >
+            GitHub ↗
+          </a>
+        </nav>
       </div>
     </header>
   )

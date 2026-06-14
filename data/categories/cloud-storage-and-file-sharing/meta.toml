@@ -1,0 +1,6 @@
+[meta]
+id = "cloud-storage-and-file-sharing"
+display_name = "Cloud Storage & File Sharing"
+icon = "cs"
+blurb = ""
+order = 10

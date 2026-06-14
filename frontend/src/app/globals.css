@@ -1,144 +1,218 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-@import "shadcn/tailwind.css";
 
-@custom-variant dark (&:is(.dark *));
+/* =========================================================================
+   Editorial Codex — design tokens
+   - Background: warm cream / deep ink (not pure white or pure black)
+   - Accent: vermillion, not the usual purple-blue
+   - Type: Fraunces (serif) + JetBrains Mono
+   - Layout: 12-col, 1320px max, hairline 0.5px rules
+   ========================================================================= */
 
-@theme inline {
-  --font-sans: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-heading: var(--font-sans);
-  /* Custom breakpoint: 384px. Used for "show extra column on a
-     slightly wider phone, but hide it on the smallest 320–360px
-     viewports." */
-  --breakpoint-xs: 24rem;
+@theme {
+  /* Type scale (px) */
+  --text-display: 5.5rem;        /* 88 — Hero */
+  --text-headline: 3.5rem;      /* 56 — Section */
+  --text-title: 2.25rem;        /* 36 — Page title */
+  --text-subhead: 1.375rem;     /* 22 — Sub section */
+  --text-body: 1rem;            /* 16 */
+  --text-small: 0.875rem;       /* 14 */
+  --text-caption: 0.75rem;      /* 12 */
+  --text-micro: 0.6875rem;      /* 11 — eyebrow */
+
+  --leading-display: 0.95;
+  --leading-headline: 1.05;
+  --leading-title: 1.15;
+  --leading-body: 1.55;
+
+  /* Spacing (px, 4-base) */
+  --spacing-hairline: 0.5px;
+
+  /* Fonts (assigned by next/font/local; see layout.tsx) */
+  --font-serif: var(--font-fraunces);
+  --font-mono: var(--font-jetbrains);
+  --font-sans: var(--font-fraunces);
+
+  /* Color tokens — see :root and .dark below */
 }
 
+/* ============================================================== */
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.45 0.18 265);
-  --primary-foreground: oklch(0.99 0 0);
-  --secondary: oklch(0.96 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.96 0 0);
-  --muted-foreground: oklch(0.5 0 0);
-  --accent: oklch(0.96 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.55 0.24 25);
-  --border: oklch(0.9 0 0);
-  --input: oklch(0.9 0 0);
-  --ring: oklch(0.45 0.18 265);
-  --radius: 0.625rem;
-  --sidebar-background: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  /* Paper & ink */
+  --paper:        #F4EFE6;   /* warm cream, never pure white */
+  --paper-soft:   #EDE7DA;   /* card on paper */
+  --paper-deep:   #E5DCC8;   /* hover surface */
+  --ink:          #1A1814;   /* deep ink */
+  --ink-soft:     #3D362E;   /* body */
+  --ink-mute:     #7A736A;   /* meta */
+  --ink-faint:    #B5AC9E;   /* placeholder */
+
+  --rule:         #D9D2C5;   /* hairline */
+
+  /* Vermillion — the editorial accent */
+  --accent:       #C24A1F;
+  --accent-soft:  #D9663E;
+  --accent-tint:  rgba(194, 74, 31, 0.08);
+
+  /* Grade scale — desaturated, 19th-century ink-on-paper feel */
+  --grade-a:      #2F7A4D;
+  --grade-b:      #2C4A6B;
+  --grade-c:      #A07A1F;
+  --grade-d:      #A0531F;
+  --grade-f:      #6B6660;
+
+  /* Shadows (no harsh drop shadows; use only opacity paper) */
+  --shadow-card: 0 1px 0 0 var(--rule);
 }
 
+/* ============================================================== */
 .dark {
-  --background: oklch(0.13 0.01 265);
-  --foreground: oklch(0.98 0 0);
-  --card: oklch(0.17 0.01 265);
-  --card-foreground: oklch(0.98 0 0);
-  --popover: oklch(0.17 0.01 265);
-  --popover-foreground: oklch(0.98 0 0);
-  --primary: oklch(0.65 0.18 265);
-  --primary-foreground: oklch(0.13 0.01 265);
-  --secondary: oklch(0.22 0.01 265);
-  --secondary-foreground: oklch(0.98 0 0);
-  --muted: oklch(0.22 0.01 265);
-  --muted-foreground: oklch(0.65 0 0);
-  --accent: oklch(0.22 0.01 265);
-  --accent-foreground: oklch(0.98 0 0);
-  --destructive: oklch(0.6 0.24 25);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.65 0.18 265);
-  --sidebar-background: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.556 0 0);
+  --paper:        #0E0E0C;
+  --paper-soft:   #16140F;
+  --paper-deep:   #1F1C16;
+  --ink:          #EAE6DD;
+  --ink-soft:     #C9C3B6;
+  --ink-mute:     #8B8478;
+  --ink-faint:    #4E4940;
+
+  --rule:         #2A2823;
+
+  --accent:       #E66A3F;
+  --accent-soft:  #F08C66;
+  --accent-tint:  rgba(230, 106, 63, 0.12);
+
+  --grade-a:      #5BA17A;
+  --grade-b:      #5C7FA0;
+  --grade-c:      #C4A04E;
+  --grade-d:      #C47850;
+  --grade-f:      #8A857A;
+
+  --shadow-card: 0 1px 0 0 var(--rule);
 }
 
+/* ============================================================== */
 * {
-  border-color: var(--border);
-  outline-color: color-mix(in oklch, var(--ring) 50%, transparent);
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  /* Prevent iOS Safari from inflating text size when the page is
-     rotated to landscape on a phone. */
-  -webkit-text-size-adjust: 100%;
+  border-color: var(--rule);
 }
 
 html {
   scroll-behavior: smooth;
-  /* `overflow-wrap: anywhere` lets the browser break a long URL or
-     domain inside a tight cell (e.g. an API source link) instead of
-     forcing the whole page to scroll horizontally. */
+  /* Avoid a long URL blowing out the page width */
   overflow-wrap: anywhere;
-  /* `overflow-x: clip` (not `hidden`) prevents the whole page from
-     ever showing a horizontal scrollbar even if some descendant
-     overflows. `clip` is safer than `hidden` because it doesn't
-     establish a scroll container, so `position: sticky` inside
-     <header> still works. */
+  /* Clip is safer than `hidden` — keeps `position: sticky` working */
   overflow-x: clip;
+  background: var(--paper);
+  color: var(--ink);
+  /* iOS: do not inflate text on landscape rotate */
+  -webkit-text-size-adjust: 100%;
 }
 
-h1,
-h2,
-h3 {
-  /* Headings get nicely balanced line breaks when they wrap. */
-  text-wrap: balance;
-}
-
-/* Kill the default iOS / Android tap flash on interactive elements
-   (links, buttons, table rows). The website is dense — flashing grey
-   rectangles on every tap is visually noisy. Users get a clear
-   `:hover` (mouse) and `:focus-visible` (keyboard) outline instead. */
-a,
-button,
-[role="button"] {
-  -webkit-tap-highlight-color: transparent;
-}
-
-/* `touch-action: manipulation` on the whole viewport tells the
-   browser to skip the 300 ms double-tap-to-zoom delay that
-   pre-iOS-13 / pre-Chrome-32 phones used to add. No behavior change
-   for normal scrolling / pinching. */
 body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: var(--text-body);
+  line-height: var(--leading-body);
+  font-feature-settings: "kern", "liga", "calt", "ss01", "ss02";
+  font-variation-settings: "opsz" 24, "SOFT" 50;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
   touch-action: manipulation;
 }
 
-/* `overflow-x-auto` wrappers around tables get smooth momentum
-   scrolling on iOS and a thin (rather than full-width) scrollbar on
-   desktop. */
-.overflow-x-auto {
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  color: var(--ink);
+  letter-spacing: -0.018em;
+  text-wrap: balance;
+  font-variation-settings: "opsz" 96, "SOFT" 30;
 }
 
+h1 { font-size: var(--text-title); line-height: var(--leading-title); font-weight: 500; }
+h2 { font-size: var(--text-subhead); line-height: 1.25; font-weight: 500; }
+
+/* Display = hero scale. Used on home page title only. */
+.display {
+  font-size: var(--text-headline);
+  line-height: var(--leading-headline);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+  font-variation-settings: "opsz" 144, "SOFT" 20;
+}
+
+@media (min-width: 768px) {
+  .display {
+    font-size: var(--text-display);
+    line-height: var(--leading-display);
+  }
+}
+
+/* Monospace for everything that should feel like data */
+.mono, code, kbd, pre {
+  font-family: var(--font-mono);
+  font-feature-settings: "calt" 0, "ss01" 0;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-micro);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  font-weight: 500;
+}
+
+.italic-display {
+  font-style: italic;
+  font-variation-settings: "opsz" 144, "SOFT" 80, "WONK" 1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+a:hover { color: var(--accent); }
+
+/* Tailwind v4 preflight already resets `button` (padding: 0,
+   background: none, border: 0, color: inherit, font: inherit).
+   We intentionally do NOT add a bare `button { ... }` rule here
+   — even wrapped in `:where()` to drop specificity to 0, it
+   would still live outside Tailwind's `@layer utilities` and
+   win the cascade over `py-*` / `size-*` / `h-*` utilities.
+   Just letting preflight do its job is the cleanest fix. */
+
+/* Selection */
+::selection {
+  background: var(--accent);
+  color: var(--paper);
+}
+
+/* Focus ring — visible but editorial, not the default browser blue */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 1px;
+}
+
+/* Tap targets */
+a, button, [role="button"] {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ============================================================== */
+/* View transitions — subtle, editorial */
+@media (prefers-reduced-motion: no-preference) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 240ms;
+    animation-timing-function: cubic-bezier(0.2, 0, 0, 1);
+  }
+}
+
+/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
+  *, *::before, *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -146,10 +220,42 @@ body {
   }
 }
 
-.bg-grid-black {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(0 0 0 / 0.05)'%3E%3Cpath d='M0 .5H31.5V32'/%3E%3C/svg%3E");
+/* ============================================================== */
+/* Hairline — the signature 0.5px rule. Borders can't be sub-pixel
+   on most displays, so we use a background gradient on a 1px box. */
+.hairline {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--rule) 12%, var(--rule) 88%, transparent);
+  border: 0;
 }
 
-.bg-grid-white {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(255 255 255 / 0.05)'%3E%3Cpath d='M0 .5H31.5V32'/%3E%3C/svg%3E");
+.hairline-solid {
+  height: 1px;
+  background: var(--rule);
+  border: 0;
 }
+
+/* Paper grid — a faint crosshatch for the hero background */
+.paper-grid {
+  background-image:
+    linear-gradient(to right, var(--rule) 0.5px, transparent 0.5px),
+    linear-gradient(to bottom, var(--rule) 0.5px, transparent 0.5px);
+  background-size: 48px 48px;
+  background-position: -1px -1px;
+}
+
+/* Noise overlay — adds the "old paper" grain. Inline SVG so we
+   don't ship a binary asset. */
+.paper-noise {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180' viewBox='0 0 180 180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.08  0 0 0 0 0.07  0 0 0 0 0.06  0 0 0 0.5 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  background-size: 180px 180px;
+}
+
+/* Caret for the search input */
+.caret-accent { caret-color: var(--accent); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: var(--ink-mute); }

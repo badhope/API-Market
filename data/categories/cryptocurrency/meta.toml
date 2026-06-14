@@ -1,0 +1,6 @@
+[meta]
+id = "cryptocurrency"
+display_name = "Cryptocurrency"
+icon = "cry"
+blurb = ""
+order = 12

@@ -1,0 +1,6 @@
+[meta]
+id = "video"
+display_name = "Video"
+icon = "vid"
+blurb = ""
+order = 50

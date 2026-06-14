@@ -1,0 +1,58 @@
+# Upstream sources we track. New sources require a PR adding an entry
+# here so that the quality_score heuristic knows what weight to give.
+# `tier` controls the default starting quality_score for APIs harvested
+# from this source (the importer can still raise/lower it per record).
+# `license` is informational — we only ingest data we can republish.
+{
+  "sources": [
+    {
+      "id": "open-meteo",
+      "name": "Open-Meteo",
+      "url": "https://open-meteo.com",
+      "license": "CC-BY 4.0",
+      "tier": "A"
+    },
+    {
+      "id": "public-apis",
+      "name": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "license": "MIT",
+      "tier": "B"
+    },
+    {
+      "id": "apis-guru",
+      "name": "APIs.guru",
+      "url": "https://apis.guru",
+      "license": "CC0",
+      "tier": "B"
+    },
+    {
+      "id": "github",
+      "name": "GitHub public API",
+      "url": "https://docs.github.com/en/rest",
+      "license": "MIT",
+      "tier": "A"
+    },
+    {
+      "id": "saxi-ai",
+      "name": "saxi.ai",
+      "url": "https://saxi.ai",
+      "license": "MIT",
+      "tier": "B"
+    },
+    {
+      "id": "publicapis-dev",
+      "name": "publicapis.dev",
+      "url": "https://publicapis.dev",
+      "license": "MIT",
+      "tier": "B"
+    },
+    {
+      "id": "apilist-fun",
+      "name": "apilist.fun",
+      "url": "https://apilist.fun",
+      "license": "MIT",
+      "tier": "B"
+    }
+  ]
+}

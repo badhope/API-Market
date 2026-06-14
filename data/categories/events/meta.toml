@@ -1,0 +1,6 @@
+[meta]
+id = "events"
+display_name = "Events"
+icon = "eve"
+blurb = ""
+order = 21

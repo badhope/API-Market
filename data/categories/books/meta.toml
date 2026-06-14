@@ -1,0 +1,6 @@
+[meta]
+id = "books"
+display_name = "Books"
+icon = "boo"
+blurb = ""
+order = 7

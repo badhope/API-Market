@@ -1,0 +1,6 @@
+[meta]
+id = "text-analysis"
+display_name = "Text Analysis"
+icon = "ta"
+blurb = ""
+order = 45

@@ -1,69 +1,42 @@
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-venv/
-ENV/
-env/
-.venv/
-pip-log.txt
-.pytest_cache/
-.mypy_cache/
-.dmypy.json
-.ruff_cache/
-
+# Dependencies
 node_modules/
+
+# Build output
+.next/
+out/
 dist/
 build/
-*.egg-info/
-*.egg
-*.whl
+*.tsbuildinfo
 
+# Test / coverage
 .coverage
 .coverage.*
 htmlcov/
 coverage.xml
 *.cover
 
+# Importer cache (downstream of upstream sources)
+/data/.cache/
+
+# Environment
 .env
 .env.local
 .env.*.local
 secrets.json
+
+# Logs
 *.log
 
+# OS junk
 .DS_Store
 Thumbs.db
 Desktop.ini
 
+# Editors
 .vscode/
 .idea/
+.trae/
 *.swp
 *.swo
 *~
 .history/
-
-data/*
-!data/.gitkeep
-!data/collected/
-data/*.db
-data/*.db-shm
-data/*.db-wal
-!data/api_market.db
-data/quality_report.json
-
-docker/volumes/
-
-api-database.json
-search-index.json
-quality-report.json
-server.py
-index.html
-apis/
-docs/public-apis-source.md
-
-frontend/.next/
-frontend/out/
-
-# TypeScript incremental build cache
-*.tsbuildinfo

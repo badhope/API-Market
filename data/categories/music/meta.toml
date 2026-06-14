@@ -1,0 +1,6 @@
+[meta]
+id = "music"
+display_name = "Music"
+icon = "mus"
+blurb = ""
+order = 30

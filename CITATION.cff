@@ -17,13 +17,14 @@ repository-code: https://github.com/badhope/API-Market
 keywords:
   - api
   - api-directory
-  - docker
-  - fastapi
-  - fts5
-  - full-text-search
   - github-pages
   - nextjs
   - open-data
+  - orama
   - public-apis
+  - static-site
+  - zod
 abstract: >-
-  14,000+ public APIs in one searchable catalog. FastAPI backend, Next.js 14 frontend, SQLite FTS5 for full-text search. Ship as one Docker stack or as a static GitHub Pages site (with the JSON dump).
+  A curated directory of public APIs, presented as a fast static site.
+  Next.js, TypeScript, Zod-validated data files, Orama in-browser search.
+  No backend.

@@ -1,0 +1,63 @@
+name: Sync upstream data
+
+on:
+  # Weekly import — every Monday 06:00 UTC.
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream-data
+  cancel-in-progress: false
+
+jobs:
+  import:
+    name: Pull public-apis into data/
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          # We need a clean history to compute the diff after the import.
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install Node dependencies
+        working-directory: frontend
+        run: npm ci --no-audit --no-fund
+
+      - name: Run the public-apis importer
+        working-directory: frontend
+        # Writes to data/categories/* (re-deriving meta.toml if a
+        # category disappears upstream) and reuses the cached README
+        # when present. Exits non-zero on Zod validation failure.
+        run: npm run import:public-apis
+
+      - name: Open a PR with the diff
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: chore/sync-public-apis
+          title: "chore(data): sync public-apis snapshot"
+          body: |
+            Weekly sync of [public-apis](https://github.com/public-apis/public-apis).
+
+            - Refreshed `data/categories/**/apis.jsonl`
+            - Added/removed categories as needed
+            - All records re-validated by the Zod schema
+          add-paths: |
+            data/categories/**
+            data/.cache/.gitkeep
+          commit-message: "chore(data): sync public-apis snapshot"
+          delete-branch: true
+          # Don't run on schedule pushes; this is a content PR only.
+          labels: "data,automated"
