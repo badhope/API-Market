@@ -102,25 +102,34 @@ export function CommandPalette({ open, onOpenChange }: Props) {
               value={q}
               onValueChange={setQ}
               placeholder="Search APIs by name, tag, or category…"
-              className="flex-1 bg-transparent font-serif text-[1.125rem] leading-none outline-none placeholder:text-[var(--ink-faint)] caret-[var(--accent)]"
+              className="flex-1 bg-transparent font-serif text-[1rem] sm:text-[1.125rem] leading-none outline-none placeholder:text-[var(--ink-faint)] caret-[var(--accent)]"
+              aria-label="Search input"
+              aria-describedby="search-help"
             />
             <kbd className="hidden sm:inline-block font-mono text-[0.625rem] tracking-[0.14em] uppercase text-[var(--ink-mute)] border border-[var(--rule)] px-1.5 py-0.5">
               Esc
             </kbd>
           </div>
 
-          <Command.List className="max-h-[60vh] overflow-y-auto p-2">
+          <Command.List 
+            className="max-h-[60vh] overflow-y-auto p-2"
+            aria-label="Search results"
+          >
             {searching && (
-              <div className="px-3 py-6 text-center text-[0.8125rem] text-[var(--ink-mute)] font-mono">
+              <div 
+                className="px-3 py-6 text-center text-[0.8125rem] text-[var(--ink-mute)] font-mono"
+                role="status"
+                aria-live="polite"
+              >
                 searching…
               </div>
             )}
 
             {!searching && !q && cats && cats.length > 0 && (
               <Command.Group heading="Categories" className="cmdk-group">
-                <ul className="grid grid-cols-2 gap-1">
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1" role="listbox">
                   {cats.slice(0, 8).map((c) => (
-                    <li key={c.id}>
+                    <li key={c.id} role="option">
                       <CategoryHit c={c} onPick={() => onOpenChange(false)} />
                     </li>
                   ))}
@@ -130,26 +139,37 @@ export function CommandPalette({ open, onOpenChange }: Props) {
 
             {!searching && q && catHits.length > 0 && (
               <Command.Group heading="Categories" className="cmdk-group">
-                {catHits.map((c) => (
-                  <CategoryHit key={c.id} c={c} onPick={() => onOpenChange(false)} />
-                ))}
+                <ul role="listbox">
+                  {catHits.map((c) => (
+                    <li key={c.id} role="option">
+                      <CategoryHit c={c} onPick={() => onOpenChange(false)} />
+                    </li>
+                  ))}
+                </ul>
               </Command.Group>
             )}
 
             {!searching && hits && hits.length > 0 && (
               <Command.Group heading="APIs" className="cmdk-group">
-                {hits.map((hit) => (
-                  <ApiHit
-                    key={hit.api.id}
-                    api={hit.api}
-                    onPick={() => onOpenChange(false)}
-                  />
-                ))}
+                <ul role="listbox">
+                  {hits.map((hit) => (
+                    <li key={hit.api.id} role="option">
+                      <ApiHit
+                        api={hit.api}
+                        onPick={() => onOpenChange(false)}
+                      />
+                    </li>
+                  ))}
+                </ul>
               </Command.Group>
             )}
 
             {!searching && q && (!hits || hits.length === 0) && catHits.length === 0 && (
-              <div className="px-3 py-10 text-center">
+              <div 
+                className="px-3 py-10 text-center"
+                role="status"
+                aria-live="polite"
+              >
                 <p className="font-serif text-[1.125rem] text-[var(--ink-soft)]">
                   No results for "{q}".
                 </p>
@@ -160,14 +180,17 @@ export function CommandPalette({ open, onOpenChange }: Props) {
             )}
           </Command.List>
 
-          <div className="flex items-center justify-between border-t border-[var(--rule)] px-4 py-2.5 font-mono text-[0.625rem] tracking-[0.14em] uppercase text-[var(--ink-mute)]">
+          <div 
+            id="search-help"
+            className="flex items-center justify-between border-t border-[var(--rule)] px-4 py-2.5 font-mono text-[0.625rem] tracking-[0.14em] uppercase text-[var(--ink-mute)]"
+          >
             <span>API-Market</span>
-            <span className="flex items-center gap-3">
-              <span className="flex items-center gap-1.5">
-                <CornerDownLeft className="size-3" /> open
+            <span className="flex items-center gap-3" aria-label="Keyboard shortcuts">
+              <span className="flex items-center gap-1.5" aria-label="Press Enter to open">
+                <CornerDownLeft className="size-3" aria-hidden="true" /> open
               </span>
-              <span className="flex items-center gap-1.5">
-                <ArrowRight className="size-3 rotate-90" /> navigate
+              <span className="flex items-center gap-1.5" aria-label="Use arrow keys to navigate">
+                <ArrowRight className="size-3 rotate-90" aria-hidden="true" /> navigate
               </span>
             </span>
           </div>

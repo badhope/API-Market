@@ -26,7 +26,7 @@ export const CATEGORY_TAGS: Record<string, string> = {
   health:         "hlt",
   iot:            "iot",
   jobs:           "job",
-  "machine-learning":"ml ",
+  "machine-learning":"ml",
   music:          "mus",
   news:           "nws",
   "open-data":    "oda",

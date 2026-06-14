@@ -14,6 +14,10 @@ build/
 htmlcov/
 coverage.xml
 *.cover
+playwright-report/
+test-results/
+/frontend/playwright-report/
+/frontend/test-results/
 
 # Importer cache (downstream of upstream sources)
 /data/.cache/
