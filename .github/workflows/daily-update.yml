@@ -43,7 +43,7 @@ jobs:
         run: npm run build:data
 
       - name: Upload data artifacts
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: data-snapshot
           path: frontend/public/data
