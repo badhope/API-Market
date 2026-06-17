@@ -10,6 +10,10 @@ import path from "node:path"
  * reserved for the few React Testing Library cases we add for the
  * codex components.
  *
+ * Per-file jsdom is opted into via the `// @vitest-environment jsdom`
+ * docblock at the top of the relevant test files (vitest v4 dropped
+ * the `environmentMatchGlobs` option).
+ *
  * `src/scripts/**` is excluded — those are run by `tsx` directly, not
  * through Vitest. They have their own integration test in
  * `src/scripts/__tests__/`.
@@ -17,10 +21,6 @@ import path from "node:path"
 export default defineConfig({
   test: {
     environment: "node",
-    environmentMatchGlobs: [
-      ["src/components/**/__tests__/**", "jsdom"],
-      ["src/app/**/__tests__/**", "jsdom"],
-    ],
     include: [
       "src/**/__tests__/**/*.{test,spec}.{ts,tsx}",
       "scripts/**/__tests__/**/*.{test,spec}.ts",

@@ -1,3 +1,4 @@
+// @vitest-environment jsdom
 /**
  * Tests for the Header. The mobile menu panel is the most-likely-to-
  * regress piece of UI in this file, so we focus on that. We also
