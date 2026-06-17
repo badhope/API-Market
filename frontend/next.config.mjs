@@ -15,6 +15,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Allow the sandbox preview host and localhost variants to reach the
+  // dev server's HMR channel. Production (static export) is unaffected.
+  allowedDevOrigins: ["127.0.0.1", "*.trae.cn", "localhost"],
   // GitHub Pages does not run a server. The standalone mode (`pnpm
   // dev`) reads the same JSON files from `public/data/` directly —
   // there is no backend to rewrite to.
