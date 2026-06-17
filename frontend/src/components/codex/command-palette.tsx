@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react"
 import { Command } from "cmdk"
 import { Search, ArrowRight, CornerDownLeft } from "lucide-react"
-import { DATA_PATH } from "@/lib/links"
+import { DATA_PATH, internalHref } from "@/lib/links"
 import { preloadSearch, searchApis, type SearchHit } from "@/lib/search"
 import type { ApiSummary, CategorySummary } from "@/types"
 import { CATEGORY_TAG_FOR } from "@/lib/constants"
@@ -25,6 +25,9 @@ export function CommandPalette({ open, onOpenChange }: Props) {
   const [hits, setHits] = useState<SearchHit[] | null>(null)
   const [searching, setSearching] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
+  // Monotonic token so a slow in-flight search can't overwrite the
+  // results of a newer one if the user keeps typing.
+  const searchSeq = useRef(0)
 
   // Load categories on first open; warm the search index in parallel.
   useEffect(() => {
@@ -39,7 +42,8 @@ export function CommandPalette({ open, onOpenChange }: Props) {
     return () => { cancelled = true }
   }, [open, cats])
 
-  // Debounced search
+  // Debounced search with a sequence guard: only the most recent
+  // invocation is allowed to commit hits.
   useEffect(() => {
     if (!open) return
     const term = q.trim()
@@ -49,11 +53,12 @@ export function CommandPalette({ open, onOpenChange }: Props) {
       return
     }
     setSearching(true)
+    const seq = ++searchSeq.current
     const t = setTimeout(() => {
       searchApis(term, 24)
-        .then((h) => setHits(h))
-        .catch(() => setHits([]))
-        .finally(() => setSearching(false))
+        .then((h) => { if (seq === searchSeq.current) setHits(h) })
+        .catch(() => { if (seq === searchSeq.current) setHits([]) })
+        .finally(() => { if (seq === searchSeq.current) setSearching(false) })
     }, 80)
     return () => clearTimeout(t)
   }, [q, open])
@@ -206,7 +211,7 @@ function CategoryHit({ c, onPick }: { c: CategorySummary; onPick: () => void }) 
       value={`cat-${c.id}`}
       onSelect={() => {
         onPick()
-        window.location.href = `/categories/${c.id}`
+        window.location.href = internalHref(`/categories/${c.id}`)
       }}
       className="cmdk-item flex items-center justify-between gap-3 px-3 py-2 cursor-pointer"
     >
@@ -229,7 +234,7 @@ function ApiHit({ api, onPick }: { api: ApiSummary; onPick: () => void }) {
       value={`api-${api.id}`}
       onSelect={() => {
         onPick()
-        window.location.href = `/apis/${api.id}`
+        window.location.href = internalHref(`/apis/${api.id}`)
       }}
       className="cmdk-item flex items-center justify-between gap-3 px-3 py-2 cursor-pointer"
     >

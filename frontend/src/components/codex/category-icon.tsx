@@ -39,6 +39,7 @@ import {
   FlaskConical,
   Type,
   Truck,
+  Utensils,
   type LucideIcon,
 } from "lucide-react"
 
@@ -65,7 +66,7 @@ const CATEGORY_ICONS: Record<string, LucideIcon> = {
   environment: Leaf,
   events: Calendar,
   finance: DollarSign,
-  "food-and-drink": PawPrint,
+  "food-and-drink": Utensils,
   "games-and-comics": Gamepad2,
   geocoding: MapPin,
   government: Landmark,

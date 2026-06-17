@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     template: "%s · API-Market",
   },
   description:
-    "A curated, quality-scored directory of 1,548+ free public APIs. Every record is hand-reviewed, tested, and ready to use. No sign-up, no API key, no middleman. Browse APIs across 51 categories from weather to machine learning.",
+    "A curated, quality-scored directory of free public APIs. Every record is hand-reviewed, tested, and ready to use. No sign-up, no API key, no middleman. Browse APIs across dozens of categories from weather to machine learning.",
   keywords: [
     "public APIs",
     "API directory",
@@ -72,14 +72,14 @@ export const metadata: Metadata = {
     type: "website",
     title: "API-Market — The Codex",
     description:
-      "A curated, quality-scored directory of 1,548+ free public APIs. Every record is hand-reviewed and ready to use.",
+      "A curated, quality-scored directory of free public APIs. Every record is hand-reviewed and ready to use.",
     siteName: "API-Market",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
     title: "API-Market — The Codex",
-    description: "A curated, quality-scored directory of 1,548+ free public APIs.",
+    description: "A curated, quality-scored directory of free public APIs.",
     creator: "@API_Market",
   },
   robots: { 

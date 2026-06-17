@@ -38,24 +38,27 @@ export async function loadCategories(dataDir: string): Promise<CategoryMeta[]> {
     console.warn("  no category meta.toml found under data/categories/")
     return []
   }
-  const out: CategoryMeta[] = []
-  for (const p of paths) {
-    const text = await readFile(p, "utf8")
-    const parsed = parseToml(text)
-    const { meta } = parsed as { meta: unknown }
-    const cat = CategoryMetaSchema.parse(meta)
-    const dirId = basename(dirname(p))
-    if (dirId !== cat.id) {
-      throw new Error(
-        `${p}: directory "${dirId}" doesn't match meta.id "${cat.id}"`,
-      )
-    }
-    out.push(cat)
-  }
-  out.sort(
+  // Parallelise the 51 file reads — the sequential `for…of await` was
+  // the slowest step in the build.
+  const entries = await Promise.all(
+    paths.map(async (p) => {
+      const text = await readFile(p, "utf8")
+      const parsed = parseToml(text)
+      const { meta } = parsed as { meta: unknown }
+      const cat = CategoryMetaSchema.parse(meta)
+      const dirId = basename(dirname(p))
+      if (dirId !== cat.id) {
+        throw new Error(
+          `${p}: directory "${dirId}" doesn't match meta.id "${cat.id}"`,
+        )
+      }
+      return cat
+    }),
+  )
+  entries.sort(
     (a, b) => a.order - b.order || a.display_name.localeCompare(b.display_name),
   )
-  return out
+  return entries
 }
 
 /* -------------------------------------------------------------------- */
@@ -77,12 +80,20 @@ export async function loadApis(
   let totalLines = 0
   let keptLines = 0
 
-  for (const p of paths) {
-    const catId = basename(dirname(p))
-    if (!knownIds.has(catId)) {
-      throw new Error(`${p}: category "${catId}" has no meta.toml`)
-    }
-    const text = await readFile(p, "utf8")
+  // Read all JSONL files in parallel; parse each one as soon as its
+  // text is available. The I/O wait was the bottleneck, not the parse.
+  const perFile = await Promise.all(
+    paths.map(async (p) => {
+      const catId = basename(dirname(p))
+      if (!knownIds.has(catId)) {
+        throw new Error(`${p}: category "${catId}" has no meta.toml`)
+      }
+      const text = await readFile(p, "utf8")
+      return { p, catId, text }
+    }),
+  )
+
+  for (const { p, catId, text } of perFile) {
     const lines = text.split("\n")
     const items: ApiRecord[] = []
     for (let i = 0; i < lines.length; i++) {
@@ -203,9 +214,10 @@ export function buildCategoriesPayload(
 export function buildFeatured(
   categories: CategoryMeta[],
   byCategory: Map<string, ApiRecord[]>,
+  catItems?: ReturnType<typeof buildCategoriesPayload>["items"],
 ) {
-  const catItems = buildCategoriesPayload(categories, byCategory).items
-  const topCategories = catItems.slice(0, 12)
+  const catItemsResolved = catItems ?? buildCategoriesPayload(categories, byCategory).items
+  const topCategories = catItemsResolved.slice(0, 12)
   const all = active([...byCategory.values()].flat())
   const topApis = all
     .filter((r) => (r.quality_grade ?? scoreToGrade(r.quality_score)) !== "F")
@@ -320,36 +332,45 @@ export async function build(opts: BuildOptions = {}): Promise<BuildResult> {
   const sources = [...new Set(allRecords.map((r) => r.source).filter(Boolean))].sort()
   const stats = buildStats(allRecords, categories, sources)
   const catPayload = buildCategoriesPayload(categories, byCategory)
-  const featured = buildFeatured(categories, byCategory)
+  // Reuse the already-computed category items instead of recomputing
+  // them inside buildFeatured.
+  const featured = buildFeatured(categories, byCategory, catPayload.items)
   const activeViews = all.filter((r) => !r.deprecated)
   const sortedAll = [...activeViews].sort(
     (a, b) => b.quality_score - a.quality_score || a.name.localeCompare(b.name),
   )
   const top = sortedAll.slice(0, 50)
 
-  /* per-category files */
-  const categoryFiles: { id: string; count: number; bytes: number }[] = []
-  for (const cat of categories) {
+  /* per-category files — build payloads in memory, write in parallel */
+  const catEntries = categories.map((cat) => {
     const list = byCategory.get(cat.id) ?? []
     const payload = buildCategoryPage(cat, list, now)
-    const p = join(outDir, "category", `${cat.id}.json`)
-    await writeJSON(p, payload)
-    categoryFiles.push({
+    return {
       id: cat.id,
       count: list.length,
       bytes: JSON.stringify(payload).length,
-    })
-  }
+      path: join(outDir, "category", `${cat.id}.json`),
+      payload,
+    }
+  })
+  await Promise.all(catEntries.map((e) => writeJSON(e.path, e.payload)))
+  const categoryFiles = catEntries.map(({ id, count, bytes }) => ({ id, count, bytes }))
 
-  /* root files */
-  await writeJSON(join(outDir, "stats.json"), stats)
-  await writeJSON(join(outDir, "categories.json"), catPayload)
-  await writeJSON(join(outDir, "featured.json"), featured)
-  await writeJSON(join(outDir, "all.json"), sortedAll)
-  await writeJSON(join(outDir, "top.json"), top)
-
+  /* root files — write in parallel */
   const oramaData = await buildSearchIndex(allRecords)
-  await writeJSON(join(outDir, "orama.json"), oramaData)
+  const rootFiles: Record<string, unknown> = {
+    "stats.json": stats,
+    "categories.json": catPayload,
+    "featured.json": featured,
+    "all.json": sortedAll,
+    "top.json": top,
+    "orama.json": oramaData,
+  }
+  await Promise.all(
+    Object.entries(rootFiles).map(([name, data]) =>
+      writeJSON(join(outDir, name), data),
+    ),
+  )
 
   const manifest = {
     version: VERSION,
@@ -371,29 +392,30 @@ export async function build(opts: BuildOptions = {}): Promise<BuildResult> {
   }
   await writeJSON(join(outDir, "manifest.json"), manifest)
 
-  /* sum bytes for the report */
-  const sz = async (p: string) => (await readFile(join(outDir, p))).length
-  const total = (await Promise.all([
-    sz("all.json"),
-    sz("orama.json"),
-    sz("stats.json"),
-    sz("categories.json"),
-    sz("featured.json"),
-    sz("top.json"),
-    sz("manifest.json"),
-  ])).reduce((s, n) => s + n, 0)
+  /* byte report — computed from in-memory strings, no re-reads */
+  const strBytes = (s: unknown) => Buffer.byteLength(JSON.stringify(s), "utf8")
+  const sizes = {
+    stats: strBytes(stats),
+    categories: strBytes(catPayload),
+    featured: strBytes(featured),
+    top: strBytes(top),
+    all: strBytes(sortedAll),
+    orama: strBytes(oramaData),
+    manifest: strBytes(manifest),
+  }
+  const total = Object.values(sizes).reduce((s, n) => s + n, 0)
   const catTotalBytes = categoryFiles.reduce((s, f) => s + f.bytes, 0)
 
   if (verbose) {
     const fmt = (b: number) => b.toLocaleString("en-US")
     const pad = (s: string, n = 12) => s.padStart(n)
     console.log("")
-    console.log(`  stats.json          : ${pad(fmt(await sz("stats.json")))} bytes`)
-    console.log(`  categories.json     : ${pad(fmt(await sz("categories.json")))} bytes`)
-    console.log(`  featured.json       : ${pad(fmt(await sz("featured.json")))} bytes`)
-    console.log(`  top.json            : ${pad(fmt(await sz("top.json")))} bytes`)
-    console.log(`  all.json (${activeViews.length} APIs)  : ${pad(fmt(await sz("all.json")))} bytes`)
-    console.log(`  orama.json          : ${pad(fmt(await sz("orama.json")))} bytes`)
+    console.log(`  stats.json          : ${pad(fmt(sizes.stats))} bytes`)
+    console.log(`  categories.json     : ${pad(fmt(sizes.categories))} bytes`)
+    console.log(`  featured.json       : ${pad(fmt(sizes.featured))} bytes`)
+    console.log(`  top.json            : ${pad(fmt(sizes.top))} bytes`)
+    console.log(`  all.json (${activeViews.length} APIs)  : ${pad(fmt(sizes.all))} bytes`)
+    console.log(`  orama.json          : ${pad(fmt(sizes.orama))} bytes`)
     console.log(
       `  category/*.json     : ${pad(String(categoryFiles.length))} files, ${fmt(catTotalBytes)} bytes total`,
     )

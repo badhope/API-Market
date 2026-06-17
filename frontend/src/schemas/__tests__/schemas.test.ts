@@ -98,12 +98,26 @@ describe("ApiRecordSchema", () => {
     ).toThrow()
   })
 
-  it("accepts every grade A–F", () => {
-    for (const g of ["A", "B", "C", "D", "F"] as const) {
+  it("accepts every grade A–F when the score matches", () => {
+    const cases: Array<[number, "A" | "B" | "C" | "D" | "F"]> = [
+      [95, "A"],
+      [80, "B"],
+      [65, "C"],
+      [45, "D"],
+      [20, "F"],
+    ]
+    for (const [score, g] of cases) {
       expect(() =>
-        ApiRecordSchema.parse({ ...baseApi, quality_grade: g }),
+        ApiRecordSchema.parse({ ...baseApi, quality_score: score, quality_grade: g }),
       ).not.toThrow()
     }
+  })
+
+  it("rejects a grade that doesn't match the score", () => {
+    // score 95 → grade A; B should be rejected
+    expect(() =>
+      ApiRecordSchema.parse({ ...baseApi, quality_score: 95, quality_grade: "B" }),
+    ).toThrow(/doesn't match score 95/)
   })
 
   it("rejects scores outside 0..100", () => {

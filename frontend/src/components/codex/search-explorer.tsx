@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import { useSearchParams, useRouter } from "next/navigation"
 import { Search, X } from "lucide-react"
 import { DATA_PATH } from "@/lib/links"
@@ -15,7 +15,7 @@ import { internalHref } from "@/lib/links"
 type GradeFilter = "all" | "A" | "B" | "C" | "D" | "F"
 type AuthFilter = "all" | "none" | "apiKey" | "oauth2" | "xAuth"
 
-export function SearchExplorer() {
+export function SearchExplorer({ totalApis }: { totalApis: number }) {
   const params = useSearchParams()
   const router = useRouter()
   const [q, setQ] = useState(params.get("q") ?? "")
@@ -25,6 +25,9 @@ export function SearchExplorer() {
   const [hits, setHits] = useState<SearchHit[] | null>(null)
   const [loading, setLoading] = useState(true)
   const [searching, setSearching] = useState(false)
+  // Monotonic token so a slow in-flight search can't overwrite the
+  // results of a newer one if the user keeps typing.
+  const searchSeq = useRef(0)
 
   useEffect(() => {
     preloadSearch()
@@ -45,11 +48,12 @@ export function SearchExplorer() {
       return
     }
     setSearching(true)
+    const seq = ++searchSeq.current
     const t = setTimeout(() => {
       searchApis(q, 200)
-        .then((h) => setHits(h))
-        .catch(() => setHits([]))
-        .finally(() => setSearching(false))
+        .then((h) => { if (seq === searchSeq.current) setHits(h) })
+        .catch(() => { if (seq === searchSeq.current) setHits([]) })
+        .finally(() => { if (seq === searchSeq.current) setSearching(false) })
     }, 80)
     return () => clearTimeout(t)
   }, [q])
@@ -92,7 +96,7 @@ export function SearchExplorer() {
               type="search"
               value={q}
               onChange={(e) => setQ(e.target.value)}
-              placeholder="Search 1,548 APIs…"
+              placeholder={`Search ${totalApis.toLocaleString("en-US")} APIs…`}
               aria-label="Search the codex"
               className="w-full h-14 sm:h-16 pl-12 sm:pl-14 pr-12 bg-[var(--paper)] border-2 border-[var(--rule)] group-focus-within:border-[var(--accent)] font-serif text-[1rem] sm:text-[1.25rem] leading-none tracking-[-0.005em] text-[var(--ink)] placeholder:text-[var(--ink-faint)] caret-accent outline-none transition-all duration-300 shadow-sm group-focus-within:shadow-md"
             />

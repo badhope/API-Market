@@ -49,6 +49,14 @@ export const ApiRecordSchema = z.object({
     .string()
     .regex(/^\d{4}-\d{2}-\d{2}$/, "last_verified must be YYYY-MM-DD")
     .optional(),
+}).superRefine((r, ctx) => {
+  if (r.quality_grade != null && r.quality_grade !== scoreToGrade(r.quality_score)) {
+    ctx.addIssue({
+      code: "custom",
+      message: `quality_grade "${r.quality_grade}" doesn't match score ${r.quality_score} (expected "${scoreToGrade(r.quality_score)}")`,
+      path: ["quality_grade"],
+    })
+  }
 })
 export type ApiRecord = z.infer<typeof ApiRecordSchema>
 

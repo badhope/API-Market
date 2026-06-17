@@ -1,13 +1,15 @@
 import type { Metadata } from "next"
 import { Suspense } from "react"
 import { SearchExplorer } from "@/components/codex/search-explorer"
+import { loadStats } from "@/lib/data-server"
 
 export const metadata: Metadata = {
   title: "Search",
-  description: "Search 1,548 free public APIs by name, tag, or category.",
+  description: "Search free public APIs by name, tag, or category.",
 }
 
-export default function SearchPage() {
+export default async function SearchPage() {
+  const stats = await loadStats()
   return (
     <div className="mx-auto max-w-[1320px] px-6 sm:px-10">
       <header className="pt-16 sm:pt-24 pb-10">
@@ -20,7 +22,7 @@ export default function SearchPage() {
         </p>
       </header>
       <Suspense>
-        <SearchExplorer />
+        <SearchExplorer totalApis={stats.total_apis} />
       </Suspense>
     </div>
   )

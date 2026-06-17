@@ -1,3 +1,4 @@
+import { memo } from "react"
 import Link from "next/link"
 import type { ApiSummary } from "@/types"
 import { cn } from "@/lib/cn"
@@ -22,8 +23,12 @@ interface ApiCardProps {
  * On hover the index turns vermillion. No shadow, no scale, no border
  * lift — just a hairline underline on the name. The visual language
  * of a library catalog card.
+ *
+ * Memoised: rendered in long lists (search results up to 200 items,
+ * category pages up to 50/page). Parent filter state changes
+ * shouldn't re-render cards whose props are unchanged.
  */
-export function ApiCard({ api, index, total, className }: ApiCardProps) {
+export const ApiCard = memo(function ApiCard({ api, index, total, className }: ApiCardProps) {
   // Always link to internal detail page — external URLs are accessible
   // from the detail page via a "Visit" button. This keeps users on our
   // site and lets them read our curated introduction first.
@@ -93,4 +98,4 @@ export function ApiCard({ api, index, total, className }: ApiCardProps) {
       </div>
     </article>
   )
-}
+})

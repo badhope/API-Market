@@ -72,7 +72,7 @@ export default async function HomePage() {
               Find the right API.
             </h1>
             <p className="mt-8 font-serif text-[1.125rem] leading-[1.6] text-[var(--ink-soft)] max-w-[42ch] animate-fade-in-up-delayed">
-              Browse 1,548 free public APIs across 51 categories.
+              Browse {formatCount(stats.total_apis)} free public APIs across {stats.total_categories} categories.
               Each one is tested, scored, and ready to use — no sign-up,
               no API key, no middleman.
             </p>
@@ -187,23 +187,23 @@ export default async function HomePage() {
               a benchmark,</em> a heuristic. The score is a rough indicator,
               not a guarantee; always verify before relying on one.
             </p>
-            <p>The current scale weights the following:</p>
+            <p>The current scale starts at a base of 50 and adjusts:</p>
             <ul className="space-y-2 text-[0.9375rem]">
               <li className="grid grid-cols-[8ch_1fr] gap-4 items-baseline">
+                <span className="font-mono text-[0.75rem] tracking-[0.12em] uppercase text-[var(--ink-mute)]">Auth</span>
+                <span>No auth is friendliest (+15); API key (+5); OAuth (±0); custom (−5).</span>
+              </li>
+              <li className="grid grid-cols-[8ch_1fr] gap-4 items-baseline">
                 <span className="font-mono text-[0.75rem] tracking-[0.12em] uppercase text-[var(--ink-mute)]">HTTPS</span>
-                <span>Whether the entry URL is encrypted (+20).</span>
+                <span>Encrypted endpoint (+20); plaintext (−15).</span>
               </li>
               <li className="grid grid-cols-[8ch_1fr] gap-4 items-baseline">
-                <span className="font-mono text-[0.75rem] tracking-[0.12em] uppercase text-[var(--ink-mute)]">meta</span>
-                <span>Auth, HTTPS-only, and CORS tags present (+10 each).</span>
-              </li>
-              <li className="grid grid-cols-[8ch_1fr] gap-4 items-baseline">
-                <span className="font-mono text-[0.75rem] tracking-[0.12em] uppercase text-[var(--ink-mute)]">docs</span>
-                <span>URL suggests a documentation route (+5).</span>
+                <span className="font-mono text-[0.75rem] tracking-[0.12em] uppercase text-[var(--ink-mute)]">CORS</span>
+                <span>Browser-accessible (+10); disabled (−5).</span>
               </li>
               <li className="grid grid-cols-[8ch_1fr] gap-4 items-baseline">
                 <span className="font-mono text-[0.75rem] tracking-[0.12em] uppercase text-[var(--ink-mute)]">desc</span>
-                <span>Up to +25 for a real description.</span>
+                <span>Up to +5 for a real description; empty (−5).</span>
               </li>
             </ul>
           </div>
@@ -213,9 +213,9 @@ export default async function HomePage() {
             <table className="w-full font-mono text-[0.75rem] tracking-[0.04em]">
               <tbody>
                 {[
-                  ["A", "85+", "well-documented, encrypted"],
-                  ["B", "70+", "mostly complete"],
-                  ["C", "55+", "usable, sparse"],
+                  ["A", "90+", "well-documented, encrypted"],
+                  ["B", "75+", "mostly complete"],
+                  ["C", "60+", "usable, sparse"],
                   ["D", "40+", "thin metadata"],
                   ["F", "<40", "scored but bare"],
                 ].map(([g, r, note]) => (
