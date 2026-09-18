@@ -1,0 +1,14 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: Googlebot
+Allow: /
+
+Host: https://badhope.github.io/API-Market
+Sitemap: https://badhope.github.io/API-Market/sitemap.xml

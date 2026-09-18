@@ -1,0 +1,4 @@
+:HL["/API-Market/_next/static/chunks/1rlr_q6vwsab6.css","style"]
+:HL["/API-Market/_next/static/media/051742360c26797e-s.p.1bkzbscqrt8rl.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/API-Market/_next/static/media/54fc36028e2bb174-s.p.20jfceqj9zyw9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4116,"slots":{"children":{"name":"apis","param":null,"prefetchHints":4160,"slots":{"children":{"name":"id","param":{"type":"d","key":"bigdatacloud","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"5ck2iYh-xmXENOjgAww-e"}
