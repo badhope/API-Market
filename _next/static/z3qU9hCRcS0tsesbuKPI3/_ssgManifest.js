@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fapis\u002F[id]","\u002Fcategories\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
